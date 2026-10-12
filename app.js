@@ -8,11 +8,19 @@
   const searchEl = $("#search");
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
+  const viewTimeline = $("#view-timeline");
+  const viewMap = $("#view-map");
+  const mapEl = $("#map");
 
   let allItems = [];
   let activeRegion = "全部";
+  let activeView = "timeline";
+  let map = null;
+  let markerLayer = null;
+  let mapReady = false;
 
   const THEME_KEY = "hotspots-theme";
+  const VIEW_KEY = "hotspots-view";
 
   function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
@@ -26,21 +34,26 @@
     const next = cur === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem(THEME_KEY, next);
+    if (mapReady) setTimeout(() => map.invalidateSize(), 50);
   }
 
   function formatTime(iso) {
     if (!iso) return "";
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return iso;
-    return new Intl.DateTimeFormat("zh-CN", {
-      timeZone: "Asia/Shanghai",
-      year: "numeric",
-      month: "2-digit",
-      day: "2-digit",
-      hour: "2-digit",
-      minute: "2-digit",
-      hour12: false,
-    }).format(d).replace(/\//g, "-") + " CST";
+    return (
+      new Intl.DateTimeFormat("zh-CN", {
+        timeZone: "Asia/Shanghai",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        minute: "2-digit",
+        hour12: false,
+      })
+        .format(d)
+        .replace(/\//g, "-") + " CST"
+    );
   }
 
   function escapeHtml(str) {
@@ -80,10 +93,15 @@
     });
   }
 
+  function shortSummary(text, max = 140) {
+    const s = String(text || "").trim();
+    if (s.length <= max) return s;
+    return s.slice(0, max).replace(/\s+\S*$/, "") + "…";
+  }
+
   function renderTimeline(items) {
     if (!items.length) {
       timeline.innerHTML = `<li class="empty">没有匹配的热点，试试换个地区或关键词。</li>`;
-      status.textContent = "共 0 条";
       return;
     }
 
@@ -114,12 +132,114 @@
           </li>`;
       })
       .join("");
+  }
 
-    status.textContent = `显示 ${items.length} / ${allItems.length} 条`;
+  function ensureMap() {
+    if (mapReady || typeof L === "undefined") return;
+    map = L.map(mapEl, {
+      scrollWheelZoom: true,
+      worldCopyJump: true,
+    }).setView([20, 20], 2);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    markerLayer = L.layerGroup().addTo(map);
+    mapReady = true;
+  }
+
+  function popupHtml(it) {
+    const title = it.url
+      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
+      : escapeHtml(it.title);
+    const link = it.url
+      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
+      : "";
+    return `
+      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
+      <div class="popup-title">${title}</div>
+      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
+      ${link}`;
+  }
+
+  function renderMap(items) {
+    ensureMap();
+    if (!mapReady) {
+      status.textContent = "地图库加载失败，请刷新重试。";
+      return;
+    }
+
+    markerLayer.clearLayers();
+    const withCoords = items.filter(
+      (it) => Number.isFinite(it.lat) && Number.isFinite(it.lng)
+    );
+
+    if (!withCoords.length) {
+      map.setView([20, 20], 2);
+      return;
+    }
+
+    const bounds = [];
+    const icon = L.divIcon({
+      className: "hotspot-marker",
+      html: '<div class="hotspot-pin"></div>',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+      popupAnchor: [0, -10],
+    });
+
+    withCoords.forEach((it) => {
+      const marker = L.marker([it.lat, it.lng], { icon });
+      marker.bindPopup(popupHtml(it), { maxWidth: 280 });
+      markerLayer.addLayer(marker);
+      bounds.push([it.lat, it.lng]);
+    });
+
+    if (bounds.length === 1) {
+      map.setView(bounds[0], 5);
+    } else {
+      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 5 });
+    }
+
+    setTimeout(() => map.invalidateSize(), 80);
+  }
+
+  function setView(view) {
+    activeView = view === "map" ? "map" : "timeline";
+    localStorage.setItem(VIEW_KEY, activeView);
+
+    document.querySelectorAll(".view-tab").forEach((btn) => {
+      const on = btn.dataset.view === activeView;
+      btn.classList.toggle("active", on);
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    });
+
+    if (activeView === "map") {
+      viewTimeline.classList.add("hidden");
+      viewTimeline.hidden = true;
+      viewMap.classList.remove("hidden");
+      viewMap.hidden = false;
+    } else {
+      viewMap.classList.add("hidden");
+      viewMap.hidden = true;
+      viewTimeline.classList.remove("hidden");
+      viewTimeline.hidden = false;
+    }
+
+    refresh();
   }
 
   function refresh() {
-    renderTimeline(filterItems());
+    const items = filterItems();
+    status.textContent = `显示 ${items.length} / ${allItems.length} 条`;
+    if (activeView === "map") {
+      renderMap(items);
+    } else {
+      renderTimeline(items);
+    }
   }
 
   chipsEl.addEventListener("click", (e) => {
@@ -132,6 +252,12 @@
 
   searchEl.addEventListener("input", refresh);
   themeBtn.addEventListener("click", toggleTheme);
+
+  document.querySelector(".view-tabs").addEventListener("click", (e) => {
+    const btn = e.target.closest(".view-tab");
+    if (!btn) return;
+    setView(btn.dataset.view);
+  });
 
   async function boot() {
     initTheme();
@@ -150,7 +276,9 @@
         ? `更新于 ${formatTime(data.updatedAt)}`
         : `共 ${allItems.length} 条`;
       renderChips(uniqueRegions(allItems));
-      refresh();
+
+      const savedView = localStorage.getItem(VIEW_KEY);
+      setView(savedView === "map" ? "map" : "timeline");
     } catch (err) {
       console.error(err);
       status.textContent = "加载失败：请确认 data/hotspots.json 可访问。";

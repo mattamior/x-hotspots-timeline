@@ -1,11 +1,13 @@
-# 全球热点时间线
+# 全球热点时间线 & 地图
 
-一个纯静态的全球时事热点时间线站点：列表 + 地点标签 + 摘要 +「为什么值得关注」。数据从 `data/hotspots.json` 加载，适合挂在 GitHub Pages 上。
+一个纯静态的全球时事热点站点：时间线列表 + 地点地图。数据从 `data/hotspots.json` 加载，适合挂在 GitHub Pages 上。
 
 ## 在线地址
 
 - 仓库：https://github.com/mattamior/x-hotspots-timeline
 - 页面：https://mattamior.github.io/x-hotspots-timeline/
+
+顶部可在 **时间线** / **地图** 之间切换。地图使用 Leaflet + OpenStreetMap（无需 API Key）。
 
 ## 本地预览
 
@@ -36,6 +38,7 @@ npx --yes serve .
 | `title` | 标题 |
 | `location` | 地点，展示为【地点】 |
 | `region` | 地区分组，用于顶部筛选芯片（如 中东 / 欧洲 / 亚太） |
+| `lat` / `lng` | 地图坐标（城市或地标近似经纬度） |
 | `url` | 可选，标题外链（通常是 X 热点页） |
 | `summary` | 摘要，3–5 句 |
 | `why` | 可选，「为什么值得关注」 |
@@ -49,5 +52,6 @@ npx --yes serve .
 
 - 纯静态：`index.html` + `styles.css` + `app.js` + `data/hotspots.json`
 - 无后端、无构建步骤
-- 支持地区筛选、关键词搜索、明暗主题切换
+- 时间线 + 地图双视图；地区筛选、关键词搜索、明暗主题
+- 地图：Leaflet 1.9 + OSM 瓦片（CDN）
 - GitHub Pages：从 `main` 分支根目录部署

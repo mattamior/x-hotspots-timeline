@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="全球时事热点时间线 — 地点、摘要与为什么值得关注" />
+  <meta name="description" content="全球时事热点时间线与地图 — 地点、摘要与为什么值得关注" />
   <title>全球热点时间线</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin="" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,11 +21,15 @@
       <div class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         <div>
-          <h1>全球热点时间线</h1>
-          <p class="tagline">列表 · 地点 · 摘要 · 来自 X 公开热点</p>
+          <h1>全球热点</h1>
+          <p class="tagline">时间线 · 地图 · 来自 X 公开热点</p>
         </div>
       </div>
       <div class="header-meta">
+        <nav class="view-tabs" role="tablist" aria-label="视图切换">
+          <button type="button" class="view-tab active" data-view="timeline" role="tab" aria-selected="true">时间线</button>
+          <button type="button" class="view-tab" data-view="map" role="tab" aria-selected="false">地图</button>
+        </nav>
         <span id="updated-at" class="updated">加载中…</span>
         <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>
       </div>
@@ -40,16 +47,26 @@
 
     <p id="status" class="status" role="status"></p>
 
-    <ol id="timeline" class="timeline"></ol>
+    <section id="view-timeline" class="view-panel" role="tabpanel">
+      <ol id="timeline" class="timeline"></ol>
+    </section>
+
+    <section id="view-map" class="view-panel hidden" role="tabpanel" hidden>
+      <div id="map" class="map" aria-label="热点地图"></div>
+      <p class="map-hint muted">点击标记可查看标题、地点与摘要；也可在上方筛选地区。</p>
+    </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>数据来自 <code>data/hotspots.json</code> · 静态站点 · GitHub Pages</p>
+      <p>数据来自 <code>data/hotspots.json</code> · 地图：Leaflet + OpenStreetMap · GitHub Pages</p>
       <p class="muted">时区：Asia/Shanghai（北京时间）· 仅作公开热点汇总，细节可能变化</p>
     </div>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+          crossorigin=""></script>
   <script src="app.js"></script>
 </body>
 </html>
