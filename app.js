@@ -16,7 +16,8 @@
   let map = null;
   let markerLayer = null;
   let mapReady = false;
-  const markersById = {};
+  /** @type {Map<string, L.Marker>} */
+  const markersById = new Map();
 
   const THEME_KEY = "hotspots-theme";
 
@@ -97,9 +98,9 @@
     return s.slice(0, max).replace(/\s+\S*$/, "") + "…";
   }
 
-  function markerIcon(active) {
+  function makeIcon(active) {
     return L.divIcon({
-      className: `hotspot-marker${active ? " active" : ""}`,
+      className: "hotspot-marker" + (active ? " active" : ""),
       html: '<div class="hotspot-pin"></div>',
       iconSize: [16, 16],
       iconAnchor: [8, 8],
@@ -107,77 +108,31 @@
     });
   }
 
-  function popupHtml(it) {
-    const title = it.url
-      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
-      : escapeHtml(it.title);
-    const link = it.url
-      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
-      : "";
-    return `
-      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
-      <div class="popup-title">${title}</div>
-      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
-      ${link}`;
-  }
-
-  function ensureMap() {
-    if (mapReady || typeof L === "undefined") return;
-    map = L.map(mapEl, {
-      scrollWheelZoom: true,
-      worldCopyJump: true,
-    }).setView([20, 20], 2);
-
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-      maxZoom: 18,
-      attribution:
-        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
-
-    markerLayer = L.layerGroup().addTo(map);
-    mapReady = true;
-  }
-
-  function clearSelectionStyles() {
-    timeline.querySelectorAll(".item.active").forEach((el) => el.classList.remove("active"));
-    Object.entries(markersById).forEach(([id, marker]) => {
-      marker.setIcon(markerIcon(false));
+  function syncHighlights() {
+    timeline.querySelectorAll(".item").forEach((li) => {
+      li.classList.toggle("active", li.dataset.id === selectedId);
+    });
+    markersById.forEach((marker, id) => {
+      marker.setIcon(makeIcon(id === selectedId));
     });
   }
 
-  function highlightCard(id, { scroll = false } = {}) {
-    clearSelectionStyles();
+  function selectItem(id, { fromMap = false, openPopup = true } = {}) {
     selectedId = id;
-    const li = timeline.querySelector(`.item[data-id="${CSS.escape(String(id))}"]`);
-    if (li) {
-      li.classList.add("active");
-      if (scroll) {
-        li.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    syncHighlights();
+
+    const marker = markersById.get(id);
+    if (marker && mapReady) {
+      const latlng = marker.getLatLng();
+      map.panTo(latlng, { animate: true });
+      if (openPopup) marker.openPopup();
+    }
+
+    if (fromMap) {
+      const card = timeline.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
+      if (card) {
+        card.scrollIntoView({ behavior: "smooth", block: "center" });
       }
-    }
-    const marker = markersById[id];
-    if (marker) {
-      marker.setIcon(markerIcon(true));
-    }
-  }
-
-  function focusOnMap(it, { openPopup = true } = {}) {
-    if (!mapReady || !Number.isFinite(it.lat) || !Number.isFinite(it.lng)) return;
-    const marker = markersById[it.id];
-    map.flyTo([it.lat, it.lng], Math.max(map.getZoom(), 5), { duration: 0.6 });
-    if (marker && openPopup) {
-      marker.openPopup();
-    }
-  }
-
-  function selectItem(it, { fromMarker = false } = {}) {
-    if (!it) return;
-    highlightCard(it.id, { scroll: fromMarker });
-    if (!fromMarker) {
-      focusOnMap(it, { openPopup: true });
-    } else {
-      const marker = markersById[it.id];
-      if (marker) marker.setIcon(markerIcon(true));
     }
   }
 
@@ -198,10 +153,10 @@
         const tags = (it.tags || [])
           .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
           .join("");
-        const active = selectedId === it.id ? " active" : "";
+        const active = it.id === selectedId ? " active" : "";
         return `
           <li class="item${active}" data-id="${escapeHtml(it.id)}">
-            <article class="card" tabindex="0" role="button" aria-label="定位到地图：${escapeHtml(it.title)}">
+            <article class="card" tabindex="0" role="button" aria-pressed="${it.id === selectedId ? "true" : "false"}">
               <div class="card-top">
                 <span class="loc">【${escapeHtml(it.location || "未知地点")}】</span>
                 <time class="time" datetime="${escapeHtml(it.publishedAt || "")}">${escapeHtml(formatTime(it.publishedAt))}</time>
@@ -217,6 +172,37 @@
       .join("");
   }
 
+  function ensureMap() {
+    if (mapReady || typeof L === "undefined") return;
+    map = L.map(mapEl, {
+      scrollWheelZoom: true,
+      worldCopyJump: true,
+    }).setView([20, 20], 2);
+
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18,
+      attribution:
+        '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    markerLayer = L.layerGroup().addTo(map);
+    mapReady = true;
+  }
+
+  function popupHtml(it) {
+    const title = it.url
+      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
+      : escapeHtml(it.title);
+    const link = it.url
+      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
+      : "";
+    return `
+      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
+      <div class="popup-title">${title}</div>
+      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
+      ${link}`;
+  }
+
   function renderMap(items) {
     ensureMap();
     if (!mapReady) {
@@ -225,7 +211,7 @@
     }
 
     markerLayer.clearLayers();
-    Object.keys(markersById).forEach((k) => delete markersById[k]);
+    markersById.clear();
 
     const withCoords = items.filter(
       (it) => Number.isFinite(it.lat) && Number.isFinite(it.lng)
@@ -233,33 +219,32 @@
 
     if (!withCoords.length) {
       map.setView([20, 20], 2);
-      setTimeout(() => map.invalidateSize(), 80);
       return;
     }
 
     const bounds = [];
+
     withCoords.forEach((it) => {
-      const active = selectedId === it.id;
-      const marker = L.marker([it.lat, it.lng], { icon: markerIcon(active) });
+      const marker = L.marker([it.lat, it.lng], {
+        icon: makeIcon(it.id === selectedId),
+      });
       marker.bindPopup(popupHtml(it), { maxWidth: 280 });
       marker.on("click", () => {
-        selectItem(it, { fromMarker: true });
+        selectItem(it.id, { fromMap: true, openPopup: true });
       });
       markerLayer.addLayer(marker);
-      markersById[it.id] = marker;
+      markersById.set(it.id, marker);
       bounds.push([it.lat, it.lng]);
     });
 
-    if (selectedId && markersById[selectedId]) {
-      const it = withCoords.find((x) => x.id === selectedId);
-      if (it) {
-        map.setView([it.lat, it.lng], Math.max(map.getZoom(), 4));
-        markersById[selectedId].openPopup();
-      }
+    if (selectedId && markersById.has(selectedId)) {
+      const m = markersById.get(selectedId);
+      map.panTo(m.getLatLng(), { animate: false });
+      m.openPopup();
     } else if (bounds.length === 1) {
-      map.setView(bounds[0], 4);
+      map.setView(bounds[0], 5);
     } else {
-      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 4 });
+      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 5 });
     }
 
     setTimeout(() => map.invalidateSize(), 80);
@@ -268,31 +253,20 @@
   function refresh() {
     const items = filterItems();
     status.textContent = `显示 ${items.length} / ${allItems.length} 条`;
+
     if (selectedId && !items.some((it) => it.id === selectedId)) {
       selectedId = null;
     }
+
     renderTimeline(items);
     renderMap(items);
   }
 
   timeline.addEventListener("click", (e) => {
-    const link = e.target.closest("a");
-    if (link) {
-      // let links open; still highlight/pan in background
-      const li = e.target.closest(".item");
-      if (li) {
-        const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
-        if (it) {
-          highlightCard(it.id);
-          focusOnMap(it, { openPopup: true });
-        }
-      }
-      return;
-    }
-    const li = e.target.closest(".item");
+    if (e.target.closest("a")) return;
+    const li = e.target.closest(".item[data-id]");
     if (!li) return;
-    const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
-    if (it) selectItem(it, { fromMarker: false });
+    selectItem(li.dataset.id, { fromMap: false, openPopup: true });
   });
 
   timeline.addEventListener("keydown", (e) => {
@@ -300,9 +274,8 @@
     const card = e.target.closest(".card");
     if (!card) return;
     e.preventDefault();
-    const li = card.closest(".item");
-    const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
-    if (it) selectItem(it, { fromMarker: false });
+    const li = card.closest(".item[data-id]");
+    if (li) selectItem(li.dataset.id, { fromMap: false, openPopup: true });
   });
 
   chipsEl.addEventListener("click", (e) => {
@@ -317,7 +290,7 @@
   themeBtn.addEventListener("click", toggleTheme);
 
   window.addEventListener("resize", () => {
-    if (mapReady) map.invalidateSize();
+    if (mapReady) setTimeout(() => map.invalidateSize(), 100);
   });
 
   async function boot() {
@@ -333,12 +306,6 @@
         const tb = new Date(b.publishedAt || 0).getTime();
         return tb - ta;
       });
-      const missing = allItems.filter(
-        (it) => !Number.isFinite(it.lat) || !Number.isFinite(it.lng)
-      );
-      if (missing.length) {
-        console.warn("items missing lat/lng", missing.map((m) => m.id));
-      }
       updatedEl.textContent = data.updatedAt
         ? `更新于 ${formatTime(data.updatedAt)}`
         : `共 ${allItems.length} 条`;
