@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="全球时事热点时间线 — 地点、摘要与为什么值得关注" />
+  <title>全球热点时间线</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <div>
+          <h1>全球热点时间线</h1>
+          <p class="tagline">列表 · 地点 · 摘要 · 来自 X 公开热点</p>
+        </div>
+      </div>
+      <div class="header-meta">
+        <span id="updated-at" class="updated">加载中…</span>
+        <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar" aria-label="筛选">
+      <div id="region-chips" class="chips" role="tablist"></div>
+      <label class="search-wrap">
+        <span class="sr-only">搜索</span>
+        <input type="search" id="search" placeholder="搜索标题、地点或摘要…" autocomplete="off" />
+      </label>
+    </section>
+
+    <p id="status" class="status" role="status"></p>
+
+    <ol id="timeline" class="timeline"></ol>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>数据来自 <code>data/hotspots.json</code> · 静态站点 · GitHub Pages</p>
+      <p class="muted">时区：Asia/Shanghai（北京时间）· 仅作公开热点汇总，细节可能变化</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
