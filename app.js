@@ -8,19 +8,17 @@
   const searchEl = $("#search");
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
-  const viewTimeline = $("#view-timeline");
-  const viewMap = $("#view-map");
   const mapEl = $("#map");
 
   let allItems = [];
   let activeRegion = "全部";
-  let activeView = "timeline";
+  let selectedId = null;
   let map = null;
   let markerLayer = null;
   let mapReady = false;
+  const markersById = {};
 
   const THEME_KEY = "hotspots-theme";
-  const VIEW_KEY = "hotspots-view";
 
   function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
@@ -99,39 +97,28 @@
     return s.slice(0, max).replace(/\s+\S*$/, "") + "…";
   }
 
-  function renderTimeline(items) {
-    if (!items.length) {
-      timeline.innerHTML = `<li class="empty">没有匹配的热点，试试换个地区或关键词。</li>`;
-      return;
-    }
+  function markerIcon(active) {
+    return L.divIcon({
+      className: `hotspot-marker${active ? " active" : ""}`,
+      html: '<div class="hotspot-pin"></div>',
+      iconSize: [16, 16],
+      iconAnchor: [8, 8],
+      popupAnchor: [0, -10],
+    });
+  }
 
-    timeline.innerHTML = items
-      .map((it) => {
-        const title = it.url
-          ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
-          : escapeHtml(it.title);
-        const why = it.why
-          ? `<p class="why"><strong>为什么值得关注</strong>${escapeHtml(it.why)}</p>`
-          : "";
-        const tags = (it.tags || [])
-          .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
-          .join("");
-        return `
-          <li class="item">
-            <article class="card">
-              <div class="card-top">
-                <span class="loc">【${escapeHtml(it.location || "未知地点")}】</span>
-                <time class="time" datetime="${escapeHtml(it.publishedAt || "")}">${escapeHtml(formatTime(it.publishedAt))}</time>
-                <span class="source">${escapeHtml(it.source || "X 热点")}</span>
-              </div>
-              <h2>${title}</h2>
-              <p class="summary">${escapeHtml(it.summary || "")}</p>
-              ${why}
-              ${tags ? `<div class="tags">${tags}</div>` : ""}
-            </article>
-          </li>`;
-      })
-      .join("");
+  function popupHtml(it) {
+    const title = it.url
+      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
+      : escapeHtml(it.title);
+    const link = it.url
+      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
+      : "";
+    return `
+      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
+      <div class="popup-title">${title}</div>
+      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
+      ${link}`;
   }
 
   function ensureMap() {
@@ -151,18 +138,83 @@
     mapReady = true;
   }
 
-  function popupHtml(it) {
-    const title = it.url
-      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
-      : escapeHtml(it.title);
-    const link = it.url
-      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
-      : "";
-    return `
-      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
-      <div class="popup-title">${title}</div>
-      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
-      ${link}`;
+  function clearSelectionStyles() {
+    timeline.querySelectorAll(".item.active").forEach((el) => el.classList.remove("active"));
+    Object.entries(markersById).forEach(([id, marker]) => {
+      marker.setIcon(markerIcon(false));
+    });
+  }
+
+  function highlightCard(id, { scroll = false } = {}) {
+    clearSelectionStyles();
+    selectedId = id;
+    const li = timeline.querySelector(`.item[data-id="${CSS.escape(String(id))}"]`);
+    if (li) {
+      li.classList.add("active");
+      if (scroll) {
+        li.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+    }
+    const marker = markersById[id];
+    if (marker) {
+      marker.setIcon(markerIcon(true));
+    }
+  }
+
+  function focusOnMap(it, { openPopup = true } = {}) {
+    if (!mapReady || !Number.isFinite(it.lat) || !Number.isFinite(it.lng)) return;
+    const marker = markersById[it.id];
+    map.flyTo([it.lat, it.lng], Math.max(map.getZoom(), 5), { duration: 0.6 });
+    if (marker && openPopup) {
+      marker.openPopup();
+    }
+  }
+
+  function selectItem(it, { fromMarker = false } = {}) {
+    if (!it) return;
+    highlightCard(it.id, { scroll: fromMarker });
+    if (!fromMarker) {
+      focusOnMap(it, { openPopup: true });
+    } else {
+      const marker = markersById[it.id];
+      if (marker) marker.setIcon(markerIcon(true));
+    }
+  }
+
+  function renderTimeline(items) {
+    if (!items.length) {
+      timeline.innerHTML = `<li class="empty">没有匹配的热点，试试换个地区或关键词。</li>`;
+      return;
+    }
+
+    timeline.innerHTML = items
+      .map((it) => {
+        const title = it.url
+          ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
+          : escapeHtml(it.title);
+        const why = it.why
+          ? `<p class="why"><strong>为什么值得关注</strong>${escapeHtml(it.why)}</p>`
+          : "";
+        const tags = (it.tags || [])
+          .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+          .join("");
+        const active = selectedId === it.id ? " active" : "";
+        return `
+          <li class="item${active}" data-id="${escapeHtml(it.id)}">
+            <article class="card" tabindex="0" role="button" aria-label="定位到地图：${escapeHtml(it.title)}">
+              <div class="card-top">
+                <span class="loc">【${escapeHtml(it.location || "未知地点")}】</span>
+                <time class="time" datetime="${escapeHtml(it.publishedAt || "")}">${escapeHtml(formatTime(it.publishedAt))}</time>
+                <span class="source">${escapeHtml(it.source || "X 热点")}</span>
+              </div>
+              <h2>${title}</h2>
+              <p class="summary">${escapeHtml(it.summary || "")}</p>
+              ${why}
+              ${tags ? `<div class="tags">${tags}</div>` : ""}
+            </article>
+          </li>`;
+      })
+      .join("");
   }
 
   function renderMap(items) {
@@ -173,74 +225,85 @@
     }
 
     markerLayer.clearLayers();
+    Object.keys(markersById).forEach((k) => delete markersById[k]);
+
     const withCoords = items.filter(
       (it) => Number.isFinite(it.lat) && Number.isFinite(it.lng)
     );
 
     if (!withCoords.length) {
       map.setView([20, 20], 2);
+      setTimeout(() => map.invalidateSize(), 80);
       return;
     }
 
     const bounds = [];
-    const icon = L.divIcon({
-      className: "hotspot-marker",
-      html: '<div class="hotspot-pin"></div>',
-      iconSize: [16, 16],
-      iconAnchor: [8, 8],
-      popupAnchor: [0, -10],
-    });
-
     withCoords.forEach((it) => {
-      const marker = L.marker([it.lat, it.lng], { icon });
+      const active = selectedId === it.id;
+      const marker = L.marker([it.lat, it.lng], { icon: markerIcon(active) });
       marker.bindPopup(popupHtml(it), { maxWidth: 280 });
+      marker.on("click", () => {
+        selectItem(it, { fromMarker: true });
+      });
       markerLayer.addLayer(marker);
+      markersById[it.id] = marker;
       bounds.push([it.lat, it.lng]);
     });
 
-    if (bounds.length === 1) {
-      map.setView(bounds[0], 5);
+    if (selectedId && markersById[selectedId]) {
+      const it = withCoords.find((x) => x.id === selectedId);
+      if (it) {
+        map.setView([it.lat, it.lng], Math.max(map.getZoom(), 4));
+        markersById[selectedId].openPopup();
+      }
+    } else if (bounds.length === 1) {
+      map.setView(bounds[0], 4);
     } else {
-      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 5 });
+      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 4 });
     }
 
     setTimeout(() => map.invalidateSize(), 80);
   }
 
-  function setView(view) {
-    activeView = view === "map" ? "map" : "timeline";
-    localStorage.setItem(VIEW_KEY, activeView);
-
-    document.querySelectorAll(".view-tab").forEach((btn) => {
-      const on = btn.dataset.view === activeView;
-      btn.classList.toggle("active", on);
-      btn.setAttribute("aria-selected", on ? "true" : "false");
-    });
-
-    if (activeView === "map") {
-      viewTimeline.classList.add("hidden");
-      viewTimeline.hidden = true;
-      viewMap.classList.remove("hidden");
-      viewMap.hidden = false;
-    } else {
-      viewMap.classList.add("hidden");
-      viewMap.hidden = true;
-      viewTimeline.classList.remove("hidden");
-      viewTimeline.hidden = false;
-    }
-
-    refresh();
-  }
-
   function refresh() {
     const items = filterItems();
     status.textContent = `显示 ${items.length} / ${allItems.length} 条`;
-    if (activeView === "map") {
-      renderMap(items);
-    } else {
-      renderTimeline(items);
+    if (selectedId && !items.some((it) => it.id === selectedId)) {
+      selectedId = null;
     }
+    renderTimeline(items);
+    renderMap(items);
   }
+
+  timeline.addEventListener("click", (e) => {
+    const link = e.target.closest("a");
+    if (link) {
+      // let links open; still highlight/pan in background
+      const li = e.target.closest(".item");
+      if (li) {
+        const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
+        if (it) {
+          highlightCard(it.id);
+          focusOnMap(it, { openPopup: true });
+        }
+      }
+      return;
+    }
+    const li = e.target.closest(".item");
+    if (!li) return;
+    const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
+    if (it) selectItem(it, { fromMarker: false });
+  });
+
+  timeline.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const card = e.target.closest(".card");
+    if (!card) return;
+    e.preventDefault();
+    const li = card.closest(".item");
+    const it = allItems.find((x) => String(x.id) === String(li.dataset.id));
+    if (it) selectItem(it, { fromMarker: false });
+  });
 
   chipsEl.addEventListener("click", (e) => {
     const btn = e.target.closest(".chip");
@@ -253,10 +316,8 @@
   searchEl.addEventListener("input", refresh);
   themeBtn.addEventListener("click", toggleTheme);
 
-  document.querySelector(".view-tabs").addEventListener("click", (e) => {
-    const btn = e.target.closest(".view-tab");
-    if (!btn) return;
-    setView(btn.dataset.view);
+  window.addEventListener("resize", () => {
+    if (mapReady) map.invalidateSize();
   });
 
   async function boot() {
@@ -272,13 +333,17 @@
         const tb = new Date(b.publishedAt || 0).getTime();
         return tb - ta;
       });
+      const missing = allItems.filter(
+        (it) => !Number.isFinite(it.lat) || !Number.isFinite(it.lng)
+      );
+      if (missing.length) {
+        console.warn("items missing lat/lng", missing.map((m) => m.id));
+      }
       updatedEl.textContent = data.updatedAt
         ? `更新于 ${formatTime(data.updatedAt)}`
         : `共 ${allItems.length} 条`;
       renderChips(uniqueRegions(allItems));
-
-      const savedView = localStorage.getItem(VIEW_KEY);
-      setView(savedView === "map" ? "map" : "timeline");
+      refresh();
     } catch (err) {
       console.error(err);
       status.textContent = "加载失败：请确认 data/hotspots.json 可访问。";
