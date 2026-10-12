@@ -22,7 +22,14 @@ python3 -m http.server 8080
 
 ## 如何更新热点
 
-编辑 [`data/hotspots.json`](data/hotspots.json)：
+**推荐**：用合并脚本追加一批条目（见 [`scripts/update-hotspots.md`](scripts/update-hotspots.md)）：
+
+```bash
+node scripts/merge-hotspots.mjs scripts/batches/YYYY-MM-DD-evening.json
+git add data/hotspots.json && git commit -m "data: add hotspots YYYY-MM-DD" && git push origin main
+```
+
+也可直接编辑 [`data/hotspots.json`](data/hotspots.json)：
 
 1. 修改顶层 `updatedAt`（ISO 8601，建议带 `+08:00`）
 2. 在 `items` 中增删改条目（**每条必须有 `lat` / `lng`**）
