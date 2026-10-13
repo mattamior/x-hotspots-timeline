@@ -19,3 +19,4 @@ Updated: 2026-10-13
 - **2026-10-13** — Display timezone labels include DST-aware numeric UTC offset (e.g. CST+8, ET-4, IST+5:30).
 - **2026-10-13** — Added Japanese (ja), Korean (ko), Indonesian (id): UI + all item i18n; zones Tokyo/Seoul/Jakarta; merge LANGS now 8 non-zh languages.
 - **2026-10-13** — Improved card summary readability (contrast, size, CJK leading/tracking); layout unchanged.
+- **2026-10-13** — Header refresh button (soft-reload hotspots.json) + optional 5-min auto-refresh (localStorage, paused when tab hidden); i18n for all 9 langs.

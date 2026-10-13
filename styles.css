@@ -134,8 +134,61 @@ body {
   height: 2.25rem;
   cursor: pointer;
   font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 .theme-btn:hover { border-color: var(--accent); }
+.theme-btn:disabled { opacity: 0.55; cursor: wait; }
+
+.refresh-btn .refresh-icon {
+  display: inline-block;
+  line-height: 1;
+  transition: transform 0.35s ease;
+}
+.refresh-btn.is-loading .refresh-icon {
+  animation: refresh-spin 0.8s linear infinite;
+}
+@keyframes refresh-spin {
+  to { transform: rotate(360deg); }
+}
+
+.auto-refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text-muted);
+  border-radius: 999px;
+  height: 2.25rem;
+  padding: 0 0.75rem 0 0.55rem;
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.auto-refresh-btn:hover { border-color: var(--accent); color: var(--text); }
+.auto-refresh-btn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+  font-weight: 600;
+}
+.auto-refresh-dot {
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--text-muted);
+  flex-shrink: 0;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+.auto-refresh-btn[aria-pressed="true"] .auto-refresh-dot {
+  background: var(--loc);
+  box-shadow: 0 0 0 3px var(--loc-bg);
+}
 
 .toolbar {
   display: grid;
@@ -669,8 +722,9 @@ html[lang="ar"] body { font-family: "Noto Sans Arabic", "Noto Sans SC", system-u
 }
 
 @media (max-width: 640px) {
-  .header-meta { flex-wrap: nowrap; gap: 0.4rem; }
+  .header-meta { flex-wrap: wrap; gap: 0.4rem; }
   .updated { font-size: 0.72rem; white-space: normal; }
-  .lang-btn { max-width: 8.5rem; padding-inline: 0.65rem; }
+  .lang-btn { max-width: 7.5rem; padding-inline: 0.65rem; }
   .lang-btn-label { overflow: hidden; text-overflow: ellipsis; }
+  .auto-refresh-btn { padding-inline: 0.5rem 0.65rem; font-size: 0.72rem; }
 }

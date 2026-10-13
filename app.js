@@ -8,6 +8,8 @@
   const searchEl = $("#search");
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
+  const refreshBtn = $("#refresh-btn");
+  const autoRefreshBtn = $("#auto-refresh-btn");
   const mapEl = $("#map");
   const langPicker = $("#lang-picker");
   const langBtn = $("#lang-btn");
@@ -49,6 +51,7 @@
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     themeBtn.setAttribute("aria-label", t("themeToggle"));
     langBtn.setAttribute("aria-label", t("langLabel"));
+    syncRefreshChrome();
     const cur = langInfo();
     langBtnLabel.textContent = cur.label;
     langMenu.querySelectorAll(".lang-option").forEach((btn) => {
@@ -588,10 +591,36 @@
     if (mapReady) setTimeout(() => map.invalidateSize(), 100);
   });
 
-  async function boot() {
-    initTheme();
-    applyStaticI18n();
-    status.textContent = t("loading");
+  // ---- Soft data reload + auto-refresh ----
+  const AUTO_KEY = "hotspots-auto-refresh";
+  const AUTO_MS = 5 * 60 * 1000;
+  let loadingData = false;
+  let autoRefreshOn = localStorage.getItem(AUTO_KEY) === "1";
+  let autoTimer = null;
+
+  function syncRefreshChrome() {
+    if (!refreshBtn || !autoRefreshBtn) return;
+    refreshBtn.setAttribute("aria-label", t("refreshBtn"));
+    refreshBtn.title = t("refreshBtn");
+    autoRefreshBtn.querySelector(".auto-refresh-label").textContent = t("autoRefresh");
+    autoRefreshBtn.setAttribute("aria-pressed", autoRefreshOn ? "true" : "false");
+    autoRefreshBtn.setAttribute("aria-label", autoRefreshOn ? t("autoRefreshOn") : t("autoRefreshOff"));
+    autoRefreshBtn.title = autoRefreshOn ? t("autoRefreshOn") : t("autoRefreshOff");
+  }
+
+  function setLoading(on) {
+    loadingData = on;
+    if (!refreshBtn) return;
+    refreshBtn.disabled = on;
+    refreshBtn.classList.toggle("is-loading", on);
+    refreshBtn.setAttribute("aria-busy", on ? "true" : "false");
+  }
+
+  async function loadData({ soft = false } = {}) {
+    if (loadingData) return false;
+    setLoading(true);
+    if (!soft || !allItems.length) status.textContent = t("loading");
+    else status.textContent = t("refreshLoading");
     try {
       const res = await fetch(DATA_URL, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -603,15 +632,72 @@
         return tb - ta;
       });
       dataUpdatedAt = data.updatedAt || null;
+      // Keep filters; drop selection if the item disappeared.
+      if (selectedId && !allItems.some((it) => it.id === selectedId)) selectedId = null;
+      const regions = uniqueRegions(allItems);
+      if (activeRegion !== "全部" && !regions.includes(activeRegion)) activeRegion = "全部";
       renderUpdated();
-      renderChips(uniqueRegions(allItems));
+      renderChips(regions);
       refresh();
+      syncLayoutVars();
+      return true;
     } catch (err) {
       console.error(err);
-      status.textContent = t("loadFail");
-      timeline.innerHTML = `<li class="empty">${escapeHtml(t("noData"))}</li>`;
-      updatedEl.textContent = t("loadFailShort");
+      if (!allItems.length) {
+        status.textContent = t("loadFail");
+        timeline.innerHTML = `<li class="empty">${escapeHtml(t("noData"))}</li>`;
+        updatedEl.textContent = t("loadFailShort");
+      } else {
+        status.textContent = t("loadFailShort");
+        setTimeout(() => {
+          const items = filterItems();
+          status.textContent = t("count", { n: items.length, total: allItems.length });
+        }, 2200);
+      }
+      return false;
+    } finally {
+      setLoading(false);
     }
+  }
+
+  function clearAutoTimer() {
+    if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
+  }
+
+  function scheduleAutoRefresh() {
+    clearAutoTimer();
+    if (!autoRefreshOn) return;
+    if (document.visibilityState === "hidden") return;
+    autoTimer = setInterval(() => {
+      if (document.visibilityState === "hidden") return;
+      loadData({ soft: true });
+    }, AUTO_MS);
+  }
+
+  function setAutoRefresh(on) {
+    autoRefreshOn = !!on;
+    localStorage.setItem(AUTO_KEY, autoRefreshOn ? "1" : "0");
+    syncRefreshChrome();
+    scheduleAutoRefresh();
+  }
+
+  refreshBtn.addEventListener("click", () => loadData({ soft: true }));
+  autoRefreshBtn.addEventListener("click", () => setAutoRefresh(!autoRefreshOn));
+
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") {
+      clearAutoTimer();
+    } else if (autoRefreshOn) {
+      scheduleAutoRefresh();
+    }
+  });
+
+  async function boot() {
+    initTheme();
+    applyStaticI18n();
+    syncRefreshChrome();
+    await loadData({ soft: false });
+    scheduleAutoRefresh();
   }
 
   boot();
