@@ -12,4 +12,4 @@ Static GitHub Pages site of global news hotspots. Live: https://mattamior.github
 - Responsive: desktop (>900px) per-card mini maps + sticky `.filter-sticky`; mobile sticky top map band.
 - Updates via `node scripts/merge-hotspots.mjs` (LANGS: en/hi/es/fr/ar/ja/ko/id); scheduled digest 08:05/12:05/20:05 Asia/Shanghai — **parent must update digest routine for ja/ko/id**.
 - 2026-10-13: Card body readability — higher contrast `--text-body`, larger summary (~1.02rem), CJK line-height ~1.85 / letter-spacing, more card padding, summary max-width ~46em.
-- Header: refresh pill v2 (icon = refresh now, spins while loading; chevron popover = iOS switch for auto-refresh; green corner dot when on) (~5 min, Page Visibility aware, `hotspots-auto-refresh`).
+- Header: refresh pill v2 (icon = refresh now, spins while loading; chevron popover = iOS switch for auto-refresh; icon tinted green when on) (~5 min, Page Visibility aware, `hotspots-auto-refresh`).

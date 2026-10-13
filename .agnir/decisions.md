@@ -22,3 +22,4 @@ Updated: 2026-10-13
 - **2026-10-13** — Header refresh button (soft-reload hotspots.json) + optional 5-min auto-refresh (localStorage, paused when tab hidden); i18n for all 9 langs.
 - **2026-10-13** — Refresh + auto-refresh merged into one split pill (main = refresh now, caret menu = auto toggle, "auto" badge when on).
 - **2026-10-13** — Refresh control v2 replaces split pill (user found it ugly): single 36px pill matching lang/theme controls, SVG icon spins while loading, chevron opens popover with iOS-style switch + "every 5 min" hint, green corner dot when auto is on; behaviour unchanged.
+- **2026-10-13** — Removed green corner status dot (user found it odd); auto-refresh ON now tints the refresh icon with --loc green (theme-aware), off = normal.
