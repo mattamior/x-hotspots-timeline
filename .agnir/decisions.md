@@ -20,3 +20,4 @@ Updated: 2026-10-13
 - **2026-10-13** — Added Japanese (ja), Korean (ko), Indonesian (id): UI + all item i18n; zones Tokyo/Seoul/Jakarta; merge LANGS now 8 non-zh languages.
 - **2026-10-13** — Improved card summary readability (contrast, size, CJK leading/tracking); layout unchanged.
 - **2026-10-13** — Header refresh button (soft-reload hotspots.json) + optional 5-min auto-refresh (localStorage, paused when tab hidden); i18n for all 9 langs.
+- **2026-10-13** — Refresh + auto-refresh merged into one split pill (main = refresh now, caret menu = auto toggle, "auto" badge when on).

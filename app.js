@@ -9,7 +9,10 @@
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
   const refreshBtn = $("#refresh-btn");
-  const autoRefreshBtn = $("#auto-refresh-btn");
+  const refreshSplit = $("#refresh-split");
+  const refreshCaret = $("#refresh-caret");
+  const refreshMenu = $("#refresh-menu");
+  const autoItem = $("#auto-refresh-item");
   const mapEl = $("#map");
   const langPicker = $("#lang-picker");
   const langBtn = $("#lang-btn");
@@ -599,13 +602,15 @@
   let autoTimer = null;
 
   function syncRefreshChrome() {
-    if (!refreshBtn || !autoRefreshBtn) return;
-    refreshBtn.setAttribute("aria-label", t("refreshBtn"));
-    refreshBtn.title = t("refreshBtn");
-    autoRefreshBtn.querySelector(".auto-refresh-label").textContent = t("autoRefresh");
-    autoRefreshBtn.setAttribute("aria-pressed", autoRefreshOn ? "true" : "false");
-    autoRefreshBtn.setAttribute("aria-label", autoRefreshOn ? t("autoRefreshOn") : t("autoRefreshOff"));
-    autoRefreshBtn.title = autoRefreshOn ? t("autoRefreshOn") : t("autoRefreshOff");
+    if (!refreshBtn || !autoItem) return;
+    const state = autoRefreshOn ? t("autoRefreshOn") : t("autoRefreshOff");
+    refreshBtn.setAttribute("aria-label", t("refreshBtn") + " · " + state);
+    refreshBtn.title = t("refreshBtn") + " · " + state;
+    refreshCaret.setAttribute("aria-label", t("autoRefresh"));
+    autoItem.querySelector(".auto-refresh-label").textContent = t("autoRefresh");
+    autoItem.setAttribute("aria-checked", autoRefreshOn ? "true" : "false");
+    autoItem.title = state;
+    refreshSplit.classList.toggle("auto-on", autoRefreshOn);
   }
 
   function setLoading(on) {
@@ -682,7 +687,39 @@
   }
 
   refreshBtn.addEventListener("click", () => loadData({ soft: true }));
-  autoRefreshBtn.addEventListener("click", () => setAutoRefresh(!autoRefreshOn));
+  function openRefreshMenu() {
+    refreshSplit.classList.add("open");
+    refreshCaret.setAttribute("aria-expanded", "true");
+    refreshMenu.hidden = false;
+    autoItem.focus();
+  }
+  function closeRefreshMenu(focusCaret) {
+    if (refreshMenu.hidden) return;
+    refreshSplit.classList.remove("open");
+    refreshCaret.setAttribute("aria-expanded", "false");
+    refreshMenu.hidden = true;
+    if (focusCaret) refreshCaret.focus();
+  }
+  refreshCaret.addEventListener("click", (e) => {
+    e.stopPropagation();
+    refreshMenu.hidden ? openRefreshMenu() : closeRefreshMenu();
+  });
+  refreshCaret.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") { e.preventDefault(); openRefreshMenu(); }
+    else if (e.key === "Escape") closeRefreshMenu(true);
+  });
+  autoItem.addEventListener("click", (e) => {
+    e.stopPropagation();
+    setAutoRefresh(!autoRefreshOn);
+  });
+  refreshMenu.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") { e.preventDefault(); closeRefreshMenu(true); }
+    else if (e.key === "Tab") closeRefreshMenu();
+    else if (e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "Home" || e.key === "End") { e.preventDefault(); autoItem.focus(); }
+  });
+  document.addEventListener("click", (e) => {
+    if (!refreshSplit.contains(e.target)) closeRefreshMenu();
+  });
 
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") {

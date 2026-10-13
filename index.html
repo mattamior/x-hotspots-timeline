@@ -34,13 +34,21 @@
           </button>
           <ul id="lang-menu" class="lang-menu" role="listbox" hidden></ul>
         </div>
-        <button type="button" id="refresh-btn" class="theme-btn refresh-btn" aria-label="刷新数据" title="刷新数据">
-          <span class="refresh-icon" aria-hidden="true">↻</span>
-        </button>
-        <button type="button" id="auto-refresh-btn" class="auto-refresh-btn" aria-pressed="false" aria-label="自动刷新">
-          <span class="auto-refresh-dot" aria-hidden="true"></span>
-          <span class="auto-refresh-label" data-i18n="autoRefresh">自动刷新</span>
-        </button>
+        <div class="refresh-split" id="refresh-split">
+          <button type="button" id="refresh-btn" class="refresh-main" aria-label="刷新数据" title="刷新数据">
+            <span class="refresh-icon" aria-hidden="true">↻</span>
+            <span class="refresh-auto-badge" aria-hidden="true">auto</span>
+          </button>
+          <button type="button" id="refresh-caret" class="refresh-caret" aria-haspopup="menu" aria-expanded="false" aria-controls="refresh-menu" aria-label="自动刷新">
+            <span aria-hidden="true">▾</span>
+          </button>
+          <div id="refresh-menu" class="lang-menu refresh-menu" role="menu" hidden>
+            <button type="button" id="auto-refresh-item" class="lang-option refresh-option" role="menuitemcheckbox" aria-checked="false">
+              <span class="auto-refresh-dot" aria-hidden="true"></span>
+              <span class="auto-refresh-label">自动刷新</span>
+            </button>
+          </div>
+        </div>
         <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>
       </div>
     </div>
