@@ -210,7 +210,7 @@ body {
 }
 .map-hint { margin: -0.5rem 0 0.9rem; font-size: 0.8rem; color: var(--text-muted); }
 .list {
-  max-width: 860px;
+  max-width: 1100px;
   margin-inline: auto;
   padding-bottom: 2.5rem;
 }
@@ -495,4 +495,30 @@ body {
 @media (max-width: 640px) {
   .header-inner { align-items: flex-start; }
   .map { height: 240px; }
+}
+
+/* Card layout: text + optional mini map */
+.card-main { display: block; }
+.card-text { min-width: 0; }
+.card-map { display: none; }
+
+@media (min-width: 901px) {
+  .map-band, .map-hint { display: none; }
+  .item { scroll-margin-top: calc(var(--header-h) + 1rem); }
+  .card-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 1.1rem;
+    align-items: stretch;
+  }
+  .card-map {
+    display: block;
+    min-height: 200px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    background: #aad3df;
+    z-index: 0;
+  }
+  .card-map .leaflet-control-attribution { font-size: 9px !important; padding: 0 4px; }
 }

@@ -142,6 +142,7 @@
       return;
     }
 
+    destroyMiniMaps();
     timeline.innerHTML = items
       .map((it) => {
         const title = it.url
@@ -162,15 +163,66 @@
                 <time class="time" datetime="${escapeHtml(it.publishedAt || "")}">${escapeHtml(formatTime(it.publishedAt))}</time>
                 <span class="source">${escapeHtml(it.source || "X 热点")}</span>
               </div>
+              <div class="card-main"><div class="card-text">
               <h2>${title}</h2>
               <p class="summary">${escapeHtml(it.summary || "")}</p>
               ${why}
               ${tags ? `<div class="tags">${tags}</div>` : ""}
+              </div>
+              ${Number.isFinite(it.lat) && Number.isFinite(it.lng) ? `<div class="card-map" data-lat="${it.lat}" data-lng="${it.lng}" aria-label="${escapeHtml(it.location || "")} 位置地图"></div>` : ""}
+              </div>
             </article>
           </li>`;
       })
       .join("");
   }
+
+  // ---- Desktop per-card mini maps ----
+  const desktopMq = window.matchMedia("(min-width: 901px)");
+  /** @type {Map<Element, L.Map>} */
+  const miniMaps = new Map();
+  let miniObserver = null;
+
+  function destroyMiniMaps() {
+    if (miniObserver) { miniObserver.disconnect(); miniObserver = null; }
+    miniMaps.forEach((m) => m.remove());
+    miniMaps.clear();
+  }
+
+  function initMiniMap(el) {
+    if (miniMaps.has(el) || typeof L === "undefined") return;
+    const lat = parseFloat(el.dataset.lat), lng = parseFloat(el.dataset.lng);
+    const m = L.map(el, {
+      center: [lat, lng], zoom: 4,
+      zoomControl: false, dragging: false, scrollWheelZoom: false,
+      doubleClickZoom: false, boxZoom: false, keyboard: false, touchZoom: false,
+      attributionControl: true,
+    });
+    m.attributionControl.setPrefix("");
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 18, attribution: "© OSM",
+    }).addTo(m);
+    L.marker([lat, lng], { icon: makeIcon(true), interactive: false }).addTo(m);
+    miniMaps.set(el, m);
+  }
+
+  function setupMiniMaps() {
+    if (!desktopMq.matches) return;
+    const els = timeline.querySelectorAll(".card-map");
+    if (!("IntersectionObserver" in window)) { els.forEach(initMiniMap); return; }
+    miniObserver = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { initMiniMap(e.target); miniObserver.unobserve(e.target); }
+      });
+    }, { rootMargin: "300px 0px" });
+    els.forEach((el) => miniObserver.observe(el));
+  }
+
+  desktopMq.addEventListener("change", () => {
+    destroyMiniMaps();
+    if (desktopMq.matches) setupMiniMaps();
+    else if (mapReady) setTimeout(() => { syncLayoutVars(); map.invalidateSize(); applyMinZoom(); renderMap(filterItems()); }, 50);
+  });
 
   // Smallest zoom where the world fills the map width AND height (no blank bands).
   function applyMinZoom() {
@@ -286,6 +338,7 @@
 
     renderTimeline(items);
     renderMap(items);
+    setupMiniMaps();
   }
 
   timeline.addEventListener("click", (e) => {
