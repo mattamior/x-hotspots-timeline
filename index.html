@@ -60,6 +60,15 @@
     <div class="filter-sticky">
     <section class="toolbar" aria-label="筛选" data-i18n-aria="filterAria">
       <div id="region-chips" class="chips" role="tablist"></div>
+      <div class="time-filter" id="time-filter">
+        <div class="seg" id="range-seg" role="radiogroup" aria-label="时间范围" data-i18n-aria="rangeAria"></div>
+        <div class="seg" id="slot-seg" role="radiogroup" aria-label="时段" data-i18n-aria="slotAria"></div>
+        <div class="range-custom" id="range-custom" hidden>
+          <label><span class="sr-only" data-i18n="rangeFrom">开始</span><input type="date" id="range-from" /></label>
+          <span class="range-sep" aria-hidden="true">–</span>
+          <label><span class="sr-only" data-i18n="rangeTo">结束</span><input type="date" id="range-to" /></label>
+        </div>
+      </div>
       <label class="search-wrap">
         <span class="sr-only" data-i18n="searchLabel">搜索</span>
         <input type="search" id="search" placeholder="搜索标题、地点或摘要…" data-i18n-ph="searchPlaceholder" autocomplete="off" />

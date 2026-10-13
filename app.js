@@ -18,6 +18,11 @@
   const langBtn = $("#lang-btn");
   const langBtnLabel = $("#lang-btn-label");
   const langMenu = $("#lang-menu");
+  const rangeSeg = $("#range-seg");
+  const slotSeg = $("#slot-seg");
+  const rangeCustom = $("#range-custom");
+  const rangeFrom = $("#range-from");
+  const rangeTo = $("#range-to");
 
   // ---- i18n ----
   const I18N = window.HOTSPOTS_I18N;
@@ -211,10 +216,117 @@
       .join("");
   }
 
+  // ---- time filter (range in the current language's time zone; slot by Asia/Shanghai hour) ----
+  const RANGES = ["all", "today", "3d", "7d", "custom"];
+  const RANGE_KEYS = { all: "rangeAll", today: "rangeToday", "3d": "range3d", "7d": "range7d", custom: "rangeCustom" };
+  const SLOTS = ["all", "morning", "noon", "evening"];
+  const SLOT_KEYS = { all: "slotAll", morning: "slotMorning", noon: "slotNoon", evening: "slotEvening" };
+  const DAY_RE = /^\d{4}-\d{2}-\d{2}$/;
+  let activeRange = "all", customFrom = "", customTo = "", activeSlot = "all";
+  (() => {
+    const p = new URLSearchParams(location.search);
+    const r = p.get("range") || "";
+    const m = r.match(/^(\d{4}-\d{2}-\d{2})?\.\.(\d{4}-\d{2}-\d{2})?$/);
+    if (m) { activeRange = "custom"; customFrom = m[1] || ""; customTo = m[2] || ""; }
+    else if (RANGES.includes(r) && r !== "custom") activeRange = r;
+    const s = p.get("slot");
+    if (SLOTS.includes(s)) activeSlot = s;
+  })();
+  function dayKey(date, tz) {
+    return new Intl.DateTimeFormat("en-CA", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit" }).format(date);
+  }
+  function shiftDay(key, n) {
+    const [y, mo, d] = key.split("-").map(Number);
+    return new Date(Date.UTC(y, mo - 1, d + n)).toISOString().slice(0, 10);
+  }
+  function slotOf(iso) {
+    const d = new Date(iso);
+    if (isNaN(d)) return null;
+    const h = Number(new Intl.DateTimeFormat("en-GB", { timeZone: "Asia/Shanghai", hour: "2-digit", hourCycle: "h23" }).format(d));
+    return h < 10 ? "morning" : h < 16 ? "noon" : "evening";
+  }
+  function rangeBounds() {
+    const tz = langInfo().timeZone || "Asia/Shanghai";
+    const today = dayKey(new Date(), tz);
+    if (activeRange === "today") return [today, today];
+    if (activeRange === "3d") return [shiftDay(today, -2), today];
+    if (activeRange === "7d") return [shiftDay(today, -6), today];
+    if (activeRange === "custom") {
+      let lo = DAY_RE.test(customFrom) ? customFrom : "", hi = DAY_RE.test(customTo) ? customTo : "";
+      if (lo && hi && lo > hi) [lo, hi] = [hi, lo];
+      return [lo, hi];
+    }
+    return ["", ""];
+  }
+  function passesTime(it) {
+    if (activeSlot !== "all" && slotOf(it.publishedAt) !== activeSlot) return false;
+    if (activeRange === "all") return true;
+    const [lo, hi] = rangeBounds();
+    if (!lo && !hi) return true;
+    const d = new Date(it.publishedAt);
+    if (isNaN(d)) return false;
+    const k = dayKey(d, langInfo().timeZone || "Asia/Shanghai");
+    return (!lo || k >= lo) && (!hi || k <= hi);
+  }
+  function segHtml(list, keys, active, kind) {
+    return list.map((v) =>
+      `<button type="button" class="seg-btn${v === active ? " active" : ""}" role="radio" aria-checked="${v === active}" tabindex="${v === active ? 0 : -1}" data-${kind}="${v}">${escapeHtml(t(keys[v]))}</button>`
+    ).join("");
+  }
+  function renderTimeFilter() {
+    rangeSeg.innerHTML = segHtml(RANGES, RANGE_KEYS, activeRange, "range");
+    slotSeg.innerHTML = segHtml(SLOTS, SLOT_KEYS, activeSlot, "slot");
+    rangeCustom.hidden = activeRange !== "custom";
+    rangeFrom.value = customFrom; rangeTo.value = customTo;
+  }
+  function syncTimeUrl() {
+    const u = new URL(location.href);
+    if (activeRange === "all") u.searchParams.delete("range");
+    else u.searchParams.set("range", activeRange === "custom" ? `${customFrom}..${customTo}` : activeRange);
+    if (activeSlot === "all") u.searchParams.delete("slot"); else u.searchParams.set("slot", activeSlot);
+    history.replaceState(null, "", u);
+  }
+  function segNav(seg, e) {
+    const btns = [...seg.querySelectorAll(".seg-btn")];
+    const i = btns.indexOf(document.activeElement);
+    if (i < 0) return;
+    const rtl = document.documentElement.dir === "rtl";
+    let n = null;
+    if (e.key === "ArrowRight" || e.key === "ArrowDown") n = i + ((e.key === "ArrowRight" && rtl) ? -1 : 1);
+    else if (e.key === "ArrowLeft" || e.key === "ArrowUp") n = i + ((e.key === "ArrowLeft" && rtl) ? 1 : -1);
+    else if (e.key === "Home") n = 0; else if (e.key === "End") n = btns.length - 1;
+    if (n === null) return;
+    e.preventDefault();
+    btns[(n + btns.length) % btns.length].click();
+  }
+  function onSegClick(seg, attr, setter) {
+    seg.addEventListener("click", (e) => {
+      const b = e.target.closest(".seg-btn");
+      if (!b) return;
+      setter(b.dataset[attr]);
+      renderTimeFilter(); syncTimeUrl(); refresh(); syncLayoutVars();
+      seg.querySelector(`[data-${attr}="${b.dataset[attr]}"]`)?.focus();
+    });
+    seg.addEventListener("keydown", (e) => segNav(seg, e));
+  }
+  onSegClick(rangeSeg, "range", (v) => {
+    activeRange = v;
+    if (v === "custom" && !customFrom && !customTo) {
+      const today = dayKey(new Date(), langInfo().timeZone || "Asia/Shanghai");
+      customFrom = shiftDay(today, -6); customTo = today;
+    }
+  });
+  onSegClick(slotSeg, "slot", (v) => { activeSlot = v; });
+  [rangeFrom, rangeTo].forEach((el) => el.addEventListener("change", () => {
+    customFrom = rangeFrom.value; customTo = rangeTo.value;
+    syncTimeUrl(); refresh();
+  }));
+
   function filterItems() {
     const q = (searchEl.value || "").trim().toLowerCase();
     return allItems.filter((it) => {
       if (activeRegion !== "全部" && it.region !== activeRegion) return false;
+      if (!passesTime(it)) return false;
       if (!q) return true;
       const hay = [f(it, "title"), f(it, "location"), f(it, "summary"), f(it, "why"), ...(f(it, "tags") || []),
         it.title, it.location, it.summary, it.why, ...(it.tags || [])]
@@ -511,6 +623,7 @@
     applyStaticI18n();
     renderUpdated();
     renderChips(uniqueRegions(allItems));
+    renderTimeFilter();
     refresh();
     syncLayoutVars();
     closeLangMenu();
@@ -734,6 +847,8 @@
   async function boot() {
     initTheme();
     applyStaticI18n();
+    renderTimeFilter();
+    syncTimeUrl();
     syncRefreshChrome();
     await loadData({ soft: false });
     scheduleAutoRefresh();
