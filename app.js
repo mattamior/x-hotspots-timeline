@@ -131,7 +131,7 @@
     if (fromMap) {
       const card = timeline.querySelector(`.item[data-id="${CSS.escape(id)}"]`);
       if (card) {
-        card.scrollIntoView({ behavior: "smooth", block: "center" });
+        card.scrollIntoView({ behavior: "smooth", block: "start" });
       }
     }
   }
@@ -172,12 +172,36 @@
       .join("");
   }
 
+  // Smallest zoom where the world fills the map width AND height (no blank bands).
+  function applyMinZoom() {
+    if (!map) return;
+    const s = map.getSize();
+    const z = Math.max(Math.log2(s.x / 256), Math.log2(s.y / 256));
+    const minZ = Math.max(1, Math.ceil(z * 4) / 4);
+    map.setMinZoom(minZ);
+    if (map.getZoom() < minZ) map.setZoom(minZ);
+  }
+
+  function syncLayoutVars() {
+    const hdr = document.querySelector(".site-header");
+    const band = document.querySelector(".map-band");
+    const root = document.documentElement.style;
+    if (hdr) root.setProperty("--header-h", hdr.offsetHeight + "px");
+    if (band) root.setProperty("--map-h", band.offsetHeight + "px");
+  }
+  syncLayoutVars();
+
   function ensureMap() {
     if (mapReady || typeof L === "undefined") return;
     map = L.map(mapEl, {
       scrollWheelZoom: true,
       worldCopyJump: true,
+      zoomSnap: 0.25,
+      maxBounds: [[-85, -540], [85, 540]],
+      maxBoundsViscosity: 1.0,
     }).setView([20, 20], 2);
+    applyMinZoom();
+    window.addEventListener("resize", () => { syncLayoutVars(); applyMinZoom(); map.invalidateSize(); });
 
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 18,
@@ -244,10 +268,12 @@
     } else if (bounds.length === 1) {
       map.setView(bounds[0], 5);
     } else {
-      map.fitBounds(bounds, { padding: [36, 36], maxZoom: 5 });
+      map.invalidateSize();
+      applyMinZoom();
+      map.fitBounds(bounds, { padding: [30, 30], maxZoom: 5 });
     }
 
-    setTimeout(() => map.invalidateSize(), 80);
+    setTimeout(() => { map.invalidateSize(); applyMinZoom(); }, 80);
   }
 
   function refresh() {

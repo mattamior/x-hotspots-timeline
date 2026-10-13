@@ -7,3 +7,4 @@ Updated: 2026-10-13
 - **2026-10-12** — Data updates go through `scripts/merge-hotspots.mjs` with batch files in `scripts/batches/`.
 - **2026-10-12** — Scheduled digest (08:05/12:05/20:05 Asia/Shanghai) auto-pushes new items to `main`.
 - **2026-10-13** — Agnir Core/profile `1.0` / `repository-filesystem/1.0` from iorLab/agnir `v1.0.2` (`b5626394ec40a5cb7a28c01892acde07cc0adc8e`).
+- **2026-10-13** — Layout changed per user: map moved to a sticky full-width top band under the search box; timeline single column below (replaces side-by-side). Map minZoom derived from container size so no blank tile area.
