@@ -220,18 +220,20 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  --rail-x: 12px; /* shared center for line + dots */
+}
+@media (min-width: 640px) {
+  .timeline { --rail-x: 16px; }
 }
 .timeline::before {
   content: "";
   position: absolute;
-  left: 11px;
+  left: var(--rail-x);
   top: 0.5rem;
   bottom: 1rem;
   width: 2px;
+  transform: translateX(-50%);
   background: var(--line);
-}
-@media (min-width: 640px) {
-  .timeline::before { left: 15px; }
 }
 
 .item {
@@ -247,9 +249,10 @@ body {
 .item::before {
   content: "";
   position: absolute;
-  left: 5px;
+  left: var(--rail-x);
   top: 50%;
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -258,9 +261,6 @@ body {
   box-shadow: 0 0 0 4px var(--accent-soft);
   z-index: 1;
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
-}
-@media (min-width: 640px) {
-  .item::before { left: 9px; }
 }
 
 .item.active::before {
@@ -535,39 +535,106 @@ body {
   .card-map .leaflet-control-attribution { font-size: 9px !important; padding: 0 4px; }
 }
 
-/* Language switcher */
-.lang-select {
+/* Custom language picker */
+.lang-picker {
+  position: relative;
+  z-index: 1200;
+}
+.lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
   border: 1px solid var(--border);
   background: var(--bg-elev);
   color: var(--text);
   border-radius: 999px;
   height: 2.25rem;
-  padding: 0 0.7rem;
+  padding: 0 0.75rem 0 0.9rem;
   font: inherit;
   font-size: 0.85rem;
   cursor: pointer;
+  white-space: nowrap;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
-.lang-select:hover, .lang-select:focus { border-color: var(--accent); outline: none; }
+.lang-btn:hover,
+.lang-btn:focus-visible,
+.lang-picker.open .lang-btn {
+  border-color: var(--accent);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.lang-btn-chevron {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  transition: transform 0.15s ease;
+}
+.lang-picker.open .lang-btn-chevron { transform: rotate(180deg); }
+.lang-menu {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  inset-inline-end: 0;
+  margin: 0;
+  padding: 0.35rem;
+  list-style: none;
+  min-width: 10.5rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: var(--shadow);
+  z-index: 1300;
+}
+.lang-menu[hidden] { display: none; }
+.lang-option {
+  display: block;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  text-align: start;
+  font: inherit;
+  font-size: 0.88rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.lang-option:hover,
+.lang-option:focus-visible {
+  background: var(--accent-soft);
+  color: var(--accent);
+  outline: none;
+}
+.lang-option[aria-selected="true"] {
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
 
 html[lang="hi-IN"] body { font-family: "Noto Sans Devanagari", "Noto Sans SC", system-ui, sans-serif; line-height: 1.75; }
 html[lang="ar"] body { font-family: "Noto Sans Arabic", "Noto Sans SC", system-ui, sans-serif; line-height: 1.8; }
 
 /* RTL mirroring */
-[dir="rtl"] .timeline::before { left: auto; right: 11px; }
+[dir="rtl"] .timeline::before {
+  left: auto;
+  right: var(--rail-x);
+  transform: translateX(50%);
+}
 [dir="rtl"] .item { padding-left: 0; padding-right: 2.25rem; }
-[dir="rtl"] .item::before { left: auto; right: 5px; }
+[dir="rtl"] .item::before {
+  left: auto;
+  right: var(--rail-x);
+  transform: translate(50%, -50%);
+}
 [dir="rtl"] .source { margin-left: 0; margin-right: auto; }
 [dir="rtl"] .why { border-left: 0; border-right: 3px solid var(--why); border-radius: 10px 0 0 10px; }
 [dir="rtl"] .leaflet-container { direction: ltr; }
 [dir="rtl"] .leaflet-popup-content { direction: rtl; text-align: right; }
 @media (min-width: 640px) {
-  [dir="rtl"] .timeline::before { right: 15px; }
   [dir="rtl"] .item { padding-right: 2.75rem; }
-  [dir="rtl"] .item::before { right: 9px; }
 }
 
 @media (max-width: 640px) {
   .header-meta { flex-wrap: nowrap; gap: 0.4rem; }
   .updated { font-size: 0.72rem; white-space: normal; }
-  .lang-select { max-width: 7.5rem; }
+  .lang-btn { max-width: 8.5rem; padding-inline: 0.65rem; }
+  .lang-btn-label { overflow: hidden; text-overflow: ellipsis; }
 }

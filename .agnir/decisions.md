@@ -13,3 +13,7 @@ Updated: 2026-10-13
 - **2026-10-13** — Sticky filter bug (count line overlapping search): replaced separate sticky elements with one `.filter-sticky` wrapper.
 - **2026-10-13** — Multi-language (zh/en/hi/es/fr/ar): zh stays source at top level; translations in `item.i18n.<lang>`; UI dictionary in `i18n.js`; region values remain zh enum keys. Merge script warns on missing translations (`--strict` fails).
 - **2026-10-13** — Timeline dot moved to card vertical center.
+- **2026-10-13** — Display timezone follows UI language (zh Shanghai, en New York, hi Kolkata, es Mexico City, fr Paris, ar Riyadh); stored timestamps unchanged.
+- **2026-10-13** — Native `<select>` language control replaced with custom pill dropdown matching site chrome (keyboard + outside-click).
+- **2026-10-13** — Timeline dots horizontally centered on the rail via shared `--rail-x` + translate; fixes content-box offset on `::before`.
+

@@ -27,9 +27,13 @@
       </div>
       <div class="header-meta">
         <span id="updated-at" class="updated">加载中…</span>
-        <label class="lang-wrap"><span class="sr-only" data-i18n="langLabel">语言</span>
-          <select id="lang-select" class="lang-select" aria-label="语言"></select>
-        </label>
+        <div class="lang-picker" id="lang-picker">
+          <button type="button" id="lang-btn" class="lang-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="lang-menu">
+            <span class="lang-btn-label" id="lang-btn-label">简体中文</span>
+            <span class="lang-btn-chevron" aria-hidden="true">▾</span>
+          </button>
+          <ul id="lang-menu" class="lang-menu" role="listbox" hidden></ul>
+        </div>
         <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>
       </div>
     </div>

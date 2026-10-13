@@ -9,7 +9,10 @@
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
   const mapEl = $("#map");
-  const langSel = $("#lang-select");
+  const langPicker = $("#lang-picker");
+  const langBtn = $("#lang-btn");
+  const langBtnLabel = $("#lang-btn-label");
+  const langMenu = $("#lang-menu");
 
   // ---- i18n ----
   const I18N = window.HOTSPOTS_I18N;
@@ -42,12 +45,23 @@
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     themeBtn.setAttribute("aria-label", t("themeToggle"));
-    langSel.setAttribute("aria-label", t("langLabel"));
+    langBtn.setAttribute("aria-label", t("langLabel"));
+    const cur = langInfo();
+    langBtnLabel.textContent = cur.label;
+    langMenu.querySelectorAll(".lang-option").forEach((btn) => {
+      const selected = btn.dataset.lang === lang;
+      btn.setAttribute("aria-selected", selected ? "true" : "false");
+    });
     const u = new URL(location.href);
     if (lang === "zh") u.searchParams.delete("lang"); else u.searchParams.set("lang", lang);
     history.replaceState(null, "", u);
   }
-  langSel.innerHTML = I18N.languages.map((l) => `<option value="${l.code}"${l.code === lang ? " selected" : ""}>${l.label}</option>`).join("");
+  function buildLangMenu() {
+    langMenu.innerHTML = I18N.languages.map((l) =>
+      `<li role="presentation"><button type="button" class="lang-option" role="option" data-lang="${l.code}" aria-selected="${l.code === lang ? "true" : "false"}">${l.label}</button></li>`
+    ).join("");
+  }
+  buildLangMenu();
   const locLabel = (it) => { const l = f(it, "location") || t("unknownLoc"); return lang === "zh" ? `【${l}】` : l; };
   let dataUpdatedAt = null;
   function renderUpdated() {
@@ -84,19 +98,27 @@
     if (!iso) return "";
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return iso;
-    return (
-      new Intl.DateTimeFormat(langInfo().locale, {
-        timeZone: "Asia/Shanghai",
-        year: "numeric",
-        month: "2-digit",
-        day: "2-digit",
-        hour: "2-digit",
-        minute: "2-digit",
-        hour12: false,
-      })
-        .format(d)
-        .replace(/\//g, lang === "zh" ? "-" : "/") + (lang === "zh" ? " CST" : " (" + t("tz") + ")")
-    );
+    const li = langInfo();
+    const tz = li.timeZone || "Asia/Shanghai";
+    const parts = new Intl.DateTimeFormat(li.locale, {
+      timeZone: tz,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      hour12: false,
+    }).formatToParts(d);
+    const get = (type) => (parts.find((p) => p.type === type) || {}).value || "";
+    const y = get("year");
+    const mo = get("month");
+    const day = get("day");
+    const h = get("hour");
+    const mi = get("minute");
+    const dateStr = lang === "zh"
+      ? `${y}-${mo}-${day} ${h}:${mi}`
+      : `${mo}/${day}/${y}, ${h}:${mi}`;
+    return `${dateStr} ${t("tzAbbrev") || t("tz")}`;
   }
 
   function escapeHtml(str) {
@@ -414,15 +436,93 @@
   });
 
   searchEl.addEventListener("input", refresh);
-  langSel.addEventListener("change", () => {
-    lang = langSel.value;
+  function setLang(code) {
+    if (!LANGS.includes(code) || code === lang) {
+      closeLangMenu();
+      return;
+    }
+    lang = code;
     localStorage.setItem(LANG_KEY, lang);
     applyStaticI18n();
     renderUpdated();
     renderChips(uniqueRegions(allItems));
     refresh();
     syncLayoutVars();
+    closeLangMenu();
+    langBtn.focus();
+  }
+
+  function openLangMenu() {
+    langPicker.classList.add("open");
+    langBtn.setAttribute("aria-expanded", "true");
+    langMenu.hidden = false;
+    const selected = langMenu.querySelector('.lang-option[aria-selected="true"]') || langMenu.querySelector(".lang-option");
+    if (selected) selected.focus();
+  }
+
+  function closeLangMenu() {
+    langPicker.classList.remove("open");
+    langBtn.setAttribute("aria-expanded", "false");
+    langMenu.hidden = true;
+  }
+
+  function toggleLangMenu() {
+    if (langMenu.hidden) openLangMenu();
+    else closeLangMenu();
+  }
+
+  langBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    toggleLangMenu();
   });
+
+  langMenu.addEventListener("click", (e) => {
+    const opt = e.target.closest(".lang-option");
+    if (!opt) return;
+    e.stopPropagation();
+    setLang(opt.dataset.lang);
+  });
+
+  langBtn.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowDown" || e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      openLangMenu();
+    } else if (e.key === "Escape") {
+      closeLangMenu();
+    }
+  });
+
+  langMenu.addEventListener("keydown", (e) => {
+    const options = Array.from(langMenu.querySelectorAll(".lang-option"));
+    const idx = options.indexOf(document.activeElement);
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closeLangMenu();
+      langBtn.focus();
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      options[(idx + 1) % options.length].focus();
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      options[(idx - 1 + options.length) % options.length].focus();
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      options[0].focus();
+    } else if (e.key === "End") {
+      e.preventDefault();
+      options[options.length - 1].focus();
+    } else if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      if (idx >= 0) setLang(options[idx].dataset.lang);
+    } else if (e.key === "Tab") {
+      closeLangMenu();
+    }
+  });
+
+  document.addEventListener("click", (e) => {
+    if (!langPicker.contains(e.target)) closeLangMenu();
+  });
+
   themeBtn.addEventListener("click", toggleTheme);
 
   window.addEventListener("resize", () => {
