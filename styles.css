@@ -14,7 +14,7 @@
   --line: #2a3655;
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
   --radius: 16px;
-  --font: "Noto Sans SC", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: "Noto Sans SC", "Noto Sans Devanagari", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
   --header-h: 72px;
 }
 
@@ -248,7 +248,8 @@ body {
   content: "";
   position: absolute;
   left: 5px;
-  top: 1.35rem;
+  top: 50%;
+  transform: translateY(-50%);
   width: 14px;
   height: 14px;
   border-radius: 50%;
@@ -504,24 +505,18 @@ body {
 
 @media (min-width: 901px) {
   .map-band, .map-hint { display: none; }
-  .toolbar {
+  .filter-sticky {
     position: sticky;
     top: var(--header-h);
     z-index: 1050;
     background: var(--bg);
     margin-inline: -1rem;
-    padding: 1rem 1rem 0.6rem;
-  }
-  .status {
-    position: sticky;
-    top: calc(var(--header-h) + var(--toolbar-h, 120px));
-    z-index: 1050;
-    background: var(--bg);
-    margin: 0 -1rem 0.75rem;
-    padding: 0 1rem 0.5rem;
+    padding: 0 1rem;
     border-bottom: 1px solid var(--border);
+    margin-bottom: 0.9rem;
   }
-  .item { scroll-margin-top: calc(var(--header-h) + var(--toolbar-h, 120px) + var(--status-h, 32px) + 1rem); }
+  .filter-sticky .status { margin: 0.1rem 0 0; padding-bottom: 0.55rem; }
+  .item { scroll-margin-top: calc(var(--header-h) + var(--filter-h, 150px) + 1rem); }
   .card-main {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 260px;
@@ -538,4 +533,41 @@ body {
     z-index: 0;
   }
   .card-map .leaflet-control-attribution { font-size: 9px !important; padding: 0 4px; }
+}
+
+/* Language switcher */
+.lang-select {
+  border: 1px solid var(--border);
+  background: var(--bg-elev);
+  color: var(--text);
+  border-radius: 999px;
+  height: 2.25rem;
+  padding: 0 0.7rem;
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+.lang-select:hover, .lang-select:focus { border-color: var(--accent); outline: none; }
+
+html[lang="hi-IN"] body { font-family: "Noto Sans Devanagari", "Noto Sans SC", system-ui, sans-serif; line-height: 1.75; }
+html[lang="ar"] body { font-family: "Noto Sans Arabic", "Noto Sans SC", system-ui, sans-serif; line-height: 1.8; }
+
+/* RTL mirroring */
+[dir="rtl"] .timeline::before { left: auto; right: 11px; }
+[dir="rtl"] .item { padding-left: 0; padding-right: 2.25rem; }
+[dir="rtl"] .item::before { left: auto; right: 5px; }
+[dir="rtl"] .source { margin-left: 0; margin-right: auto; }
+[dir="rtl"] .why { border-left: 0; border-right: 3px solid var(--why); border-radius: 10px 0 0 10px; }
+[dir="rtl"] .leaflet-container { direction: ltr; }
+[dir="rtl"] .leaflet-popup-content { direction: rtl; text-align: right; }
+@media (min-width: 640px) {
+  [dir="rtl"] .timeline::before { right: 15px; }
+  [dir="rtl"] .item { padding-right: 2.75rem; }
+  [dir="rtl"] .item::before { right: 9px; }
+}
+
+@media (max-width: 640px) {
+  .header-meta { flex-wrap: nowrap; gap: 0.4rem; }
+  .updated { font-size: 0.72rem; white-space: normal; }
+  .lang-select { max-width: 7.5rem; }
 }

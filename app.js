@@ -9,6 +9,50 @@
   const updatedEl = $("#updated-at");
   const themeBtn = $("#theme-toggle");
   const mapEl = $("#map");
+  const langSel = $("#lang-select");
+
+  // ---- i18n ----
+  const I18N = window.HOTSPOTS_I18N;
+  const LANG_KEY = "hotspots-lang";
+  const LANGS = I18N.languages.map((l) => l.code);
+  let lang = (() => {
+    const q = new URLSearchParams(location.search).get("lang");
+    if (q && LANGS.includes(q)) { localStorage.setItem(LANG_KEY, q); return q; }
+    const s = localStorage.getItem(LANG_KEY);
+    return s && LANGS.includes(s) ? s : "zh";
+  })();
+  const langInfo = () => I18N.languages.find((l) => l.code === lang);
+  function t(key, vars = {}) {
+    const s = (I18N.strings[lang] && I18N.strings[lang][key]) ?? I18N.strings.zh[key] ?? key;
+    return String(s).replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? "");
+  }
+  const regionLabel = (r) => (I18N.strings[lang].regions || {})[r] || I18N.strings.zh.regions[r] || r;
+  // Item field in current language, falling back to zh source.
+  function f(it, key) {
+    const tr = it.i18n && it.i18n[lang];
+    if (lang !== "zh" && tr && tr[key] !== undefined && tr[key] !== "" && !(Array.isArray(tr[key]) && !tr[key].length)) return tr[key];
+    return it[key];
+  }
+  function applyStaticI18n() {
+    const li = langInfo();
+    document.documentElement.lang = li.locale;
+    document.documentElement.dir = li.dir;
+    document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    document.querySelectorAll("[data-i18n-html]").forEach((el) => { el.innerHTML = t(el.dataset.i18nHtml); });
+    document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
+    document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
+    themeBtn.setAttribute("aria-label", t("themeToggle"));
+    langSel.setAttribute("aria-label", t("langLabel"));
+    const u = new URL(location.href);
+    if (lang === "zh") u.searchParams.delete("lang"); else u.searchParams.set("lang", lang);
+    history.replaceState(null, "", u);
+  }
+  langSel.innerHTML = I18N.languages.map((l) => `<option value="${l.code}"${l.code === lang ? " selected" : ""}>${l.label}</option>`).join("");
+  const locLabel = (it) => { const l = f(it, "location") || t("unknownLoc"); return lang === "zh" ? `【${l}】` : l; };
+  let dataUpdatedAt = null;
+  function renderUpdated() {
+    updatedEl.textContent = dataUpdatedAt ? t("updated", { time: formatTime(dataUpdatedAt) }) : t("totalOnly", { total: allItems.length });
+  }
 
   let allItems = [];
   let activeRegion = "全部";
@@ -41,7 +85,7 @@
     const d = new Date(iso);
     if (Number.isNaN(d.getTime())) return iso;
     return (
-      new Intl.DateTimeFormat("zh-CN", {
+      new Intl.DateTimeFormat(langInfo().locale, {
         timeZone: "Asia/Shanghai",
         year: "numeric",
         month: "2-digit",
@@ -51,7 +95,7 @@
         hour12: false,
       })
         .format(d)
-        .replace(/\//g, "-") + " CST"
+        .replace(/\//g, lang === "zh" ? "-" : "/") + (lang === "zh" ? " CST" : " (" + t("tz") + ")")
     );
   }
 
@@ -68,14 +112,14 @@
     items.forEach((it) => {
       if (it.region) set.add(it.region);
     });
-    return ["全部", ...Array.from(set).sort((a, b) => a.localeCompare(b, "zh-CN"))];
+    return ["全部", ...Array.from(set).sort((a, b) => regionLabel(a).localeCompare(regionLabel(b), langInfo().locale))];
   }
 
   function renderChips(regions) {
     chipsEl.innerHTML = regions
       .map(
         (r) =>
-          `<button type="button" class="chip${r === activeRegion ? " active" : ""}" data-region="${escapeHtml(r)}" role="tab" aria-selected="${r === activeRegion}">${escapeHtml(r)}</button>`
+          `<button type="button" class="chip${r === activeRegion ? " active" : ""}" data-region="${escapeHtml(r)}" role="tab" aria-selected="${r === activeRegion}">${escapeHtml(regionLabel(r))}</button>`
       )
       .join("");
   }
@@ -85,7 +129,8 @@
     return allItems.filter((it) => {
       if (activeRegion !== "全部" && it.region !== activeRegion) return false;
       if (!q) return true;
-      const hay = [it.title, it.location, it.summary, it.why, ...(it.tags || [])]
+      const hay = [f(it, "title"), f(it, "location"), f(it, "summary"), f(it, "why"), ...(f(it, "tags") || []),
+        it.title, it.location, it.summary, it.why, ...(it.tags || [])]
         .join(" ")
         .toLowerCase();
       return hay.includes(q);
@@ -138,7 +183,7 @@
 
   function renderTimeline(items) {
     if (!items.length) {
-      timeline.innerHTML = `<li class="empty">没有匹配的热点，试试换个地区或关键词。</li>`;
+      timeline.innerHTML = `<li class="empty">${escapeHtml(t("empty"))}</li>`;
       return;
     }
 
@@ -146,12 +191,12 @@
     timeline.innerHTML = items
       .map((it) => {
         const title = it.url
-          ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
-          : escapeHtml(it.title);
-        const why = it.why
-          ? `<p class="why"><strong>为什么值得关注</strong>${escapeHtml(it.why)}</p>`
+          ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(f(it, "title"))}</a>`
+          : escapeHtml(f(it, "title"));
+        const why = f(it, "why")
+          ? `<p class="why"><strong>${escapeHtml(t("why"))}</strong>${escapeHtml(f(it, "why"))}</p>`
           : "";
-        const tags = (it.tags || [])
+        const tags = (f(it, "tags") || [])
           .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
           .join("");
         const active = it.id === selectedId ? " active" : "";
@@ -159,17 +204,17 @@
           <li class="item${active}" data-id="${escapeHtml(it.id)}">
             <article class="card" tabindex="0" role="button" aria-pressed="${it.id === selectedId ? "true" : "false"}">
               <div class="card-top">
-                <span class="loc">【${escapeHtml(it.location || "未知地点")}】</span>
+                <span class="loc">${escapeHtml(locLabel(it))}</span>
                 <time class="time" datetime="${escapeHtml(it.publishedAt || "")}">${escapeHtml(formatTime(it.publishedAt))}</time>
-                <span class="source">${escapeHtml(it.source || "X 热点")}</span>
+                <span class="source">${escapeHtml(!it.source || it.source === "X 热点" ? t("source") : it.source)}</span>
               </div>
               <div class="card-main"><div class="card-text">
               <h2>${title}</h2>
-              <p class="summary">${escapeHtml(it.summary || "")}</p>
+              <p class="summary">${escapeHtml(f(it, "summary") || "")}</p>
               ${why}
               ${tags ? `<div class="tags">${tags}</div>` : ""}
               </div>
-              ${Number.isFinite(it.lat) && Number.isFinite(it.lng) ? `<div class="card-map" data-lat="${it.lat}" data-lng="${it.lng}" aria-label="${escapeHtml(it.location || "")} 位置地图"></div>` : ""}
+              ${Number.isFinite(it.lat) && Number.isFinite(it.lng) ? `<div class="card-map" data-lat="${it.lat}" data-lng="${it.lng}" aria-label="${escapeHtml(t("mapAria", { loc: f(it, "location") || "" }))}"></div>` : ""}
               </div>
             </article>
           </li>`;
@@ -241,10 +286,8 @@
     const root = document.documentElement.style;
     if (hdr) root.setProperty("--header-h", hdr.offsetHeight + "px");
     if (band) root.setProperty("--map-h", band.offsetHeight + "px");
-    const tb = document.querySelector(".toolbar");
-    const st = document.querySelector("#status");
-    if (tb) root.setProperty("--toolbar-h", tb.offsetHeight + "px");
-    if (st) root.setProperty("--status-h", st.offsetHeight + "px");
+    const fs = document.querySelector(".filter-sticky");
+    if (fs) root.setProperty("--filter-h", fs.offsetHeight + "px");
   }
   syncLayoutVars();
 
@@ -272,22 +315,22 @@
 
   function popupHtml(it) {
     const title = it.url
-      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title)}</a>`
-      : escapeHtml(it.title);
+      ? `<a href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(f(it, "title"))}</a>`
+      : escapeHtml(f(it, "title"));
     const link = it.url
-      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">在 X 上查看 →</a>`
+      ? `<a class="popup-link" href="${escapeHtml(it.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(t("viewOnX"))}</a>`
       : "";
     return `
-      <div class="popup-loc">【${escapeHtml(it.location || "未知地点")}】</div>
+      <div class="popup-loc">${escapeHtml(locLabel(it))}</div>
       <div class="popup-title">${title}</div>
-      <p class="popup-summary">${escapeHtml(shortSummary(it.summary))}</p>
+      <p class="popup-summary">${escapeHtml(shortSummary(f(it, "summary")))}</p>
       ${link}`;
   }
 
   function renderMap(items) {
     ensureMap();
     if (!mapReady) {
-      status.textContent = "地图库加载失败，请刷新重试。";
+      status.textContent = t("mapFail");
       return;
     }
 
@@ -335,7 +378,7 @@
 
   function refresh() {
     const items = filterItems();
-    status.textContent = `显示 ${items.length} / ${allItems.length} 条`;
+    status.textContent = t("count", { n: items.length, total: allItems.length });
 
     if (selectedId && !items.some((it) => it.id === selectedId)) {
       selectedId = null;
@@ -371,6 +414,15 @@
   });
 
   searchEl.addEventListener("input", refresh);
+  langSel.addEventListener("change", () => {
+    lang = langSel.value;
+    localStorage.setItem(LANG_KEY, lang);
+    applyStaticI18n();
+    renderUpdated();
+    renderChips(uniqueRegions(allItems));
+    refresh();
+    syncLayoutVars();
+  });
   themeBtn.addEventListener("click", toggleTheme);
 
   window.addEventListener("resize", () => {
@@ -379,7 +431,8 @@
 
   async function boot() {
     initTheme();
-    status.textContent = "正在加载热点…";
+    applyStaticI18n();
+    status.textContent = t("loading");
     try {
       const res = await fetch(DATA_URL, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -390,16 +443,15 @@
         const tb = new Date(b.publishedAt || 0).getTime();
         return tb - ta;
       });
-      updatedEl.textContent = data.updatedAt
-        ? `更新于 ${formatTime(data.updatedAt)}`
-        : `共 ${allItems.length} 条`;
+      dataUpdatedAt = data.updatedAt || null;
+      renderUpdated();
       renderChips(uniqueRegions(allItems));
       refresh();
     } catch (err) {
       console.error(err);
-      status.textContent = "加载失败：请确认 data/hotspots.json 可访问。";
-      timeline.innerHTML = `<li class="empty">无法读取热点数据。</li>`;
-      updatedEl.textContent = "加载失败";
+      status.textContent = t("loadFail");
+      timeline.innerHTML = `<li class="empty">${escapeHtml(t("noData"))}</li>`;
+      updatedEl.textContent = t("loadFailShort");
     }
   }
 

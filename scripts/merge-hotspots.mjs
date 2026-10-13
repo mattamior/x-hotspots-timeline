@@ -8,6 +8,11 @@
  *
  * Merge key: id, then url. Newer publishedAt wins on conflict.
  * Sorts items by publishedAt descending. Updates top-level updatedAt.
+ *
+ * i18n: zh fields at top level are the source. Each item should carry
+ *   i18n: { en|hi|es|fr|ar: { title, location, summary, why, tags[] } }
+ * Missing languages/fields produce warnings (site falls back to zh).
+ * Pass --strict to fail instead of warn. On update, i18n is deep-merged per language.
  */
 
 import fs from "node:fs";
@@ -19,6 +24,27 @@ const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data", "hotspots.json");
 
 const REQUIRED = ["id", "title", "location", "summary", "publishedAt", "lat", "lng"];
+const LANGS = ["en", "hi", "es", "fr", "ar"];
+const I18N_FIELDS = ["title", "location", "summary", "why", "tags"];
+
+function i18nWarnings(item) {
+  const w = [];
+  for (const lang of LANGS) {
+    const tr = item.i18n && item.i18n[lang];
+    if (!tr) { w.push(`${item.id}: missing i18n.${lang}`); continue; }
+    for (const f of I18N_FIELDS) {
+      const v = tr[f];
+      if (f === "why" && !item.why) continue;
+      if (f === "tags" && !(item.tags || []).length) continue;
+      if (v === undefined || v === "" || (Array.isArray(v) && !v.length)) w.push(`${item.id}: missing i18n.${lang}.${f}`);
+    }
+    if (f_tags_mismatch(item, tr)) w.push(`${item.id}: i18n.${lang}.tags length differs from zh tags`);
+  }
+  return w;
+}
+function f_tags_mismatch(item, tr) {
+  return Array.isArray(tr.tags) && Array.isArray(item.tags) && tr.tags.length && tr.tags.length !== item.tags.length;
+}
 
 function usage(msg) {
   if (msg) console.error(msg);
@@ -28,6 +54,7 @@ function usage(msg) {
 
 const args = process.argv.slice(2);
 const dryRun = args.includes("--dry-run");
+const strict = args.includes("--strict");
 const batchPath = args.find((a) => !a.startsWith("--"));
 if (!batchPath) usage("Missing batch file.");
 
@@ -46,6 +73,12 @@ for (const [i, item] of incoming.entries()) {
   if (typeof item.lat !== "number" || typeof item.lng !== "number") {
     usage(`Item[${i}] lat/lng must be numbers`);
   }
+}
+
+const warnings = incoming.flatMap(i18nWarnings);
+if (warnings.length) {
+  for (const w of warnings) console.warn(`WARN ${w}`);
+  if (strict) usage(`--strict: ${warnings.length} i18n problem(s).`);
 }
 
 const data = JSON.parse(fs.readFileSync(DATA, "utf8"));
@@ -83,6 +116,10 @@ for (const item of incoming) {
   const newTs = Date.parse(merged.publishedAt || 0) || 0;
   const keep =
     newTs >= existingTs ? { ...existing, ...merged } : { ...merged, ...existing };
+  const [older, newer] = newTs >= existingTs ? [existing, merged] : [merged, existing];
+  const i18n = { ...(older.i18n || {}) };
+  for (const [lang, tr] of Object.entries(newer.i18n || {})) i18n[lang] = { ...(i18n[lang] || {}), ...tr };
+  if (Object.keys(i18n).length) keep.i18n = i18n;
 
   const idx = data.items.findIndex(
     (x) => x.id === existing.id || (existing.url && x.url === existing.url)
@@ -106,7 +143,7 @@ data.updatedAt =
 if (dryRun) {
   console.log(
     JSON.stringify(
-      { dryRun: true, added, updated, total: data.items.length, updatedAt: data.updatedAt },
+      { dryRun: true, added, updated, i18nWarnings: warnings.length, total: data.items.length, updatedAt: data.updatedAt },
       null,
       2
     )
@@ -117,7 +154,7 @@ if (dryRun) {
 fs.writeFileSync(DATA, JSON.stringify(data, null, 2) + "\n", "utf8");
 console.log(
   JSON.stringify(
-    { ok: true, added, updated, total: data.items.length, updatedAt: data.updatedAt },
+    { ok: true, added, updated, i18nWarnings: warnings.length, total: data.items.length, updatedAt: data.updatedAt },
     null,
     2
   )

@@ -10,3 +10,6 @@ Updated: 2026-10-13
 - **2026-10-13** — Layout changed per user: map moved to a sticky full-width top band under the search box; timeline single column below (replaces side-by-side). Map minZoom derived from container size so no blank tile area.
 - **2026-10-13** — Desktop top map was too large: on >900px replaced by per-card mini maps (text left, map right); ≤900px keeps sticky top map band. Card↔marker linking only on mobile top map.
 - **2026-10-13** — Desktop: filter/search block and count line made sticky below the header (offsets measured at runtime); mobile unchanged to preserve screen space under the sticky map.
+- **2026-10-13** — Sticky filter bug (count line overlapping search): replaced separate sticky elements with one `.filter-sticky` wrapper.
+- **2026-10-13** — Multi-language (zh/en/hi/es/fr/ar): zh stays source at top level; translations in `item.i18n.<lang>`; UI dictionary in `i18n.js`; region values remain zh enum keys. Merge script warns on missing translations (`--strict` fails).
+- **2026-10-13** — Timeline dot moved to card vertical center.

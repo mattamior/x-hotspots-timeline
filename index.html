@@ -4,14 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="全球时事热点：顶部地图，下方时间线" />
-  <title>全球热点时间线</title>
+  <title data-i18n="pageTitle">全球热点时间线</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
         integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
         crossorigin="" />
   <link rel="stylesheet" href="styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div class="bg-glow" aria-hidden="true"></div>
@@ -21,48 +21,54 @@
       <div class="brand">
         <span class="brand-mark" aria-hidden="true"></span>
         <div>
-          <h1>全球热点</h1>
-          <p class="tagline">时间线 + 地图 · 来自 X 公开热点</p>
+          <h1 data-i18n="title">全球热点</h1>
+          <p class="tagline" data-i18n="tagline">时间线 + 地图 · 来自 X 公开热点</p>
         </div>
       </div>
       <div class="header-meta">
         <span id="updated-at" class="updated">加载中…</span>
+        <label class="lang-wrap"><span class="sr-only" data-i18n="langLabel">语言</span>
+          <select id="lang-select" class="lang-select" aria-label="语言"></select>
+        </label>
         <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>
       </div>
     </div>
   </header>
 
   <main class="container">
-    <section class="toolbar" aria-label="筛选">
+    <div class="filter-sticky">
+    <section class="toolbar" aria-label="筛选" data-i18n-aria="filterAria">
       <div id="region-chips" class="chips" role="tablist"></div>
       <label class="search-wrap">
-        <span class="sr-only">搜索</span>
-        <input type="search" id="search" placeholder="搜索标题、地点或摘要…" autocomplete="off" />
+        <span class="sr-only" data-i18n="searchLabel">搜索</span>
+        <input type="search" id="search" placeholder="搜索标题、地点或摘要…" data-i18n-ph="searchPlaceholder" autocomplete="off" />
       </label>
     </section>
+    <p id="status" class="status" role="status"></p>
+    </div>
 
-    <section class="map-band" aria-label="热点地图">
+    <section class="map-band" aria-label="热点地图" data-i18n-aria="mapBandAria">
       <div id="map" class="map"></div>
     </section>
 
-    <p id="status" class="status" role="status"></p>
-    <p class="map-hint muted">点击卡片可定位地图标记；点击标记可跳到对应卡片。</p>
+    <p class="map-hint muted" data-i18n="mapHint">点击卡片可定位地图标记；点击标记可跳到对应卡片。</p>
 
-    <section class="list" aria-label="热点时间线">
+    <section class="list" aria-label="热点时间线" data-i18n-aria="timelineAria">
       <ol id="timeline" class="timeline"></ol>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>数据来自 <code>data/hotspots.json</code> · 地图：Leaflet + OpenStreetMap · GitHub Pages</p>
-      <p class="muted">时区：Asia/Shanghai（北京时间）· 仅作公开热点汇总，细节可能变化</p>
+      <p data-i18n-html="footer1">数据来自 <code>data/hotspots.json</code> · 地图：Leaflet + OpenStreetMap · GitHub Pages</p>
+      <p class="muted" data-i18n="footer2">时区：Asia/Shanghai（北京时间）· 仅作公开热点汇总，细节可能变化</p>
     </div>
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
           integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
           crossorigin=""></script>
+  <script src="i18n.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
