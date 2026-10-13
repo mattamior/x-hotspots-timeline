@@ -504,7 +504,24 @@ body {
 
 @media (min-width: 901px) {
   .map-band, .map-hint { display: none; }
-  .item { scroll-margin-top: calc(var(--header-h) + 1rem); }
+  .toolbar {
+    position: sticky;
+    top: var(--header-h);
+    z-index: 1050;
+    background: var(--bg);
+    margin-inline: -1rem;
+    padding: 1rem 1rem 0.6rem;
+  }
+  .status {
+    position: sticky;
+    top: calc(var(--header-h) + var(--toolbar-h, 120px));
+    z-index: 1050;
+    background: var(--bg);
+    margin: 0 -1rem 0.75rem;
+    padding: 0 1rem 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .item { scroll-margin-top: calc(var(--header-h) + var(--toolbar-h, 120px) + var(--status-h, 32px) + 1rem); }
   .card-main {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 260px;

@@ -218,6 +218,7 @@
     els.forEach((el) => miniObserver.observe(el));
   }
 
+  window.addEventListener("resize", syncLayoutVars);
   desktopMq.addEventListener("change", () => {
     destroyMiniMaps();
     if (desktopMq.matches) setupMiniMaps();
@@ -240,6 +241,10 @@
     const root = document.documentElement.style;
     if (hdr) root.setProperty("--header-h", hdr.offsetHeight + "px");
     if (band) root.setProperty("--map-h", band.offsetHeight + "px");
+    const tb = document.querySelector(".toolbar");
+    const st = document.querySelector("#status");
+    if (tb) root.setProperty("--toolbar-h", tb.offsetHeight + "px");
+    if (st) root.setProperty("--status-h", st.offsetHeight + "px");
   }
   syncLayoutVars();
 
