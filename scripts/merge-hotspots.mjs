@@ -10,7 +10,7 @@
  * Sorts items by publishedAt descending. Updates top-level updatedAt.
  *
  * i18n: zh fields at top level are the source. Each item should carry
- *   i18n: { en|hi|es|fr|ar: { title, location, summary, why, tags[] } }
+ *   i18n: { en|hi|es|fr|ar|ja|ko|id: { title, location, summary, why, tags[] } }
  * Missing languages/fields produce warnings (site falls back to zh).
  * Pass --strict to fail instead of warn. On update, i18n is deep-merged per language.
  */
@@ -24,7 +24,7 @@ const ROOT = path.resolve(__dirname, "..");
 const DATA = path.join(ROOT, "data", "hotspots.json");
 
 const REQUIRED = ["id", "title", "location", "summary", "publishedAt", "lat", "lng"];
-const LANGS = ["en", "hi", "es", "fr", "ar"];
+const LANGS = ["en", "hi", "es", "fr", "ar", "ja", "ko", "id"];
 const I18N_FIELDS = ["title", "location", "summary", "why", "tags"];
 
 function i18nWarnings(item) {

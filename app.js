@@ -40,7 +40,10 @@
     const li = langInfo();
     document.documentElement.lang = li.locale;
     document.documentElement.dir = li.dir;
-    document.querySelectorAll("[data-i18n]").forEach((el) => { el.textContent = t(el.dataset.i18n); });
+    document.querySelectorAll("[data-i18n]").forEach((el) => {
+      if (el.dataset.i18n === "footer2") return; // filled by renderFooterTz with offset
+      el.textContent = t(el.dataset.i18n);
+    });
     document.querySelectorAll("[data-i18n-html]").forEach((el) => { el.innerHTML = t(el.dataset.i18nHtml); });
     document.querySelectorAll("[data-i18n-ph]").forEach((el) => { el.placeholder = t(el.dataset.i18nPh); });
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
@@ -55,6 +58,7 @@
     const u = new URL(location.href);
     if (lang === "zh") u.searchParams.delete("lang"); else u.searchParams.set("lang", lang);
     history.replaceState(null, "", u);
+    renderFooterTz();
   }
   function buildLangMenu() {
     langMenu.innerHTML = I18N.languages.map((l) =>
@@ -66,6 +70,7 @@
   let dataUpdatedAt = null;
   function renderUpdated() {
     updatedEl.textContent = dataUpdatedAt ? t("updated", { time: formatTime(dataUpdatedAt) }) : t("totalOnly", { total: allItems.length });
+    renderFooterTz();
   }
 
   let allItems = [];
@@ -94,6 +99,52 @@
     if (mapReady) setTimeout(() => map.invalidateSize(), 50);
   }
 
+  /** UTC offset minutes for `timeZone` at instant `date` (DST-aware). */
+  function utcOffsetMinutes(date, timeZone) {
+    const dtf = new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false,
+    });
+    const parts = {};
+    for (const p of dtf.formatToParts(date)) {
+      if (p.type !== "literal") parts[p.type] = p.value;
+    }
+    let hour = parseInt(parts.hour, 10);
+    if (hour === 24) hour = 0; // rare 24:00 edge
+    const asUTC = Date.UTC(
+      +parts.year,
+      +parts.month - 1,
+      +parts.day,
+      hour,
+      +parts.minute,
+      +parts.second
+    );
+    return Math.round((asUTC - date.getTime()) / 60000);
+  }
+
+  /** Format offset as +8, -5, +5:30 (ASCII sign). */
+  function formatUtcOffset(mins) {
+    const sign = mins >= 0 ? "+" : "-";
+    const abs = Math.abs(mins);
+    const h = Math.floor(abs / 60);
+    const m = abs % 60;
+    return m ? `${sign}${h}:${String(m).padStart(2, "0")}` : `${sign}${h}`;
+  }
+
+  /** e.g. CST+8, ET-4, IST+5:30 — abbrev + offset at this instant. */
+  function tzLabelAt(date) {
+    const li = langInfo();
+    const tz = li.timeZone || "Asia/Shanghai";
+    const abbrev = t("tzAbbrev") || t("tz");
+    return abbrev + formatUtcOffset(utcOffsetMinutes(date, tz));
+  }
+
   function formatTime(iso) {
     if (!iso) return "";
     const d = new Date(iso);
@@ -118,7 +169,15 @@
     const dateStr = lang === "zh"
       ? `${y}-${mo}-${day} ${h}:${mi}`
       : `${mo}/${day}/${y}, ${h}:${mi}`;
-    return `${dateStr} ${t("tzAbbrev") || t("tz")}`;
+    return `${dateStr} ${tzLabelAt(d)}`;
+  }
+
+  function renderFooterTz() {
+    const el = document.querySelector(".site-footer .muted");
+    if (!el) return;
+    const instant = dataUpdatedAt ? new Date(dataUpdatedAt) : new Date();
+    const when = Number.isNaN(instant.getTime()) ? new Date() : instant;
+    el.textContent = t("footer2", { tzLabel: tzLabelAt(when) });
   }
 
   function escapeHtml(str) {

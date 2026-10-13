@@ -74,6 +74,39 @@
             "الاقتصاد",
             "البنوك المركزية"
           ]
+        },
+        "ja": {
+          "location": "スウェーデン · ストックホルム",
+          "title": "ホールとウッドフォードが2026年ノーベル経済学賞を受賞",
+          "summary": "スウェーデン王立科学アカデミーは、マクロ経済安定化政策のミクロ経済学的基盤を築いたとして、スタンフォード大学のロバート・E・ホールとコロンビア大学のマイケル・ウッドフォードに2026年ノーベル経済学賞を授与した。二人のニューケインジアンモデルは家計と企業の個別行動から出発し、供給途絶や需要変動などのショックに政府と中央銀行が対応するための分析ツールを提供し、金利政策の重要な理論枠組みをなしている。1200万スウェーデン・クローナの賞金は二人で分け合う。ウッドフォードは午前4時半にストックホルムから電話を受け、教室に入ると学生に拍手で迎えられたという。元IMF首席エコノミストのオリヴィエ・ブランシャールらも受賞を称賛した。",
+          "why": "世界のインフレが緩やかにしか下がらず、各国中央銀行が利上げ継続を巡って議論する中、この賞はまさに中央銀行が金利をどう決めるかの理論を裏付けている。",
+          "tags": [
+            "ノーベル賞",
+            "経済学",
+            "中央銀行"
+          ]
+        },
+        "ko": {
+          "location": "스웨덴 · 스톡홀름",
+          "title": "홀과 우드포드, 2026년 노벨 경제학상 수상",
+          "summary": "스웨덴 왕립과학아카데미는 거시경제 안정화 정책의 미시경제 기반을 마련한 공로로 스탠퍼드대의 로버트 E. 홀과 컬럼비아대의 마이클 우드포드에게 2026년 노벨 경제학상을 수여했다. 두 사람의 뉴케인지언 모형은 가계와 기업의 개별 행동에서 출발해 공급 차질·수요 변화 등 충격에 정부와 중앙은행이 대응할 분석 도구를 제공하며, 금리 정책의 핵심 이론 틀이 된다. 1,200만 스웨덴 크로나 상금은 두 사람이 나눈다. 우드포드는 새벽 4시 30분 스톡홀름에서 전화를 받고 교실에 들어서자 학생들의 환호를 받았다고 전해지며, 전 IMF 수석이코노미스트 올리비에 블랑샤르 등도 수상을 축하했다.",
+          "why": "글로벌 인플레이션이 더디게 완화되고 각국 중앙은행이 추가 금리 인상을 놓고 논쟁하는 가운데, 이 상은 바로 중앙은행이 금리를 어떻게 정하는지에 대한 이론을 뒷받침한다.",
+          "tags": [
+            "노벨상",
+            "경제학",
+            "중앙은행"
+          ]
+        },
+        "id": {
+          "location": "Swedia · Stockholm",
+          "title": "Hall dan Woodford meraih Nobel Ekonomi 2026",
+          "summary": "Royal Swedish Academy of Sciences menganugerahkan Nobel Ekonomi 2026 kepada Robert E. Hall dari Stanford University dan Michael Woodford dari Columbia University atas peletakan fondasi mikroekonomi bagi kebijakan stabilisasi makroekonomi. Model New Keynesian mereka berangkat dari perilaku individu rumah tangga dan perusahaan, memberi pemerintah dan bank sentral alat analisis untuk merespons guncangan seperti gangguan pasokan dan pergeseran permintaan, serta menjadi kerangka teori penting bagi kebijakan suku bunga. Hadiah 12 juta krona Swedia dibagi dua. Woodford dilaporkan menerima telepon dari Stockholm pukul 04.30 dan disambut sorak mahasiswa saat masuk kelas; ekonom termasuk mantan kepala ekonom IMF Olivier Blanchard memuji penghargaan itu.",
+          "why": "Dengan inflasi global yang turun lambat dan bank sentral masih memperdebatkan apakah lanjut menaikkan suku bunga, penghargaan ini mendukung teori di balik cara bank sentral menetapkan suku bunga.",
+          "tags": [
+            "Hadiah Nobel",
+            "Ekonomi",
+            "Bank sentral"
+          ]
         }
       }
     },
@@ -148,6 +181,39 @@
             "الهجرة",
             "غرق",
             "القرن الأفريقي"
+          ]
+        },
+        "ja": {
+          "location": "ジブチ · オボック",
+          "title": "ジブチ沖で移民船が転覆、少なくとも139人死亡",
+          "summary": "305人を乗せた過積載の船が10月8〜9日の夜、ジブチ北部オボック町の北にあるグヘレ付近で転覆し、少なくとも139人が死亡（うち子ども15人）、84人が行方不明のままである。移民はジブチからイエメンへ渡り、さらに湾岸諸国で就労や庇護を求める予定だった。約80人のエチオピア人生存者はオボックの移民センターで治療を受け、当局は回収した遺体を埋葬し、捜索は続いている。ジブチはアフリカの角に位置し、紅海南口のバブ・エル・マンデブ海峡を扼し、毎年数万人のアフリカ移民がこの「東ルート」を冒険する。国連移民機関の責任者は惨事が胸を痛めるものだとし、安全で合法的な移住経路を求めた。",
+          "why": "東ルートで近年最悪級の海難の一つであり、イエメンが依然戦乱で紅海情勢も緊迫する中、このルートはますます危険になる。",
+          "tags": [
+            "移民",
+            "海難",
+            "アフリカの角"
+          ]
+        },
+        "ko": {
+          "location": "지부티 · 오보크",
+          "title": "지부티 해상에서 이주선 전복, 최소 139명 사망",
+          "summary": "305명을 태운 과적 선박이 10월 8~9일 밤 지부티 북부 오보크 마을 북쪽 구헤레 인근에서 전복돼 최소 139명이 사망(어린이 15명 포함)했고 84명은 실종 상태다. 이주자들은 지부티에서 예멘으로 건너 걸프 국가에서 일하거나 망명을 신청할 계획이었다. 에티오피아인 생존자 약 80명은 오보크 이주센터에서 치료를 받고 있으며, 당국은 수습한 시신을 안장했고 수색은 계속된다. 지부티는 아프리카의 뿔에 위치해 홍해 남단 바브엘만데브 해협을 지키며, 매년 수만 명의 아프리카 이주자가 이른바 \"동부 루트\"를 감행한다. 유엔 이주기구 책임자는 참사가 가슴 아프다고 하며 안전하고 합법적인 이주 경로를 촉구했다.",
+          "why": "동부 루트에서 최근 가장 치명적인 해난 중 하나이며, 예멘이 여전히 전쟁 중이고 홍해가 긴장된 상황에서 이 경로는 더 위험해질 뿐이다.",
+          "tags": [
+            "이주",
+            "해난",
+            "아프리카의 뿔"
+          ]
+        },
+        "id": {
+          "location": "Djibouti · Obock",
+          "title": "Kapal migran terbalik di lepas pantai Djibouti, setidaknya 139 tewas",
+          "summary": "Sebuah kapal kelebihan muatan yang mengangkut 305 orang terbalik pada malam 8–9 Oktober di dekat Guhere, utara kota Obock di utara Djibouti. Setidaknya 139 orang tewas, termasuk 15 anak, dan 84 masih hilang. Para migran berencana menyeberang dari Djibouti ke Yaman lalu ke negara-negara Teluk untuk kerja atau suaka; sekitar 80 penyintas Ethiopia dirawat di pusat migran Obock, pihak berwenang telah menguburkan jenazah yang ditemukan, dan pencarian berlanjut. Djibouti berada di Tanduk Afrika di Selat Bab el-Mandeb, mulut selatan Laut Merah, dan puluhan ribu migran Afrika menempuh \"Rute Timur\" ini setiap tahun. Kepala lembaga migrasi PBB menyebut bencana itu menghancurkan hati dan mendesak jalur migrasi yang aman dan legal.",
+          "why": "Ini salah satu kapal karam paling mematikan di Rute Timur belakangan ini, dan dengan Yaman masih berperang serta Laut Merah tegang, rute itu hanya akan makin berbahaya.",
+          "tags": [
+            "Migrasi",
+            "Kapal karam",
+            "Tanduk Afrika"
           ]
         }
       }
@@ -224,6 +290,39 @@
             "هدنة الطاقة",
             "أسعار النفط"
           ]
+        },
+        "ja": {
+          "location": "ウクライナ / 米国",
+          "title": "（更新）ゼレンスキーが「エネルギー停戦」条件を提示、対米輸送のロシア製ディーゼル船打撃を警告",
+          "summary": "ウクライナのゼレンスキー大統領はフォックスニュースのインタビューで、エネルギー停戦には応じる用意があるが、前提はロシアが給油所・エネルギー施設への攻撃と民間人殺害を先に止めることだと述べた。またトランプとロシアのディーゼル合意がウクライナの電力網を守れなければ、米国向けロシア製ディーゼル船を打撃する可能性があると警告した。合意はロシアが数十万トンのディーゼルを米国へ輸出できるようにするもので、トランプは中間選挙前に農民とトラック運転手の燃料価格を下げるためだとし、ゼレンスキーは価格への効果はごく小さく「プーチンへの贈り物」だと批判した。ゼレンスキーによると、トランプ発表後ウクライナは一夜ロシアのエネルギー施設攻撃を控えたが、ロシアは弾道ミサイルでキーウを、ドローンでハルキウを襲い、10月12日にはキーウの集合住宅が被弾して2人死亡・9人負傷。トランプは「私が発表したから」双方が合意したと主張した。ネットで広く伝わる話では、ウクライナ軍事情報局長ブダノフが10月9日マイアミ交渉の早期終了時、米特使ウィトコフとクシュナーにロシアの製油所と港をすべて燃やすと言ったとされる。ブレント原油はすでに1バレル107ドル超まで上昇している。",
+          "why": "「誰が先に手を止めるか」をめぐる米ウの齟齬が公になっており、米国の対ウ情報・軍事支援が途絶えるかどうか、そして世界の油価上昇に直結している。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "エネルギー停戦",
+            "油価"
+          ]
+        },
+        "ko": {
+          "location": "우크라이나 / 미국",
+          "title": "(업데이트) 젤렌스키, \"에너지 휴전\" 조건 제시…대미 러시아 디젤선 타격 경고",
+          "summary": "우크라이나 젤렌스키 대통령은 폭스뉴스 인터뷰에서 에너지 휴전에 응할 의사가 있으나, 러시아가 먼저 주유소·에너지 시설 공격과 민간인 살상을 멈춰야 한다고 밝혔다. 트럼프와 러시아의 디젤 합의가 우크라이나 전력망을 보호하지 못하면 미국으로 향하는 러시아 디젤선을 타격할 수 있다고 경고했다. 합의는 러시아가 수십만 톤의 디젤을 미국에 수출하도록 하는 것으로, 트럼프는 중간선거 전 농부와 트럭 운전사의 연료비를 낮추기 위해서라고 하고 젤렌스키는 가격 효과가 미미하며 \"푸틴에게 주는 선물\"이라고 했다. 젤렌스키는 트럼프 발표 후 하룻밤 러시아 에너지 시설 타격을 멈췄지만 러시아는 탄도미사일로 키이우를, 드론으로 하르키우를 공격했고 10월 12일 키이우 아파트가 피격돼 2명 사망·9명 부상이 발생했다고 했다. 트럼프는 \"내가 발표했기 때문에\" 양측이 합의했다고 주장했다. 온라인에 널리 퍼진 주장에 따르면 우크라이나 군사정보국장 부다노프가 10월 9일 마이애미 협상 조기 종료 때 미 특사 위트코프와 쿠슈너에게 러시아 정유소와 항구를 모두 태우겠다고 말했다고 한다. 브렌트유는 이미 배럴당 107달러를 넘었다.",
+          "why": "\"누가 먼저 멈출지\"를 둘러싼 미·우 갈등이 공개됐고, 미국의 대우크라이나 정보·군사 지원 중단 가능성과 글로벌 유가 상승에 직결된다.",
+          "tags": [
+            "러·우 전쟁",
+            "에너지 휴전",
+            "유가"
+          ]
+        },
+        "id": {
+          "location": "Ukraina / Amerika Serikat",
+          "title": "(Pembaruan) Zelensky tetapkan syarat \"gencatan energi\", ancam tanker diesel Rusia ke AS",
+          "summary": "Dalam wawancara Fox News, Presiden Ukraina Volodymyr Zelensky mengatakan Ukraina bersedia menaati gencatan energi jika Rusia lebih dulu menghentikan serangan ke SPBU dan fasilitas energi serta pembunuhan sipil; ia memperingatkan jika kesepakatan diesel Trump–Rusia tidak melindungi jaringan listrik Ukraina, Ukraina dapat menyerang tanker diesel Rusia yang menuju AS. Kesepakatan itu memungkinkan Rusia mengekspor ratusan ribu ton diesel ke AS, yang menurut Trump untuk menurunkan harga bahan bakar bagi petani dan pengemudi truk sebelum pemilu tengah; Zelensky mengatakan dampaknya pada harga sangat kecil dan menyebutnya \"hadiah untuk Putin\". Zelensky mengatakan Ukraina menghentikan serangan ke fasilitas energi Rusia selama semalam setelah pengumuman Trump, tetapi Rusia tetap menyerang Kyiv dengan rudal balistik dan Kharkiv dengan drone, dan sebuah apartemen di Kyiv terkena pada 12 Oktober, menewaskan 2 dan melukai 9; Trump mengatakan kedua pihak sudah setuju \"karena saya mengumumkannya\". Menurut klaim online yang tersebar luas, kepala intelijen militer Ukraina Budanov memberi tahu utusan AS Witkoff dan Kushner saat pembicaraan Miami 9 Oktober berakhir dini bahwa ia akan membakar semua kilang dan pelabuhan Rusia. Minyak Brent kini naik di atas $107 per barel.",
+          "why": "Perpecahan AS–Ukraina soal \"siapa berhenti dulu\" kini terbuka, langsung menyangkut apakah intelijen dan bantuan militer AS ke Ukraina bisa diputus, dan mendorong harga minyak global.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Gencatan energi",
+            "Harga minyak"
+          ]
         }
       }
     },
@@ -298,6 +397,39 @@
             "إيران",
             "مضيق هرمز",
             "الكابلات البحرية"
+          ]
+        },
+        "ja": {
+          "location": "イラン · ホルムズ海峡",
+          "title": "イラン、再開戦なら地域データセンターと海底ケーブル破壊を示唆、弾道ミサイル約30発を試射",
+          "summary": "イラン最高国家安全保障委員会書記で元革命防衛隊総司令官のモフセン・レザーイーは、米国・イスラエルとの戦事が再開すれば、ホルムズ海峡付近やUAE内の米国データセンターなどの資産を打撃しうると警告し、同地域の海底ケーブル・データセンター・AI施設の価値は2兆ドル超だと述べた。彼はホルムズを世界のインターネット海底ケーブルの咽喉だと形容し（イラン側は世界のインターネット通信量の99%超を担うと主張）、イランはグーグルやMetaなどに領海通過ケーブルの許可申請と課金を求めることも検討している。10月11日、革命防衛隊（イラン最精鋭）はイスファハン、ヤズド、ケルマンシャーなどから「ヘイバル・シェカン」「エマード」弾道ミサイル約30発を試射し、「シャーヘド」系列ドローンも投入、2月以来最大規模の演習となった。2026年2月の米以による対イラン空爆以降、衝突は続いており、レザーイーは海峡再開の7条件のうち米側が受け入れたのは一部だけで「不十分」と述べ、米財務長官ベセントはイラン支配層の渡航と資金を制限して孤立させていると述べた。",
+          "why": "イランは脅威の対象をタンカーからインターネットとAIインフラへ広げており、開戦すれば打撃はエネルギーだけでなく世界のデジタル経済にも及ぶ。",
+          "tags": [
+            "イラン",
+            "ホルムズ海峡",
+            "海底ケーブル"
+          ]
+        },
+        "ko": {
+          "location": "이란 · 호르무즈 해협",
+          "title": "이란, 전쟁 재개 시 지역 데이터센터·해저케이블 파괴 위협…탄도미사일 약 30발 시험발사",
+          "summary": "이란 최고국가안보회의 서기이자 전 이슬람혁명수비대 총사령관인 모흐센 레자이는 미국·이스라엘과의 전쟁이 재개되면 호르무즈 해협 인근과 UAE 내 미국 데이터센터 등 자산을 타격할 수 있다고 경고하며, 이 지역 해저케이블·데이터센터·AI 시설 가치가 2조 달러를 넘는다고 했다. 그는 호르무즈를 글로벌 인터넷 케이블의 요충으로 묘사했고(이란 측은 전 세계 인터넷 트래픽의 99% 이상을 담당한다고 주장), 이란은 구글·Meta 등에 영해 통과 케이블 허가와 요금을 요구하는 방안도 검토 중이다. 10월 11일 혁명수비대(이란 최정예)는 이스파한·야즈드·케르만샤 등에서 \"헤바르 셰칸\"·\"에마드\" 탄도미사일 약 30발을 시험발사하고 \"샤헤드\" 계열 드론을 투입해 2월 이후 최대 규모 훈련을 했다. 2026년 2월 미·이스라엘의 대이란 공습 이후 충돌이 이어졌고, 레자이는 해협 재개방 7개 조건 중 미국이 일부만 수용해 \"충분하지 않다\"고 했으며, 미 재무장관 베센트는 이란 엘리트의 여행과 자금을 제한해 고립시키고 있다고 했다.",
+          "why": "이란이 위협 대상을 유조선에서 인터넷·AI 인프라로 넓혔고, 전쟁이 나면 타격은 에너지뿐 아니라 글로벌 디지털 경제에도 미친다.",
+          "tags": [
+            "이란",
+            "호르무즈 해협",
+            "해저케이블"
+          ]
+        },
+        "id": {
+          "location": "Iran · Selat Hormuz",
+          "title": "Iran ancam hancurkan pusat data dan kabel laut regional jika perang kembali, uji tembak sekitar 30 rudal balistik",
+          "summary": "Mohsen Rezaei, sekretaris Dewan Keamanan Nasional Tertinggi Iran dan mantan panglima Korps Garda Revolusi Islam, memperingatkan bahwa jika perang dengan AS dan Israel kembali, Iran dapat menyerang aset AS seperti pusat data dekat Selat Hormuz dan di UEA, menyebut kabel laut, pusat data, dan fasilitas AI kawasan itu bernilai lebih dari $2 triliun. Ia menggambarkan Hormuz sebagai titik sempit kabel internet global (Iran mengklaim mengangkut lebih dari 99% lalu lintas internet dunia), dan Iran sedang mempertimbangkan mewajibkan perusahaan seperti Google dan Meta memperoleh izin serta membayar biaya untuk kabel yang melintasi perairan teritorialnya. Pada 11 Oktober IRGC (pasukan elite Iran) menguji tembak sekitar 30 rudal balistik \"Kheibar Shekan\" dan \"Emad\" dari Isfahan, Yazd, Kermanshah, dan tempat lain serta mengerahkan drone seri \"Shahed\", latihan terbesar sejak Februari. Konflik berlanjut sejak serangan udara AS–Israel ke Iran pada Februari 2026; Rezaei mengatakan AS hanya menerima sebagian dari tujuh syarat Iran untuk membuka kembali selat, menyebut respons itu \"tidak cukup\", sementara Menteri Keuangan AS Bessent mengatakan Washington mengisolasi elite Iran dengan membatasi perjalanan dan keuangan mereka.",
+          "why": "Iran memperluas ancaman dari tanker minyak ke infrastruktur internet dan AI; jika perang pecah, dampaknya bukan hanya pada energi tetapi pada ekonomi digital global.",
+          "tags": [
+            "Iran",
+            "Selat Hormuz",
+            "Kabel laut"
           ]
         }
       }
@@ -374,6 +506,39 @@
             "إيران",
             "الأمن"
           ]
+        },
+        "ja": {
+          "location": "英国 · フェアフォード",
+          "title": "英首相、RAFフェアフォードの不審事案は「極めて高い確率」でイラン革命防衛隊の指示と表明",
+          "summary": "英国のアンディ・バーナム首相は月曜日、議会で、9月27日に王立空軍フェアフォード基地付近で発見されたガソリン入り不審バンは、「極めて高い確率」でイランのイスラム革命防衛隊がイランから計画・調整したものだと述べた。イングランド・グロスターシャーのフェアフォードは、イラン空爆に参加した米軍爆撃機が駐留したことがある。警察は20代の男性7人を逮捕し、大半は英国市民だったが、全員保釈され、まだ起訴された者はいない。外相エド・ミリバンドはイラン人2人への制裁とイラン大使召喚を発表し、英国はイランの代理人を非難する米国主導・約30カ国署名の声明にも加わった。政府対応と起訴の遅れをめぐり国内の見方は分かれている。",
+          "why": "もし告発が正しければ、イランは対立をNATO加盟国本土の軍事施設にまで広げたことになり、英伊関係と欧州安全保障に影響する。",
+          "tags": [
+            "英国",
+            "イラン",
+            "安全保障"
+          ]
+        },
+        "ko": {
+          "location": "영국 · 페어퍼드",
+          "title": "영국 총리, RAF 페어퍼드 의심 사건 \"매우 높은 가능성\"으로 이란 혁명수비대 지시라고 밝혀",
+          "summary": "영국 앤디 버넘 총리는 월요일 의회에서 9월 27일 RAF 페어퍼드 인근에서 발견된 휘발유를 실은 의심 밴이 \"매우 높은 가능성\"으로 이란 이슬람혁명수비대가 이란에서 계획·조율한 것이라고 밝혔다. 잉글랜드 글로스터셔의 페어퍼드는 이란 공습에 참여한 미군 폭격기가 주둔한 적이 있다. 경찰은 20대 남성 7명을 체포했으며 대부분이 영국 시민이었으나 전원 보석으로 풀려났고 아직 기소된 사람은 없다. 외무장관 에드 밀리밴드는 이란인 2명에 대한 제재와 이란 대사 소환을 발표했고, 영국은 이란 대리세력을 규탄하는 미국 주도·약 30개국 서명 성명에도 합류했다. 정부 대응과 기소 지연을 둘러싼 국내 의견은 갈린다.",
+          "why": "주장이 사실이라면 이란이 대립을 NATO 회원국 본토 군사시설까지 확장한 것이며, 영·이란 관계와 유럽 안보에 영향을 준다.",
+          "tags": [
+            "영국",
+            "이란",
+            "안보"
+          ]
+        },
+        "id": {
+          "location": "Britania Raya · Fairford",
+          "title": "PM Inggris sebut insiden mencurigakan di RAF Fairford \"sangat mungkin\" diarahkan Garda Revolusi Iran",
+          "summary": "Perdana Menteri Inggris Andy Burnham mengatakan di Parlemen pada Senin bahwa van mencurigakan berisi bensin yang ditemukan dekat RAF Fairford pada 27 September \"sangat mungkin\" direncanakan dan dikoordinasikan dari Iran oleh Korps Garda Revolusi Islam. Fairford di Gloucestershire, Inggris, sebelumnya menampung bomber AS yang ikut menyerang Iran; polisi menangkap tujuh pria berusia 20-an, sebagian besar warga Inggris, tetapi semuanya dibebaskan dengan jaminan dan belum ada yang didakwa. Menteri Luar Negeri Ed Miliband mengumumkan sanksi terhadap dua warga Iran dan memanggil duta besar Iran, dan Inggris bergabung dalam pernyataan dipimpin AS yang ditandatangani hampir 30 negara mengecam proksi Iran. Opini di Inggris terpecah soal respons pemerintah dan belum adanya dakwaan.",
+          "why": "Jika tuduhan itu benar, Iran telah memperluas konfrontasi ke fasilitas militer di tanah NATO, dengan dampak bagi hubungan Inggris–Iran dan keamanan Eropa.",
+          "tags": [
+            "Inggris",
+            "Iran",
+            "Keamanan"
+          ]
         }
       }
     },
@@ -448,6 +613,39 @@
             "الأمن السيبراني",
             "اليابان",
             "الذكاء الاصطناعي"
+          ]
+        },
+        "ja": {
+          "location": "日本 · 東京",
+          "title": "日本が「サイバー空間緊急事態」を宣言、大企業20社超が相次いで侵入被害",
+          "summary": "日本政府は大企業20社超が侵入被害を報告したことを受け「サイバー空間緊急事態」を宣言した。鉄道のJR東日本では約167万件のメールアドレスが流出し、カーシェアのタイムズカーでは運転免許証写真を含む約660万アカウントのデータが露出し、コンビニ大手ローソンも被害企業に含まれる。サイバーセキュリティ戦略本部は緊急会合を開き攻撃の波を「極めて深刻」と位置づけ、当局は攻撃者がフィッシングや脆弱性スキャンにAIツールを使ったとみており、9月だけで86件、今年累計500件超に上る。金融当局は銀行に身分確認での免許証写真利用停止を求め、今月から施行の新たな防御法はサプライチェーンのセキュリティ要件を強化する。",
+          "why": "AIが大規模サイバー攻撃に使われている具体的な兆候であり、日本の対応は他国にも参照される可能性がある。",
+          "tags": [
+            "サイバーセキュリティ",
+            "日本",
+            "AI"
+          ]
+        },
+        "ko": {
+          "location": "일본 · 도쿄",
+          "title": "일본 \"사이버공간 비상사태\" 선언…대기업 20곳 이상 연쇄 침해",
+          "summary": "일본 정부는 대기업 20곳 이상이 침해를 보고하자 \"사이버공간 비상사태\"를 선언했다. 철도 JR동일본에서는 약 167만 건의 이메일 주소가 유출됐고, 카셰어링 타임즈카에서는 운전면허증 사진을 포함한 약 660만 계정 데이터가 노출됐으며 편의점 대기업 로손도 피해 기업에 포함된다. 사이버보안전략본부는 긴급회의를 열고 공격 파고를 \"매우 심각\"하다고 했고, 당국은 공격자가 피싱·취약점 스캔에 AI 도구를 썼다고 보며 9월에만 86건, 올해 누적 500건을 넘는다. 금융당국은 은행에 신분 확인용 면허증 사진 사용 중단을 요청했고, 이달 시행되는 새 방어법은 공급망 보안 요건을 강화한다.",
+          "why": "AI가 대규모 사이버공격에 쓰이고 있음을 보여주는 구체적 신호이며, 일본의 대응은 다른 나라에도 참고가 될 수 있다.",
+          "tags": [
+            "사이버보안",
+            "일본",
+            "AI"
+          ]
+        },
+        "id": {
+          "location": "Jepang · Tokyo",
+          "title": "Jepang deklarasikan \"darurat ruang siber\" setelah lebih dari 20 perusahaan besar diretas",
+          "summary": "Pemerintah Jepang mendeklarasikan \"darurat ruang siber\" setelah lebih dari 20 perusahaan besar melaporkan peretasan: operator kereta JR East membocorkan sekitar 1,67 juta alamat email, layanan berbagi mobil Times Car mengekspos data sekitar 6,6 juta akun termasuk foto SIM, dan ritel convenience Lawson juga termasuk korban. Markas strategi keamanan siber Jepang mengadakan rapat darurat, menyebut gelombang serangan \"sangat serius\"; pejabat meyakini penyerang memakai alat AI untuk phishing dan pemindaian kerentanan, dengan 86 insiden hanya di September dan lebih dari 500 sepanjang tahun ini. Regulator keuangan meminta bank menghentikan penggunaan foto SIM untuk verifikasi identitas, dan undang-undang pertahanan baru yang berlaku bulan ini memperketat persyaratan keamanan rantai pasok.",
+          "why": "Ini tanda konkret AI dipakai untuk meluncurkan serangan siber berskala besar, dan respons Jepang mungkin ditiru negara lain.",
+          "tags": [
+            "Keamanan siber",
+            "Jepang",
+            "AI"
           ]
         }
       }
@@ -524,6 +722,39 @@
             "كوريا الجنوبية",
             "الذكاء الاصطناعي"
           ]
+        },
+        "ja": {
+          "location": "韓国 · ソウル",
+          "title": "韓国株が一日で3.65%急落、6月高値から31%下落しベア相場入り",
+          "summary": "韓国総合株価指数（KOSPI）は月曜日、6384.24で取引を終え、3.65%・約241ポイント安と4日連続下落した。サムスン電子が過去最高の業績を発表した直後にもかかわらず株価は4.39%下落、SKハイニックスは4.52%下落。当日だけで約175兆ウォン、4日間で440兆ウォン超の時価総額が消失した。アナリストはAIブームの過熱感後退、今年の外国人売り越し1310億ドル、米長期金利上昇や中東情勢などの外圧を背景に挙げる。指数は6月高値からすでに31%下落している。",
+          "why": "韓国市場は半導体株への依存が大きく、世界のAI投資のバロメーターと見なされがちで、急落はAI関連資産の見直しが広がっている兆しかもしれない。",
+          "tags": [
+            "株式市場",
+            "韓国",
+            "AI"
+          ]
+        },
+        "ko": {
+          "location": "한국 · 서울",
+          "title": "한국 증시 하루 3.65% 급락, 6월 고점 대비 31% 하락해 약세장 진입",
+          "summary": "코스피는 월요일 6,384.24로 거래를 마쳐 3.65%(약 241포인트) 하락하며 4거래일 연속 내렸다. 삼성전자가 사상 최고 실적을 발표한 직후임에도 주가는 4.39% 하락, SK하이닉스는 4.52% 하락했다. 하루에만 약 175조 원, 나흘간 440조 원 넘는 시가총액이 증발했다. 분석가들은 AI 붐 식힘, 올해 외국인 순매도 1,310억 달러, 미국 국채 금리 상승과 중동 긴장 등 외부 압력을 원인으로 든다. 지수는 이제 6월 고점 대비 31% 낮다.",
+          "why": "한국 시장은 반도체 비중과 글로벌 AI 투자의 지표로 자주 거론되며, 급락은 AI 관련 자산 재평가가 확산된다는 신호일 수 있다.",
+          "tags": [
+            "주식시장",
+            "한국",
+            "AI"
+          ]
+        },
+        "id": {
+          "location": "Korea Selatan · Seoul",
+          "title": "Saham Korea Selatan anjlok 3,65% dalam sehari, turun 31% dari puncak Juni dan masuk bear market",
+          "summary": "Indeks Harga Saham Gabungan Korea (KOSPI) ditutup Senin di 6.384,24, turun 3,65% atau sekitar 241 poin, sesi turun keempat beruntun. Meski Samsung Electronics baru melaporkan hasil rekor, sahamnya jatuh 4,39% dan SK hynix 4,52%; sekitar 175 triliun won nilai pasar terkikis hari itu dan lebih dari 440 triliun won dalam empat hari. Analis menautkan aksi jual ke pendinginan booming AI, outflow asing $131 miliar tahun ini, serta tekanan eksternal seperti naik yield Treasury AS dan ketegangan Timur Tengah. Indeks kini 31% di bawah puncak Juni.",
+          "why": "Pasar Korea sangat bergantung pada saham chip dan sering dilihat sebagai barometer perdagangan AI global; anjloknya bisa menandai penilaian ulang aset terkait AI yang menyebar.",
+          "tags": [
+            "Pasar saham",
+            "Korea Selatan",
+            "AI"
+          ]
         }
       }
     },
@@ -598,6 +829,39 @@
             "الملاحة",
             "مضيق هرمز",
             "الاتحاد الأوروبي"
+          ]
+        },
+        "ja": {
+          "location": "EU / 国際",
+          "title": "60カ国がEUの「手数料なし・通行料なし」イニシアチブに参加、海峡の自由通航を擁護",
+          "summary": "EU外務・安全保障政策上級代表のカヤ・カラス（元エストニア首相）が「No Fees, No Tolls」イニシアチブを立ち上げ、EU27カ国に加え英国・カナダ・日本・オーストラリアなど計60カ国が署名した。署名国は国連海洋法条約の原則を堅持し、一方的な強制措置、差別的制限、事前許可要件に反対すると約束し、ホルムズ海峡やバブ・エル・マンデブなど重要水路を名指しした。当局はこれらの水路が世界貿易と必需品の生命線だと強調し、さらなる参加を歓迎した。一部の批判者は、原則がガザ向け援助船にも当てはまるのかと疑問を呈した。",
+          "why": "イランが海峡通航と海底ケーブルへの課金・制限を検討する中、これは西側陣営の集団的表明であり、執行されるかどうかが海運安全と油価に影響する。",
+          "tags": [
+            "海運",
+            "ホルムズ海峡",
+            "EU"
+          ]
+        },
+        "ko": {
+          "location": "EU / 국제",
+          "title": "60개국, EU \"수수료·통행료 없음\" 이니셔티브 합류해 해협 자유통항 옹호",
+          "summary": "EU 외교안보정책 고위대표 카야 칼라스(전 에스토니아 총리)가 \"No Fees, No Tolls\" 이니셔티브를 출범시켰고, EU 27개국에 더해 영국·캐나다·일본·호주 등 총 60개국이 서명했다. 서명국은 유엔해양법협약 원칙을 지키며 일방적 강제조치·차별적 제한·사전허가 요건에 반대한다고 약속하고, 호르무즈 해협·바브엘만데브 등 핵심 수로를 지목했다. 당국은 이들 수로가 세계 무역과 필수재의 생명선이라고 강조하며 추가 참여를 환영했다. 일부 비판자들은 원칙이 가자행 구호선에도 적용되는지 물었다.",
+          "why": "이란이 해협 통항과 해저케이블에 요금·제한을 검토하는 가운데, 이는 서방 진영의 집단 성명으로 집행 여부가 해운 안보와 유가에 영향을 준다.",
+          "tags": [
+            "해운",
+            "호르무즈 해협",
+            "EU"
+          ]
+        },
+        "id": {
+          "location": "UE / Internasional",
+          "title": "60 negara bergabung inisiatif UE \"No Fees, No Tolls\" untuk bela laluan bebas selat",
+          "summary": "Perwakilan Tinggi UE untuk Urusan Luar Negeri dan Kebijakan Keamanan Kaja Kallas (mantan PM Estonia) meluncurkan inisiatif \"No Fees, No Tolls\", yang sejauh ini ditandatangani 60 negara termasuk 27 anggota UE plus Inggris, Kanada, Jepang, Australia, dan lainnya. Penandatangan berjanji menegakkan prinsip Konvensi PBB tentang Hukum Laut dan menentang tindakan paksa unilateral, pembatasan diskriminatif, atau syarat izin sebelumnya, menamai jalur air kunci seperti Selat Hormuz dan Bab el-Mandeb. Pejabat menekankan jalur itu adalah urat nadi perdagangan global dan barang penting serta menyambut lebih banyak negara bergabung; beberapa kritikus mempertanyakan apakah prinsip itu juga berlaku untuk kapal bantuan ke Gaza.",
+          "why": "Saat Iran mempertimbangkan biaya dan pembatasan pada transit selat serta kabel laut, ini pernyataan kolektif kamp Barat, dan penegakannya akan memengaruhi keamanan pelayaran serta harga minyak.",
+          "tags": [
+            "Pelayaran",
+            "Selat Hormuz",
+            "UE"
           ]
         }
       }
@@ -680,6 +944,42 @@
             "المساعدات العسكرية",
             "الولايات المتحدة"
           ]
+        },
+        "ja": {
+          "location": "米国 · ワシントン",
+          "title": "トランプ政権、ウクライナにロシア製油所攻撃停止を警告、情報共有と兵器経路停止を示唆",
+          "summary": "フィナンシャル・タイムズなどによると、トランプ政権は週末、キーウと複数の欧州首都に圧力をかけ、ウクライナがロシアのエネルギー施設攻撃を続ければ、米国は情報共有を停止し、欧州が米国製兵器（パトリオットを含む）をウクライナへ回すための費用を負担するPURL枠組みを封鎖しうるとした。警告はトランプが発表した米ロのディーゼル輸入合意と「エネルギー停戦」の後で、ウクライナ側は不意打ちだったと述べた。ホワイトハウスは公式コメントしておらず、実際の援助停止は確認されていない。ウクライナ軍は活動を続けているとされ、ロシアによる対ウクライナインフラ攻撃は冬を前に激化している。超党派の上院議員グループも共同書簡で、ディーゼル合意は2022年のロシア産エネルギー輸入禁止に抵触しうるとし、撤回を求めた。",
+          "why": "「エネルギー停戦」の物語の下で、米国が軍事援助と情報を初めて露骨な圧力手段に結びつけ、ウクライナの冬の防衛と対ロシア政策をめぐる大西洋間の亀裂に直結する。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "エネルギー",
+            "軍事援助",
+            "米国"
+          ]
+        },
+        "ko": {
+          "location": "미국 · 워싱턴",
+          "title": "트럼프 행정부, 우크라이나에 러시아 정유시설 타격 중단 경고…정보공유·무기 경로 차단 시사",
+          "summary": "파이낸셜타임스 등에 따르면 트럼프 행정부는 주말 키이우와 여러 유럽 수도에 압박을 가해, 우크라이나가 러시아 에너지 시설 타격을 이어가면 미국이 정보 공유를 중단하고 유럽이 미국제 무기(패트리엇 포함)를 우크라이나에 넘기기 위해 비용을 부담하는 PURL 틀을 막을 수 있다고 했다. 경고는 트럼프가 발표한 미·러 디젤 수입 합의와 \"에너지 휴전\" 이후였고 우크라이나 측은 뜻밖이었다고 했다. 백악관은 공식 논평하지 않았고 실제 원조 중단은 확인되지 않았다. 우크라이나군은 여전히 작전 중으로 알려졌고, 러시아의 대우크라이나 인프라 공격은 겨울을 앞두고 격화하고 있다. 초당파 상원의원 그룹도 공동서한에서 디젤 합의가 2022년 러시아 에너지 수입 금지에 위배될 수 있다며 취소를 촉구했다.",
+          "why": "\"에너지 휴전\" 서사 아래 미국이 군사원조와 정보를 처음으로 노골적 지렛대로 연결했고, 우크라이나의 겨울 방어와 대러시아 정책을 둘러싼 대서양 균열에 직결된다.",
+          "tags": [
+            "러·우 전쟁",
+            "에너지",
+            "군사원조",
+            "미국"
+          ]
+        },
+        "id": {
+          "location": "Amerika Serikat · Washington",
+          "title": "Pemerintahan Trump peringatkan Ukraina hentikan serangan kilang Rusia atau risiko kehilangan berbagi intelijen dan saluran senjata",
+          "summary": "Menurut Financial Times dan lainnya, pemerintahan Trump menekan Kyiv dan beberapa ibu kota Eropa akhir pekan: jika Ukraina terus menyerang fasilitas energi Rusia, AS dapat menangguhkan berbagi intelijen dan memblokir skema PURL di mana Eropa membayar senjata buatan AS (termasuk Patriot) untuk disalurkan ke Ukraina. Peringatan itu menyusul kesepakatan impor diesel AS–Rusia dan \"gencatan energi\" yang diumumkan Trump, yang menurut Ukraina datang mendadak. Gedung Putih belum berkomentar resmi dan belum terlihat pemutusan bantuan aktual; pasukan Ukraina dilaporkan masih beroperasi, sementara serangan Rusia ke infrastruktur Ukraina meningkat menjelang musim dingin. Kelompok senator AS bipartisan juga mengirim surat bersama mengatakan kesepakatan diesel mungkin melanggar larangan 2022 atas impor energi Rusia dan mendesak pembatalannya.",
+          "why": "Untuk pertama kali dalam narasi \"gencatan energi\", AS secara terbuka mengaitkan bantuan militer dan intelijen sebagai tekanan keras, langsung memengaruhi pertahanan musim dingin Ukraina dan keretakan transatlantik soal kebijakan Rusia.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Energi",
+            "Bantuan militer",
+            "Amerika Serikat"
+          ]
         }
       }
     },
@@ -761,6 +1061,42 @@
             "البحر الأسود",
             "بولندا"
           ]
+        },
+        "ja": {
+          "location": "ポーランド · ワルシャワ",
+          "title": "ゼレンスキー、ワルシャワ安保フォーラムで警告：ロシアの黒海封鎖で1〜2カ月以内に食料危機の恐れ",
+          "summary": "ゼレンスキー大統領はワルシャワ安全保障フォーラムにビデオ参加し、ポーランドのドナルド・トゥスク首相とともに登壇した。ディーゼル不足ばかりが話題で食料が忘れられていると指摘し、「皆がディーゼルの話をして食料を忘れている」と述べた。ロシアによる黒海航路封鎖がウクライナのアフリカ・アジア・中東向け穀物輸出を脅かし、1〜2カ月以内に農業危機が起きうると警告。米国と欧州への影響は相対的に小さく、脆弱地域が先に打撃を受けるとした。フォーラムはNATO戦略、欧州防衛、対ウ支援が焦点で、トゥスクは対ロシア結束を再確認した。ゼレンスキーは飢饉防止は世界の共有責任だと述べた。",
+          "why": "「エネルギー停戦」議論を食料安全保障に引き戻し、黒海海運がグローバル・サウスの食料価格と安定に波及するリスクを浮き彫りにした。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "食料",
+            "黒海",
+            "ポーランド"
+          ]
+        },
+        "ko": {
+          "location": "폴란드 · 바르샤바",
+          "title": "젤렌스키, 바르샤바 안보포럼서 경고: 러시아 흑해 봉쇄로 한두 달 내 식량 위기 가능",
+          "summary": "젤렌스키 대통령은 바르샤바 안보포럼에 화상으로 참석해 폴란드 도널드 투스크 총리와 함께했다. 디젤 부족만 거론되고 식량은 잊힌다며 \"모두가 디젤을 말하고 식량을 잊는다\"고 했다. 러시아의 흑해 항로 봉쇄가 우크라이나의 아프리카·아시아·중동 곡물 수출을 위협하고 한두 달 안에 농업 위기가 올 수 있다고 경고했다. 미국과 유럽 영향은 상대적으로 적고 취약 지역이 먼저 타격을 받는다고 했다. 포럼은 NATO 전략·유럽 방위·대우크라이나 지원에 초점을 맞췄고 투스크는 대러 연대를 재확인했다. 젤렌스키는 기아 방지가 세계의 공동 책임이라고 했다.",
+          "why": "\"에너지 휴전\" 논의를 식량 안보로 되돌리며, 흑해 해운이 글로벌 사우스의 식량 가격과 안정에 미치는 파급 위험을 드러냈다.",
+          "tags": [
+            "러·우 전쟁",
+            "식량",
+            "흑해",
+            "폴란드"
+          ]
+        },
+        "id": {
+          "location": "Polandia · Warsawa",
+          "title": "Zelensky peringatkan di Forum Keamanan Warsawa: blokade Laut Hitam Rusia bisa picu krisis pangan dalam satu–dua bulan",
+          "summary": "Presiden Ukraina Zelensky bergabung via video di Forum Keamanan Warsawa bersama PM Polandia Donald Tusk. Ia mencatat semua orang berbicara soal kekurangan diesel sambil mengabaikan pangan: \"Semua bicara diesel dan lupa soal pangan.\" Ia memperingatkan blokade Rusia atas rute Laut Hitam mengancam ekspor biji-bijian Ukraina ke Afrika, Asia, dan Timur Tengah, dan krisis pertanian bisa muncul dalam satu atau dua bulan; AS dan Eropa kurang terdampak, sementara kawasan rentan kena lebih dulu. Forum berfokus pada strategi NATO, pertahanan Eropa, dan bantuan ke Ukraina, dan Tusk menegaskan kembali persatuan melawan Rusia. Zelensky mengatakan mencegah kelaparan adalah tanggung jawab bersama dunia.",
+          "why": "Ini menarik debat \"gencatan energi\" kembali ke keamanan pangan, menyoroti risiko limpahan pelayaran Laut Hitam ke harga pangan dan stabilitas Global South.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Pangan",
+            "Laut Hitam",
+            "Polandia"
+          ]
         }
       }
     },
@@ -835,6 +1171,39 @@
             "العقوبات",
             "الاتحاد الأوروبي",
             "روسيا"
+          ]
+        },
+        "ja": {
+          "location": "ルクセンブルク",
+          "title": "EUが対ロシア制裁を過去最大規模で拡大、ミサイル・ドローンと戦争経済を標的に",
+          "summary": "ルクセンブルクのEU外務理事会は対ロシアの新たな制裁を採択し、約826の団体と743人、計ほぼ1600件を追加し、弾道ミサイル生産、ドローン供給網、より広い戦争経済ネットワークに焦点を当てた。上級代表カラスは終了後、ウクライナに対するロシアの武装能力を共同で制限すると述べた。措置には資産凍結、渡航禁止、資金調達制限が含まれ、EUの累計対ロ制裁リストは約4650件に達する。論者は米国との調整や「エネルギー停戦」の検証可能性も求めた。",
+          "why": "米国がロシア製ディーゼルへの圧力を緩めウクライナに製油所攻撃停止を求める同じ時間帯に、欧州は制裁を強化する逆方向に動き、対ロシア政策で大西洋間のずれが鮮明になった。",
+          "tags": [
+            "制裁",
+            "EU",
+            "ロシア"
+          ]
+        },
+        "ko": {
+          "location": "룩셈부르크",
+          "title": "EU, 대러시아 제재 사상 최대 확대…미사일·드론·전쟁경제 겨냥",
+          "summary": "룩셈부르크 EU 외무장관이사회는 대러시아 신규 제재를 채택해 약 826개 단체와 743명, 총 거의 1,600건을 추가하고 탄도미사일 생산·드론 공급망·더 넓은 전쟁경제 네트워크에 초점을 맞췄다. 고위대표 칼라스는 이후 우크라이나에 대한 러시아의 무장 능력을 함께 제한한다고 했다. 조치에는 자산 동결·여행 금지·자금 조달 제한이 포함되며 EU 누적 대러 제재 목록은 약 4,650건에 이른다. 논자들은 미국과의 조율과 \"에너지 휴전\"의 검증 가능성도 요구했다.",
+          "why": "미국이 러시아 디젤 압력을 완화하고 우크라이나에 정유시설 타격 중단을 압박하는 같은 시기에 유럽은 제재를 강화하는 반대 방향으로 움직여, 대러시아 정책에서 대서양 간 불일치가 뚜렷해졌다.",
+          "tags": [
+            "제재",
+            "EU",
+            "러시아"
+          ]
+        },
+        "id": {
+          "location": "Luksemburg",
+          "title": "UE adopsi perluasan sanksi Rusia terbesar, targetkan rudal, drone, dan ekonomi perang",
+          "summary": "Dewan Urusan Luar Negeri UE di Luksemburg mengadopsi putaran sanksi baru terhadap Rusia, menambah sekitar 826 entitas dan 743 individu, hampir 1.600 listing total, berfokus pada produksi rudal balistik, rantai pasok drone, dan jaringan ekonomi perang yang lebih luas. Perwakilan Tinggi Kallas mengatakan setelahnya langkah itu bersama-sama membatasi kemampuan Rusia mempersenjatai diri melawan Ukraina. Langkah mencakup pembekuan aset, larangan perjalanan, dan pembatasan pembiayaan, membawa daftar sanksi Rusia kumulatif UE ke sekitar 4.650 listing. Pengamat juga menyerukan koordinasi dengan AS dan agar setiap \"gencatan energi\" dapat diverifikasi.",
+          "why": "Pada jendela yang sama ketika AS melonggarkan tekanan pada diesel Rusia dan mendesak Ukraina berhenti menyerang kilang, Eropa bergerak berlawanan dengan lebih banyak sanksi—ketidakselarasan transatlantik yang jelas soal Rusia.",
+          "tags": [
+            "Sanksi",
+            "UE",
+            "Rusia"
           ]
         }
       }
@@ -911,6 +1280,39 @@
             "الضحايا المدنيون",
             "المسيّرات"
           ]
+        },
+        "ja": {
+          "location": "ウクライナ · ハルキウ",
+          "title": "10月12日早朝、ロシアのドローンがハルキウの集合住宅を攻撃、子ども含む少なくとも19人負傷",
+          "summary": "現地時間10月12日朝、ロシアの「シャーヘド」ドローンがハルキウの複数の住宅（キーウシキ地区を含む）を攻撃し、9階建て集合住宅の7〜9階が破壊・炎上した。当初少なくとも11人（10歳の少年を含む）が負傷し、その後約19人（子ども2人を含む）に増えた。ウクライナによると、その夜ロシアは約121機のドローンを発射し、防空が89機を撃墜。スポーツ施設や住宅も被害を受けた。先立つ10月10〜11日にはザポリージャなどへの誘導航空爆弾攻撃で民間人約20人（子ども4人を含む）が死亡した。ゼレンスキー側は攻撃を米国がロシア製ディーゼルへの圧力を緩めたことと結び付けた。",
+          "why": "冬を前にした民間住宅と電力網への継続攻撃は、「エネルギー停戦」に相互拘束力があるかを直接試している。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "民間人犠牲",
+            "ドローン"
+          ]
+        },
+        "ko": {
+          "location": "우크라이나 · 하르키우",
+          "title": "10월 12일 새벽 러시아 드론이 하르키우 아파트 타격, 어린이 포함 최소 19명 부상",
+          "summary": "현지시간 10월 12일 아침 러시아 \"샤헤드\" 드론이 하르키우의 여러 주거 건물(키이우스키 지구 포함)을 타격해 9층 아파트 7~9층이 파괴·화재에 휩싸였다. 처음 최소 11명(10세 소년 포함)이 다쳤고 이후 약 19명(어린이 2명 포함)으로 늘었다. 우크라이나에 따르면 그날 밤 러시아는 약 121대의 드론을 발사했고 방공이 89대를 격추했다. 스포츠 시설과 주택도 피격됐다. 앞서 10월 10~11일 자포리자와 등지에 대한 유도항공폭탄 공격으로 민간인 약 20명(어린이 4명 포함)이 사망했다. 젤렌스키 측은 공격을 미국이 러시아 디젤 압력을 완화한 것과 연결했다.",
+          "why": "겨울을 앞둔 민간 주거와 전력망에 대한 지속 공격은 \"에너지 휴전\"에 상호 제약이 있는지를 직접 시험한다.",
+          "tags": [
+            "러·우 전쟁",
+            "민간 피해",
+            "드론"
+          ]
+        },
+        "id": {
+          "location": "Ukraina · Kharkiv",
+          "title": "Drone Rusia hantam blok apartemen Kharkiv dini hari 12 Oktober, setidaknya 19 cedera termasuk anak",
+          "summary": "Pada pagi 12 Oktober waktu setempat, drone \"Shahed\" Rusia menyerang beberapa bangunan tempat tinggal di Kharkiv, termasuk di distrik Kyivskyi; lantai 7–9 sebuah blok apartemen sembilan lantai hancur dan terbakar. Setidaknya 11 orang awalnya cedera (termasuk anak laki-laki 10 tahun), kemudian naik menjadi sekitar 19 (termasuk dua anak). Ukraina mengatakan Rusia meluncurkan sekitar 121 drone malam itu, 89 di antaranya ditembak jatuh pertahanan udara; fasilitas olahraga dan rumah juga terkena. Sebelumnya, pada 10–11 Oktober, serangan bom udara berpemandu di Zaporizhzhia dan tempat lain menewaskan sekitar 20 sipil (termasuk 4 anak). Pihak Zelensky mengaitkan serangan itu dengan pelonggaran tekanan AS atas diesel Rusia.",
+          "why": "Serangan berkelanjutan ke perumahan sipil dan jaringan listrik menjelang musim dingin langsung menguji apakah \"gencatan energi\" punya batasan timbal balik.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Korban sipil",
+            "Drone"
+          ]
         }
       }
     },
@@ -985,6 +1387,39 @@
             "كندا",
             "العلاقات الأمريكية الكندية",
             "الدفاع"
+          ]
+        },
+        "ja": {
+          "location": "カナダ · オタワ",
+          "title": "カナダ軍が「極端な米国侵攻リスク」への緊急計画を策定、カーニー首相は極端なテールリスクと説明",
+          "summary": "BBC報道とその後のカナダ当局確認によると、カナダ軍は米国の軍事行動への対応として極めて仮説的な計画を策定中で、ゲリラ戦の考え方、英仏など同盟国の支援模索、予備役を約30万人の市民兵まで拡大する案などが含まれる。マーク・カーニー首相は「極端なテールリスク」への標準的リスク管理だと述べつつ、減税・投資誘致・対米貿易依存の低減を進めている。米政治家はシナリオを荒唐無稽だと嘲り、力ではなく経済圧力だと強調した。カーニーは10月29日モントリオールで、フォン・デア・ライエン欧州委員長とコスタ欧州理事会議長とともに、貿易・防衛・重要鉱物を含むカナダ・EU「変革的同盟」に署名する予定とも伝えられる。",
+          "why": "北米同盟国間の関係が関税と戦略的不信の中で公開の緊急計画にまで至り、カナダは対欧ヘッジを加速させており、米国の一方的圧力下での中堅国の安全保障不安を映している。",
+          "tags": [
+            "カナダ",
+            "米加関係",
+            "防衛"
+          ]
+        },
+        "ko": {
+          "location": "캐나다 · 오타와",
+          "title": "캐나다군, \"극단적 미국 침공 위험\" 비상계획 작성…카니 총리는 극단적 꼬리위험이라고",
+          "summary": "BBC 보도와 이후 캐나다 당국 확인에 따르면 캐나다군은 미국 군사행동에 대응하는 매우 가설적인 계획을 세우고 있으며, 게릴라전 개념, 영·프 등 동맹 지원 모색, 예비역을 시민병 약 30만 명까지 확대하는 안 등이 포함된다. 마크 카니 총리는 \"극단적 꼬리위험\"에 대한 표준 위험 관리라고 하면서 감세·투자 유치·대미 무역 의존 축소를 추진 중이다. 미국 정치인들은 시나리오를 터무니없다고 조롱하며 무력이 아닌 경제 압력이라고 강조했다. 카니는 10월 29일 몬트리올에서 폰데어라이엔 유럽위원회 위원장, 코스타 유럽이사회 의장과 무역·국방·핵심광물을 아우르는 캐나다–EU \"변혁적 동맹\"에 서명할 예정이라고도 전해진다.",
+          "why": "북미 동맹 관계가 관세와 전략적 불신 속에 공개 비상계획까지 이르렀고, 캐나다는 대유럽 헤지를 가속해 미국 일방 압력 아래 중견국의 안보 불안을 보여 준다.",
+          "tags": [
+            "캐나다",
+            "미·캐나다 관계",
+            "국방"
+          ]
+        },
+        "id": {
+          "location": "Kanada · Ottawa",
+          "title": "Militer Kanada susun rencana kontinjensi \"risiko ekstrem invasi AS\"; Carney sebut risiko ekor ekstrem",
+          "summary": "Menurut laporan BBC yang kemudian dikonfirmasi pejabat Kanada, militer Kanada menyusun rencana sangat hipotetis untuk merespons aksi militer AS, termasuk konsep perang gerilya, mencari dukungan sekutu Inggris, Prancis, dan lainnya, serta memperluas cadangan menjadi sekitar 300.000 tentara warga. PM Mark Carney menyebutnya manajemen risiko standar untuk \"risiko ekor ekstrem\" sambil mendorong pemotongan pajak, daya tarik investasi, dan pengurangan ketergantungan perdagangan pada AS. Politisi AS mengejek skenario itu sebagai absurb, menekankan tekanan ekonomi bukan kekuatan. Carney juga dilaporkan berencana menandatangani \"aliansi transformatif\" Kanada–UE yang mencakup perdagangan, pertahanan, dan mineral kritis bersama Presiden Komisi Eropa von der Leyen dan Presiden Dewan Eropa Costa di Montreal pada 29 Oktober.",
+          "why": "Hubungan sekutu Amerika Utara mencapai perencanaan kontinjensi terbuka di tengah tarif dan ketidakpercayaan strategis, dan Kanada mempercepat lindung nilai ke Eropa—mencerminkan kecemasan keamanan kekuatan menengah di bawah tekanan unilateral AS.",
+          "tags": [
+            "Kanada",
+            "Hubungan AS–Kanada",
+            "Pertahanan"
           ]
         }
       }
@@ -1067,6 +1502,42 @@
             "العقوبات",
             "الدبلوماسية"
           ]
+        },
+        "ja": {
+          "location": "中国 · 北京",
+          "title": "中国、台湾関係を理由にパラグアイとベリーズの閣僚を制裁、入国禁止と取引制限",
+          "summary": "中国外交部は10月12日、パラグアイの情報通信技術相グスターボ・ビジャテとベリーズ外相フランシス・フォンセカへの制裁を発表し、中国本土・香港・マカオへの入国禁止、関連取引禁止、資産凍結を含む。両者は最近台湾当局者と面会した。台湾を承認する国は約12カ国で、分析者は今回の措置は即時の経済打撃より象徴的だとしつつ、北京が台北の残る外交同盟への圧力を強めているとみている。",
+          "why": "中南米で数少ない親台湾国の当局者への個人制裁は、海峡を挟んだ外交戦が個人に波及している新たな兆しだ。",
+          "tags": [
+            "中国",
+            "台湾",
+            "制裁",
+            "外交"
+          ]
+        },
+        "ko": {
+          "location": "중국 · 베이징",
+          "title": "중국, 대만 관계 이유로 파라과이·벨리즈 장관 제재…입국 금지·거래 제한",
+          "summary": "중국 외교부는 10월 12일 파라과이 정보통신기술부 장관 구스타보 비야테와 벨리즈 외무장관 프란시스 폰세카에 대한 제재를 발표하고 중국 본토·홍콩·마카오 입국 금지, 관련 거래 금지, 자산 동결을 포함했다. 두 사람은 최근 대만 당국자와 만났다. 대만을 승인하는 나라는 약 12개국이며, 분석가들은 이번 조치가 즉각적 경제 타격보다는 상징적이지만 베이징이 타이베이의 남은 외교 동맹에 대한 압력을 높이고 있다고 본다.",
+          "why": "중남미에서 드문 친대만국 당국자에 대한 개인 제재는 양안 외교전이 개인으로 번지고 있음을 보여주는 새 신호다.",
+          "tags": [
+            "중국",
+            "대만",
+            "제재",
+            "외교"
+          ]
+        },
+        "id": {
+          "location": "China · Beijing",
+          "title": "China sanksi menteri Paraguay dan Belize terkait Taiwan, larang masuk dan batasi transaksi",
+          "summary": "Kementerian Luar Negeri China mengumumkan pada 12 Oktober sanksi terhadap Menteri Teknologi Informasi dan Komunikasi Paraguay Gustavo Villate dan Menteri Luar Negeri Belize Francis Fonseca, termasuk larangan masuk ke daratan China, Hong Kong, dan Makau, larangan transaksi terkait, dan pembekuan aset. Keduanya baru-baru ini bertemu pejabat Taiwan. Sekitar 12 negara masih mengakui Taiwan; analis mengatakan langkah itu lebih simbolis daripada pukulan ekonomi langsung, tetapi menunjukkan Beijing meningkatkan tekanan pada sisa sekutu diplomatik Taipei.",
+          "why": "Sanksi pribadi terhadap pejabat sedikit negara pro-Taiwan di Amerika Latin dan Tengah adalah tanda baru perang diplomatik lintas selat yang merembet ke individu.",
+          "tags": [
+            "China",
+            "Taiwan",
+            "Sanksi",
+            "Diplomasi"
+          ]
         }
       }
     },
@@ -1148,6 +1619,42 @@
             "التوظيف",
             "الاقتصاد"
           ]
+        },
+        "ja": {
+          "location": "タイ · バンコク",
+          "title": "IMF専務理事ゲオルギエバ：AIは世界の職の約40%に影響、「ゆっくり動く津波」",
+          "summary": "バンコクのIMF・世界銀行年次総会で、クリスタリナ・ゲオルギエバ専務理事は人工知能を労働市場を再構築する「ゆっくり動く津波」と呼び、世界の職の約40%が増強・降格・消滅しうる、先進国では約60%、低所得国では約23%だと述べた。新卒の入口職や将来の税基盤への圧力を警告しつつ、AIが投資を押し上げ新機会を生む可能性も認めた。参加者は教育、生涯学習、財政政策を議論。総会は戦後最高水準に近い世界の公的債務、新興国金利、気候ショックにも焦点を当てている。",
+          "why": "AIの雇用影響を主権債務と並ぶ政策議題の中心に据え、各国の財政と再訓練の優先順位を直接形づくる。",
+          "tags": [
+            "IMF",
+            "AI",
+            "雇用",
+            "経済"
+          ]
+        },
+        "ko": {
+          "location": "태국 · 방콕",
+          "title": "IMF 총재 게오르기에바: AI가 전 세계 일자리 약 40%에 영향, \"느리게 움직이는 쓰나미\"",
+          "summary": "방콕 IMF·세계은행 연차총회에서 크리스탈리나 게오르기에바 총재는 인공지능을 노동시장을 재편하는 \"느리게 움직이는 쓰나미\"라고 부르며, 전 세계 일자리의 약 40%가 보강·격하·소멸될 수 있고 선진국은 약 60%, 저소득국은 약 23%라고 했다. 신입 일자리와 미래 세원에 대한 압력을 경고하면서도 AI가 투자를 키우고 새 기회를 만들 수 있다고 인정했다. 참석자들은 교육·평생학습·재정정책을 논의하며, 총회는 2차대전 이후 최고 수준에 가까운 세계 공공부채, 신흥국 금리, 기후 충격에도 초점을 맞춘다.",
+          "why": "AI의 일자리 영향을 주권부채와 함께 정책 의제의 중심에 두어, 각국의 재정과 재훈련 우선순위를 직접 형성한다.",
+          "tags": [
+            "IMF",
+            "AI",
+            "일자리",
+            "경제"
+          ]
+        },
+        "id": {
+          "location": "Thailand · Bangkok",
+          "title": "Kepala IMF Georgieva: AI dapat memengaruhi sekitar 40% pekerjaan dunia, \"tsunami yang bergerak lambat\"",
+          "summary": "Di Pertemuan Tahunan IMF–Bank Dunia di Bangkok, Managing Director Kristalina Georgieva menyebut kecerdasan buatan sebagai \"tsunami yang bergerak lambat\" yang membentuk ulang pasar tenaga kerja: sekitar 40% pekerjaan di dunia dapat diperkuat, diturunkan, atau dihilangkan, sekitar 60% di ekonomi maju dan sekitar 23% di negara berpenghasilan rendah. Ia memperingatkan tekanan pada pekerjaan tingkat pemula bagi lulusan muda dan basis pajak masa depan, sambil mengakui AI dapat mendorong investasi dan menciptakan peluang baru. Peserta membahas pendidikan, pembelajaran sepanjang hayat, dan kebijakan fiskal; pertemuan juga berfokus pada utang publik global di level tertinggi pasca Perang Dunia II, suku bunga pasar emerging, dan guncangan iklim.",
+          "why": "Ini menempatkan dampak AI pada pekerjaan di pusat agenda kebijakan bersama utang negara, langsung membentuk prioritas fiskal dan pelatihan ulang negara.",
+          "tags": [
+            "IMF",
+            "AI",
+            "Pekerjaan",
+            "Ekonomi"
+          ]
         }
       }
     },
@@ -1222,6 +1729,39 @@
             "فلسطين",
             "الانتخابات",
             "الشرق الأوسط"
+          ]
+        },
+        "ja": {
+          "location": "パレスチナ · ラマラ",
+          "title": "アッバス議長、立法・大統領選挙を2027年9月に延期",
+          "summary": "90歳のパレスチナ自治政府議長マフムード・アッバスは、2026年11月末予定だった立法選挙を2027年9月に延期し、同時に大統領選挙も行うと発表した。自治政府はイスラエルの制限、入植拡大、ガザと西岸の治安を理由に挙げ、ハマスは延期を「前向きな一歩」と呼んだ。フランスやイスラエルなどは、2006年の立法選挙と2005年の就任以降繰り返される延期を批判し、民主的刷新の加速を求めた。二国家解決の議論が再燃する中、パレスチナ内部の正統性がどう維持されるか、観測筋は疑問を呈している。",
+          "why": "さらなる延期は自治政府の代表権主張を弱め、戦後統治の枠組みと政治的妥結の信頼性に影響する。",
+          "tags": [
+            "パレスチナ",
+            "選挙",
+            "中東"
+          ]
+        },
+        "ko": {
+          "location": "팔레스타인 · 라말라",
+          "title": "압바스, 입법·대선 2027년 9월로 연기",
+          "summary": "90세의 팔레스타인 자치정부 수반 마흐무드 압바스는 2026년 11월 말로 예정됐던 입법선거를 2027년 9월로 연기하고 대선도 함께 실시한다고 발표했다. 자치정부는 이스라엘의 제한, 정착촌 확대, 가자와 서안 치안을 이유로 들었고 하마스는 연기를 \"긍정적 조치\"라고 했다. 프랑스·이스라엘 등은 2006년 입법선거와 2005년 취임 이후 반복된 연기를 비판하며 민주적 쇄신을 가속하라고 촉구했다. 두 국가 논의가 재개되는 가운데 관측통들은 팔레스타인 내부 정당성이 어떻게 유지될지 의문을 제기한다.",
+          "why": "또 다른 연기는 자치정부의 대표성 주장을 약화시켜 전후 통치 구도와 정치적 타결의 신뢰성에 영향을 준다.",
+          "tags": [
+            "팔레스타인",
+            "선거",
+            "중동"
+          ]
+        },
+        "id": {
+          "location": "Palestina · Ramallah",
+          "title": "Abbas tunda pemilu legislatif dan presidensial ke September 2027",
+          "summary": "Mahmoud Abbas, Presiden Otoritas Palestina berusia 90 tahun, mengumumkan pemilu legislatif yang direncanakan akhir November 2026 ditunda ke September 2027, dengan pemilu presidensial dijadwalkan bersamaan. PA menyalahkan pembatasan Israel, perluasan permukiman, dan situasi keamanan di Gaza serta Tepi Barat; Hamas menyebut penundaan \"langkah positif\". Prancis, Israel, dan lainnya mengkritik penundaan berulang sejak pemilu legislatif 2006 dan Abbas menjabat sejak 2005, mendesak pembaruan demokratis lebih cepat. Di tengah diskusi dua negara yang kembali, pengamat mempertanyakan bagaimana legitimasi internal Palestina dapat dipertahankan.",
+          "why": "Penundaan lagi melemahkan klaim PA mewakili rakyat Palestina, memengaruhi pengaturan tata kelola pascaperang dan kredibilitas penyelesaian politik.",
+          "tags": [
+            "Palestina",
+            "Pemilu",
+            "Timur Tengah"
           ]
         }
       }
@@ -1298,6 +1838,39 @@
             "العقوبات",
             "المحكمة الجنائية الدولية"
           ]
+        },
+        "ja": {
+          "location": "米国 / ハーグ",
+          "title": "米国が国際刑事裁判所に広範な制裁、ルビオ長官「脅威を終わらせなければ米国が裁判所を終わらせる」",
+          "summary": "マルコ・ルビオ米国務長官は、オランダ・ハーグに本拠を置く常設国際刑事法廷である国際刑事裁判所（ICC）への広範な制裁を発表した。米主体との取引禁止と米管轄下の資産凍結が含まれ、6カ月の猶予と通信・ソフトなどの適用除外がある。ワシントンは米・イスラエル関係者への捜査とネタニヤフ首相らへの逮捕状への対抗と位置づけ、ICC所長は法の支配への攻撃だと非難した。カナダ・ドイツ・フランス・英国など締約国8カ国は遺憾を表明し、裁判所への支持と対話を約束した。",
+          "why": "大国が国際司法機関に加えた最も強い財政・制度的圧力の一つであり、戦争犯罪の説明責任と大西洋横断外交に影響する。",
+          "tags": [
+            "国際司法",
+            "制裁",
+            "ICC"
+          ]
+        },
+        "ko": {
+          "location": "미국 / 헤이그",
+          "title": "미국, 국제형사재판소에 광범위 제재…루비오 \"위협을 끝내라, 아니면 미국이 재판소를 끝낼 것\"",
+          "summary": "마코 루비오 미 국무장관은 네덜란드 헤이그에 본부를 둔 상설 국제형사법정인 국제형사재판소(ICC)에 대한 광범위 제재를 발표했다. 미 주체와의 거래 금지와 미 관할 자산 동결이 포함되며 6개월 유예와 통신·소프트웨어 등 예외가 있다. 워싱턴은 미국·이스라엘 인사 수사와 네타냐후 총리 등에 대한 체포영장에 대응한다고 했고, ICC 소장은 법치에 대한 공격이라고 비난했다. 캐나다·독일·프랑스·영국 등 당사국 8개국은 유감을 표하고 재판소 지지와 대화를 약속했다.",
+          "why": "강대국이 국제사법기구에 가한 가장 강한 재정·제도적 압력 중 하나로, 전쟁범죄 책임과 대서양 외교에 영향을 준다.",
+          "tags": [
+            "국제사법",
+            "제재",
+            "ICC"
+          ]
+        },
+        "id": {
+          "location": "AS / Den Haag",
+          "title": "AS jatuhkan sanksi luas ke Mahkamah Pidana Internasional; Rubio: \"Akhiri ancaman, atau AS akan akhiri pengadilan\"",
+          "summary": "Menteri Luar Negeri AS Marco Rubio mengumumkan sanksi luas terhadap Mahkamah Pidana Internasional (ICC, pengadilan pidana internasional permanen di Den Haag, Belanda): entitas AS dilarang berurusan dengannya dan asetnya di yurisdiksi AS dibekukan, dengan masa tenggang enam bulan dan pengecualian untuk telekomunikasi, perangkat lunak, dan lainnya. Washington mengaitkan langkah itu dengan menentang penyelidikan terhadap personel AS dan Israel serta surat perintah penangkapan untuk PM Israel Netanyahu dan lainnya; presiden ICC mengecamnya sebagai serangan terhadap supremasi hukum. Delapan negara pihak termasuk Kanada, Jerman, Prancis, dan Inggris menyatakan penyesalan, menegaskan dukungan untuk pengadilan, dan berjanji berdialog.",
+          "why": "Ini salah satu tekanan keuangan dan kelembagaan terkuat yang pernah dikenakan kekuatan besar pada badan peradilan internasional, dengan dampak bagi akuntabilitas kejahatan perang dan diplomasi transatlantik.",
+          "tags": [
+            "Keadilan internasional",
+            "Sanksi",
+            "ICC"
+          ]
         }
       }
     },
@@ -1372,6 +1945,39 @@
             "الحرب الروسية الأوكرانية",
             "الطاقة",
             "وقف إطلاق النار"
+          ]
+        },
+        "ja": {
+          "location": "ウクライナ / 米国",
+          "title": "トランプが露ウ「エネルギー停戦」発表から数時間、ロシアはなおウクライナ発電所を攻撃",
+          "summary": "トランプ大統領は日曜、ロシアとウクライナが互いのエネルギー施設を攻撃しないことで合意したと述べた。カナダのマーク・カーニー首相は緊張緩和に役立ちうると評価した。ゼレンスキー大統領は発表が突然で、ロシアが守ればウクライナも応じるとしつつ、発表後もキーウやハルキウなどの発電所が攻撃され、過去1週間でロシアによるエネルギー施設攻撃が200回超あったと述べた。欧州委員会のウルズラ・フォンデアライエン委員長は電話でゼレンスキーを支持し、最近の防衛支援に言及した。原油は一時1バレル90ドルを割り込み、市場と戦況のシグナルは食い違った。",
+          "why": "エネルギー停戦が破綻すれば、冬の電力供給と民間人犠牲が交渉材料となり、米欧露の三角関係が本当に緊張緩和できるかを試す。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "エネルギー",
+            "停戦"
+          ]
+        },
+        "ko": {
+          "location": "우크라이나 / 미국",
+          "title": "트럼프가 러·우 \"에너지 휴전\" 발표 수시간 뒤에도 러시아는 우크라이나 발전소 공격",
+          "summary": "트럼프는 일요일 러시아와 우크라이나가 서로의 에너지 시설을 공격하지 않기로 합의했다고 했다. 캐나다 마크 카니 총리는 긴장 완화에 도움이 될 수 있다고 평가했다. 젤렌스키 대통령은 발표가 갑작스러웠고 러시아가 지키면 우크라이나도 호응하겠다고 하면서도, 발표 후에도 키이우·하르키우 등 발전소가 피격됐고 지난주 러시아의 에너지 시설 공격이 200회를 넘었다고 했다. 폰데어라이엔 유럽위원회 위원장은 통화에서 젤렌스키를 지지하고 최근 방위 지원을 언급했다. 유가는 잠시 배럴당 90달러 아래로 떨어지며 시장과 전장 신호가 엇갈렸다.",
+          "why": "에너지 휴전이 실패하면 겨울 전력 공급과 민간 피해가 협상 카드가 되어, 미·유럽·러 삼각관계가 실제로 긴장 완화할 수 있는지 시험한다.",
+          "tags": [
+            "러·우 전쟁",
+            "에너지",
+            "휴전"
+          ]
+        },
+        "id": {
+          "location": "Ukraina / Amerika Serikat",
+          "title": "Beberapa jam setelah Trump umumkan \"gencatan energi\" Rusia–Ukraina, Rusia masih serang pembangkit listrik Ukraina",
+          "summary": "Trump mengatakan Minggu bahwa Rusia dan Ukraina sepakat tidak saling menyerang fasilitas energi; PM Kanada Mark Carney memuji kemungkinan membantu de-eskalasi. Presiden Ukraina Zelensky mengatakan berita itu datang mendadak dan Ukraina akan membalas jika Rusia patuh, tetapi mengatakan pembangkit di Kyiv, Kharkiv, dan tempat lain masih diserang setelah pengumuman, dengan lebih dari 200 serangan Rusia ke fasilitas energi minggu lalu. Presiden Komisi Eropa Ursula von der Leyen mendukung Zelensky dalam panggilan dan menyebut bantuan pertahanan baru-baru ini. Minyak sempat turun di bawah $90 per barel, sementara sinyal pasar dan medan perang berbeda.",
+          "why": "Jika gencatan energi gagal, pasokan listrik musim dingin dan korban sipil akan jadi kartu tawar, menguji apakah segitiga AS–Eropa–Rusia benar-benar bisa de-eskalasi.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Energi",
+            "Gencatan senjata"
           ]
         }
       }
@@ -1448,6 +2054,39 @@
             "الطاقة",
             "هرمز"
           ]
+        },
+        "ja": {
+          "location": "オマーン / ホルムズ海峡",
+          "title": "ホルムズ海峡付近でタンカー攻撃、インド人船員2人行方不明",
+          "summary": "10月11日、ニカラグア船籍タンカーMT Petro Dolphinがオマーン・ソハール錨地付近でドローン攻撃を受け、インド人乗組員2人が行方不明、残りは救助された。別のマーシャル諸島船籍タンカーMT Valtheraは飛翔体命中後に火災、乗船していたインド人11人は無事。別報道では、イラン革命防衛隊が航法を切って針路を外れたタンカー少なくとも3隻が機雷に触れたと主張し、約75万バレルの原油を積む超大型原油タンカー1隻が炎上したともされる。インド外務省は攻撃を非難し、この重要航路の安全確保のための緊張緩和を求めた。",
+          "why": "ホルムズは世界原油の要衝であり、攻撃は運賃と油価を押し上げ、米イランと地域代理紛争の波及リスクを増幅する。",
+          "tags": [
+            "海運",
+            "エネルギー",
+            "ホルムズ"
+          ]
+        },
+        "ko": {
+          "location": "오만 / 호르무즈 해협",
+          "title": "호르무즈 해협 인근에서 유조선 피격, 인도 선원 2명 실종",
+          "summary": "10월 11일 니카라과 선적 유조선 MT Petro Dolphin이 오만 소하르 정박지 인근에서 드론 공격을 받아 인도인 선원 2명이 실종되고 나머지는 구조됐다. 또 다른 마셜제도 선적 유조선 MT Valthera는 발사체 피격 후 화재가 났고 승선한 인도인 11명은 모두 무사하다. 별도 보도에 따르면 이란 혁명수비대는 항법을 끄고 항로를 벗어난 유조선 최소 3척이 기뢰에 걸렸다고 주장했고, 원유 약 75만 배럴을 실은 초대형 원유운반선 1척이 불탔다고도 한다. 인도 외교부는 공격을 규탄하고 이 핵심 항로의 안전을 위한 긴장 완화를 촉구했다.",
+          "why": "호르무즈는 세계 원유의 핵심 요충으로, 공격은 운임과 유가를 올리고 미·이란과 지역 대리전 파급 위험을 키운다.",
+          "tags": [
+            "해운",
+            "에너지",
+            "호르무즈"
+          ]
+        },
+        "id": {
+          "location": "Oman / Selat Hormuz",
+          "title": "Tanker diserang dekat Selat Hormuz, dua pelaut India hilang",
+          "summary": "Pada 11 Oktober, tanker berbendera Nikaragua MT Petro Dolphin terkena drone dekat pelabuhan tambat Sohar di Oman; dua awak India hilang dan sisanya diselamatkan. Tanker lain berbendera Kepulauan Marshall, MT Valthera, terbakar setelah terkena proyektil; 11 awak India di kapal itu aman. Laporan terpisah mengatakan IRGC Iran mengklaim setidaknya tiga tanker terkena ranjau setelah mematikan navigasi dan menyimpang dari jalur, dan satu kapal tanker minyak sangat besar dengan sekitar 750.000 barel minyak terbakar. Kementerian luar negeri India mengecam serangan dan menyerukan de-eskalasi untuk mengamankan jalur pelayaran vital ini.",
+          "why": "Hormuz adalah titik sempit kunci minyak mentah global; serangan mendorong naik ongkos angkut dan harga minyak serta memperkuat risiko limpahan konflik AS–Iran dan proksi regional.",
+          "tags": [
+            "Pelayaran",
+            "Energi",
+            "Hormuz"
+          ]
         }
       }
     },
@@ -1522,6 +2161,39 @@
             "الصواريخ",
             "شبه الجزيرة الكورية",
             "الأمن"
+          ]
+        },
+        "ja": {
+          "location": "北朝鮮 / 日本海",
+          "title": "北朝鮮が弾道ミサイル数発を日本海へ発射、日本が緊急警報",
+          "summary": "韓国合同参謀本部によると、北朝鮮は月曜現地時間午前9時20分頃、平壌付近から弾道ミサイル数発を発射し、900キロ超飛行して日本海に落下した。日本は少なくとも2発を確認し緊急警報を発し、航空機・船舶への直接影響はないとした。韓国は監視を強化し米日と情報共有した。韓国の極超音速試験と兵士が負傷した国境の地雷事案の後、北朝鮮としては1カ月で4回目の発射で、ソウルは国連決議違反だと非難した。",
+          "why": "半島での兵器試験のペース加速は、日米韓の警戒と北東アジアの安全保障懸念を直接高める。",
+          "tags": [
+            "ミサイル",
+            "朝鮮半島",
+            "安全保障"
+          ]
+        },
+        "ko": {
+          "location": "북한 / 동해",
+          "title": "북한, 동해로 탄도미사일 수발 발사…일본 긴급경보",
+          "summary": "한국 합참에 따르면 북한은 월요일 현지시간 오전 9시 20분쯤 평양 인근에서 탄도미사일 수발을 발사해 900㎞ 이상 비행한 뒤 동해에 낙하했다. 일본은 최소 2발을 확인하고 긴급경보를 발령했으며 항공기·선박에 직접 영향은 없다고 했다. 한국은 감시를 강화하고 미·일과 정보를 공유했다. 한국 극초음속 시험과 병사가 다친 접경 지뢰 사건 이후 북한으로서는 한 달 만에 네 번째 발사로, 서울은 유엔 결의 위반이라고 규탄했다.",
+          "why": "한반도 무기 시험 속도가 빨라지면서 한·미·일 경계와 동북아 안보 우려가 직접 커진다.",
+          "tags": [
+            "미사일",
+            "한반도",
+            "안보"
+          ]
+        },
+        "id": {
+          "location": "Korea Utara / Laut Jepang",
+          "title": "Korea Utara tembakkan beberapa rudal balistik ke Laut Jepang; Jepang keluarkan peringatan darurat",
+          "summary": "Kepala Staf Gabungan Korea Selatan mengatakan Korea Utara menembakkan beberapa rudal balistik dari dekat Pyongyang sekitar pukul 09.20 waktu setempat Senin, yang terbang lebih dari 900 km sebelum jatuh di Laut Jepang. Jepang mengonfirmasi setidaknya dua peluncuran dan mengeluarkan peringatan darurat, mengatakan pesawat dan kapal tidak terdampak langsung; Korea Selatan meningkatkan pengawasan dan berbagi intelijen dengan AS dan Jepang. Ini peluncuran keempat Korea Utara dalam sebulan, menyusul uji hipersonik Korea Selatan dan insiden ranjau perbatasan yang melukai tentara; Seoul mengecamnya sebagai pelanggaran resolusi PBB.",
+          "why": "Laju uji senjata yang semakin cepat di semenanjung langsung menaikkan kewaspadaan trilateral Jepang–Korea Selatan–AS dan kekhawatiran keamanan Asia Timur Laut.",
+          "tags": [
+            "Rudal",
+            "Semenanjung Korea",
+            "Keamanan"
           ]
         }
       }
@@ -1598,6 +2270,39 @@
             "السيارات",
             "الاتحاد الأوروبي–الصين"
           ]
+        },
+        "ja": {
+          "location": "ベルギー · ブリュッセル / 中国 · 北京",
+          "title": "EUと中国、ハイブリッド車輸入の年間上限約35万台で合意",
+          "summary": "北京での集中協議の末、EUと中国は合意した。12月1日から中国からEUへのプラグインハイブリッド輸出は年間約35万台に制限され、その後3年は年約6%増、従来想定された急増のほぼ半分になる。EUへの中国製PHEV輸入は年初9カ月で前年比約86%増だった。見返りに中国は希土類などの供給を緩和し、オリーブオイルや自動車部品など約40億ユーロのEU輸出に市場を開放した。EU通商委員マロシュ・シェフチョヴィッチは重要な一歩と評価。分析者は対中貿易赤字がなお1日約10億ユーロで、単一分野では構造不均衡は解けないと指摘する。",
+          "why": "EV/ハイブリッド分野でのEU・中国間の実質的な数量管理であり、欧州自動車メーカーの雇用・供給網と対中次の一手に影響する。",
+          "tags": [
+            "貿易",
+            "自動車",
+            "EU・中国"
+          ]
+        },
+        "ko": {
+          "location": "벨기에 · 브뤼셀 / 중국 · 베이징",
+          "title": "EU·중국, 하이브리드차 수입 연간 상한 약 35만 대 합의",
+          "summary": "베이징에서 집중 협상 끝에 EU와 중국이 합의했다. 12월 1일부터 중국의 대EU 플러그인 하이브리드 수출은 연간 약 35만 대로 제한되고 이후 3년은 연 약 6% 증가해, 이전 예상 급증의 대략 절반이다. EU로 들어오는 중국 PHEV 수입은 올 들어 9개월간 전년 대비 약 86% 늘었다. 대가로 중국은 희토류 등 공급을 완화하고 올리브유·자동차 부품 등 약 40억 유로의 EU 수출에 시장을 열었다. EU 통상위원 마로슈 셰프초비치는 중요한 진전이라고 했고, 분석가들은 대중 무역적자가 여전히 하루 약 10억 유로라 단일 품목으로 구조적 불균형을 풀 수 없다고 지적한다.",
+          "why": "EV/하이브리드에서 EU·중국 간 실질적 물량 관리로, 유럽 자동차 일자리·공급망과 대중 다음 행보에 영향을 준다.",
+          "tags": [
+            "무역",
+            "자동차",
+            "EU·중국"
+          ]
+        },
+        "id": {
+          "location": "Belgia · Brussels / China · Beijing",
+          "title": "UE dan China sepakati batas tahunan sekitar 350.000 impor mobil hybrid",
+          "summary": "Setelah pembicaraan intensif di Beijing, UE dan China mencapai kesepakatan: mulai 1 Desember, ekspor hybrid plug-in China ke UE dibatasi sekitar 350.000 per tahun, naik sekitar 6% per tahun selama tiga tahun berikutnya, kurang lebih memotong separuh lonjakan yang sebelumnya diperkirakan. Impor hybrid plug-in China ke UE naik sekitar 86% year on year dalam sembilan bulan pertama. Sebagai imbalan, China melonggarkan pasokan tanah jarang dan lainnya serta membuka pasarnya untuk sekitar €4 miliar ekspor UE (minyak zaitun, suku cadang mobil, dll.). Komisaris Perdagangan UE Maroš Šefčovič menyebutnya langkah kunci; analis mencatat defisit perdagangan UE–China masih sekitar €1 miliar sehari dan satu kategori saja tidak menyelesaikan ketidakseimbangan struktural.",
+          "why": "Ini pengelolaan volume substantif antara UE dan China di EV/hybrid, memengaruhi pekerjaan pembuat mobil Eropa, rantai pasok, dan langkah berikutnya dalam berurusan dengan China.",
+          "tags": [
+            "Perdagangan",
+            "Mobil",
+            "UE–China"
+          ]
         }
       }
     },
@@ -1672,6 +2377,39 @@
             "غزة",
             "الوضع الإنساني",
             "وقف إطلاق النار"
+          ]
+        },
+        "ja": {
+          "location": "パレスチナ · ガザ",
+          "title": "イスラエル軍が「イエローライン」を西へ押し、ガザ市東部で避難家族が再避難",
+          "summary": "現地住民とXのニュースまとめによると、イスラエル軍は夜間、支配区域を示すコンクリート製「イエローライン」を西へサラーフッディーン通り付近まで押し進め、ガザ市東側の避難テントがより拡大した区域に取り込まれた。住民は銃声と砲撃で東西どちらにも逃げ場がなく、妊婦を含む負傷者も出たと報告。イスラエルは前進を治安上の必要とし、パレスチナ側は2025年停戦の区画を破り、支配区域がすでにガザの64%超に及ぶと主張した。冬が近づく中、新たな避難は人道圧力を深めている。",
+          "why": "停戦線の事実上の西進は地上支配と援助回廊を再編し、停戦維持と民間地域の安全に直結する。",
+          "tags": [
+            "ガザ",
+            "人道",
+            "停戦"
+          ]
+        },
+        "ko": {
+          "location": "팔레스타인 · 가자",
+          "title": "이스라엘군 \"옐로라인\"을 서쪽으로 밀어 동부 가자시티 피란 가족 재피란",
+          "summary": "현지 주민과 X 뉴스 요약에 따르면 이스라엘군은 야간에 통제구역을 표시하는 콘크리트 \"옐로라인\"을 서쪽으로 살라흐 알딘 거리 인근까지 밀어, 가자시티 동쪽 피란 천막이 확대된 구역에 포함됐다. 주민들은 총성과 포격으로 동서로 갈 곳이 없고 임산부 포함 부상자가 나왔다고 했다. 이스라엘은 전진을 안보상의 필요라고 했고, 팔레스타인 측은 2025년 휴전 구획을 깨뜨렸으며 통제 면적이 이미 가자 64%를 넘는다고 주장했다. 겨울이 다가오며 새 피란은 인도적 압박을 키운다.",
+          "why": "휴전선의 사실상 서진은 지상 통제와 구호 회랑을 재편해, 휴전 유지와 민간 지역 안전에 직결된다.",
+          "tags": [
+            "가자",
+            "인도주의",
+            "휴전"
+          ]
+        },
+        "id": {
+          "location": "Palestina · Gaza",
+          "title": "Tentara Israel geser \"Garis Kuning\" ke barat lebih dalam ke timur Kota Gaza, paksa keluarga pengungsi lagi",
+          "summary": "Menurut warga setempat dan rangkuman berita X, tentara Israel semalam mendorong \"Garis Kuning\" beton penanda zona kontrol ke barat hingga dekat Jalan Salah al-Din, sehingga lebih banyak tenda pengungsian di timur Kota Gaza masuk zona yang diperluas. Warga melaporkan tembakan dan penembakan artileri tanpa tempat lari ke timur maupun barat; beberapa cedera, termasuk perempuan hamil. Israel mengatakan kemajuan itu kebutuhan keamanan; pihak Palestina mengatakan itu melanggar demarkasi gencatan 2025 dan area terkendali kini melebihi 64% Gaza. Dengan musim dingin mendekat, pengungsian baru memperdalam tekanan kemanusiaan.",
+          "why": "Pergeseran de facto garis gencatan ke barat membentuk ulang kontrol di darat dan koridor bantuan, langsung memengaruhi apakah gencatan bertahan dan keselamatan kawasan sipil.",
+          "tags": [
+            "Gaza",
+            "Kemanusiaan",
+            "Gencatan senjata"
           ]
         }
       }
@@ -1748,6 +2486,39 @@
             "الطاقة",
             "الدبلوماسية"
           ]
+        },
+        "ja": {
+          "location": "米国 / ウクライナ / ロシア",
+          "title": "トランプがロシア製ディーゼル輸入を推進しウクライナ指導部交代を要求、ゼレンスキーがABCインタビューで反論",
+          "summary": "トランプ米大統領はロシアとの取り決めを発表し、ロシア製ディーゼル輸入を認め関連制裁を一時緩和するとした（財務省許可は2027年4月までとの報道もある）。米ディーゼル価格引き下げが目的だと述べ、その後ゼレンスキー大統領がロシア製油所攻撃を続けると公然批判し、ウクライナ指導者交代を求めた。ABCニュースのインタビューでゼレンスキーは、油価上昇の主因は中東紛争とホルムズ海峡の混乱でありウクライナの攻撃ではないと反論。ロシアが60日の全面停戦に合意すればウクライナは選挙を実施でき、選択はウクライナ国民のものだと述べた。マスクらも「交代の時」との論調に同調した。",
+          "why": "エネルギー停戦、指導部の正統性、対ロ圧力のペースをめぐる米ウの公開対立は、欧州の援助政治と世界エネルギー市場の物語に直結する。",
+          "tags": [
+            "ロシア・ウクライナ戦争",
+            "エネルギー",
+            "外交"
+          ]
+        },
+        "ko": {
+          "location": "미국 / 우크라이나 / 러시아",
+          "title": "트럼프, 러시아 디젤 수입 추진·우크라이나 지도부 교체 요구…젤렌스키 ABC 인터뷰로 반박",
+          "summary": "트럼프 미 대통령은 러시아와 합의를 발표해 러시아 디젤 수입을 허용하고 관련 제재를 일시 완화한다고 했다(재무부 허가가 2027년 4월까지일 수 있다는 보도도 있다). 미국 디젤 가격 인하가 목적이라며, 이어 젤렌스키 대통령이 러시아 정유시설 타격을 계속한다고 공개 비판하고 우크라이나 지도자 교체를 요구했다. ABC뉴스 인터뷰에서 젤렌스키는 유가 상승의 주원인은 중동 분쟁과 호르무즈 해협 혼란이지 우크라이나 공격이 아니라고 반박했다. 러시아가 60일 전면 휴전에 합의하면 우크라이나는 선거를 치를 수 있고 선택은 우크라이나 국민의 것이라고 했다. 머스크 등도 \"교체할 때\"라는 논조에 공개적으로 동조했다.",
+          "why": "에너지 휴전, 지도부 정당성, 대러 압박 속도를 둘러싼 미·우 공개 갈등은 유럽 원조 정치와 글로벌 에너지 시장 서사에 직결된다.",
+          "tags": [
+            "러·우 전쟁",
+            "에너지",
+            "외교"
+          ]
+        },
+        "id": {
+          "location": "AS / Ukraina / Rusia",
+          "title": "Trump dorong impor diesel Rusia dan serukan kepemimpinan Ukraina baru; Zelensky jawab di wawancara ABC",
+          "summary": "Presiden AS Trump mengumumkan pengaturan dengan Rusia yang mengizinkan impor diesel Rusia dan sementara melonggarkan sanksi terkait (lisensi Treasury dilaporkan bisa berjalan hingga April 2027), mengatakan tujuannya menurunkan harga diesel AS; ia kemudian secara publik mengkritik Presiden Ukraina Zelensky karena terus menyerang kilang Rusia dan menyerukan Ukraina mengganti pemimpinnya. Dalam wawancara ABC News, Zelensky membantah bahwa naik harga minyak terutama karena konflik Timur Tengah dan gangguan di Selat Hormuz, bukan serangan Ukraina; ia mengatakan jika Rusia setuju gencatan penuh 60 hari, Ukraina bisa mengadakan pemilu, dan pilihan ada di rakyat Ukraina. Musk dan lainnya secara publik menggemakan garis \"saatnya berubah\".",
+          "why": "Perpecahan terbuka AS–Ukraina soal gencatan energi, legitimasi kepemimpinan, dan laju tekanan pada Rusia akan langsung memengaruhi politik bantuan Eropa dan narasi pasar energi global.",
+          "tags": [
+            "Perang Rusia–Ukraina",
+            "Energi",
+            "Diplomasi"
+          ]
         }
       }
     },
@@ -1822,6 +2593,39 @@
             "صندوق النقد الدولي",
             "الاقتصاد",
             "الديون"
+          ]
+        },
+        "ja": {
+          "location": "タイ · バンコク",
+          "title": "約200カ国の財務相・中銀総裁がバンコクに集結、IMF・世界銀行総会が開幕",
+          "summary": "2026年IMF・世界銀行年次総会が月曜、バンコクのクイーンシリキット国立会議場で開幕し、18日まで続き参加者は1万5000人超の見込み。議題は第二次世界大戦級に近い公的債務、中東紛争によるエネルギーショック、成長鈍化、AIと雇用、民間資本と国境を越える決済。タイは詐欺対策のデジタル金融「バンコク・ブループリント」も推進。IMFのクリスタリナ・ゲオルギエバ専務理事らが到着し、二国間協議が本格化している。",
+          "why": "世界の債務市場とエネルギーショックが同時に燃え上がる中、総会のトーンは各国の財政余地、援助条件、新興国借入コストを形づくる。",
+          "tags": [
+            "IMF",
+            "経済",
+            "債務"
+          ]
+        },
+        "ko": {
+          "location": "태국 · 방콕",
+          "title": "약 200개국 재무장관·중앙은행 총재 방콕 집결, IMF·세계은행 총회 개막",
+          "summary": "2026년 IMF·세계은행 연차총회가 월요일 방콕 퀸시리킷 국립회의센터에서 개막해 18일까지 이어지며 참석자 1만 5,000명 이상이 예상된다. 의제는 2차대전 수준에 가까운 공공부채, 중동 분쟁에 따른 에너지 충격, 성장 둔화, AI와 일자리, 민간자본과 국경 간 결제다. 태국은 사기 대응 디지털 금융 \"방콕 블루프린트\"도 추진한다. IMF 크리스탈리나 게오르기에바 총재 등이 도착했고 양자 회담이 한창이다.",
+          "why": "글로벌 부채 시장과 에너지 충격이 동시에 불거지며, 총회 톤은 각국 재정 여력·원조 조건·신흥국 차입 비용을 형성한다.",
+          "tags": [
+            "IMF",
+            "경제",
+            "부채"
+          ]
+        },
+        "id": {
+          "location": "Thailand · Bangkok",
+          "title": "Menteri keuangan dan gubernur bank sentral hampir 200 negara berkumpul di Bangkok saat pertemuan IMF–Bank Dunia dibuka",
+          "summary": "Pertemuan Tahunan IMF dan Bank Dunia 2026 dibuka Senin di Queen Sirikit National Convention Center di Bangkok, berlangsung hingga 18 Oktober dengan lebih dari 15.000 peserta diharapkan. Agenda berfokus pada utang publik mendekati level Perang Dunia II, guncangan energi dari konflik Timur Tengah, pertumbuhan melambat, serta AI dan pekerjaan, modal swasta, dan pembayaran lintas batas; Thailand juga mempromosikan \"Bangkok Blueprint\" keuangan digital antifenipuan. Managing Director IMF Kristalina Georgieva dan lainnya telah tiba, dan pertemuan bilateral sedang berlangsung.",
+          "why": "Dengan pasar utang global dan guncangan energi yang menyala bersamaan, nada pertemuan akan membentuk ruang fiskal negara, syarat bantuan, dan biaya pinjaman pasar emerging.",
+          "tags": [
+            "IMF",
+            "Ekonomi",
+            "Utang"
           ]
         }
       }
@@ -1898,6 +2702,39 @@
             "البرازيل",
             "وسائل التواصل الاجتماعي"
           ]
+        },
+        "ja": {
+          "location": "ブラジル · サンパウロ",
+          "title": "ルラがパウリスタ大通りで集会、WhatsApp「ルラの軍」チャンネルがTSE停止後に復帰",
+          "summary": "ブラジルのルラ大統領陣営は「民主主義のための行進」を開き、陣営発表ではサンパウロのパウリスタ大通りに約100万人が集まり、ルラは若者に投票を呼びかけた。同日、副大統領候補で連邦下院議員のアンドレ・ジャノネスが作ったWhatsAppチャンネル「ルラの軍」（会員約330万人とされる）をめぐる法的攻防が起きた。最高選挙裁判所長が決選投票終了まで2時間以内の停止を命じ、選挙監察長官が停止を覆した。ルラ陣営は挑戦者フラヴィオ・ボルソナロに世論調査でなお劣勢だとし、動員を強化している。",
+          "why": "中南米最大経済が決選投票に向かう中、オンライン動員と選挙裁判所の衝突が投票率と制度信頼に影響しうる。",
+          "tags": [
+            "選挙",
+            "ブラジル",
+            "ソーシャルメディア"
+          ]
+        },
+        "ko": {
+          "location": "브라질 · 상파울루",
+          "title": "룰라, 파울리스타 거리에서 집회…WhatsApp \"룰라의 군대\" 채널 TSE 정지 후 복구",
+          "summary": "브라질 룰라 대통령 캠프는 \"민주주의를 위한 행진\"을 열어 캠프 발표로는 상파울루 파울리스타 거리에 약 100만 명이 모였고 룰라는 젊은이들에게 투표를 독려했다. 같은 날 부통령 후보이자 연방하원의원 안드레 자노네스가 만든 WhatsApp 채널 \"룰라의 군대\"(회원 약 330만 명으로 알려짐)를 둘러싼 법적 공방이 벌어졌다. 최고선거법원장이 결선 끝날 때까지 2시간 내 정지를 명령했고, 선거감찰총장이 정지를 뒤집었다. 룰라 진영은 도전자 플라비우 보우소나루에게 여론조사에서 여전히 밀린다고 하며 동원을 강화 중이다.",
+          "why": "중남미 최대 경제가 결선으로 향하는 가운데 온라인 동원과 선거법원의 충돌이 투표율과 제도 신뢰에 영향을 줄 수 있다.",
+          "tags": [
+            "선거",
+            "브라질",
+            "소셜미디어"
+          ]
+        },
+        "id": {
+          "location": "Brasil · São Paulo",
+          "title": "Lula gelar unjuk rasa di Avenida Paulista; saluran WhatsApp \"Tentara Lula\" ditangguhkan TSE lalu dipulihkan",
+          "summary": "Kampanye Presiden Brasil Lula menggelar \"March for Democracy\", yang menurut kampanye menarik sekitar satu juta orang ke Avenida Paulista di São Paulo, di mana Lula mendesak anak muda untuk memilih. Hari yang sama terjadi tarik-ulur hukum atas saluran WhatsApp \"Tentara Lula\" (disebut punya sekitar 3,3 juta anggota) yang dibuat calon wakil presiden dan wakil federal André Janones: ketua Pengadilan Pemilu Tinggi memerintahkan platform menangguhkan saluran dalam dua jam hingga akhir putaran kedua, dan Inspektur Jenderal Pemilu kemudian membatalkan penangguhan. Kubu Lula mengatakan masih tertinggal dari penantang Flávio Bolsonaro dalam jajak pendapat dan meningkatkan mobilisasi.",
+          "why": "Saat ekonomi terbesar Amerika Latin menuju putaran kedua, benturan antara mobilisasi daring dan pengadilan pemilu dapat memengaruhi partisipasi pemilih dan kredibilitas institusi.",
+          "tags": [
+            "Pemilu",
+            "Brasil",
+            "Media sosial"
+          ]
         }
       }
     },
@@ -1972,6 +2809,39 @@
             "هجوم",
             "اليمن",
             "السعودية"
+          ]
+        },
+        "ja": {
+          "location": "サウジアラビア · リヤド",
+          "title": "フーシ派ミサイルがキング・ハーリド国際空港を攻撃、12人死亡・300人超負傷",
+          "summary": "イラン支援のイエメン・フーシ派が土曜、リヤドのキング・ハーリド国際空港にミサイルを撃ち、サウジ当局によると12人が死亡、309人が負傷した。死者にはサウジ市民4人とバングラデシュ、米国、エジプト、ヨルダン、シリア、パレスチナ、スーダンなどからの外国人が含まれる。空港は一時閉鎖され数百便が欠航、日曜にはリヤドの一部学校がオンライン授業に移行。米国は死者に米国民1人が含まれると確認した。ルビオ国務長官、フォンデアライエン欧州委員長、グテーレス国連事務総長らが攻撃を非難し、トランプは米国がフーシへの対応に「参加するかもしれない」と述べた。",
+          "why": "攻撃はイエメン紛争を湾岸の中核インフラに直結させ、油価、米サウジ軍事協調、紅海〜湾岸ルートの安全期待に影響する。",
+          "tags": [
+            "攻撃",
+            "イエメン",
+            "サウジアラビア"
+          ]
+        },
+        "ko": {
+          "location": "사우디아라비아 · 리야드",
+          "title": "후티 미사일, 킹할리드 국제공항 타격…12명 사망·300명 이상 부상",
+          "summary": "이란의 지원을 받는 예멘 후티가 토요일 리야드 킹할리드 국제공항에 미사일을 쐈고, 사우디 당국에 따르면 12명이 사망하고 309명이 다쳤다. 사망자에는 사우디 시민 4명과 방글라데시·미국·이집트·요르단·시리아·팔레스타인·수단 등 외국인이 포함된다. 공항은 일시 폐쇄되고 수백 편이 결항했으며, 일요일 리야드 일부 학교는 온라인 수업으로 전환했다. 미국은 사망자 중 미국인 1명이 있다고 확인했다. 루비오 국무장관, 폰데어라이엔 유럽위원회 위원장, 구테레슈 유엔 사무총장 등이 공격을 규탄했고, 트럼프는 미국이 후티에 대한 대응에 \"참여할 수도\" 있다고 했다.",
+          "why": "공격은 예멘 분쟁을 걸프 핵심 인프라로 직결시켜 유가, 미·사우디 군사 공조, 홍해–걸프 항로 안보 기대에 영향을 준다.",
+          "tags": [
+            "공격",
+            "예멘",
+            "사우디아라비아"
+          ]
+        },
+        "id": {
+          "location": "Arab Saudi · Riyadh",
+          "title": "Serangan rudal Houthi ke Bandara Internasional King Khalid tewaskan 12, lukai lebih dari 300",
+          "summary": "Houthi Yaman yang didukung Iran menghantam Bandara Internasional King Khalid di Riyadh dengan rudal pada Sabtu; otoritas Saudi mengatakan 12 orang tewas dan 309 cedera, korban tewas termasuk 4 warga Saudi dan warga asing dari Bangladesh, AS, Mesir, Yordania, Suriah, Palestina, Sudan, dan lainnya. Bandara sempat ditutup dan ratusan penerbangan dibatalkan, dan beberapa sekolah Riyadh beralih daring pada Minggu; AS mengonfirmasi satu warga Amerika di antara korban tewas. Menteri Luar Negeri AS Rubio, Presiden Komisi Eropa von der Leyen, Sekretaris Jenderal PBB Guterres, dan lainnya mengecam serangan; Trump mengatakan AS \"mungkin\" ikut dalam respons terhadap Houthi.",
+          "why": "Serangan membawa konflik Yaman langsung ke infrastruktur inti Teluk, memengaruhi harga minyak, koordinasi militer AS–Saudi, dan ekspektasi keamanan rute Laut Merah–Teluk.",
+          "tags": [
+            "Serangan",
+            "Yaman",
+            "Arab Saudi"
           ]
         }
       }

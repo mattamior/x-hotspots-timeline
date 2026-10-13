@@ -49,16 +49,17 @@ gh api repos/mattamior/x-hotspots-timeline/pages/builds --jq '.[0] | {status, cr
 | `tags` | 可选 | 字符串数组 |
 | `lat` / `lng` | 是 | 地图坐标（数字） |
 
-| `i18n` | 是（新批次） | 其余 5 种语言译文，见下 |
+| `i18n` | 是（新批次） | 其余 8 种语言译文，见下 |
 
 ## 多语言（i18n）
 
-站点支持 zh（默认）/ en / hi / es / fr / ar。顶层 `title`、`location`、`summary`、`why`、`tags` 是**中文源文**；每条还必须带：
+站点支持 zh（默认）/ en / hi / es / fr / ar / ja / ko / id。顶层 `title`、`location`、`summary`、`why`、`tags` 是**中文源文**；每条还必须带：
 
 ```json
 "i18n": {
   "en": { "title": "...", "location": "Sweden · Stockholm", "summary": "...", "why": "...", "tags": ["..."] },
-  "hi": { ... }, "es": { ... }, "fr": { ... }, "ar": { ... }
+  "hi": { ... }, "es": { ... }, "fr": { ... }, "ar": { ... },
+  "ja": { ... }, "ko": { ... }, "id": { ... }
 }
 ```
 
@@ -66,7 +67,7 @@ gh api repos/mattamior/x-hotspots-timeline/pages/builds --jq '.[0] | {status, cr
 - `location` 用该语言的“国家 · 城市”写法，不加【】（中文才加）。
 - 缺失时前端回退中文；合并脚本对缺失语言/字段打印 `WARN`，加 `--strict` 则直接失败。
 - `region` 保持中文枚举值（北美/欧洲/中东/亚太/拉美/非洲/全球），界面翻译在 `i18n.js`。
-- 界面文案集中在 `i18n.js`；新增 UI 文本需同时补 6 种语言。
+- 界面文案集中在 `i18n.js`；新增 UI 文本需同时补 9 种语言（含 ja/ko/id）。
 
 ## 手动编辑
 

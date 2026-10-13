@@ -14,7 +14,7 @@
   --line: #2a3655;
   --shadow: 0 10px 40px rgba(0, 0, 0, 0.35);
   --radius: 16px;
-  --font: "Noto Sans SC", "Noto Sans Devanagari", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font: "Noto Sans SC", "Noto Sans JP", "Noto Sans KR", "Noto Sans Devanagari", "Noto Sans Arabic", system-ui, -apple-system, "Segoe UI", sans-serif;
   --header-h: 72px;
 }
 
@@ -610,6 +610,8 @@ body {
 }
 
 html[lang="hi-IN"] body { font-family: "Noto Sans Devanagari", "Noto Sans SC", system-ui, sans-serif; line-height: 1.75; }
+html[lang="ja-JP"] body { font-family: "Noto Sans JP", "Noto Sans SC", system-ui, sans-serif; line-height: 1.75; }
+html[lang="ko-KR"] body { font-family: "Noto Sans KR", "Noto Sans SC", system-ui, sans-serif; line-height: 1.75; }
 html[lang="ar"] body { font-family: "Noto Sans Arabic", "Noto Sans SC", system-ui, sans-serif; line-height: 1.8; }
 
 /* RTL mirroring */

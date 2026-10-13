@@ -16,4 +16,6 @@ Updated: 2026-10-13
 - **2026-10-13** — Display timezone follows UI language (zh Shanghai, en New York, hi Kolkata, es Mexico City, fr Paris, ar Riyadh); stored timestamps unchanged.
 - **2026-10-13** — Native `<select>` language control replaced with custom pill dropdown matching site chrome (keyboard + outside-click).
 - **2026-10-13** — Timeline dots horizontally centered on the rail via shared `--rail-x` + translate; fixes content-box offset on `::before`.
+- **2026-10-13** — Display timezone labels include DST-aware numeric UTC offset (e.g. CST+8, ET-4, IST+5:30).
+- **2026-10-13** — Added Japanese (ja), Korean (ko), Indonesian (id): UI + all item i18n; zones Tokyo/Seoul/Jakarta; merge LANGS now 8 non-zh languages.
 
