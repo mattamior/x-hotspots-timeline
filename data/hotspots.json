@@ -1,7 +1,763 @@
 {
-  "updatedAt": "2026-10-13T08:05:00+08:00",
+  "updatedAt": "2026-10-13T12:05:00+08:00",
   "title": "全球热点时间线",
   "items": [
+    {
+      "region": "中东",
+      "source": "X 热点",
+      "tags": [
+        "霍尔木兹海峡",
+        "原油",
+        "航运安全"
+      ],
+      "why": "霍尔木兹一旦持续无法安全通行，油价和全球通胀会一起被推高，也会反过来绑架美伊停火谈判的节奏。",
+      "id": "2109517983546556869",
+      "title": "霍尔木兹海峡一天内六艘商船遇袭，布伦特原油升破每桶107美元",
+      "location": "伊朗·霍尔木兹海峡",
+      "url": "https://x.com/i/trending/2109517983546556869",
+      "summary": "英国海上贸易行动办公室（UKMTO）记录显示，霍尔木兹海峡附近一天内有六艘商船遇袭，包括遭抛射物击中的油轮和一艘集装箱船，是冲突升级以来单日最高纪录。伊朗方面公布了阿联酋籍超大型原油轮（VLCC）「AL MAQAM」起火的画面，称该船经美方支持的南部航道驶出且关闭了船舶自动识别系统（AIS）；伊朗警告，走未经批准航线或关闭AIS的船只将面临行动。供应担忧和海峡通行量下降推动布伦特原油升破每桶107美元，航运公司正密切关注这条伊朗、阿曼与阿联酋之间的全球石油咽喉。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 26.57,
+      "lng": 56.25,
+      "i18n": {
+        "en": {
+          "title": "Six commercial ships hit in one day near Strait of Hormuz; Brent oil tops $107 a barrel",
+          "location": "Iran · Strait of Hormuz",
+          "summary": "The UK Maritime Trade Operations (UKMTO) logged six commercial vessels struck in a single day near the Strait of Hormuz, including tankers hit by projectiles and a container ship—the highest daily tally since the conflict intensified. Iranian authorities released footage of the UAE-owned VLCC tanker AL MAQAM ablaze after it exited via a U.S.-backed southern corridor with its Automatic Identification System (AIS) off. Iran warns ships using unapproved routes or disabling AIS will face action. Supply fears and thinner tanker traffic pushed Brent crude past $107 a barrel as shipping firms watch this chokepoint between Iran, Oman and the UAE.",
+          "why": "If Hormuz stays unsafe, oil prices and global inflation rise together—and that in turn squeezes the timeline of any U.S.–Iran ceasefire talks.",
+          "tags": [
+            "Strait of Hormuz",
+            "Crude oil",
+            "Shipping security"
+          ]
+        },
+        "hi": {
+          "title": "होर्मुज़ जलडमरूमध्य के पास एक दिन में छह व्यापारिक जहाज़ों पर हमला; ब्रेंट तेल 107 डॉलर प्रति बैरल पार",
+          "location": "ईरान · होर्मुज़ जलडमरूमध्य",
+          "summary": "यूके मैरीटाइम ट्रेड ऑपरेशंस (UKMTO) ने दर्ज किया कि होर्मुज़ जलडमरूमध्य के पास एक दिन में छह व्यापारिक जहाज़ों पर हमला हुआ, जिनमें प्रक्षेप्य से टकराए टैंकर और एक कंटेनर जहाज़ शामिल हैं—संघर्ष तेज़ होने के बाद यह एक दिन का सबसे बड़ा आँकड़ा है। ईरानी अधिकारियों ने यूएई-स्वामित्व वाले VLCC टैंकर AL MAQAM के जलने का फुटेज जारी किया; जहाज़ अमेरिकी समर्थन वाले दक्षिणी गलियारे से निकला और उसका ऑटोमैटिक आइडेंटिफिकेशन सिस्टम (AIS) बंद था। ईरान चेतावनी देता है कि अनधिकृत मार्ग या AIS बंद करने वाले जहाज़ों के खिलाफ कार्रवाई होगी। आपूर्ति की चिंता और कम टैंकर यातायात से ब्रेंट कच्चा तेल 107 डॉलर प्रति बैरल पार चला गया।",
+          "why": "अगर होर्मुज़ असुरक्षित रहा, तेल की कीमतें और वैश्विक मुद्रास्फीति साथ बढ़ेंगी—और इससे अमेरिका–ईरान युद्धविराम वार्ता का समय भी दब जाएगा।",
+          "tags": [
+            "होर्मुज़ जलडमरूमध्य",
+            "कच्चा तेल",
+            "शिपिंग सुरक्षा"
+          ]
+        },
+        "es": {
+          "title": "Seis buques mercantes atacados en un día cerca del estrecho de Ormuz; el Brent supera los 107 dólares",
+          "location": "Irán · Estrecho de Ormuz",
+          "summary": "La Oficina de Operaciones Comerciales Marítimas del Reino Unido (UKMTO) registró seis buques mercantes atacados en un solo día cerca del estrecho de Ormuz, incluidos petroleros alcanzados por proyectiles y un portacontenedores, el mayor saldo diario desde que se intensificó el conflicto. Autoridades iraníes difundieron imágenes del VLCC de bandera emiratí AL MAQAM en llamas tras salir por un corredor sur respaldado por EE. UU. con el Sistema de Identificación Automática (AIS) apagado. Irán advierte que los barcos en rutas no autorizadas o con AIS desactivado enfrentarán medidas. El temor a desabastecimiento y el menor tráfico elevaron el Brent por encima de 107 dólares por barril.",
+          "why": "Si Ormuz sigue inseguro, el petróleo y la inflación mundial suben juntos, y eso aprieta el ritmo de cualquier alto el fuego entre EE. UU. e Irán.",
+          "tags": [
+            "Estrecho de Ormuz",
+            "Petróleo crudo",
+            "Seguridad marítima"
+          ]
+        },
+        "fr": {
+          "title": "Six navires marchands attaqués en un jour près du détroit d’Ormuz ; le Brent dépasse 107 dollars",
+          "location": "Iran · Détroit d’Ormuz",
+          "summary": "Les opérations commerciales maritimes britanniques (UKMTO) ont recensé six navires marchands touchés en une journée près du détroit d’Ormuz, dont des pétroliers frappés par des projectiles et un porte-conteneurs — le plus haut total quotidien depuis l’intensification du conflit. Les autorités iraniennes ont publié des images du VLCC émirati AL MAQAM en flammes après sa sortie via un corridor sud soutenu par les États-Unis, avec le système d’identification automatique (AIS) éteint. Téhéran prévient que les navires empruntant des routes non autorisées ou désactivant l’AIS s’exposent à des mesures. Les craintes d’approvisionnement et la baisse du trafic ont poussé le Brent au-delà de 107 dollars le baril.",
+          "why": "Si Ormuz reste dangereux, pétrole et inflation mondiale montent ensemble, ce qui serre le calendrier de tout cessez-le-feu américano-iranien.",
+          "tags": [
+            "Détroit d’Ormuz",
+            "Pétrole brut",
+            "Sécurité maritime"
+          ]
+        },
+        "ar": {
+          "title": "ست سفن تجارية تُهاجَم في يوم واحد قرب مضيق هرمز؛ خام برنت يتجاوز 107 دولارات للبرميل",
+          "location": "إيران · مضيق هرمز",
+          "summary": "سجّلت عمليات التجارة البحرية البريطانية (UKMTO) تعرض ست سفن تجارية للهجوم في يوم واحد قرب مضيق هرمز، بينها ناقلات أصيبت بقذائف وسفينة حاويات، وهو أعلى حصيلة يومية منذ تصاعد النزاع. ونشرت السلطات الإيرانية لقطات لناقلة النفط العملاقة الإماراتية AL MAQAM وهي مشتعلة بعد خروجها عبر ممر جنوبي مدعوم أميركياً مع إيقاف نظام التعرف الآلي (AIS). وتحذّر إيران السفن التي تستخدم مسارات غير مصرّح بها أو تعطّل AIS من مواجهة إجراءات. ودفعت مخاوف الإمداد وتراجع حركة الناقلات خام برنت فوق 107 دولارات للبرميل.",
+          "why": "إذا بقي هرمز غير آمن، ترتفع أسعار النفط والتضخم العالمي معاً، ما يضغط على جدول أي وقف لإطلاق النار بين الولايات المتحدة وإيران.",
+          "tags": [
+            "مضيق هرمز",
+            "النفط الخام",
+            "أمن الشحن"
+          ]
+        },
+        "ja": {
+          "title": "ホルムズ海峡付近で1日に商船6隻が攻撃、ブレント原油は1バレル107ドル超え",
+          "location": "イラン · ホルムズ海峡",
+          "summary": "英国海上貿易作戦（UKMTO）によると、ホルムズ海峡付近で1日に商船6隻が攻撃を受け、投射物で損傷したタンカーやコンテナ船が含まれ、衝突激化後としては最多の日次件数となった。イラン当局はUAE籍の超大型原油タンカーAL MAQAMが炎上する映像を公開し、米支援の南部回廊経由で出港し船舶自動識別装置（AIS）をオフにしていたと説明した。イランは未承認航路やAIS停止の船舶に措置を取ると警告。供給不安と海峡通航量の減少でブレント原油は1バレル107ドルを超えた。",
+          "why": "ホルムズが危険なままなら原油価格と世界インフレが同時に押し上げられ、米イラン停戦交渉のペースも縛られる。",
+          "tags": [
+            "ホルムズ海峡",
+            "原油",
+            "海運安全"
+          ]
+        },
+        "ko": {
+          "title": "호르무즈 해협 인근 하루 상선 6척 피격, 브렌트유 배럴당 107달러 돌파",
+          "location": "이란 · 호르무즈 해협",
+          "summary": "영국 해상무역작전(UKMTO) 기록에 따르면 호르무즈 해협 인근에서 하루 동안 상선 6척이 피격됐고, 투사체에 맞은 유조선과 컨테이너선이 포함돼 충돌 격화 이후 일일 최다 기록이다. 이란 당국은 UAE 소속 초대형원유운반선(VLCC) AL MAQAM이 불타는 영상을 공개했으며, 미국이 지원하는 남부 회랑으로 빠져나오며 자동식별장치(AIS)를 끈 상태였다고 했다. 이란은 미승인 항로 이용이나 AIS 해제를 하면 조치하겠다고 경고했다. 공급 우려와 해협 통항 감소로 브렌트유는 배럴당 107달러를 넘어섰다.",
+          "why": "호르무즈가 계속 위험하면 유가와 세계 인플레이션이 함께 오르고, 미·이란 휴전 협상 일정도 압박받는다.",
+          "tags": [
+            "호르무즈 해협",
+            "원유",
+            "해운 안보"
+          ]
+        },
+        "id": {
+          "title": "Enam kapal niaga diserang dalam sehari dekat Selat Hormuz; minyak Brent tembus 107 dolar per barel",
+          "location": "Iran · Selat Hormuz",
+          "summary": "UK Maritime Trade Operations (UKMTO) mencatat enam kapal niaga diserang dalam sehari dekat Selat Hormuz, termasuk tanker yang kena proyektil dan satu kapal kontainer—jumlah harian tertinggi sejak konflik memanas. Otoritas Iran merilis rekaman tanker VLCC milik UEA AL MAQAM terbakar setelah keluar lewat koridor selatan yang didukung AS dengan Sistem Identifikasi Otomatis (AIS) dimatikan. Iran memperingatkan kapal yang memakai rute tak disetujui atau mematikan AIS akan menghadapi tindakan. Kekhawatiran pasokan dan menurunnya lalu lintas tanker mendorong Brent di atas 107 dolar per barel.",
+          "why": "Jika Hormuz tetap tidak aman, harga minyak dan inflasi global naik beriringan—dan itu menekan jadwal gencatan senjata AS–Iran.",
+          "tags": [
+            "Selat Hormuz",
+            "Minyak mentah",
+            "Keamanan pelayaran"
+          ]
+        }
+      }
+    },
+    {
+      "region": "北美",
+      "source": "X 热点",
+      "tags": [
+        "美国",
+        "伊朗战争",
+        "军方伤亡"
+      ],
+      "why": "官方数字悄悄上修，说明对伊战争的人力代价仍在累积，也会加重美国国内对战争透明度和退出时间表的质疑。",
+      "id": "2109360592855458019",
+      "title": "五角大楼将对伊作战美军死亡上调至21人、伤865人",
+      "location": "美国·华盛顿",
+      "url": "https://x.com/i/trending/2109360592855458019",
+      "summary": "美国国防部伤亡分析系统更新后，将对伊朗相关行动中的美军死亡人数上调至21人、受伤865人，其中包括3月在科威特去世的陆军国民警卫队少校索弗利·达维乌斯（Sorffly Davius），以及9月自杀身亡的一名海军水兵。此前有报道称实际伤亡高于官方披露，国防部长皮特·赫格塞思（Pete Hegseth）曾斥之为「令人作呕的假消息」，但社区注释随后指出相关报道并非谎言。赫格塞思另在记者会上把关于战争会打多久的提问斥为「典型的自由派问题」，并转而批评前总统拜登，引发议员对公众信任受侵蚀的担忧。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "i18n": {
+        "en": {
+          "title": "Pentagon raises U.S. troop deaths in Iran operations to 21, with 865 wounded",
+          "location": "United States · Washington",
+          "summary": "An update to the Defense Casualty Analysis System now lists 21 U.S. service members killed and 865 wounded in Iran-related operations, including Army National Guard Maj. Sorffly Davius, who died in Kuwait in March, and a Navy sailor who died by suicide in September. The revision followed reporting that casualties were higher than disclosed; Defense Secretary Pete Hegseth had called those claims a “disgusting and fake” lie, though a community note later said the reporting was not a lie. Separately, Hegseth dismissed a reporter’s question on how long the war would last as a “typical liberal question” and pivoted to criticizing former President Biden, drawing concern from lawmakers about eroding public trust.",
+          "why": "Quiet upward revisions show the human cost of the Iran war is still accumulating—and deepen domestic doubts about transparency and an exit timeline.",
+          "tags": [
+            "United States",
+            "Iran war",
+            "Military casualties"
+          ]
+        },
+        "hi": {
+          "title": "पेंटागन ने ईरान अभियानों में अमेरिकी सैनिक मौतों को 21 और घायलों को 865 तक बढ़ाया",
+          "location": "संयुक्त राज्य · वाशिंगटन",
+          "summary": "डिफेंस कैज़ुअल्टी एनालिसिस सिस्टम के अपडेट में अब ईरान-संबंधी अभियानों में 21 अमेरिकी सैनिक मृत और 865 घायल दर्ज हैं, जिनमें मार्च में कुवैत में निधन हुए आर्मी नेशनल गार्ड मेजर सॉर्फ़ली डेवियस (Sorffly Davius) और सितंबर में आत्महत्या से मरे एक नौसेना नाविक शामिल हैं। इससे पहले रिपोर्ट्स ने कहा था कि वास्तविक आँकड़े खुलासे से अधिक हैं; रक्षा मंत्री पीट हेगसेथ (Pete Hegseth) ने उन्हें «घिनौना और नकली» झूठ कहा, लेकिन सामुदायिक नोट ने बाद में कहा कि रिपोर्टिंग झूठ नहीं थी। हेगसेथ ने युद्ध कितना लंबा चलेगा वाले सवाल को «ठेठ लिबरल सवाल» कहकर खारिज किया और पूर्व राष्ट्रपति बिडेन की आलोचना की, जिससे सांसदों में जनता के भरोसे पर चिंता बढ़ी।",
+          "why": "आधिकारिक आँकड़ों का चुपचाप ऊपर होना दिखाता है कि ईरान युद्ध की मानवीय कीमत अभी भी बढ़ रही है, और पारदर्शिता व निकास समयसारिणी पर घरेलू सवाल तेज़ होंगे।",
+          "tags": [
+            "संयुक्त राज्य",
+            "ईरान युद्ध",
+            "सैन्य हताहत"
+          ]
+        },
+        "es": {
+          "title": "El Pentágono eleva a 21 los muertos estadounidenses en operaciones contra Irán y a 865 los heridos",
+          "location": "Estados Unidos · Washington",
+          "summary": "El Sistema de Análisis de Bajas de Defensa actualizado lista ahora 21 muertos y 865 heridos en operaciones relacionadas con Irán, incluido el mayor de la Guardia Nacional del Ejército Sorffly Davius, fallecido en Kuwait en marzo, y un marinero de la Armada que se suicidó en septiembre. La revisión llegó tras reportes de que las cifras eran mayores a las divulgadas; el secretario de Defensa Pete Hegseth llamó a eso una mentira «asquerosa y falsa», aunque una nota comunitaria indicó después que el reportaje no era mentira. En otro momento, Hegseth desechó una pregunta sobre la duración de la guerra como una «pregunta liberal típica» y criticó al expresidente Biden, generando inquietud entre legisladores por la erosión de la confianza pública.",
+          "why": "Las revisiones al alza en silencio muestran que el costo humano de la guerra con Irán sigue creciendo y agravan las dudas internas sobre transparencia y calendario de salida.",
+          "tags": [
+            "Estados Unidos",
+            "Guerra con Irán",
+            "Bajas militares"
+          ]
+        },
+        "fr": {
+          "title": "Le Pentagone porte à 21 les morts américains dans les opérations contre l’Iran, 865 blessés",
+          "location": "États-Unis · Washington",
+          "summary": "Le système d’analyse des pertes du ministère de la Défense liste désormais 21 morts et 865 blessés dans les opérations liées à l’Iran, dont le major de la Garde nationale de l’armée Sorffly Davius, décédé au Koweït en mars, et un marin de la Navy mort par suicide en septembre. La révision a suivi des reportages indiquant des chiffres plus élevés que ceux publiés ; le secrétaire à la Défense Pete Hegseth avait qualifié ces affirmations de mensonge « dégoûtant et faux », mais une note communautaire a ensuite indiqué que le reportage n’était pas un mensonge. Hegseth a aussi balayé une question sur la durée de la guerre comme une « question libérale typique » et critiqué l’ancien président Biden, suscitant des inquiétudes chez des élus sur l’érosion de la confiance publique.",
+          "why": "Ces hausses discrètes montrent que le coût humain de la guerre contre l’Iran continue d’augmenter, et renforcent les doutes intérieurs sur la transparence et le calendrier de sortie.",
+          "tags": [
+            "États-Unis",
+            "Guerre contre l’Iran",
+            "Pertes militaires"
+          ]
+        },
+        "ar": {
+          "title": "البنتاغون يرفع قتلى العمليات ضد إيران إلى 21 جندياً أميركياً و865 جريحاً",
+          "location": "الولايات المتحدة · واشنطن",
+          "summary": "بعد تحديث نظام تحليل الضحايا الدفاعي، ارتفع عدد القتلى الأميركيين في العمليات المرتبطة بإيران إلى 21 وعدد الجرحى إلى 865، بمن فيهم الرائد في الحرس الوطني للجيش سورفلي دافيوس (Sorffly Davius) الذي توفي في الكويت في آذار/مارس، وبحار في البحرية انتحر في أيلول/سبتمبر. وجاء التعديل بعد تقارير بأن الأرقام أعلى مما أُعلن؛ وكان وزير الدفاع بيت هيغسيث (Pete Hegseth) قد وصفها بأنها كذبة «مقززة ومزوّرة»، لكن ملاحظة مجتمعية أشارت لاحقاً إلى أن التقارير ليست كذبة. وفي مناسبة أخرى رفض هيغسيث سؤالاً عن مدة الحرب ووصفه بـ«سؤال ليبرالي نموذجي» وانتقد الرئيس السابق بايدن، مما أثار قلق مشرّعين بشأن تآكل ثقة الجمهور.",
+          "why": "رفع الأرقام الرسمية بهدوء يظهر أن التكلفة البشرية لحرب إيران ما زالت تتراكم، ويزيد الشكوك الداخلية حول الشفافية وجدول الانسحاب.",
+          "tags": [
+            "الولايات المتحدة",
+            "حرب إيران",
+            "خسائر عسكرية"
+          ]
+        },
+        "ja": {
+          "title": "国防総省、対イラン作戦の米軍死亡を21人・負傷865人に上方修正",
+          "location": "アメリカ合衆国 · ワシントン",
+          "summary": "国防総省の戦死者分析システムの更新で、イラン関連作戦における米軍の死亡は21人、負傷は865人となった。3月にクウェートで死去した陸軍州兵少佐ソーフリー・ダヴィウス（Sorffly Davius）と、9月に自殺した海軍水兵が含まれる。報道が公式発表より多い死傷を指摘した後の修正で、国防長官ピート・ヘグセス（Pete Hegseth）は当初「吐き気のする偽情報」と非難したが、コミュニティノートはその後「嘘ではない」と注記した。ヘグセスは戦争の長期化に関する記者質問を「典型的なリベラルの質問」と切り捨て、前大統領バイデン批判に転じ、議員らから国民の信頼低下を懸念する声が出た。",
+          "why": "公式数字の静かな上方修正は、対イラン戦争の人的コストがなお積み上がっていることを示し、透明性と出口戦略への国内不信を強める。",
+          "tags": [
+            "アメリカ",
+            "イラン戦争",
+            "軍の死傷"
+          ]
+        },
+        "ko": {
+          "title": "국방부, 대이란 작전 미군 사망 21명·부상 865명으로 상향",
+          "location": "미국 · 워싱턴",
+          "summary": "국방부 사상자 분석 시스템 갱신 결과 이란 관련 작전에서 미군 사망은 21명, 부상은 865명으로 올라갔다. 3월 쿠웨이트에서 사망한 육군 주방위군 소령 소플리 다비우스(Sorffly Davius)와 9월 자살한 해군 수병이 포함된다. 실제 사상자가 공개치보다 많다는 보도 뒤 이뤄진 수정이며, 국방장관 피트 헤그세스(Pete Hegseth)는 당초 «역겨운 가짜» 거짓말이라고 비난했으나 커뮤니티 노트는 이후 보도가 거짓이 아니라고 달았다. 헤그세스는 전쟁이 얼마나 갈지 묻는 기자 질문을 «전형적인 리버럴 질문»이라며 일축하고 전 대통령 바이든 비판으로 넘어가, 의원들 사이에서 공신력 훼손 우려가 나왔다.",
+          "why": "공식 수치가 조용히 올라간 것은 대이란 전쟁의 인적 비용이 계속 쌓이고 있음을 보여 주며, 투명성과 출구 일정에 대한 국내 의구심을 키운다.",
+          "tags": [
+            "미국",
+            "이란 전쟁",
+            "군 사상자"
+          ]
+        },
+        "id": {
+          "title": "Pentagon menaikkan korban tewas AS dalam operasi Iran menjadi 21, 865 terluka",
+          "location": "Amerika Serikat · Washington",
+          "summary": "Pembaruan Sistem Analisis Korban Pertahanan kini mencantumkan 21 anggota militer AS tewas dan 865 terluka dalam operasi terkait Iran, termasuk Mayor Garda Nasional Angkatan Darat Sorffly Davius yang meninggal di Kuwait pada Maret, dan seorang pelaut Angkatan Laut yang bunuh diri pada September. Revisi menyusul laporan bahwa korban lebih tinggi dari yang diumumkan; Menteri Pertahanan Pete Hegseth sempat menyebut klaim itu kebohongan «menjijikkan dan palsu», tetapi catatan komunitas kemudian menyatakan laporan itu bukan kebohongan. Terpisah, Hegseth menepis pertanyaan wartawan soal lama perang sebagai «pertanyaan liberal tipikal» dan beralih mengkritik mantan Presiden Biden, memicu kekhawatiran anggota kongres soal erosi kepercayaan publik.",
+          "why": "Revisi naik diam-diam menunjukkan biaya manusia perang Iran masih bertambah—dan memperdalam keraguan dalam negeri soal transparansi serta jadwal keluar.",
+          "tags": [
+            "Amerika Serikat",
+            "Perang Iran",
+            "Korban militer"
+          ]
+        }
+      }
+    },
+    {
+      "region": "全球",
+      "source": "X 热点",
+      "tags": [
+        "法国",
+        "影子船队",
+        "对俄制裁"
+      ],
+      "why": "影子船队是俄石油出口绕开制裁的关键通道，欧洲从文书制裁转向海上执法，会直接影响俄财政与全球油运格局。",
+      "id": "2109746890770157626",
+      "title": "法国海军在印度洋登检俄影子船队油轮「DF Peak」",
+      "location": "法国·留尼汪",
+      "url": "https://x.com/i/trending/2109746890770157626",
+      "summary": "法国总统马克龙宣布，法国海军在留尼汪岛以南约450海里处登检挂贝宁旗的油轮「DF Peak」，怀疑其属于规避西方对俄制裁、偷运俄罗斯石油的「影子船队」。行动依据联合国海洋法核对船舶文件，发现船旗等问题，随后护送该船接受检察官进一步调查。这是法国在印度洋首次此类拦截。支持者认为有助于切断俄战争经费，也有人质疑在公海登船的合法性边界。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": -21.1151,
+      "lng": 55.5364,
+      "i18n": {
+        "en": {
+          "title": "French Navy boards Russian shadow-fleet tanker DF Peak in the Indian Ocean",
+          "location": "France · Réunion",
+          "summary": "President Emmanuel Macron announced that the French Navy boarded the Benin-flagged tanker DF Peak about 450 nautical miles south of Réunion Island, suspecting it belongs to the “shadow fleet” that illicitly ships Russian oil to dodge Western sanctions over Ukraine. The operation, under UN maritime law, checked the ship’s documents, found flag irregularities, and escorted it for further prosecutorial review. It is France’s first such interception in the Indian Ocean. Supporters say it helps cut Russia’s war funding; others question the legality of boarding on the high seas.",
+          "why": "The shadow fleet is a key channel for Russian oil past sanctions; Europe moving from paperwork to at-sea enforcement hits Moscow’s finances and global tanker routes.",
+          "tags": [
+            "France",
+            "Shadow fleet",
+            "Russia sanctions"
+          ]
+        },
+        "hi": {
+          "title": "फ्रांसीसी नौसेना ने हिंद महासागर में रूसी शैडो फ्लीट टैंकर DF Peak पर चढ़ाई की",
+          "location": "फ़्रांस · रीयूनियन",
+          "summary": "राष्ट्रपति इमैनुएल मैक्रों ने घोषणा की कि फ्रांसीसी नौसेना ने रीयूनियन द्वीप से लगभग 450 समुद्री मील दक्षिण में बेनिन-ध्वज वाले टैंकर DF Peak पर चढ़ाई की, क्योंकि संदेह है कि यह यूक्रेन युद्ध को लेकर पश्चिमी प्रतिबंधों से बचकर रूसी तेल ढोने वाले «शैडो फ्लीट» का हिस्सा है। संयुक्त राष्ट्र समुद्री कानून के तहत दस्तावेज़ जाँचे गए, ध्वज संबंधी अनियमितताएँ मिलीं, और जहाज़ को अभियोजकों की जाँच के लिए ले जाया गया। यह हिंद महासागर में फ्रांस का पहला ऐसा इंटरसेप्शन है। समर्थक कहते हैं इससे रूस की युद्ध फंडिंग कटती है; कुछ लोग खुले समुद्र में चढ़ाई की वैधता पर सवाल उठाते हैं।",
+          "why": "शैडो फ्लीट रूसी तेल को प्रतिबंधों से परे ले जाने का मुख्य रास्ता है; यूरोप का कागज़ी प्रतिबंध से समुद्री प्रवर्तन की ओर बढ़ना मॉस्को के वित्त और वैश्विक तेल शिपिंग को छूएगा।",
+          "tags": [
+            "फ़्रांस",
+            "शैडो फ्लीट",
+            "रूस प्रतिबंध"
+          ]
+        },
+        "es": {
+          "title": "La Marina francesa aborda el petrolero de la flota sombra rusa DF Peak en el Índico",
+          "location": "Francia · Reunión",
+          "summary": "El presidente Emmanuel Macron anunció que la Marina francesa abordó el petrolero con bandera de Benín DF Peak a unos 450 millas náuticas al sur de la isla de Reunión, sospechoso de integrar la «flota sombra» que transporta petróleo ruso eludiendo sanciones occidentales por Ucrania. La operación, bajo el derecho marítimo de la ONU, verificó documentos, halló irregularidades de bandera y escoltó el buque para más investigación fiscal. Es la primera interceptación francesa de este tipo en el Índico. Quienes la apoyan dicen que corta financiación de guerra de Rusia; otros cuestionan la legalidad del abordaje en alta mar.",
+          "why": "La flota sombra es un canal clave del petróleo ruso ante las sanciones; pasar del papeleo a la aplicación en el mar afecta las finanzas de Moscú y las rutas petroleras globales.",
+          "tags": [
+            "Francia",
+            "Flota sombra",
+            "Sanciones a Rusia"
+          ]
+        },
+        "fr": {
+          "title": "La Marine française arraisonne le pétrolier de la flotte fantôme russe DF Peak dans l’océan Indien",
+          "location": "France · La Réunion",
+          "summary": "Le président Emmanuel Macron a annoncé l’arraisonnement par la Marine française du pétrolier battant pavillon béninois DF Peak, à environ 450 milles nautiques au sud de La Réunion, suspecté d’appartenir à la « flotte fantôme » qui transporte illégalement du pétrole russe pour contourner les sanctions occidentales liées à l’Ukraine. L’opération, menée au titre du droit maritime de l’ONU, a vérifié les documents, relevé des anomalies de pavillon et escorté le navire pour des contrôles judiciaires. C’est la première interception française de ce type dans l’océan Indien. Les partisans y voient un frein au financement de guerre russe ; d’autres contestent la légalité d’un abordage en haute mer.",
+          "why": "La flotte fantôme est un canal clé des exportations pétrolières russes hors sanctions ; passer du papier à l’application en mer touche les finances de Moscou et le trafic pétrolier mondial.",
+          "tags": [
+            "France",
+            "Flotte fantôme",
+            "Sanctions contre la Russie"
+          ]
+        },
+        "ar": {
+          "title": "البحرية الفرنسية تصعد على متن ناقلة أسطول الظل الروسي DF Peak في المحيط الهندي",
+          "location": "فرنسا · ريونيون",
+          "summary": "أعلن الرئيس إيمانويل ماكرون أن البحرية الفرنسية صعدت على متن الناقلة ذات العلم البنينّي DF Peak على بعد نحو 450 ميلاً بحرياً جنوب جزيرة ريونيون، للاشتباه في انتمائها إلى «أسطول الظل» الذي ينقل نفطاً روسياً للالتفاف على العقوبات الغربية بسبب أوكرانيا. وجرت العملية بموجب قانون البحار الأممي، وفُحصت الوثائق وكُشفت مخالفات في العلم، ثم أُرغقت السفينة لمزيد من التحقيق لدى النيابة. وهذه أول عملية اعتراض فرنسية من هذا النوع في المحيط الهندي. ويرى مؤيدون أنها تقطع تمويل حرب موسكو، بينما يشكك آخرون في شرعية الصعود في أعالي البحار.",
+          "why": "أسطول الظل قناة رئيسة لنفط روسيا خارج العقوبات؛ وانتقال أوروبا من العقوبات الورقية إلى الإنفاذ في البحر يمس مالية موسكو ومسارات النفط العالمية.",
+          "tags": [
+            "فرنسا",
+            "أسطول الظل",
+            "عقوبات روسيا"
+          ]
+        },
+        "ja": {
+          "title": "仏海軍、インド洋でロシア影の船団タンカーDF Peakを臨検",
+          "location": "フランス · レユニオン",
+          "summary": "マクロン大統領は、フランス海軍がレユニオン島の南方約450海里でベナン船籍タンカーDF Peakを臨検したと発表した。ウクライナ関連の西側制裁を回避してロシア産原油を運ぶ「影の船団」の疑いがある。国連海洋法に基づき書類を確認し、船旗の問題が見つかり、検察の追加調査のため護衛した。インド洋でのフランス初の同種拿捕となる。支持者はロシアの戦争資金を断つ効果を強調し、公海上の臨検の合法性を疑問視する声もある。",
+          "why": "影の船団は制裁をすり抜けるロシア原油の主要ルートだ。欧州が文書制裁から海上執行へ移れば、モスクワ財政と世界の原油輸送に直撃する。",
+          "tags": [
+            "フランス",
+            "影の船団",
+            "対ロ制裁"
+          ]
+        },
+        "ko": {
+          "title": "프랑스 해군, 인도양에서 러시아 그림자 선단 유조선 DF Peak 승선 검색",
+          "location": "프랑스 · 레위니옹",
+          "summary": "에마뉘엘 마크롱 대통령은 프랑스 해군이 레위니옹 섬 남쪽 약 450해리에서 베냉 국적 유조선 DF Peak에 승선했다고 발표했다. 우크라이나 관련 서방 제재를 피해 러시아 원유를 나르는 «그림자 선단» 소속으로 의심된다. 유엔 해양법에 따라 서류를 확인하고 선적 국기 문제를 찾아 검찰 추가 조사를 위해 호송했다. 인도양에서 프랑스의 첫 이런 차단이다. 지지자들은 러시아 전쟁 자금 차단에 도움이 된다고 하고, 공해상 승선의 합법성을 묻는 목소리도 있다.",
+          "why": "그림자 선단은 제재를 우회하는 러시아 원유의 핵심 통로다. 유럽이 서류 제재에서 해상 집행으로 가면 모스크바 재정과 세계 원유 수송에 직접 영향을 준다.",
+          "tags": [
+            "프랑스",
+            "그림자 선단",
+            "대러 제재"
+          ]
+        },
+        "id": {
+          "title": "Angkatan Laut Prancis naik ke tanker armada bayangan Rusia DF Peak di Samudra Hindia",
+          "location": "Prancis · Réunion",
+          "summary": "Presiden Emmanuel Macron mengumumkan Angkatan Laut Prancis menaiki tanker berbendera Benin DF Peak sekitar 450 mil laut selatan Pulau Réunion, diduga bagian «armada bayangan» yang mengangkut minyak Rusia untuk menghindari sanksi Barat terkait Ukraina. Operasi di bawah hukum maritim PBB memeriksa dokumen, menemukan ketidakberesan bendera, dan mengawal kapal untuk penyelidikan jaksa. Ini intersepsi Prancis pertama jenis ini di Samudra Hindia. Pendukung bilang ini memotong dana perang Rusia; yang lain mempertanyakan legalitas naik kapal di laut lepas.",
+          "why": "Armada bayangan adalah saluran utama minyak Rusia melewati sanksi; Eropa beralih dari sanksi kertas ke penegakan di laut akan menyentuh keuangan Moskow dan rute tanker global.",
+          "tags": [
+            "Prancis",
+            "Armada bayangan",
+            "Sanksi Rusia"
+          ]
+        }
+      }
+    },
+    {
+      "region": "北美",
+      "source": "X 热点",
+      "tags": [
+        "伊朗战争",
+        "生活成本",
+        "美国经济"
+      ],
+      "why": "把战争代价折算到每个家庭，会直接左右11月中期选举的生活成本议题，也给白宫的战争与能源政策加了政治压力。",
+      "id": "2109723359638614467",
+      "title": "穆迪分析：对伊战争八个月让美国家庭平均多花约2040美元",
+      "location": "美国·纽约",
+      "url": "https://x.com/i/trending/2109723359638614467",
+      "summary": "穆迪分析公司首席经济学家马克·赞迪（Mark Zandi）测算称，自2月28日以来的对伊冲突到10月初已让美国家庭平均多承担约2040美元，全国合计约2650亿美元。分项大致为：汽油贵约561美元、柴油约457美元、利率上行约459美元、军事开支分摊约383美元、航煤与取暖油约379美元。7月时同类估算约1100美元，主要仍由能源价格推动。舆论分裂明显：有人抱怨荷包压力，也有人认为阻止伊朗拥核值得付出代价。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "i18n": {
+        "en": {
+          "title": "Moody’s analysis: eight months of Iran war cost U.S. households about $2,040 each",
+          "location": "United States · New York",
+          "summary": "Moody’s Analytics chief economist Mark Zandi estimates the Iran conflict since February 28 has cost the average U.S. household about $2,040 through early October, or roughly $265 billion nationwide. The largest pieces are about $561 in higher gasoline, $457 in diesel, $459 from rising interest rates, $383 in military spending, and $379 in jet fuel and heating oil. A similar estimate in July was about $1,100 per household, still driven mainly by energy. Reactions split: some call it a pocketbook burden, others say stopping Iran’s nuclear path is worth the price.",
+          "why": "Pricing the war per household feeds straight into the cost-of-living fight before the November midterms—and piles political pressure on White House war and energy policy.",
+          "tags": [
+            "Iran war",
+            "Cost of living",
+            "U.S. economy"
+          ]
+        },
+        "hi": {
+          "title": "मूडीज़ विश्लेषण: ईरान युद्ध के आठ महीने में अमेरिकी परिवारों पर औसतन करीब 2040 डॉलर बोझ",
+          "location": "संयुक्त राज्य · न्यूयॉर्क",
+          "summary": "मूडीज़ एनालिटिक्स के मुख्य अर्थशास्त्री मार्क ज़ैंडी (Mark Zandi) का अनुमान है कि 28 फरवरी से शुरू ईरान संघर्ष ने अक्टूबर की शुरुआत तक औसत अमेरिकी परिवार पर करीब 2040 डॉलर का बोझ डाला है, देशभर में लगभग 265 अरब डॉलर। सबसे बड़े हिस्से हैं: पेट्रोल में करीब 561 डॉलर, डीज़ल 457, ब्याज दरों में बढ़ोतरी 459, सैन्य खर्च 383, और जेट ईंधन व हीटिंग ऑयल 379 डॉलर। जुलाई में ऐसा अनुमान करीब 1100 डॉलर प्रति परिवार था, मुख्यतः ऊर्जा से। प्रतिक्रियाएँ बँटी हैं—कुछ जेब का बोझ कहते हैं, कुछ ईरान के परमाणु रास्ते को रोकने लायक कीमत मानते हैं।",
+          "why": "युद्ध की कीमत को परिवार पर तोलना नवंबर के मध्यावधि चुनाव से पहले महंगाई के मुद्दे को सीधा छूता है, और व्हाइट हाउस की युद्ध व ऊर्जा नीति पर राजनीतिक दबाव बढ़ाता है।",
+          "tags": [
+            "ईरान युद्ध",
+            "जीवन लागत",
+            "अमेरिकी अर्थव्यवस्था"
+          ]
+        },
+        "es": {
+          "title": "Análisis de Moody’s: ocho meses de guerra con Irán cuestan unos 2040 dólares por hogar en EE. UU.",
+          "location": "Estados Unidos · Nueva York",
+          "summary": "El economista jefe de Moody’s Analytics, Mark Zandi, estima que el conflicto con Irán desde el 28 de febrero ha costado al hogar estadounidense medio unos 2040 dólares hasta principios de octubre, unos 265.000 millones a escala nacional. Los mayores tramos son unos 561 dólares en gasolina, 457 en diésel, 459 por tipos al alza, 383 en gasto militar y 379 en combustible de aviación y calefacción. En julio la estimación similar rondaba 1100 dólares por hogar, impulsada sobre todo por la energía. Las reacciones se dividen: unos hablan de carga en el bolsillo; otros dicen que frenar el camino nuclear de Irán vale el precio.",
+          "why": "Poner precio a la guerra por hogar alimenta el debate del costo de vida antes de las midterms de noviembre y aumenta la presión política sobre la política bélica y energética de la Casa Blanca.",
+          "tags": [
+            "Guerra con Irán",
+            "Costo de vida",
+            "Economía de EE. UU."
+          ]
+        },
+        "fr": {
+          "title": "Analyse Moody’s : huit mois de guerre contre l’Iran coûtent environ 2040 dollars par ménage américain",
+          "location": "États-Unis · New York",
+          "summary": "Selon l’économiste en chef de Moody’s Analytics, Mark Zandi, le conflit avec l’Iran depuis le 28 février a coûté environ 2040 dollars au ménage américain moyen jusqu’à début octobre, soit près de 265 milliards à l’échelle nationale. Les plus gros postes sont environ 561 dollars d’essence, 457 de diesel, 459 liés à la hausse des taux, 383 de dépenses militaires et 379 de carburant aviation et fioul de chauffage. Une estimation similaire en juillet tournait autour de 1100 dollars par ménage, surtout sous l’effet de l’énergie. Les réactions divergent : fardeau pour le portefeuille pour les uns, prix acceptable pour freiner le nucléaire iranien pour les autres.",
+          "why": "Chiffrer la guerre par ménage nourrit directement le débat sur le coût de la vie avant les midterms de novembre et renforce la pression politique sur la politique de guerre et d’énergie de la Maison Blanche.",
+          "tags": [
+            "Guerre contre l’Iran",
+            "Coût de la vie",
+            "Économie américaine"
+          ]
+        },
+        "ar": {
+          "title": "تحليل موديز: ثمانية أشهر من حرب إيران كلّفت الأسرة الأميركية نحو 2040 دولاراً",
+          "location": "الولايات المتحدة · نيويورك",
+          "summary": "قدّر كبير اقتصاديي Moody’s Analytics مارك زاندي (Mark Zandi) أن الصراع مع إيران منذ 28 شباط/فبراير كلّف الأسرة الأميركية المتوسطة نحو 2040 دولاراً حتى مطلع تشرين الأول/أكتوبر، أي نحو 265 مليار دولار على مستوى البلاد. وأكبر البنود نحو 561 دولاراً للبنزين و457 للديزل و459 لارتفاع الفائدة و383 للإنفاق العسكري و379 لوقود الطائرات والتدفئة. وكان تقدير مماثل في تموز/يوليو نحو 1100 دولار للأسرة، مدفوعاً أساساً بالطاقة. وتنقسم الردود بين من يراه عبئاً على الجيب ومن يراه ثمناً يستحق لمنع إيران من امتلاك سلاح نووي.",
+          "why": "تحويل تكلفة الحرب إلى رقم لكل أسرة يغذي مباشرة جدل كلفة المعيشة قبل انتخابات التجديد النصفي في تشرين الثاني/نوفمبر، ويزيد الضغط السياسي على سياسة الحرب والطاقة في البيت الأبيض.",
+          "tags": [
+            "حرب إيران",
+            "كلفة المعيشة",
+            "الاقتصاد الأميركي"
+          ]
+        },
+        "ja": {
+          "title": "ムーディーズ分析：対イラン戦争8カ月で米世帯平均約2040ドルの負担増",
+          "location": "アメリカ合衆国 · ニューヨーク",
+          "summary": "ムーディーズ・アナリティクスの首席エコノミスト、マーク・ザンディ（Mark Zandi）は、2月28日以降の対イラン紛争が10月初旬までに米世帯平均で約2040ドル、全国では約2650億ドルの負担になったと推計した。内訳はガソリン約561ドル、ディーゼル約457ドル、金利上昇約459ドル、軍事支出約383ドル、ジェット燃料・暖房油約379ドル。7月の同種推計は世帯あたり約1100ドルで、主因はやはりエネルギーだった。反応は分かれ、家計の重荷だとする声と、イランの核保有阻止に値するとの声がある。",
+          "why": "戦争コストを世帯単位で示すことは、11月の中間選挙前の生活費争点に直結し、ホワイトハウスの戦争・エネルギー政策への政治圧力を高める。",
+          "tags": [
+            "イラン戦争",
+            "生活費",
+            "米国経済"
+          ]
+        },
+        "ko": {
+          "title": "무디스 분석: 대이란 전쟁 8개월, 미 가구당 평균 약 2040달러 추가 부담",
+          "location": "미국 · 뉴욕",
+          "summary": "무디스 애널리틱스 수석이코노미스트 마크 잔디(Mark Zandi)는 2월 28일 이후 대이란 분쟁이 10월 초까지 미국 가구당 평균 약 2040달러, 전국으로는 약 2650억 달러의 부담을 줬다고 추산했다. 항목별로는 휘발유 약 561달러, 경유 약 457달러, 금리 상승 약 459달러, 군사비 약 383달러, 항공유·난방유 약 379달러다. 7월 유사 추산은 가구당 약 1100달러였고 주로 에너지가 원인이다. 반응은 갈려, 가계 부담이라는 쪽과 이란 핵 저지에 값어치가 있다는 쪽이 있다.",
+          "why": "전쟁 비용을 가구 단위로 환산하면 11월 중간선거 전 생활비 쟁점에 직결되고, 백악관의 전쟁·에너지 정책에 정치적 압박을 키운다.",
+          "tags": [
+            "이란 전쟁",
+            "생활비",
+            "미국 경제"
+          ]
+        },
+        "id": {
+          "title": "Analisis Moody’s: delapan bulan perang Iran menambah beban rumah tangga AS sekitar 2040 dolar",
+          "location": "Amerika Serikat · New York",
+          "summary": "Ekonom kepala Moody’s Analytics Mark Zandi memperkirakan konflik Iran sejak 28 Februari telah membebani rumah tangga AS rata-rata sekitar 2040 dolar hingga awal Oktober, atau sekitar 265 miliar dolar secara nasional. Bagian terbesar sekitar 561 dolar bensin, 457 solar, 459 dari kenaikan suku bunga, 383 belanja militer, dan 379 bahan bakar jet serta minyak pemanas. Estimasi serupa pada Juli sekitar 1100 dolar per rumah tangga, masih didorong terutama energi. Reaksi terbelah: ada yang menyebut beban kantong, ada yang bilang menghentikan jalur nuklir Iran sepadan dengan biayanya.",
+          "why": "Menghitung biaya perang per rumah tangga langsung masuk pertarungan biaya hidup menjelang pemilu tengah November—dan menambah tekanan politik pada kebijakan perang serta energi Gedung Putih.",
+          "tags": [
+            "Perang Iran",
+            "Biaya hidup",
+            "Ekonomi AS"
+          ]
+        }
+      }
+    },
+    {
+      "region": "北美",
+      "source": "X 热点",
+      "tags": [
+        "美国中期选举",
+        "民调",
+        "通胀"
+      ],
+      "why": "跨党派多数把涨价账算到白宫头上，意味着共和党即便执政也难逃中期选举惩罚性投票的风险。",
+      "id": "2109765898542502235",
+      "title": "路透/益普索民调：78%美国人认为白宫应对生活成本负责",
+      "location": "美国·华盛顿",
+      "url": "https://x.com/i/trending/2109765898542502235",
+      "summary": "路透社与益普索对4506名成年人的民调显示，78%受访者（含64%共和党人）认为白宫应为薪酬赶不上生活成本负责，主要归因于关税和对伊冲突。汽油、柴油较一年前明显上涨，食品、住房和医疗也在挤压家庭预算，约三分之一美国人不得不削减餐饮或公用事业开支。距离11月3日中期选举临近，生活成本已成选民最关心议题，两党正激烈争夺问责叙事。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 38.9072,
+      "lng": -77.0369,
+      "i18n": {
+        "en": {
+          "title": "Reuters/Ipsos poll: 78% of Americans say the White House is responsible for living costs",
+          "location": "United States · Washington",
+          "summary": "A Reuters/Ipsos poll of 4,506 adults found 78% of respondents—including 64% of Republicans—hold the White House responsible for living costs outpacing pay, citing tariffs and the Iran conflict. Gasoline and diesel have risen sharply from a year ago, while food, housing and health care squeeze budgets; about one in three Americans report cutting meals or utilities. With the November 3 midterms near, cost of living tops voter concerns as both parties fight over who to blame.",
+          "why": "A cross-party majority blaming the White House means even a governing Republican Party faces midterm punishment risk over prices.",
+          "tags": [
+            "U.S. midterms",
+            "Polling",
+            "Inflation"
+          ]
+        },
+        "hi": {
+          "title": "रॉयटर्स/इप्सोस सर्वे: 78% अमेरिकी मानते हैं व्हाइट हाउस जीवन लागत के लिए ज़िम्मेदार",
+          "location": "संयुक्त राज्य · वाशिंगटन",
+          "summary": "रॉयटर्स/इप्सोस के 4506 वयस्कों के सर्वे में 78% उत्तरदाताओं (जिनमें 64% रिपब्लिकन) ने कहा कि वेतन से तेज़ बढ़ती जीवन लागत की ज़िम्मेदारी व्हाइट हाउस की है, मुख्यतः टैरिफ और ईरान संघर्ष के कारण। पेट्रोल-डीज़ल एक साल पहले से काफी महँगे हैं; भोजन, आवास और स्वास्थ्य बजट दबा रहे हैं, और करीब एक तिहाई अमेरिकी भोजन या उपयोगिता खर्च काट रहे हैं। 3 नवंबर के मध्यावधि चुनाव नज़दीक हैं, जीवन लागत सबसे बड़ा मुद्दा है और दोनों दल जवाबदेही की लड़ाई लड़ रहे हैं।",
+          "why": "पार्टी लाइन पार कर बहुमत व्हाइट हाउस पर महँगाई का ठीकरा फोड़ रहा है, तो सत्ताधारी रिपब्लिकन भी मध्यावधि में सज़ा वाले वोट से नहीं बच सकते।",
+          "tags": [
+            "अमेरिकी मध्यावधि चुनाव",
+            "जनमत सर्वे",
+            "मुद्रास्फीति"
+          ]
+        },
+        "es": {
+          "title": "Encuesta Reuters/Ipsos: el 78% de estadounidenses culpa a la Casa Blanca del costo de vida",
+          "location": "Estados Unidos · Washington",
+          "summary": "Una encuesta Reuters/Ipsos a 4506 adultos halló que el 78% —incluido el 64% de republicanos— responsabiliza a la Casa Blanca de que el costo de vida supere los sueldos, por aranceles y el conflicto con Irán. Gasolina y diésel han subido mucho respecto a hace un año; comida, vivienda y salud aprietan el presupuesto, y cerca de uno de cada tres estadounidenses recorta comidas o servicios. Con las midterms del 3 de noviembre cerca, el costo de vida encabeza las preocupaciones y ambos partidos pelean la narrativa de culpa.",
+          "why": "Una mayoría transversal que culpa a la Casa Blanca implica que incluso los republicanos en el poder arriesgan un voto punitivo en las midterms por los precios.",
+          "tags": [
+            "Midterms de EE. UU.",
+            "Encuestas",
+            "Inflación"
+          ]
+        },
+        "fr": {
+          "title": "Sondage Reuters/Ipsos : 78 % des Américains jugent la Maison Blanche responsable du coût de la vie",
+          "location": "États-Unis · Washington",
+          "summary": "Un sondage Reuters/Ipsos auprès de 4506 adultes montre que 78 % des répondants — dont 64 % de républicains — tiennent la Maison Blanche pour responsable d’un coût de la vie qui dépasse les salaires, à cause des droits de douane et du conflit avec l’Iran. Essence et diesel ont nettement monté en un an ; alimentation, logement et santé serrent les budgets, et environ un Américain sur trois réduit repas ou factures. À l’approche des midterms du 3 novembre, le coût de la vie domine les préoccupations et les deux partis se disputent le récit de la responsabilité.",
+          "why": "Une majorité transversale qui blâme la Maison Blanche signifie que même les républicains au pouvoir risquent un vote punitif aux midterms sur les prix.",
+          "tags": [
+            "Midterms américaines",
+            "Sondages",
+            "Inflation"
+          ]
+        },
+        "ar": {
+          "title": "استطلاع رويترز/إبسوس: 78% من الأميركيين يحمّلون البيت الأبيض مسؤولية كلفة المعيشة",
+          "location": "الولايات المتحدة · واشنطن",
+          "summary": "أظهر استطلاع لرويترز/إبسوس شمل 4506 بالغاً أن 78% من المستطلعين—بينهم 64% من الجمهوريين—يحمّلون البيت الأبيض مسؤولية تجاوز كلفة المعيشة للأجور، بسبب الرسوم الجمركية والنزاع مع إيران. وارتفع البنزين والديزل كثيراً مقارنة بالعام الماضي، بينما تضغط أسعار الغذاء والسكن والرعاية الصحية على الميزانيات، ويقلّص نحو ثلث الأميركيين الإنفاق على الطعام أو المرافق. ومع اقتراب انتخابات التجديد النصفي في 3 تشرين الثاني/نوفمبر، تتصدر كلفة المعيشة اهتمام الناخبين ويتنازع الحزبان رواية المسؤولية.",
+          "why": "أغلبية عابرة للأحزاب تلوم البيت الأبيض تعني أن الجمهوريين حتى وهم في السلطة يواجهون خطر تصويت عقابي في التجديد النصفي بسبب الأسعار.",
+          "tags": [
+            "التجديد النصفي الأميركي",
+            "استطلاعات",
+            "التضخم"
+          ]
+        },
+        "ja": {
+          "title": "ロイター/イプソス世論調査：米有権者の78%が生活費の責任はホワイトハウスにあると回答",
+          "location": "アメリカ合衆国 · ワシントン",
+          "summary": "ロイター/イプソスが成人4506人を対象にした調査で、78%（共和党支持者の64%を含む）が、賃金を上回る生活費上昇の責任はホワイトハウスにあるとし、関税と対イラン紛争を主な要因に挙げた。ガソリン・ディーゼルは前年より大幅高、食料・住宅・医療も家計を圧迫し、約3人に1人が食事や公共料金を削っている。11月3日の中間選挙が近づき、生活費が最大の関心事となり、両党が責任論を争っている。",
+          "why": "党派を超えて多数がホワイトハウスに値上げの責任を負わせている以上、与党共和党も物価をめぐる懲罰投票から逃れにくい。",
+          "tags": [
+            "米中間選挙",
+            "世論調査",
+            "インフレ"
+          ]
+        },
+        "ko": {
+          "title": "로이터/입소스 여론조사: 미국인 78%가 생활비 책임을 백악관에 돌림",
+          "location": "미국 · 워싱턴",
+          "summary": "로이터/입소스가 성인 4506명을 대상으로 한 조사에서 78%(공화당 지지자 64% 포함)가 임금을 앞지르는 생활비의 책임을 백악관에 돌렸고, 관세와 대이란 분쟁을 주요 원인으로 꼽았다. 휘발유·경유는 1년 전보다 크게 올랐고 식료·주거·의료가 가계를 압박하며, 약 3명 중 1명이 식사나 공과금을 줄인다. 11월 3일 중간선거가 다가오며 생활비가 최우선 관심사이고 양당이 책임 서사를 다툰다.",
+          "why": "당파를 넘어 다수가 백악관에 물가 책임을 묻는다는 것은, 집권 공화당도 중간선거에서 물가 징벌 투표 위험을 피하기 어렵다는 뜻이다.",
+          "tags": [
+            "미국 중간선거",
+            "여론조사",
+            "인플레이션"
+          ]
+        },
+        "id": {
+          "title": "Jajak Reuters/Ipsos: 78% orang Amerika bilang Gedung Putih bertanggung jawab atas biaya hidup",
+          "location": "Amerika Serikat · Washington",
+          "summary": "Jajak pendapat Reuters/Ipsos terhadap 4506 orang dewasa menemukan 78% responden—termasuk 64% Republikan—menilai Gedung Putih bertanggung jawab atas biaya hidup yang melampaui upah, karena tarif dan konflik Iran. Bensin dan solar naik tajam dibanding setahun lalu; pangan, hunian, dan kesehatan menekan anggaran, dan sekitar sepertiga orang Amerika memangkas makan atau utilitas. Menjelang pemilu tengah 3 November, biaya hidup menjadi isu utama pemilih dan kedua partai berebut narasi siapa yang salah.",
+          "why": "Mayoritas lintas partai yang menyalahkan Gedung Putih berarti bahkan Partai Republik yang berkuasa tetap berisiko kena hukuman pemilih di pemilu tengah karena harga.",
+          "tags": [
+            "Pemilu tengah AS",
+            "Jajak pendapat",
+            "Inflasi"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "芬兰",
+        "欧盟",
+        "对俄签证"
+      ],
+      "why": "旅游签证之争，本质是欧盟要不要把对俄施压从能源金融延伸到人员往来，直接影响欧洲内部团结和对乌立场。",
+      "id": "2109656620623868111",
+      "title": "芬兰推动欧盟全面禁止俄罗斯旅游签证",
+      "location": "芬兰·赫尔辛基",
+      "url": "https://x.com/i/trending/2109656620623868111",
+      "summary": "芬兰外长埃利娜·瓦尔托宁（Elina Valtonen）致信欧盟各国，呼吁全面禁止俄罗斯旅游签证，并收紧对普京盟友及与国家挂钩运动员的限制。她质问：俄罗斯还在轰炸乌克兰民宅，为何俄游客仍能在欧洲自由度假。总理佩泰里·奥尔波（Petteri Orpo）支持该提案，称开放旅行会带来破坏活动风险。芬兰2022年已禁止非必要俄籍旅行，波兰、瑞典、爱沙尼亚等国倾向收紧；法国、西班牙、意大利等国仍有顾虑。2025年欧盟向俄公民发放了近50万本此类签证。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 60.1699,
+      "lng": 24.9384,
+      "i18n": {
+        "en": {
+          "title": "Finland pushes EU for a full ban on Russian tourist visas",
+          "location": "Finland · Helsinki",
+          "summary": "Finnish Foreign Minister Elina Valtonen sent a letter to EU states urging a complete ban on Russian tourist visas, plus tighter limits on Putin’s allies and state-linked athletes. She asked why Russians can still vacation freely in Europe while Russia bombs Ukrainian homes. Prime Minister Petteri Orpo backs the push, warning open travel invites sabotage risks. Finland banned non-essential Russian travel in 2022; Poland, Sweden and Estonia lean toward tighter rules, while France, Spain and Italy remain cautious. Nearly 500,000 such visas went to Russian citizens in 2025.",
+          "why": "The tourist-visa fight is really about whether the EU extends pressure on Russia from energy and finance into people-to-people travel—testing European unity and support for Ukraine.",
+          "tags": [
+            "Finland",
+            "European Union",
+            "Russia visas"
+          ]
+        },
+        "hi": {
+          "title": "फिनलैंड ने यूरोपीय संघ से रूसी पर्यटक वीज़ा पर पूर्ण प्रतिबंध की माँग की",
+          "location": "फिनलैंड · हेलसिंकी",
+          "summary": "फिनलैंड की विदेश मंत्री एलिना वाल्टोनन (Elina Valtonen) ने यूरोपीय संघ के देशों को पत्र लिखकर रूसी पर्यटक वीज़ा पर पूर्ण प्रतिबंध और पुतिन के सहयोगियों व राज्य-जुड़े खिलाड़ियों पर सख्ती की अपील की। उन्होंने पूछा: रूस यूक्रेनी घरों पर बमबारी कर रहा है, फिर रूसी पर्यटक यूरोप में आज़ादी से छुट्टियाँ क्यों मनाएँ। प्रधानमंत्री पेतेरी ओर्पो (Petteri Orpo) समर्थन करते हैं और कहते हैं खुली यात्रा तोड़फोड़ का खतरा बढ़ाती है। फिनलैंड ने 2022 में गैर-ज़रूरी रूसी यात्रा प्रतिबंधित की; पोलैंड, स्वीडन, एस्टोनिया सख्ती के पक्ष में हैं, जबकि फ्रांस, स्पेन, इटली सतर्क हैं। 2025 में लगभग 5 लाख ऐसे वीज़ा जारी हुए।",
+          "why": "पर्यटक वीज़ा का विवाद असल में यह है कि यूरोपीय संघ दबाव को ऊर्जा-वित्त से आगे बढ़ाकर लोगों के आवागमन तक ले जाए या नहीं—यूरोपीय एकता और यूक्रेन समर्थन की परीक्षा।",
+          "tags": [
+            "फिनलैंड",
+            "यूरोपीय संघ",
+            "रूस वीज़ा"
+          ]
+        },
+        "es": {
+          "title": "Finlandia insta a la UE a prohibir por completo los visados turísticos rusos",
+          "location": "Finlandia · Helsinki",
+          "summary": "La ministra finlandesa de Exteriores, Elina Valtonen, envió una carta a los Estados de la UE pidiendo una prohibición total de visados turísticos rusos y límites más duros a aliados de Putin y deportistas vinculados al Estado. Preguntó por qué los rusos pueden vacacionar libremente en Europa mientras Rusia bombardea hogares ucranianos. El primer ministro Petteri Orpo respalda la iniciativa y advierte que el viaje abierto invita a riesgos de sabotaje. Finlandia prohibió los viajes rusos no esenciales en 2022; Polonia, Suecia y Estonia tienden a endurecer; Francia, España e Italia se muestran cautas. En 2025 se emitieron casi 500.000 visados de ese tipo.",
+          "why": "La pelea de los visados turísticos es en el fondo si la UE extiende la presión sobre Rusia de la energía y las finanzas a la circulación de personas, una prueba de unidad europea y apoyo a Ucrania.",
+          "tags": [
+            "Finlandia",
+            "Unión Europea",
+            "Visados a Rusia"
+          ]
+        },
+        "fr": {
+          "title": "La Finlande pousse l’UE à interdire totalement les visas touristiques russes",
+          "location": "Finlande · Helsinki",
+          "summary": "La ministre finlandaise des Affaires étrangères Elina Valtonen a écrit aux États de l’UE pour demander une interdiction totale des visas touristiques russes, et des restrictions plus strictes sur les alliés de Poutine et les sportifs liés à l’État. Elle demande pourquoi les Russes peuvent encore passer des vacances librement en Europe alors que la Russie bombarde des foyers ukrainiens. Le Premier ministre Petteri Orpo soutient la démarche et met en garde contre les risques de sabotage liés aux voyages ouverts. La Finlande a interdit les voyages russes non essentiels en 2022 ; la Pologne, la Suède et l’Estonie penchent vers un durcissement, tandis que la France, l’Espagne et l’Italie restent prudentes. Près de 500 000 visas de ce type ont été délivrés en 2025.",
+          "why": "Le débat sur les visas touristiques porte en réalité sur l’extension de la pression européenne sur la Russie de l’énergie et de la finance vers la circulation des personnes — un test d’unité et de soutien à l’Ukraine.",
+          "tags": [
+            "Finlande",
+            "Union européenne",
+            "Visas russes"
+          ]
+        },
+        "ar": {
+          "title": "فنلندا تدفع الاتحاد الأوروبي إلى حظر تام لتأشيرات السياحة الروسية",
+          "location": "فنلندا · هلسنكي",
+          "summary": "وجّهت وزيرة خارجية فنلندا إلينا فالتونن (Elina Valtonen) رسالة إلى دول الاتحاد الأوروبي تدعو فيها إلى حظر كامل لتأشيرات السياحة الروسية، مع تشديد القيود على حلفاء بوتين والرياضيين المرتبطين بالدولة. وتساءلت لماذا يستطيع الروس قضاء عطلات بحرية في أوروبا فيما تقصف روسيا منازل أوكرانية. ويدعم رئيس الوزراء بيترّي أوربو (Petteri Orpo) الخطوة محذّراً من مخاطر التخريب مع السفر المفتوح. وحظرت فنلندا السفر الروسي غير الضروري عام 2022؛ وتميل بولندا والسويد وإستونيا إلى التشديد، بينما تبقى فرنسا وإسبانيا وإيطاليا حذرة. وصدر نحو 500 ألف تأشيرة من هذا النوع عام 2025.",
+          "why": "صراع تأشيرات السياحة في جوهره: هل يمدّ الاتحاد الأوروبي الضغط على روسيا من الطاقة والمال إلى حركة الأشخاص؟ وهو اختبار لوحدة أوروبا ودعم أوكرانيا.",
+          "tags": [
+            "فنلندا",
+            "الاتحاد الأوروبي",
+            "تأشيرات روسيا"
+          ]
+        },
+        "ja": {
+          "title": "フィンランド、EUにロシア観光ビザ全面禁止を働きかけ",
+          "location": "フィンランド · ヘルシンキ",
+          "summary": "フィンランドのヴァルトネン外相（Elina Valtonen）はEU各国に書簡を送り、ロシア人観光ビザの全面禁止と、プーチン側近および国家と結び付く選手への規制強化を求めた。ロシアがウクライナの民家を爆撃する中、なぜロシア人観光客が欧州で自由に休暇を過ごせるのかと問うた。オルポ首相（Petteri Orpo）は支持し、自由な往来は破壊工作リスクを招くと警告した。フィンランドは2022年に非必須のロシア人渡航を禁止済み。ポーランド、スウェーデン、エストニアは厳格化寄り、フランス、スペイン、イタリアは慎重だ。2025年にはこうしたビザが約50万件発給された。",
+          "why": "観光ビザ論争の本質は、対ロ圧力をエネルギー・金融から人の往来に広げるかどうかであり、欧州の結束とウクライナ支援の試金石になる。",
+          "tags": [
+            "フィンランド",
+            "EU",
+            "対ロビザ"
+          ]
+        },
+        "ko": {
+          "title": "핀란드, EU에 러시아 관광비자 전면 금지 추진",
+          "location": "핀란드 · 헬싱키",
+          "summary": "핀란드 외무장관 엘리나 발토넨(Elina Valtonen)이 EU 회원국에 서한을 보내 러시아 관광비자 전면 금지와 푸틴 측근·국가 연계 선수에 대한 제한 강화를 촉구했다. 러시아가 우크라이나 민가를 폭격하는데 왜 러시아 관광객이 유럽에서 자유롭게 휴가를 보내느냐고 물었다. 페테리 오르포(Petteri Orpo) 총리는 지지하며 개방 여행이 사보타주 위험을 부른다고 경고했다. 핀란드는 2022년 비필수 러시아인 여행을 금지했고, 폴란드·스웨덴·에스토니아는 강화 쪽, 프랑스·스페인·이탈리아는 신중하다. 2025년 이런 비자가 약 50만 건 발급됐다.",
+          "why": "관광비자 논쟁의 본질은 EU가 대러 압박을 에너지·금융에서 인적 왕래까지 넓힐지이며, 유럽 결속과 우크라이나 지원을 시험한다.",
+          "tags": [
+            "핀란드",
+            "EU",
+            "대러 비자"
+          ]
+        },
+        "id": {
+          "title": "Finlandia mendorong UE melarang total visa wisata Rusia",
+          "location": "Finlandia · Helsinki",
+          "summary": "Menteri Luar Negeri Finlandia Elina Valtonen mengirim surat ke negara-negara UE mendesak larangan total visa wisata Rusia, plus pembatasan lebih ketat pada sekutu Putin dan atlet terkait negara. Ia bertanya mengapa orang Rusia masih bisa berlibur bebas di Eropa sementara Rusia membom rumah Ukraina. Perdana Menteri Petteri Orpo mendukung, memperingatkan perjalanan terbuka mengundang risiko sabotase. Finlandia melarang perjalanan Rusia nonesensial pada 2022; Polandia, Swedia, dan Estonia cenderung memperketat, sementara Prancis, Spanyol, dan Italia masih hati-hati. Hampir 500.000 visa semacam itu diterbitkan pada 2025.",
+          "why": "Pertikaian visa wisata sejatinya soal apakah UE memperluas tekanan ke Rusia dari energi dan keuangan ke pergerakan orang—ujian kesatuan Eropa dan dukungan bagi Ukraina.",
+          "tags": [
+            "Finlandia",
+            "Uni Eropa",
+            "Visa Rusia"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "波兰",
+        "北约",
+        "混合战争"
+      ],
+      "why": "混合战争最难的是界定何时算「打仗」。波兰把「死人」作为可能触发点摆上台面，会重塑北约对俄灰色地带冲突的决策逻辑。",
+      "id": "2109629423074914684",
+      "title": "波兰外长警告北约：俄混合袭击一旦造成死亡将触动同盟反应",
+      "location": "波兰·华沙",
+      "url": "https://x.com/i/trending/2109629423074914684",
+      "summary": "波兰外长拉多斯瓦夫·西科尔斯基（Radosław Sikorski）接受《金融时报》采访时表示，俄罗斯在欧洲的破坏活动正在升级，目前多打击财产，但若造成人员死亡，将迫使北约认真回应。他提到波兰、爱沙尼亚因领空侵犯启动《北大西洋公约》第4条磋商，并建议关闭俄驻欧盟领事馆、限制外交官、要求俄公民持生物特征护照入境。由于同盟尚未预先约定「红线」门槛，盟友必须共同判断无人机侵扰、基础设施破坏等混合手段何时算越界。",
+      "publishedAt": "2026-10-13T12:05:00+08:00",
+      "lat": 52.2297,
+      "lng": 21.0122,
+      "i18n": {
+        "en": {
+          "title": "Polish foreign minister warns NATO: deadly Russian hybrid attacks would force alliance response",
+          "location": "Poland · Warsaw",
+          "summary": "In a Financial Times interview, Polish Foreign Minister Radosław Sikorski said Russian sabotage across Europe is escalating: so far it mostly hits property, but deaths would force a serious NATO response. He cited airspace violations that triggered Article 4 consultations in Poland and Estonia, and urged closing Russian consulates in the EU, restricting diplomats, and requiring biometric passports for Russians. With no pre-agreed red-line threshold, allies must jointly judge when drone incursions and infrastructure tampering cross into something the alliance must answer.",
+          "why": "Hybrid war’s hardest question is when it counts as “war.” Poland putting “fatalities” on the table would reshape how NATO handles Russia’s gray-zone tactics.",
+          "tags": [
+            "Poland",
+            "NATO",
+            "Hybrid warfare"
+          ]
+        },
+        "hi": {
+          "title": "पोलैंड के विदेश मंत्री ने नाटो को चेताया: घातक रूसी हाइब्रिड हमले गठबंधन की प्रतिक्रिया को मजबूर करेंगे",
+          "location": "पोलैंड · वारसॉ",
+          "summary": "फाइनेंशियल टाइम्स के साक्षात्कार में पोलैंड के विदेश मंत्री रादोस्लाव सिकोर्स्की (Radosław Sikorski) ने कहा कि यूरोप में रूसी तोड़फोड़ बढ़ रही है—अभी ज्यादातर संपत्ति पर, लेकिन मौतें होने पर नाटो को गंभीर जवाब देना होगा। उन्होंने पोलैंड और एस्टोनिया में हवाई क्षेत्र उल्लंघन पर अनुच्छेद 4 परामर्श का हवाला दिया, और यूरोपीय संघ में रूसी वाणिज्य दूतावास बंद करने, राजनयिकों पर रोक, तथा रूसियों के लिए बायोमेट्रिक पासपोर्ट की माँग की। कोई पूर्व-निर्धारित «लाल रेखा» नहीं होने से सहयोगियों को तय करना होगा कि ड्रोन घुसपैठ और बुनियादी ढाँचे की छेड़छाड़ कब गठबंधन की प्रतिक्रिया माँगती है।",
+          "why": "हाइब्रिड युद्ध का सबसे कठिन सवाल है—कब इसे «युद्ध» माना जाए। पोलैंड का «मौतें» को संभावित ट्रिगर बताना नाटो के ग्रे-ज़ोन जवाब को बदल सकता है।",
+          "tags": [
+            "पोलैंड",
+            "नाटो",
+            "हाइब्रिड युद्ध"
+          ]
+        },
+        "es": {
+          "title": "El canciller polaco advierte a la OTAN: ataques híbridos rusos mortales forzarían una respuesta aliada",
+          "location": "Polonia · Varsovia",
+          "summary": "En una entrevista con el Financial Times, el ministro de Exteriores polaco Radosław Sikorski dijo que el sabotaje ruso en Europa se intensifica: hasta ahora golpea sobre todo bienes, pero las muertes forzarían una respuesta seria de la OTAN. Citó violaciones del espacio aéreo que activaron consultas del Artículo 4 en Polonia y Estonia, y pidió cerrar consulados rusos en la UE, restringir diplomáticos y exigir pasaportes biométricos a rusos. Sin umbral de «línea roja» previo, los aliados deben juzgar juntos cuándo las incursiones de drones y el daño a infraestructuras cruzan el umbral de respuesta.",
+          "why": "Lo más difícil de la guerra híbrida es decidir cuándo cuenta como «guerra». Polonia pone las «muertes» sobre la mesa y eso puede redefinir la respuesta de la OTAN a la zona gris rusa.",
+          "tags": [
+            "Polonia",
+            "OTAN",
+            "Guerra híbrida"
+          ]
+        },
+        "fr": {
+          "title": "Le ministre polonais des Affaires étrangères prévient l’OTAN : des attaques hybrides russes mortelles forceraient une réponse alliée",
+          "location": "Pologne · Varsovie",
+          "summary": "Dans une interview au Financial Times, le ministre polonais des Affaires étrangères Radosław Sikorski a déclaré que le sabotage russe en Europe s’intensifie : jusqu’ici il frappe surtout des biens, mais des morts forceraient une réponse sérieuse de l’OTAN. Il a cité des violations d’espace aérien ayant déclenché des consultations au titre de l’article 4 en Pologne et en Estonie, et plaidé pour la fermeture de consulats russes dans l’UE, des restrictions sur les diplomates et l’exigence de passeports biométriques pour les Russes. Sans seuil de « ligne rouge » préétabli, les alliés doivent juger ensemble quand les incursions de drones et les atteintes aux infrastructures appellent une réponse de l’Alliance.",
+          "why": "La question la plus dure de la guerre hybride est de savoir quand elle compte comme une « guerre ». En mettant les « morts » sur la table, la Pologne peut remodeler la réponse de l’OTAN à la zone grise russe.",
+          "tags": [
+            "Pologne",
+            "OTAN",
+            "Guerre hybride"
+          ]
+        },
+        "ar": {
+          "title": "وزير خارجية بولندا يحذّر الناتو: هجمات روسية هجينة مميتة ستفرض رداً من الحلف",
+          "location": "بولندا · وارسو",
+          "summary": "قال وزير خارجية بولندا رادوسواف سيكورسكي (Radosław Sikorski) في مقابلة مع فاينانشال تايمز إن التخريب الروسي في أوروبا يتصاعد: حتى الآن يطال الممتلكات غالباً، لكن وقوع قتلى سيفرض رداً جدياً من الناتو. وأشار إلى انتهاكات للمجال الجوي أدت إلى مشاورات بموجب المادة 4 في بولندا وإستونيا، ودعا إلى إغلاق قنصليات روسية في الاتحاد الأوروبي وتقييد الدبلوماسيين واشتراط جوازات بيومترية للروس. ومن دون عتبة «خط أحمر» متفق عليها سلفاً، على الحلفاء أن يقرروا معاً متى تتجاوز اختراقات المسيّرات والعبث بالبنى التحتية ما يستوجب رداً.",
+          "why": "أصعب سؤال في الحرب الهجينة هو متى تُعدّ «حرباً». ووضع بولندا «القتلى» على الطاولة قد يعيد تشكيل رد الناتو على تكتيكات المنطقة الرمادية الروسية.",
+          "tags": [
+            "بولندا",
+            "الناتو",
+            "الحرب الهجينة"
+          ]
+        },
+        "ja": {
+          "title": "ポーランド外相がNATOに警告：死者を伴うロシアのハイブリッド攻撃は同盟の対応を迫る",
+          "location": "ポーランド · ワルシャワ",
+          "summary": "ポーランドのシコルスキ外相（Radosław Sikorski）はフィナンシャル・タイムズのインタビューで、欧州でのロシアの破壊活動がエスカレートしていると述べた。現状は主に財産被害だが、死者が出ればNATOは真剣な対応を迫られる。ポーランドとエストニアで領空侵犯を受け第4条協議が発動された例を挙げ、EU内のロシア領事館閉鎖、外交官制限、ロシア人への生体認証パスポート義務化を求めた。事前の「レッドライン」基準がないため、ドローン侵入やインフラ妨害がいつ同盟の応答対象になるかは加盟国が共同判断する必要がある。",
+          "why": "ハイブリッド戦争で最も難しいのは、いつ「戦争」とみなすかだ。ポーランドが「死者」をトリガー候補に据えれば、ロシアのグレーゾーン戦術へのNATOの対応ロジックが変わる。",
+          "tags": [
+            "ポーランド",
+            "NATO",
+            "ハイブリッド戦争"
+          ]
+        },
+        "ko": {
+          "title": "폴란드 외무장관, 나토에 경고: 인명 피해 나는 러시아 하이브리드 공격은 동맹 대응을 강제할 것",
+          "location": "폴란드 · 바르샤바",
+          "summary": "폴란드 외무장관 라도스와프 시코르스키(Radosław Sikorski)는 파이낸셜 타임스 인터뷰에서 유럽 내 러시아 사보타주가 격화되고 있다고 말했다. 지금은 주로 재산 피해지만, 사망자가 나면 나토가 진지하게 대응해야 한다. 폴란드·에스토니아에서 영공 침범으로 4조 협의가 열린 사례를 들며 EU 내 러시아 영사관 폐쇄, 외교관 제한, 러시아인 생체인식 여권 요구를 촉구했다. 사전 합의된 «레드라인»이 없어 드론 침투·인프라 훼손이 언제 동맹 대응 대상이 되는지는 동맹국이 함께 판단해야 한다.",
+          "why": "하이브리드 전쟁의 가장 어려운 질문은 언제를 «전쟁»으로 볼지다. 폴란드가 «사망»을 트리거로 올리면 러시아 회색지대 전술에 대한 나토 대응 논리가 달라진다.",
+          "tags": [
+            "폴란드",
+            "나토",
+            "하이브리드 전쟁"
+          ]
+        },
+        "id": {
+          "title": "Menlu Polandia peringatkan NATO: serangan hibrida Rusia yang mematikan akan memaksa respons aliansi",
+          "location": "Polandia · Warsawa",
+          "summary": "Dalam wawancara Financial Times, Menteri Luar Negeri Polandia Radosław Sikorski mengatakan sabotase Rusia di Eropa sedang meningkat: sejauh ini terutama merusak properti, tetapi kematian akan memaksa respons serius NATO. Ia menyinggung pelanggaran wilayah udara yang memicu konsultasi Pasal 4 di Polandia dan Estonia, serta mendesak penutupan konsulat Rusia di UE, pembatasan diplomat, dan paspor biometrik bagi warga Rusia. Tanpa ambang «garis merah» yang disepakati sebelumnya, sekutu harus bersama menilai kapan penyusupan drone dan perusakan infrastruktur menuntut jawaban aliansi.",
+          "why": "Pertanyaan tersulit perang hibrida adalah kapan itu dihitung sebagai «perang». Polandia menaruh «korban jiwa» di meja, dan itu bisa membentuk ulang cara NATO menghadapi taktik zona abu-abu Rusia.",
+          "tags": [
+            "Polandia",
+            "NATO",
+            "Perang hibrida"
+          ]
+        }
+      }
+    },
     {
       "region": "欧洲",
       "source": "X 热点",
