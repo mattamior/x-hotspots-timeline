@@ -52,3 +52,7 @@ gh api repos/mattamior/x-hotspots-timeline/pages/builds --jq '.[0] | {status, cr
 ## 手动编辑
 
 也可直接改 `data/hotspots.json` 后 `git commit` + `git push`。务必保证每条有 `lat`/`lng`。
+
+## Agnir
+
+This repo is Agnir-enabled: before each commit run checkpoint evaluation per `AGNIR.md` (routine data merges are usually a no-op; do not force `.agnir/` changes).

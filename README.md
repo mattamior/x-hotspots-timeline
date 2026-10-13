@@ -56,3 +56,9 @@ git add data/hotspots.json && git commit -m "data: add hotspots YYYY-MM-DD" && g
 - 无后端、无构建
 - 宽屏并排、地图 sticky；≤900px 地图在上、时间线在下
 - GitHub Pages：`main` 根目录
+
+## Agnir Project Instructions
+
+This section is a **backward-compatible locator only**. Canonical Agnir activation and Project-operation instructions live in [`AGNIR.md`](./AGNIR.md). Do not duplicate or fork that procedure here.
+
+Fresh activation path: `AGENTS.md` → `AGNIR.md` → `AGNIR.yaml` → declared `.agnir/` memory.
