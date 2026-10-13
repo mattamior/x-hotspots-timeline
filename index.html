@@ -34,19 +34,22 @@
           </button>
           <ul id="lang-menu" class="lang-menu" role="listbox" hidden></ul>
         </div>
-        <div class="refresh-split" id="refresh-split">
+        <div class="refresh-ctl" id="refresh-split">
           <button type="button" id="refresh-btn" class="refresh-main" aria-label="刷新数据" title="刷新数据">
-            <span class="refresh-icon" aria-hidden="true">↻</span>
-            <span class="refresh-auto-badge" aria-hidden="true">auto</span>
+            <svg class="refresh-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.34 5.66"/><path d="M20 4v7h-7"/></svg>
           </button>
-          <button type="button" id="refresh-caret" class="refresh-caret" aria-haspopup="menu" aria-expanded="false" aria-controls="refresh-menu" aria-label="自动刷新">
-            <span aria-hidden="true">▾</span>
+          <button type="button" id="refresh-caret" class="refresh-caret" aria-haspopup="dialog" aria-expanded="false" aria-controls="refresh-menu" aria-label="自动刷新">
+            <svg viewBox="0 0 12 12" width="10" height="10" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 4.5 6 7.5 9 4.5"/></svg>
           </button>
-          <div id="refresh-menu" class="lang-menu refresh-menu" role="menu" hidden>
-            <button type="button" id="auto-refresh-item" class="lang-option refresh-option" role="menuitemcheckbox" aria-checked="false">
-              <span class="auto-refresh-dot" aria-hidden="true"></span>
-              <span class="auto-refresh-label">自动刷新</span>
-            </button>
+          <span class="refresh-status-dot" aria-hidden="true"></span>
+          <div id="refresh-menu" class="refresh-pop" role="dialog" hidden>
+            <div class="refresh-row">
+              <div class="refresh-row-text">
+                <span class="auto-refresh-label">自动刷新</span>
+                <span class="auto-refresh-hint">每 5 分钟</span>
+              </div>
+              <button type="button" id="auto-refresh-item" class="switch" role="switch" aria-checked="false"><span class="switch-knob"></span></button>
+            </div>
           </div>
         </div>
         <button type="button" id="theme-toggle" class="theme-btn" aria-label="切换主题">🌓</button>

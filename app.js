@@ -607,9 +607,11 @@
     refreshBtn.setAttribute("aria-label", t("refreshBtn") + " · " + state);
     refreshBtn.title = t("refreshBtn") + " · " + state;
     refreshCaret.setAttribute("aria-label", t("autoRefresh"));
-    autoItem.querySelector(".auto-refresh-label").textContent = t("autoRefresh");
     autoItem.setAttribute("aria-checked", autoRefreshOn ? "true" : "false");
-    autoItem.title = state;
+    autoItem.setAttribute("aria-label", t("autoRefresh"));
+    refreshMenu.querySelector(".auto-refresh-label").textContent = t("autoRefresh");
+    refreshMenu.querySelector(".auto-refresh-hint").textContent = t("autoRefreshHint");
+    refreshMenu.setAttribute("aria-label", t("autoRefresh"));
     refreshSplit.classList.toggle("auto-on", autoRefreshOn);
   }
 
@@ -715,7 +717,7 @@
   refreshMenu.addEventListener("keydown", (e) => {
     if (e.key === "Escape") { e.preventDefault(); closeRefreshMenu(true); }
     else if (e.key === "Tab") closeRefreshMenu();
-    else if (e.key === "ArrowDown" || e.key === "ArrowUp" || e.key === "Home" || e.key === "End") { e.preventDefault(); autoItem.focus(); }
+    
   });
   document.addEventListener("click", (e) => {
     if (!refreshSplit.contains(e.target)) closeRefreshMenu();
