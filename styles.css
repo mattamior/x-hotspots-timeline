@@ -3,8 +3,9 @@
   --bg-elev: #121a2f;
   --bg-card: #151e36;
   --border: rgba(148, 163, 184, 0.18);
-  --text: #e8eefc;
-  --text-muted: #94a3b8;
+  --text: #f1f5fb;
+  --text-body: #e8eef8;
+  --text-muted: #a8b4c8;
   --accent: #5b8cff;
   --accent-soft: rgba(91, 140, 255, 0.15);
   --loc: #34d399;
@@ -24,7 +25,8 @@
   --bg-card: #ffffff;
   --border: rgba(15, 23, 42, 0.1);
   --text: #0f172a;
-  --text-muted: #64748b;
+  --text-body: #1e293b;
+  --text-muted: #475569;
   --accent: #2563eb;
   --accent-soft: rgba(37, 99, 235, 0.1);
   --loc: #059669;
@@ -272,7 +274,7 @@ body {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.1rem 1.15rem 1.2rem;
+  padding: 1.25rem 1.35rem 1.35rem;
   box-shadow: var(--shadow);
   transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
   cursor: pointer;
@@ -318,10 +320,12 @@ body {
 }
 
 .card h2 {
-  margin: 0 0 0.7rem;
-  font-size: clamp(1.02rem, 2.4vw, 1.12rem);
-  font-weight: 650;
-  line-height: 1.4;
+  margin: 0 0 0.85rem;
+  font-size: clamp(1.05rem, 2.4vw, 1.18rem);
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text);
+  letter-spacing: 0.01em;
 }
 .card h2 a {
   color: inherit;
@@ -335,22 +339,48 @@ body {
 
 .summary {
   margin: 0;
-  color: color-mix(in srgb, var(--text) 92%, var(--text-muted));
-  font-size: 0.92rem;
+  max-width: 46em;
+  color: var(--text-body);
+  font-size: 1.02rem;
+  line-height: 1.78;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+/* CJK body needs a bit more tracking + leading */
+:lang(zh) .summary,
+:lang(ja) .summary,
+:lang(ko) .summary,
+html[lang="zh-CN"] .summary,
+html[lang="ja-JP"] .summary,
+html[lang="ko-KR"] .summary {
+  line-height: 1.85;
+  letter-spacing: 0.04em;
 }
 
 .why {
-  margin: 0.85rem 0 0;
-  padding: 0.7rem 0.85rem;
+  margin: 1rem 0 0;
+  padding: 0.85rem 1rem;
   background: var(--why-bg);
   border-left: 3px solid var(--why);
   border-radius: 0 10px 10px 0;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--text-body);
+  max-width: 46em;
 }
 .why strong {
   color: var(--why);
-  font-weight: 650;
-  margin-right: 0.25rem;
+  font-weight: 700;
+  margin-right: 0.3rem;
+}
+:lang(zh) .why,
+:lang(ja) .why,
+:lang(ko) .why,
+html[lang="zh-CN"] .why,
+html[lang="ja-JP"] .why,
+html[lang="ko-KR"] .why {
+  line-height: 1.8;
+  letter-spacing: 0.03em;
 }
 
 .tags {
@@ -360,12 +390,12 @@ body {
   margin-top: 0.85rem;
 }
 .tag {
-  font-size: 0.75rem;
-  color: var(--text-muted);
+  font-size: 0.78rem;
+  color: color-mix(in srgb, var(--text-body) 82%, var(--text-muted));
   background: color-mix(in srgb, var(--bg) 55%, transparent);
   border: 1px solid var(--border);
   border-radius: 999px;
-  padding: 0.12rem 0.5rem;
+  padding: 0.2rem 0.6rem;
 }
 
 /* Leaflet */
@@ -500,7 +530,10 @@ body {
 
 /* Card layout: text + optional mini map */
 .card-main { display: block; }
-.card-text { min-width: 0; }
+.card-text {
+  min-width: 0;
+  padding-inline-end: 0.15rem;
+}
 .card-map { display: none; }
 
 @media (min-width: 901px) {
@@ -520,9 +553,10 @@ body {
   .card-main {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 260px;
-    gap: 1.1rem;
+    gap: 1.35rem;
     align-items: stretch;
   }
+  .card-text { padding-inline-end: 0.35rem; }
   .card-map {
     display: block;
     min-height: 200px;
