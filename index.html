@@ -57,7 +57,7 @@
   </header>
 
   <main class="container">
-    <div class="filter-sticky">
+    <div class="filter-sticky" id="filter-sticky">
     <section class="toolbar" aria-label="筛选" data-i18n-aria="filterAria">
       <div id="region-chips" class="chips" role="tablist"></div>
       <div class="time-filter" id="time-filter">
@@ -86,6 +86,12 @@
     <section class="list" aria-label="热点时间线" data-i18n-aria="timelineAria">
       <ol id="timeline" class="timeline"></ol>
     </section>
+  
+    <button type="button" id="filter-fab" class="filter-fab" hidden aria-controls="filter-sticky" aria-expanded="true" aria-label="显示筛选">
+      <svg class="filter-fab-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16"/><path d="M7 12h10"/><path d="M10 18h4"/></svg>
+      <span class="filter-fab-label" data-i18n="filtersFab">筛选</span>
+    </button>
+
   </main>
 
   <footer class="site-footer">

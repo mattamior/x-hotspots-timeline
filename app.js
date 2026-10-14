@@ -23,6 +23,8 @@
   const rangeCustom = $("#range-custom");
   const rangeFrom = $("#range-from");
   const rangeTo = $("#range-to");
+  const filterSticky = $("#filter-sticky");
+  const filterFab = $("#filter-fab");
 
   // ---- i18n ----
   const I18N = window.HOTSPOTS_I18N;
@@ -59,6 +61,11 @@
     document.querySelectorAll("[data-i18n-aria]").forEach((el) => { el.setAttribute("aria-label", t(el.dataset.i18nAria)); });
     themeBtn.setAttribute("aria-label", t("themeToggle"));
     langBtn.setAttribute("aria-label", t("langLabel"));
+    if (filterFab) {
+      filterFab.setAttribute("aria-label", t("filtersFabExpand"));
+      const fl = filterFab.querySelector(".filter-fab-label");
+      if (fl) fl.textContent = t("filtersFab");
+    }
     syncRefreshChrome();
     const cur = langInfo();
     langBtnLabel.textContent = cur.label;
@@ -366,7 +373,7 @@
     syncHighlights();
 
     const marker = markersById.get(id);
-    if (marker && mapReady) {
+    if (marker && mapReady && desktopMq.matches) {
       const latlng = marker.getLatLng();
       map.panTo(latlng, { animate: true });
       if (openPopup) marker.openPopup();
@@ -421,8 +428,9 @@
       .join("");
   }
 
-  // ---- Desktop per-card mini maps ----
+  // ---- Per-card mini maps (all viewports) ----
   const desktopMq = window.matchMedia("(min-width: 901px)");
+  const mobileMq = window.matchMedia("(max-width: 900px)");
   /** @type {Map<Element, L.Map>} */
   const miniMaps = new Map();
   let miniObserver = null;
@@ -451,7 +459,6 @@
   }
 
   function setupMiniMaps() {
-    if (!desktopMq.matches) return;
     const els = timeline.querySelectorAll(".card-map");
     if (!("IntersectionObserver" in window)) { els.forEach(initMiniMap); return; }
     miniObserver = new IntersectionObserver((entries) => {
@@ -465,8 +472,11 @@
   window.addEventListener("resize", syncLayoutVars);
   desktopMq.addEventListener("change", () => {
     destroyMiniMaps();
-    if (desktopMq.matches) setupMiniMaps();
-    else if (mapReady) setTimeout(() => { syncLayoutVars(); map.invalidateSize(); applyMinZoom(); renderMap(filterItems()); }, 50);
+    setupMiniMaps();
+    syncFilterChrome();
+    if (desktopMq.matches && mapReady) {
+      // top map unused; keep size sync harmless if ever re-enabled
+    }
   });
 
   // Smallest zoom where the world fills the map width AND height (no blank bands).
@@ -481,12 +491,13 @@
 
   function syncLayoutVars() {
     const hdr = document.querySelector(".site-header");
-    const band = document.querySelector(".map-band");
     const root = document.documentElement.style;
     if (hdr) root.setProperty("--header-h", hdr.offsetHeight + "px");
-    if (band) root.setProperty("--map-h", band.offsetHeight + "px");
-    const fs = document.querySelector(".filter-sticky");
-    if (fs) root.setProperty("--filter-h", fs.offsetHeight + "px");
+    root.setProperty("--map-h", "0px");
+    if (filterSticky) {
+      const h = filterSticky.classList.contains("is-collapsed") ? 0 : filterSticky.offsetHeight;
+      root.setProperty("--filter-h", h + "px");
+    }
   }
   syncLayoutVars();
 
@@ -584,7 +595,6 @@
     }
 
     renderTimeline(items);
-    renderMap(items);
     setupMiniMaps();
   }
 
@@ -844,12 +854,78 @@
     }
   });
 
+  // ---- Mobile filter collapse → FAB ----
+  let filtersCollapsed = false;
+  let lastScrollY = window.scrollY || 0;
+  let scrollTicking = false;
+
+  function syncFilterChrome() {
+    if (!filterSticky || !filterFab) return;
+    if (!mobileMq.matches) {
+      filtersCollapsed = false;
+      filterSticky.classList.remove("is-collapsed");
+      document.body.classList.remove("filters-collapsed");
+      filterFab.hidden = true;
+      filterFab.setAttribute("aria-expanded", "true");
+      syncLayoutVars();
+      return;
+    }
+    filterSticky.classList.toggle("is-collapsed", filtersCollapsed);
+    document.body.classList.toggle("filters-collapsed", filtersCollapsed);
+    filterFab.hidden = !filtersCollapsed;
+    filterFab.setAttribute("aria-expanded", filtersCollapsed ? "false" : "true");
+    syncLayoutVars();
+  }
+
+  function setFiltersCollapsed(on) {
+    if (!mobileMq.matches) on = false;
+    if (filtersCollapsed === on) { syncFilterChrome(); return; }
+    filtersCollapsed = on;
+    syncFilterChrome();
+  }
+
+  function onScrollFilters() {
+    if (!mobileMq.matches) return;
+    const y = window.scrollY || 0;
+    if (performance.now() < expandLockUntil) { lastScrollY = y; scrollTicking = false; return; }
+    const dy = y - lastScrollY;
+    if (y < 56) {
+      setFiltersCollapsed(false);
+    } else if (dy > 10 && y > 120) {
+      setFiltersCollapsed(true);
+    } else if (dy < -12 && y < 160) {
+      setFiltersCollapsed(false);
+    }
+    lastScrollY = y;
+    scrollTicking = false;
+  }
+
+  window.addEventListener("scroll", () => {
+    if (scrollTicking) return;
+    scrollTicking = true;
+    requestAnimationFrame(onScrollFilters);
+  }, { passive: true });
+
+  let expandLockUntil = 0;
+  if (filterFab) {
+    filterFab.addEventListener("click", () => {
+      setFiltersCollapsed(false);
+      lastScrollY = window.scrollY || 0;
+      expandLockUntil = performance.now() + 700;
+    });
+  }
+  mobileMq.addEventListener("change", () => {
+    lastScrollY = window.scrollY || 0;
+    syncFilterChrome();
+  });
+
   async function boot() {
     initTheme();
     applyStaticI18n();
     renderTimeFilter();
     syncTimeUrl();
     syncRefreshChrome();
+    syncFilterChrome();
     await loadData({ soft: false });
     scheduleAutoRefresh();
   }
