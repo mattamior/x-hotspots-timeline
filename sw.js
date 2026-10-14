@@ -1,5 +1,5 @@
 // Minimal service worker: cache-first app shell, network-first data.
-const VERSION = "v4-2026-10-14-xdot-plain";
+const VERSION = "v5-2026-10-14-xslim";
 const SHELL = `xh-shell-${VERSION}`;
 const DATA = `xh-data-${VERSION}`;
 const SHELL_FILES = [

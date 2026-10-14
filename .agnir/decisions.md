@@ -31,3 +31,4 @@ Updated: 2026-10-14
 - **2026-10-14** — Icon v2 (X-inspired, not the X logo): black bg, white monoline round-cap crossing strokes; the top-right arm is replaced by a red (#ff3b30) hotspot pulse dot. Manifest bg/theme #000000; sw VERSION v2-2026-10-14-xicon.
 - **2026-10-14** — Icon v3: full equal-width rounded X (all four arms) with red #ff3b30 hotspot dot centred on the crossing, separated by a black gap ring; halo dropped (tinted the strokes pink). sw VERSION v3-2026-10-14-xdot.
 - **2026-10-14** — Icon v4: gap ring removed; red #ff3b30 dot (r 6.25 vs stroke 8.5 → ~1.5x stroke width) sits directly on the X crossing. sw VERSION v4-2026-10-14-xdot-plain.
+- **2026-10-14** — Icon v5: slender elongated X (stroke 4.25, arms 11→53; maskable scaled .78 inside safe zone; apple .86), red dot r 5.3 (~2.5x stroke). 16/32 rasters use a heavier variant (stroke 6.5, dot r 7.5) for legibility. sw VERSION v5-2026-10-14-xslim.
