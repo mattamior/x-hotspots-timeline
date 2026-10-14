@@ -1,7 +1,826 @@
 {
-  "updatedAt": "2026-10-14T12:05:00+08:00",
+  "updatedAt": "2026-10-14T20:05:00+08:00",
   "title": "全球热点时间线",
   "items": [
+    {
+      "region": "中东",
+      "source": "X 热点",
+      "tags": [
+        "黎巴嫩",
+        "真主党",
+        "卡茨",
+        "以色列大选"
+      ],
+      "why": "以方在大选前公开勾勒对黎大规模疏散与永久占领逻辑，会抬高北线再升级风险，并牵动美以对真主党/伊朗联动的威慑信号。",
+      "id": "2110337780949696657",
+      "title": "以国防部长卡茨警告真主党：若联手伊朗进攻将失南黎巴嫩并大规模疏散什叶派居民",
+      "location": "黎巴嫩·纳巴蒂亚",
+      "url": "https://x.com/i/trending/2110337780949696657",
+      "summary": "以色列国防部长伊斯雷尔·卡茨（Israel Katz）在南部缓冲区陪同高级指挥官视察时警告：若真主党加入伊朗对以进攻，以色列将把纳巴蒂亚、利塔尼河一带更多南黎巴嫩领土变成「永久安全区」。他称将疏散阿瓦利河、扎赫拉尼河以北逾百万什叶派居民及贝鲁特南郊达希耶（Dahiyeh），以便打击武装据点并压制无人机威胁。表态正值以军「银犁行动」（Operation Silver Plow）期间，距10月27日以色列大选仅约两周；真主党尚未公开回应。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 33.377,
+      "lng": 35.483,
+      "i18n": {
+        "en": {
+          "title": "Israeli Defense Minister Katz warns Hezbollah: join Iran’s attack and lose south Lebanon, with mass Shiite evacuations",
+          "location": "Lebanon · Nabatieh",
+          "summary": "Israeli Defense Minister Israel Katz, touring the southern buffer zone with senior commanders, warned that if Hezbollah joins Iran in attacking Israel, more of southern Lebanon—including Nabatieh and Litani areas—would become Israel’s permanent security zone. He outlined evacuating over one million Shiites north of the Awali and Zahrani rivers, plus Beirut’s Dahiyeh district, to strike militant sites and curb drones. The remarks came during Operation Silver Plow, about two weeks before Israel’s October 27 election; Hezbollah has not publicly responded.",
+          "why": "Spelling out mass evacuation and permanent-hold logic before an election raises northern-front escalation risk and shapes U.S.–Israel deterrence messaging toward Hezbollah and Iran.",
+          "tags": [
+            "Lebanon",
+            "Hezbollah",
+            "Katz",
+            "Israel election"
+          ]
+        },
+        "hi": {
+          "title": "इज़राइली रक्षा मंत्री कात्ज़ की हिज़बुल्लाह को चेतावनी: ईरान संग हमला तो दक्षिण लेबनान गंवाएंगे, शियाओं का बड़े पैमाने पर विस्थापन",
+          "location": "लेबनान · नबातिया",
+          "summary": "इज़राइली रक्षा मंत्री इज़राइल कात्ज़ ने दक्षिणी बफ़र ज़ोन में वरिष्ठ कमांडरों के साथ दौरे पर चेतावनी दी कि यदि हिज़बुल्लाह ईरान के साथ इज़राइल पर हमला करे, तो नबातिया और लितानी सहित अधिक दक्षिण लेबनान इज़राइल का स्थायी सुरक्षा क्षेत्र बन जाएगा। उन्होंने अवाली और ज़हरानी नदियों के उत्तर में 10 लाख से अधिक शियाओं तथा बेरूत के दाहियेह जिले को खाली कराने की रूपरेखा बताई, ताकि आतंक ठिकाने और ड्रोन खतरे पर प्रहार हो। बयान ऑपरेशन सिल्वर प्लाउ के दौरान आया, 27 अक्टूबर के चुनाव से करीब दो हफ़्ते पहले; हिज़बुल्लाह ने सार्वजनिक जवाब नहीं दिया।",
+          "why": "चुनाव से पहले बड़े विस्थापन और स्थायी कब्ज़े की भाषा उत्तरी मोर्चे के बढ़ते जोखिम और हिज़बुल्लाह/ईरान के प्रति अमेरिकी-इज़राइली संदेश को आकार देती है।",
+          "tags": [
+            "लेबनान",
+            "हिज़बुल्लाह",
+            "कात्ज़",
+            "इज़राइल चुनाव"
+          ]
+        },
+        "es": {
+          "title": "El ministro de Defensa Katz advierte a Hezbolá: unirse a Irán costaría el sur del Líbano y evacuaciones masivas chiíes",
+          "location": "Líbano · Nabatiye",
+          "summary": "El ministro de Defensa israelí Israel Katz, en una visita a la zona de amortiguamiento del sur con altos mandos, advirtió que si Hezbolá se suma a un ataque iraní contra Israel, más territorio del sur del Líbano —incluidos Nabatiye y el Litani— se convertiría en zona de seguridad permanente israelí. Esbozó evacuar a más de un millón de chiíes al norte de los ríos Awali y Zahrani, más el barrio Dahiyeh de Beirut, para golpear objetivos armados y frenar drones. Las palabras llegan durante la Operación Silver Plow, a unas dos semanas de las elecciones del 27 de octubre; Hezbolá no ha respondido en público.",
+          "why": "Explicitar evacuaciones masivas y ocupación permanente antes de unas elecciones eleva el riesgo de escalada en el frente norte y moldea la disuasión EE. UU.–Israel frente a Hezbolá e Irán.",
+          "tags": [
+            "Líbano",
+            "Hezbolá",
+            "Katz",
+            "Elecciones Israel"
+          ]
+        },
+        "fr": {
+          "title": "Le ministre de la Défense Katz prévient le Hezbollah : s’allier à l’Iran coûterait le sud du Liban et des évacuations chiites massives",
+          "location": "Liban · Nabatiyé",
+          "summary": "Le ministre israélien de la Défense Israel Katz, en tournée dans la zone tampon sud avec des commandants, a prévenu que si le Hezbollah se joint à une attaque iranienne contre Israël, davantage du sud du Liban — dont Nabatiyé et le Litani — deviendrait zone de sécurité permanente israélienne. Il a évoqué l’évacuation de plus d’un million de chiites au nord des rivières Awali et Zahrani, plus le quartier Dahiyeh de Beyrouth, pour frapper des sites armés et freiner les drones. Les propos interviennent pendant l’opération Silver Plow, à environ deux semaines des élections du 27 octobre ; le Hezbollah n’a pas répondu publiquement.",
+          "why": "Formuler avant une élection une logique d’évacuation massive et d’emprise permanente relève le risque d’escalade au nord et structure le message de dissuasion américano-israélien face au Hezbollah et à l’Iran.",
+          "tags": [
+            "Liban",
+            "Hezbollah",
+            "Katz",
+            "Élections Israël"
+          ]
+        },
+        "ar": {
+          "title": "وزير الدفاع كاتس يحذر حزب الله: الانضمام لهجوم إيران يعني خسارة جنوب لبنان وإجلاء جماعي للشيعة",
+          "location": "لبنان · النبطية",
+          "summary": "حذر وزير الدفاع الإسرائيلي يسرائيل كاتس خلال جولة في المنطقة العازلة الجنوبية مع قادة كبار أنه إذا انضم حزب الله إلى هجوم إيراني على إسرائيل، فسيحوّل مزيداً من جنوب لبنان بما فيه النبطية والليطاني إلى منطقة أمنية إسرائيلية دائمة. وأوضح خططاً لإجلاء أكثر من مليون شيعي شمال نهري الأولي والزهراني إضافة إلى ضاحية بيروت الجنوبية، لضرب مواقع مسلحة وكبح الطائرات المسيرة. جاءت التصريحات خلال عملية «المحراث الفضي» قبل نحو أسبوعين من انتخابات 27 أكتوبر؛ ولم يرد حزب الله علناً.",
+          "why": "الإعلان قبل الانتخابات عن إجلاء جماعي واحتلال دائم يرفع خطر التصعيد على الجبهة الشمالية ويشكل رسالة الردع الأميركية الإسرائيلية تجاه حزب الله وإيران.",
+          "tags": [
+            "لبنان",
+            "حزب الله",
+            "كاتس",
+            "انتخابات إسرائيل"
+          ]
+        },
+        "ja": {
+          "title": "イスラエルのカッツ国防相がヒズボラに警告：イランと連携攻撃なら南レバノンを失い、シーア派住民を大規模避難",
+          "location": "レバノン · ナバティーエ",
+          "summary": "イスラエル国防相イスラエル・カッツは南部緩衝地帯を高級指揮官と視察した際、ヒズボラがイランと共にイスラエルを攻撃すれば、ナバティーエやリタニ一帯など南レバノンのより広い地域をイスラエルの「恒久的安全地帯」にすると警告した。アワリ川・ザフラニ川以北の100万人超のシーア派住民とベイルート南郊ダヒエの避難を想定し、武装拠点攻撃とドローン抑制に備えるという。発言は作戦「シルバー・プラウ」中、10月27日の総選挙約2週間前；ヒズボラは公式に応じていない。",
+          "why": "選挙前に大規模避難と恒久支配の論理を公言することは北部戦線のエスカレーションリスクを高め、ヒズボラ／イランへの米以抑止メッセージを左右する。",
+          "tags": [
+            "レバノン",
+            "ヒズボラ",
+            "カッツ",
+            "イスラエル選挙"
+          ]
+        },
+        "ko": {
+          "title": "이스라엘 카츠 국방, 헤즈볼라 경고: 이란과 합동 공격 시 남레바논 상실·시아파 대피 대규모",
+          "location": "레바논 · 나바티예",
+          "summary": "이스라엘 국방장관 이스라엘 카츠는 남부 완충지대를 고급 지휘관과 시찰하며, 헤즈볼라가 이란과 함께 이스라엘을 공격하면 나바티예·리타니 일대 등 남레바논 더 넓은 지역을 이스라엘의 «영구 안보지대»로 만들겠다고 경고했다. 아왈리·자흐라니 강 이북 시아파 100만 명 이상과 베이루트 남교외 다히예 대피를 구상해 무장 거점 타격과 드론 억제에 대비한다고 했다. 발언은 «실버 플라우» 작전 중, 10월 27일 총선 약 2주 전이며 헤즈볼라는 공개 응답하지 않았다.",
+          "why": "선거 전 대규모 대피와 영구 점유 논리를 공개하면 북부전선 고조 위험이 커지고 헤즈볼라·이란에 대한 미·이스라엘 억제 메시지가 달라진다.",
+          "tags": [
+            "레바논",
+            "헤즈볼라",
+            "카츠",
+            "이스라엘 총선"
+          ]
+        },
+        "id": {
+          "title": "Menhan Israel Katz peringatkan Hizbullah: bergabung dengan Iran berarti kehilangan Lebanon selatan dan evakuasi massal Syiah",
+          "location": "Lebanon · Nabatieh",
+          "summary": "Menteri Pertahanan Israel Israel Katz, saat meninjau zona penyangga selatan bersama komandan senior, memperingatkan bahwa jika Hizbullah bergabung dengan Iran menyerang Israel, lebih banyak wilayah Lebanon selatan—termasuk Nabatieh dan Litani—akan menjadi zona keamanan permanen Israel. Ia menguraikan rencana mengevakuasi lebih dari satu juta Syiah di utara sungai Awali dan Zahrani, plus distrik Dahiyeh di Beirut, untuk menyerang situs bersenjata dan menekan ancaman drone. Pernyataan itu datang selama Operasi Silver Plow, sekitar dua minggu sebelum pemilu 27 Oktober; Hizbullah belum merespons secara terbuka.",
+          "why": "Merinci evakuasi massal dan logika penguasaan permanen menjelang pemilu menaikkan risiko eskalasi di front utara dan membentuk sinyal penangkalan AS–Israel terhadap Hizbullah dan Iran.",
+          "tags": [
+            "Lebanon",
+            "Hizbullah",
+            "Katz",
+            "Pemilu Israel"
+          ]
+        }
+      }
+    },
+    {
+      "region": "中东",
+      "source": "X 热点",
+      "tags": [
+        "内塔尼亚胡",
+        "以色列大选",
+        "巴勒斯坦",
+        "加沙"
+      ],
+      "why": "大选两周前把「巴勒斯坦国/撤军」绑成安全选择题，会直接塑造停火后加沙治理与黎以前线政策的国内政治约束。",
+      "id": "2110306532269101315",
+      "title": "内塔尼亚胡称反对派若胜选将建巴勒斯坦国并自加沙、黎巴嫩撤军，为大选定调安全议题",
+      "location": "以色列·耶路撒冷",
+      "url": "https://x.com/i/trending/2110306532269101315",
+      "summary": "以色列总理本雅明·内塔尼亚胡（Benjamin Netanyahu）在第14频道节目《爱国者》上警告选民：反对派上台意味着从加沙与黎巴嫩撤军、建立巴勒斯坦国，并忽视伊朗威胁。他称约旦河西岸局势变化是阻止其变成巴勒斯坦国的「奇迹」，并誓言不会在自己任内发生。10月27日大选临近、民调胶着，利库德借此动员；反对派如加迪·艾森科特（Gadi Eisenkot）等否认接受两国方案，部分阿拉伯政党则要求推进巴勒斯坦建国。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 31.768,
+      "lng": 35.214,
+      "i18n": {
+        "en": {
+          "title": "Netanyahu warns an opposition win would mean a Palestinian state and pullbacks from Gaza and Lebanon",
+          "location": "Israel · Jerusalem",
+          "summary": "Israeli Prime Minister Benjamin Netanyahu told Channel 14’s “The Patriots” that an opposition victory would mean withdrawals from Gaza and Lebanon, a Palestinian state, and ignoring Iran’s threats. He called West Bank changes a “miracle” that prevented a Palestinian state there and vowed it won’t happen on his watch. With a tight race ahead of the October 27 election, Likud is using the remarks to rally; figures like Gadi Eisenkot reject a two-state path, while some Arab parties demand progress toward one.",
+          "why": "Framing “Palestinian state/withdrawal” as the security ballot two weeks out hardens domestic constraints on post-ceasefire Gaza governance and the Lebanon front.",
+          "tags": [
+            "Netanyahu",
+            "Israel election",
+            "Palestine",
+            "Gaza"
+          ]
+        },
+        "hi": {
+          "title": "नेतन्याहू का दावा: विपक्ष जीते तो फ़िलिस्तीनी राज्य बनेगा और गाज़ा-लेबनान से वापसी",
+          "location": "इज़राइल · यरुशलम",
+          "summary": "इज़राइली प्रधानमंत्री बेंजामिन नेतन्याहू ने चैनल 14 के «द पैट्रियट्स» पर चेतावनी दी कि विपक्ष की जीत का मतलब गाज़ा और लेबनान से पीछे हटना, फ़िलिस्तीनी राज्य और ईरान के खतरे की अनदेखी होगा। उन्होंने वेस्ट बैंक बदलावों को फ़िलिस्तीनी राज्य रोकने वाला «चमत्कार» कहा और कसम खाई कि उनके कार्यकाल में ऐसा नहीं होगा। 27 अक्टूबर चुनाव से पहले कड़ी दौड़ में लिकुड इसे जुटाने के लिए इस्तेमाल कर रहा है; गादी आइसेनकोट जैसे विपक्षी दो-राज्य मार्ग अस्वीकार करते हैं, जबकि कुछ अरब दल प्रगति मांगते हैं।",
+          "why": "चुनाव से दो हफ़्ते पहले «फ़िलिस्तीनी राज्य/वापसी» को सुरक्षा सवाल बनाना युद्धविराम के बाद गाज़ा शासन और लेबनान मोर्चे पर घरेलू दबाव बढ़ाता है।",
+          "tags": [
+            "नेतन्याहू",
+            "इज़राइल चुनाव",
+            "फ़िलिस्तीन",
+            "गाज़ा"
+          ]
+        },
+        "es": {
+          "title": "Netanyahu advierte que una victoria de la oposición significaría un Estado palestino y retiradas de Gaza y Líbano",
+          "location": "Israel · Jerusalén",
+          "summary": "El primer ministro israelí Benjamín Netanyahu dijo en “The Patriots” de Channel 14 que una victoria opositora implicaría retiradas de Gaza y Líbano, un Estado palestino e ignorar las amenazas de Irán. Calificó de «milagro» los cambios en Cisjordania que impidieron un Estado palestino allí y prometió que no ocurrirá bajo su mandato. Con una carrera ajustada hacia el 27 de octubre, Likud usa el mensaje para movilizar; figuras como Gadi Eisenkot rechazan la vía de dos Estados, mientras algunos partidos árabes exigen avances.",
+          "why": "Convertir «Estado palestino/retirada» en la papeleta de seguridad dos semanas antes endurece los límites internos sobre la gobernanza de Gaza tras el alto el fuego y el frente libanés.",
+          "tags": [
+            "Netanyahu",
+            "Elecciones Israel",
+            "Palestina",
+            "Gaza"
+          ]
+        },
+        "fr": {
+          "title": "Netanyahou prévient qu’une victoire de l’opposition signifierait un État palestinien et des retraits de Gaza et du Liban",
+          "location": "Israël · Jérusalem",
+          "summary": "Le Premier ministre israélien Benyamin Netanyahou a déclaré sur « The Patriots » de Channel 14 qu’une victoire de l’opposition impliquerait des retraits de Gaza et du Liban, un État palestinien et l’ignorance des menaces iraniennes. Il a qualifié de « miracle » les changements en Cisjordanie qui ont empêché un État palestinien et juré que cela n’arrivera pas sous son mandat. Avec une course serrée avant le 27 octobre, le Likoud utilise le message pour mobiliser ; des figures comme Gadi Eisenkot rejettent la voie à deux États, tandis que certains partis arabes exigent des avancées.",
+          "why": "Faire de « État palestinien/retrait » le choix sécuritaire deux semaines avant le scrutin durcit les contraintes internes sur la gouvernance de Gaza après le cessez-le-feu et le front libanais.",
+          "tags": [
+            "Netanyahou",
+            "Élections Israël",
+            "Palestine",
+            "Gaza"
+          ]
+        },
+        "ar": {
+          "title": "نتنياهو يحذر: فوز المعارضة يعني دولة فلسطينية وانسحاباً من غزة ولبنان",
+          "location": "إسرائيل · القدس",
+          "summary": "قال رئيس الوزراء الإسرائيلي بنيامين نتنياهو في برنامج «الوطنيون» على القناة 14 إن فوز المعارضة يعني الانسحاب من غزة ولبنان وإقامة دولة فلسطينية وتجاهل تهديدات إيران. ووصف تغيرات الضفة بأنها «معجزة» منعت تحولها إلى دولة فلسطينية، متعهداً ألا يحدث ذلك في عهده. ومع سباق متقارب قبل انتخابات 27 أكتوبر، يستخدم الليكود الرسالة للتعبئة؛ وشخصيات مثل غادي آيزنكوت ترفض مسار الدولتين بينما تطالب أحزاب عربية بالتقدم نحوه.",
+          "why": "جعل «الدولة الفلسطينية/الانسحاب» خيار الأمن قبل أسبوعين من الاقتراع يشدد القيود الداخلية على حكم غزة بعد وقف إطلاق النار والجبهة اللبنانية.",
+          "tags": [
+            "نتنياهو",
+            "انتخابات إسرائيل",
+            "فلسطين",
+            "غزة"
+          ]
+        },
+        "ja": {
+          "title": "ネタニヤフ、野党勝利ならパレスチナ国家樹立とガザ・レバノン撤退になると警告",
+          "location": "イスラエル · エルサレム",
+          "summary": "イスラエルのベンヤミン・ネタニヤフ首相はチャンネル14の番組で、野党勝利はガザとレバノンからの撤退、パレスチナ国家樹立、イラン脅威の無視を意味すると警告した。西岸の変化をパレスチナ国家化を防いだ「奇跡」と呼び、自らの任期中には起こらないと誓った。10月27日選挙を控え接戦の中、リクードは動員に利用；ガディ・アイゼンコットらは二国家案を否定し、一部アラブ政党は進展を求める。",
+          "why": "選挙2週間前に「パレスチナ国家／撤退」を安保の選択肢に据えることは、停戦後のガザ統治とレバノン戦線への国内制約を強める。",
+          "tags": [
+            "ネタニヤフ",
+            "イスラエル選挙",
+            "パレスチナ",
+            "ガザ"
+          ]
+        },
+        "ko": {
+          "title": "네타냐후, 야당 승리 시 팔레스타인 국가 수립·가자·레바논 철군 될 것이라 경고",
+          "location": "이스라엘 · 예루살렘",
+          "summary": "이스라엘 베냐민 네타냐후 총리는 채널14 프로그램에서 야당 승리는 가자·레바논 철군, 팔레스타인 국가 수립, 이란 위협 무시를 뜻한다고 경고했다. 서안 변화를 팔레스타인 국가화를 막은 «기적»이라 부르며 자신의 임기에는 없을 것이라고 다짐했다. 10월 27일 총선 전 접전 속 리쿠드가 동원에 쓰고 있으며, 가디 아이젠콧 등은 두 국가안을 거부하고 일부 아랍 정당은 진전을 요구한다.",
+          "why": "선거 2주 전 «팔레스타인 국가/철군»을 안보 선택지로 묶으면 휴전 후 가자 통치와 레바논 전선에 대한 국내 제약이 커진다.",
+          "tags": [
+            "네타냐후",
+            "이스라엘 총선",
+            "팔레스타인",
+            "가자"
+          ]
+        },
+        "id": {
+          "title": "Netanyahu peringatkan kemenangan oposisi berarti negara Palestina serta penarikan dari Gaza dan Lebanon",
+          "location": "Israel · Yerusalem",
+          "summary": "Perdana Menteri Israel Benjamin Netanyahu di Channel 14 “The Patriots” memperingatkan bahwa kemenangan oposisi berarti penarikan dari Gaza dan Lebanon, negara Palestina, dan mengabaikan ancaman Iran. Ia menyebut perubahan di Tepi Barat sebagai “keajaiban” yang mencegah negara Palestina di sana dan berjanji tidak terjadi di masa jabatannya. Dengan balapan ketat menjelang pemilu 27 Oktober, Likud memakai pesan itu untuk mobilisasi; tokoh seperti Gadi Eisenkot menolak jalur dua negara, sementara sebagian partai Arab menuntut kemajuan.",
+          "why": "Menjadikan “negara Palestina/penarikan” pilihan keamanan dua minggu sebelum pemilu memperkeras batasan domestik atas tata kelola Gaza pasca-gencatan dan front Lebanon.",
+          "tags": [
+            "Netanyahu",
+            "Pemilu Israel",
+            "Palestina",
+            "Gaza"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "勒庞",
+        "法国",
+        "乌克兰援助",
+        "欧盟"
+      ],
+      "why": "2027大选热门人选公开「减援+减欧盟缴款」路线，会立刻影响巴黎在欧盟对乌融资谈判中的可信度与市场对法财政政治的定价。",
+      "id": "2110337780316250281",
+      "title": "勒庞称法国难以再为乌克兰买单：拟停双边直接援助并削减约110亿欧元欧盟缴款",
+      "location": "法国·巴黎",
+      "url": "https://x.com/i/trending/2110337780316250281",
+      "summary": "法国极右翼领袖玛丽娜·勒庞（Marine Le Pen）在接受英国《金融时报》采访时称，法国承担欧盟对乌贷款份额约180亿欧元已过重，将告诉泽连斯基法方难以继续加码援助。她计划若执政则停止双边直接拨款、把对乌出资主要限制在欧盟框架内，并在2027年把法国对欧盟整体缴款削减约110亿欧元，理由是国债高企。民调显示她在2027年总统选战支持率约35%居首；批评者指其对俄立场偏软，她则自称财政现实主义并仍支持乌克兰「成功」与和平会议。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 48.857,
+      "lng": 2.352,
+      "i18n": {
+        "en": {
+          "title": "Le Pen says France can’t keep footing Ukraine’s bill: would halt bilateral aid and cut ~€11bn in EU payments",
+          "location": "France · Paris",
+          "summary": "French far-right leader Marine Le Pen told the Financial Times that France’s roughly €18 billion share of EU loans for Ukraine is too heavy and she would warn Zelenskyy that Paris cannot keep adding aid. If in power she would stop direct bilateral funding, limit contributions mainly to EU programs, and cut France’s overall EU payments by about €11 billion in 2027 amid high national debt. Polls put her near 35% ahead for the April 2027 presidential race; critics call her soft on Russia, while she frames the stance as fiscal realism while still backing Ukraine’s success and a peace conference.",
+          "why": "A 2027 front-runner advertising “less aid + lower EU dues” immediately weighs on Paris’s credibility in EU Ukraine-finance talks and how markets price French fiscal politics.",
+          "tags": [
+            "Le Pen",
+            "France",
+            "Ukraine aid",
+            "EU"
+          ]
+        },
+        "hi": {
+          "title": "ले पेन: फ्रांस यूक्रेन का बिल नहीं उठा सकता—द्विपक्षीय सहायता रोकेगा, EU अंशदान ~110 अरब यूरो घटाएगा",
+          "location": "फ़्रांस · पेरिस",
+          "summary": "फ़्रांसीसी अति-दक्षिण नेता मरीन ले पेन ने फाइनेंशियल टाइम्स से कहा कि यूक्रेन के लिए EU ऋण में फ्रांस का करीब 180 अरब यूरो हिस्सा बहुत भारी है और वे ज़ेलेंस्की को बताएंगी कि पेरिस और सहायता नहीं बढ़ा सकता। सत्ता में आने पर द्विपक्षीय सीधे फंडिंग रोकेंगी, योगदान मुख्यतः EU कार्यक्रमों तक सीमित रखेंगी और 2027 में कुल EU भुगतान करीब 110 अरब यूरो घटाएंगी—ऊँचे कर्ज़ का हवाला देते हुए। सर्वे में अप्रैल 2027 राष्ट्रपति दौड़ में करीब 35% से आगे; आलोचक रूससॉफ्ट ऑन रशिया» कहते हैं, वे इसे राजकोषीय यथार्थवाद बताती हैं और यूक्रेन की सफलता व शांति सम्मेलन का समर्थन रखती हैं।",
+          "why": "2027 की अग्रणी उम्मीदवार का «कम सहायता+कम EU अंशदान» तुरंत पेरिस की EU यूक्रेन वित्त वार्ताओं की विश्वसनीयता और फ़्रांसीसी राजकोषीय राजनीति की बाज़ार कीमत पर असर डालता है।",
+          "tags": [
+            "ले पेन",
+            "फ़्रांस",
+            "यूक्रेन सहायता",
+            "EU"
+          ]
+        },
+        "es": {
+          "title": "Le Pen dice que Francia no puede seguir pagando por Ucrania: pararía la ayuda bilateral y recortaría ~11.000 M€ a la UE",
+          "location": "Francia · París",
+          "summary": "La líder de la extrema derecha francesa Marine Le Pen dijo al Financial Times que la cuota francesa de unos 18.000 millones de euros en préstamos de la UE a Ucrania es excesiva y avisaría a Zelenski de que París no puede seguir sumando ayuda. En el poder detendría la financiación bilateral directa, limitaría aportaciones sobre todo a programas de la UE y recortaría unos 11.000 millones en pagos totales a la UE en 2027 por la elevada deuda. Las encuestas la sitúan cerca del 35% de cara a 2027; críticos la ven blanda con Rusia; ella lo enmarca como realismo fiscal manteniendo el respaldo al éxito de Ucrania y a una conferencia de paz.",
+          "why": "Que una favorita de 2027 anuncie «menos ayuda + menos cuota UE» pesa de inmediato en la credibilidad de París en la financiación europea a Ucrania y en cómo el mercado valora la política fiscal francesa.",
+          "tags": [
+            "Le Pen",
+            "Francia",
+            "Ayuda a Ucrania",
+            "UE"
+          ]
+        },
+        "fr": {
+          "title": "Le Pen estime que la France ne peut plus financer l’Ukraine : arrêt de l’aide bilatérale et ~11 Md€ de baisse de contribution UE",
+          "location": "France · Paris",
+          "summary": "La dirigeante d’extrême droite Marine Le Pen a déclaré au Financial Times que la part française d’environ 18 milliards d’euros dans les prêts européens à l’Ukraine est trop lourde et qu’elle préviendrait Zelensky que Paris ne peut plus augmenter l’aide. Au pouvoir, elle arrêterait le financement bilatéral direct, limiterait surtout les contributions aux programmes UE et réduirait d’environ 11 milliards les paiements globaux à l’UE en 2027 face à la dette. Les sondages la placent vers 35 % pour 2027 ; les critiques la jugent molle envers la Russie ; elle invoque le réalisme budgétaire tout en soutenant le succès de l’Ukraine et une conférence de paix.",
+          "why": "Qu’une favorite de 2027 affiche « moins d’aide + moins de contribution UE » pèse aussitôt sur la crédibilité de Paris dans le financement européen de l’Ukraine et sur le prix que le marché donne à la politique budgétaire française.",
+          "tags": [
+            "Le Pen",
+            "France",
+            "Aide à l’Ukraine",
+            "UE"
+          ]
+        },
+        "ar": {
+          "title": "لوبان: فرنسا لا تستطيع مواصلة تمويل أوكرانيا—وقف المساعدة الثنائية وخفض نحو 11 مليار يورو من مساهمات الاتحاد",
+          "location": "فرنسا · باريس",
+          "summary": "قالت زعيمة اليمين المتطرف الفرنسية مارين لوبان لفايننشال تايمز إن حصة فرنسا البالغة نحو 18 مليار يورو من قروض الاتحاد الأوروبي لأوكرانيا ثقيلة جداً، وستحذّر زيلينسكي من أن باريس لا تستطيع زيادة المساعدة. وفي السلطة ستوقف التمويل الثنائي المباشر وتحدّ المساهمات أساساً ببرامج الاتحاد وتخفض مدفوعات فرنسا الإجمالية للاتحاد بنحو 11 مليار يورو في 2027 بسبب الدين المرتفع. واستطلاعات الرأي تضعها قرب 35% لانتخابات 2027؛ ونقاد يرونها متساهلة مع روسيا بينما تصف موقفها بالواقعية المالية مع دعم نجاح أوكرانيا ومؤتمر سلام.",
+          "why": "إعلان مرشحة مفضلة لعام 2027 عن «أقل مساعدة + أقل مساهمات أوروبية» يضعف فوراً مصداقية باريس في تمويل أوكرانيا عبر الاتحاد وتسعير الأسواق للسياسة المالية الفرنسية.",
+          "tags": [
+            "لوبان",
+            "فرنسا",
+            "مساعدة أوكرانيا",
+            "الاتحاد الأوروبي"
+          ]
+        },
+        "ja": {
+          "title": "ルペン、フランスはウクライナ支援を続けられないと主張：二国間援助停止とEU拠出を約110億ユーロ削減",
+          "location": "フランス · パリ",
+          "summary": "フランス極右のマリーヌ・ルペンはフィナンシャル・タイムズに対し、対ウクライナEU融資における仏負担約180億ユーロは過重で、ゼレンスキーにこれ以上の増額は難しいと伝えると述べた。政権を取れば二国間直接支援を止め、拠出を主にEU枠に限定し、高債務を理由に2027年の対EU総拠出を約110億ユーロ削減する方針。世論調査では2027年大統領選で約35%と首位；批判派は対露姿勢が軟だと指摘し、本人は財政リアリズムとしつつウクライナの成功と和平会議は支持すると主張する。",
+          "why": "2027年の有力候補が「減援＋EU拠出減」を掲げれば、パリの対ウクライナEU財政交渉の信頼とフランス財政政治の市場評価に直ちに影響する。",
+          "tags": [
+            "ルペン",
+            "フランス",
+            "ウクライナ支援",
+            "EU"
+          ]
+        },
+        "ko": {
+          "title": "르펜, 프랑스는 우크라이나 지원을 계속할 수 없다: 양자 원조 중단·EU 분담금 약 110억 유로 삭감",
+          "location": "프랑스 · 파리",
+          "summary": "프랑스 극우 지도자 마린 르펜은 파이낸셜타임스에 우크라이나 EU 대출에서 프랑스 몫 약 180억 유로가 과중하다며 젤렌스키에게 더 이상 원조를 늘리기 어렵다고 경고하겠다고 했다. 집권 시 양자 직접 지원을 끊고 기여를 주로 EU 프로그램으로 한정하며, 높은 국가부채를 이유로 2027년 EU 총 분담금을 약 110억 유로 줄이겠다고 했다. 여론조사에서 2027 대선 지지율 약 35%로 선두이며, 비판자들은 대러 자세가 유약하다고 보고 본인은 재정 현실이라면서도 우크라이나 성공과 평화회의는 지지한다고 한다.",
+          "why": "2027년 유력 후보가 «원조 축소+EU 분담 축소»를 내걸면 파리의 EU 우크라이나 재정 협상 신뢰와 프랑스 재정 정치에 대한 시장 평가가 바로 흔들린다.",
+          "tags": [
+            "르펜",
+            "프랑스",
+            "우크라이나 지원",
+            "EU"
+          ]
+        },
+        "id": {
+          "title": "Le Pen: Prancis tak bisa terus bayar Ukraina—hentikan bantuan bilateral dan potong ~€11 miliar iuran UE",
+          "location": "Prancis · Paris",
+          "summary": "Pemimpin sayap kanan Prancis Marine Le Pen kepada Financial Times menyebut porsi Prancis sekitar €18 miliar dalam pinjaman UE untuk Ukraina terlalu berat dan akan memperingatkan Zelenskyy bahwa Paris tak bisa menambah bantuan. Jika berkuasa ia akan menghentikan pendanaan bilateral langsung, membatasi kontribusi terutama ke program UE, dan memotong pembayaran total ke UE sekitar €11 miliar pada 2027 karena utang tinggi. Survei menempatkannya sekitar 35% untuk pilpres 2027; kritikus menyebutnya lunak pada Rusia, sementara ia menyebutnya realisme fiskal sambil tetap mendukung keberhasilan Ukraina dan konferensi damai.",
+          "why": "Calon unggulan 2027 yang mengiklankan “lebih sedikit bantuan + iuran UE lebih rendah” langsung membebani kredibilitas Paris dalam pembiayaan UE untuk Ukraina dan harga pasar atas politik fiskal Prancis.",
+          "tags": [
+            "Le Pen",
+            "Prancis",
+            "Bantuan Ukraina",
+            "UE"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "德国",
+        "欧盟",
+        "中国",
+        "进口配额"
+      ],
+      "why": "配额从汽车扩到化工机械，意味着欧中贸易摩擦从「个案关税」走向系统性产业限量，牵动全球供应链与德法产业政治。",
+      "id": "2110306529953944057",
+      "title": "德国推动欧盟把对华进口配额扩大到化工与机械等领域，对华贸易逆差约1080亿欧元",
+      "location": "比利时·布鲁塞尔",
+      "url": "https://x.com/i/trending/2110306529953944057",
+      "summary": "在拟对华混动车设年进口上限约35万辆之后，德国正催促欧盟把配额思路扩至化工、机械工程乃至药品等行业，以应对廉价进口冲击本土就业与产能。德国对华贸易逆差约1080亿欧元，欧盟整体逆差2025年约3600亿欧元，中国出口创纪录。支持者称此举保护欧洲制造业竞争力；批评者警告抬高消费者价格并可能招致对德汽车与机械的报复。欧盟领导人将在布鲁塞尔讨论更强硬步骤，法国亦表支持，年底前或再提方案。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 50.847,
+      "lng": 4.352,
+      "i18n": {
+        "en": {
+          "title": "Germany pushes EU to extend China import quotas beyond hybrids to chemicals and machinery",
+          "location": "Belgium · Brussels",
+          "summary": "After a planned cap of about 350,000 Chinese hybrid cars a year, Germany is urging the EU to apply quotas to chemicals, mechanical engineering and possibly pharmaceuticals to shield jobs and factories from low-cost imports. Germany’s trade deficit with China is about €108 billion and the EU-wide gap was about €360 billion in 2025 as Chinese exports hit records. Supporters say the steps protect European manufacturing; critics warn of higher consumer prices and retaliation against German cars and machinery. EU leaders will discuss tougher measures in Brussels, with France also supportive and more proposals eyed by year-end.",
+          "why": "Moving quotas from cars into chemicals and machinery turns EU–China friction from case-by-case tariffs toward systemic volume caps, with supply-chain and Franco–German industrial politics at stake.",
+          "tags": [
+            "Germany",
+            "EU",
+            "China",
+            "Import quotas"
+          ]
+        },
+        "hi": {
+          "title": "जर्मनी EU से चीन आयात कोटा हाइब्रिड से आगे रसायन व मशीनरी तक बढ़ाने को कह रहा",
+          "location": "बेल्जियम · ब्रसेल्स",
+          "summary": "चीनी हाइब्रिड कारों पर सालाना करीब 3.5 लाख की सीमा के बाद जर्मनी EU से रसायन, मैकेनिकल इंजीनियरिंग और संभवतः दवाओं पर भी कोटा लगाने को कह रहा है, ताकि सस्ते आयात से नौकरियाँ व कारखाने बचें। चीन से जर्मन व्यापार घाटा करीब 1080 अरब यूरो और 2025 मेंEU-व्यापी घाटा करीब 3600 अरब यूरो रहा। समर्थक यूरोपीय विनिर्माण रक्षा कहते हैं; आलोचक ऊँची कीमतें और जर्मन कार/मशीनरी पर जवाबी कार्रवाई की चेतावनी देते हैं। नेता ब्रसेल्स में सख्त कदमों पर चर्चा करेंगे, फ्रांस भी समर्थन में, साल अंत तक और प्रस्ताव संभव।",
+          "why": "कोटा कारों से रसायन-मशीनरी तक ले जाना EU–चीन तनाव को केस-बाय-केस टैरिफ से व्यवस्थागत मात्रा सीमा की ओर धकेलता है।",
+          "tags": [
+            "जर्मनी",
+            "EU",
+            "चीन",
+            "आयात कोटा"
+          ]
+        },
+        "es": {
+          "title": "Alemania empuja a la UE a ampliar cuotas de importación chinas más allá de híbridos a químicos y maquinaria",
+          "location": "Bélgica · Bruselas",
+          "summary": "Tras un tope previsto de unas 350.000 híbridas chinas al año, Alemania urge a la UE a aplicar cuotas a químicos, ingeniería mecánica y quizá fármacos para proteger empleo y fábricas ante importaciones baratas. El déficit alemán con China es de unos 108.000 M€ y el de la UE rondó 360.000 M€ en 2025. Los partidarios hablan de salvaguardar la industria; los críticos advierten precios más altos y represalias sobre coches y maquinaria alemanes. Los líderes debatirán medidas más duras en Bruselas, con apoyo francés y más propuestas hacia fin de año.",
+          "why": "Extender cuotas de autos a químicos y maquinaria pasa la fricción UE–China de aranceles puntuales a topes de volumen sistémicos, con la cadena de suministro y la política industrial francoalemana en juego.",
+          "tags": [
+            "Alemania",
+            "UE",
+            "China",
+            "Cuotas de importación"
+          ]
+        },
+        "fr": {
+          "title": "L’Allemagne pousse l’UE à étendre les quotas d’import chinois au-delà des hybrides vers la chimie et la mécanique",
+          "location": "Belgique · Bruxelles",
+          "summary": "Après un plafond prévu d’environ 350 000 hybrides chinoises par an, l’Allemagne presse l’UE d’appliquer des quotas à la chimie, à la mécanique et éventuellement aux médicaments pour protéger emplois et usines face aux importations à bas coût. Le déficit allemand avec la Chine est d’environ 108 Md€ et celui de l’UE d’environ 360 Md€ en 2025. Les partisans y voient une défense industrielle ; les critiques craignent des prix plus élevés et des représailles sur l’auto et la mécanique allemandes. Les dirigeants en discuteront à Bruxelles, avec le soutien de la France et d’autres propositions d’ici fin d’année.",
+          "why": "Passer des quotas auto à la chimie et la mécanique fait basculer la friction UE–Chine des droits de douane au cas par cas vers des plafonds de volume systémiques.",
+          "tags": [
+            "Allemagne",
+            "UE",
+            "Chine",
+            "Quotas d’importation"
+          ]
+        },
+        "ar": {
+          "title": "ألمانيا تدفع الاتحاد لتوسيع حصص الاستيراد من الصين إلى الكيماويات والآلات بعد الهجينة",
+          "location": "بلجيكا · بروكسل",
+          "summary": "بعد سقف سنوي مخطط لنحو 350 ألف سيارة هجينة صينية، تحث ألمانيا الاتحاد على فرض حصص على الكيماويات والهندسة الميكانيكية وربما الأدوية لحماية الوظائف والمصانع من الواردات الرخيصة. عجز ألمانيا مع الصين نحو 108 مليارات يورو وعجز الاتحاد نحو 360 ملياراً في 2025. مؤيدون يرون حماية للصناعة؛ ونقاد يحذرون من ارتفاع الأسعار وانتقام يطال السيارات والآلات الألمانية. سيناقش القادة إجراءات أشد في بروكسل بدعم فرنسي ومقترحات إضافية قبل نهاية العام.",
+          "why": "نقل الحصص من السيارات إلى الكيماويات والآلات يحوّل الاحتكاك الأوروبي الصيني من رسوم فردية إلى سقوف حجم منهجية.",
+          "tags": [
+            "ألمانيا",
+            "الاتحاد الأوروبي",
+            "الصين",
+            "حصص استيراد"
+          ]
+        },
+        "ja": {
+          "title": "ドイツ、対中輸入割当をHV車以外の化学・機械にも拡大するようEUに働きかけ",
+          "location": "ベルギー · ブリュッセル",
+          "summary": "中国製HV車の年間輸入上限約35万台案に続き、ドイツは安価輸入から雇用と工場を守るため、化学・機械、場合により医薬品にも割当を適用するようEUに促している。対中貿易赤字は独約1080億ユーロ、EU全体は2025年約3600億ユーロ。支持派は欧州製造業の防衛、批判派は消費者価格上昇と独自動車・機械への報復を警告。首脳はブリュッセルでより強硬な措置を協議し、フランスも支持、年末までに追加案も見込まれる。",
+          "why": "割当を自動車から化学・機械へ広げることは、EU対中摩擦を個別関税からシステミックな数量上限へ移すことを意味する。",
+          "tags": [
+            "ドイツ",
+            "EU",
+            "中国",
+            "輸入割当"
+          ]
+        },
+        "ko": {
+          "title": "독일, 중국 수입 쿼터를 하이브리드 넘어 화학·기계로 확대하자고 EU에 촉구",
+          "location": "벨기에 · 브뤼셀",
+          "summary": "중국 하이브리드차 연간 수입 상한 약 35만 대 계획에 이어 독일은 저가 수입으로부터 일자리와 공장을 지키려 화학·기계공학·경우에 따라 의약품에도 쿼터를 적용하자고 EU에 촉구하고 있다. 대중국 무역적자는 독일 약 1080억 유로, EU 전체는 2025년 약 3600억 유로다. 찬성 측은 유럽 제조업 보호, 비판 측은 소비자 가격 상승과 독일 자동차·기계 보복을 경고한다. 정상들은 브뤼셀에서 더 강경한 조치를 논의하고 프랑스도 지지하며 연말까지 추가안이 나올 수 있다.",
+          "why": "쿼터를 자동차에서 화학·기계로 넓히면 EU–중국 마찰이 개별 관세에서 체계적 물량 상한으로 바뀐다.",
+          "tags": [
+            "독일",
+            "EU",
+            "중국",
+            "수입 쿼터"
+          ]
+        },
+        "id": {
+          "title": "Jerman dorong UE perluas kuota impor China ke kimia dan mesin setelah hybrid",
+          "location": "Belgia · Brussel",
+          "summary": "Setelah batas tahunan sekitar 350.000 mobil hybrid China, Jerman mendesak UE menerapkan kuota pada kimia, teknik mesin, dan mungkin farmasi untuk melindungi lapangan kerja dan pabrik dari impor murah. Defisit dagang Jerman dengan China sekitar €108 miliar dan defisit UE sekitar €360 miliar pada 2025. Pendukung menyebut perlindungan industri; kritikus memperingatkan harga konsumen naik dan pembalasan terhadap mobil serta mesin Jerman. Pemimpin akan membahas langkah lebih keras di Brussel, dengan dukungan Prancis dan proposal tambahan menjelang akhir tahun.",
+          "why": "Memperluas kuota dari mobil ke kimia dan mesin menggeser gesekan UE–China dari tarif kasus per kasus menuju batas volume sistemik.",
+          "tags": [
+            "Jerman",
+            "UE",
+            "China",
+            "Kuota impor"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "福克兰",
+        "油田",
+        "英国",
+        "阿根廷"
+      ],
+      "why": "高油价背景下重启争议海域大型油田，会把南大西洋主权争端重新绑上全球能源供应与英阿外交。",
+      "id": "2110009700242895105",
+      "title": "英政府批准福克兰群岛以北海狮油田开发，可采储量至多约17亿桶，阿根廷反对并诉诸海洋法庭",
+      "location": "英国·福克兰群岛",
+      "url": "https://x.com/i/trending/2110009700242895105",
+      "summary": "英政府批准福克兰群岛以北约130英里的海狮（Sea Lion）油田开发，可采储量至多约17亿桶，运营商包括Navitas Petroleum与Rockhopper Exploration，产量或于明年起步。能源大臣埃德·米利班德（Ed Miliband）据报同步设置应对阿根廷施压的保护措施；阿根廷总统哈维尔·米莱（Javier Milei）寻求在国际海洋法法庭叫停项目并威胁制裁。英军近期完成模拟1982年夺岛战的六日演练，伦敦重申支持岛民2013年99.8%留英公投结果；国内亦有声音质疑工党限制北海钻探却放行海外油田。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": -51.796,
+      "lng": -59.524,
+      "i18n": {
+        "en": {
+          "title": "UK approves Sea Lion oil field north of Falklands, up to ~1.7bn barrels; Argentina objects at ITLOS",
+          "location": "United Kingdom · Falkland Islands",
+          "summary": "The UK government approved development of the Sea Lion oil field about 130 miles north of the Falklands, with recoverable reserves of up to about 1.7 billion barrels; operators include Navitas Petroleum and Rockhopper Exploration, with production possibly starting next year. Energy Secretary Ed Miliband reportedly added protections against Argentine pressure; President Javier Milei has sought to halt the project at the International Tribunal for the Law of the Sea and threatened sanctions. British troops recently finished a six-day exercise simulating a 1982-style recapture, and London reaffirmed support for the islanders’ 99.8% 2013 vote to stay British; at home some note the contrast with Labour’s North Sea drilling limits.",
+          "why": "Green-lighting a giant field in disputed waters amid high oil prices rebinds South Atlantic sovereignty to global energy supply and UK–Argentina diplomacy.",
+          "tags": [
+            "Falklands",
+            "Oil field",
+            "UK",
+            "Argentina"
+          ]
+        },
+        "hi": {
+          "title": "ब्रिटेन ने फ़ॉकलैंड के उत्तर सी लायन तेल क्षेत्र मंज़ूर किया, ~17 अरब बैरल तक; अर्जेंटीना ITLOS में आपत्ति",
+          "location": "यूनाइटेड किंगडम · फ़ॉकलैंड द्वीप",
+          "summary": "ब्रिटिश सरकार ने फ़ॉकलैंड से उत्तर करीब 130 मील सी लायन तेल क्षेत्र विकास मंज़ूर किया, वसूली योग्य भंडार अधिकतम करीब 17 अरब बैरल; संचालक Navitas Petroleum और Rockhopper Exploration शामिल, उत्पादन अगले साल शुरू हो सकता है। ऊर्जा मंत्री एड मिलिबैंड ने अर्जेंटीनी दबाव के खिलाफ सुरक्षा उपाय जोड़े बताए जाते हैं; राष्ट्रपति जेवियर मिलेई ने अंतरराष्ट्रीय समुद्री कानून न्यायाधिकरण में परियोजना रोकने और प्रतिबंध की धमकी दी। ब्रिटिश सेना ने हाल में 1982-शैली पुनःकब्ज़ा का छह-दिवसीय अभ्यास पूरा किया, लंदन ने 2013 में 99.8% ब्रिटिश रहने वाले जनमत का समर्थन दोहराया; घरेलू आवाज़ें लेबर की उत्तरी सागर ड्रिलिंग सीमाओं से विरोधाभास उठाती हैं।",
+          "why": "ऊँचे तेल दामों में विवादित जल में विशाल क्षेत्र मंज़ूर करना दक्षिण अटलांटिक संप्रभुता को वैश्विक ऊर्जा आपूर्ति और यूके–अर्जेंटीना कूटनीति से फिर बाँधता है।",
+          "tags": [
+            "फ़ॉकलैंड",
+            "तेल क्षेत्र",
+            "ब्रिटेन",
+            "अर्जेंटीना"
+          ]
+        },
+        "es": {
+          "title": "El Reino Unido aprueba el yacimiento Sea Lion al norte de Malvinas, hasta ~1.700 M de barriles; Argentina objeta en el TIDM",
+          "location": "Reino Unido · Islas Malvinas",
+          "summary": "El Gobierno británico aprobó el desarrollo del yacimiento Sea Lion, a unos 130 millas al norte de las Malvinas, con reservas recuperables de hasta unos 1.700 millones de barriles; operan Navitas Petroleum y Rockhopper Exploration, con posible inicio el año próximo. El secretario de Energía Ed Miliband habría añadido protecciones frente a la presión argentina; el presidente Javier Milei busca frenar el proyecto en el Tribunal Internacional del Derecho del Mar y amenaza con sanciones. Tropas británicas terminaron un ejercicio de seis días que simula una reconquista al estilo 1982, y Londres reafirmó el respaldo al referéndum de 2013 (99,8% británico); en casa hay críticas por el contraste con los límites de Labour al Mar del Norte.",
+          "why": "Autorizar un campo gigante en aguas disputadas con el crudo alto vuelve a atar la soberanía del Atlántico Sur al suministro energético global y a la diplomacia Reino Unido–Argentina.",
+          "tags": [
+            "Malvinas",
+            "Yacimiento petrolero",
+            "Reino Unido",
+            "Argentina"
+          ]
+        },
+        "fr": {
+          "title": "Le Royaume-Uni approuve le champ Sea Lion au nord des Malouines, jusqu’à ~1,7 Md de barils ; l’Argentine s’y oppose au TIDM",
+          "location": "Royaume-Uni · Îles Malouines",
+          "summary": "Le gouvernement britannique a approuvé le développement du champ Sea Lion, à environ 130 milles au nord des Malouines, avec des réserves récupérables allant jusqu’à environ 1,7 milliard de barils ; Navitas Petroleum et Rockhopper Exploration sont opérateurs, avec une production possible l’an prochain. Le secrétaire à l’Énergie Ed Miliband aurait ajouté des protections face à la pression argentine ; le président Javier Milei cherche à bloquer le projet devant le Tribunal international du droit de la mer et menace de sanctions. Les troupes britanniques ont achevé un exercice de six jours simulant une reconquête façon 1982, et Londres a réaffirmé son soutien au référendum de 2013 (99,8 % britannique) ; au pays, certains contrastent avec les limites travaillistes en mer du Nord.",
+          "why": "Donner le feu vert à un champ géant en eaux contestées alors que le pétrole est cher rattache à nouveau la souveraineté de l’Atlantique Sud à l’approvisionnement énergétique mondial et à la diplomatie Londres–Buenos Aires.",
+          "tags": [
+            "Malouines",
+            "Champ pétrolier",
+            "Royaume-Uni",
+            "Argentine"
+          ]
+        },
+        "ar": {
+          "title": "بريطانيا توافق على حقل سي لايون شمال فوكلاند باحتياطي يصل إلى نحو 1.7 مليار برميل؛ الأرجنتين تعترض أمام المحكمة البحرية",
+          "location": "المملكة المتحدة · جزر فوكلاند",
+          "summary": "وافقت الحكومة البريطانية على تطوير حقل سي لايون على بعد نحو 130 ميلاً شمال فوكلاند باحتياطي قابل للاستخراج يصل إلى نحو 1.7 مليار برميل؛ وتشمل الشركات Navitas Petroleum وRockhopper Exploration وقد يبدأ الإنتاج العام المقبل. ويُقال إن وزير الطاقة إد ميليباند أضاف حماية ضد الضغط الأرجنتيني؛ والرئيس خافيير ميلي يسعى لوقف المشروع أمام المحكمة الدولية لقانون البحار ويهدد بعقوبات. وأكملت القوات البريطانية تمريناً لستة أيام يحاكي استعادة 1982، وأكدت لندن دعم استفتاء 2013 بنسبة 99.8% للبقاء بريطانياً؛ وفي الداخل يُشار إلى تناقض مع قيود حزب العمال على بحر الشمال.",
+          "why": "الموافقة على حقل ضخم في مياه متنازع عليها وسط أسعار نفط مرتفعة تعيد ربط سيادة جنوب الأطلسي بإمدادات الطاقة العالمية والدبلوماسية البريطانية الأرجنتينية.",
+          "tags": [
+            "فوكلاند",
+            "حقل نفط",
+            "بريطانيا",
+            "الأرجنتين"
+          ]
+        },
+        "ja": {
+          "title": "英政府がフォークランド北方シーライオン油田を承認、可採最大約17億バレル；アルゼンチンは海洋法廷に異議",
+          "location": "イギリス · フォークランド諸島",
+          "summary": "英政府はフォークランド北方約130マイルのシーライオン油田開発を承認した。可採埋蔵量は最大約17億バレル、事業者はNavitas PetroleumとRockhopper Explorationで、生産は来年開始の可能性。エネルギー大臣エド・ミリバンドはアルゼンチン圧力への防護措置を追加したとされ、大統領ハビエル・ミレイは国際海洋法裁判所で差し止めを求め制裁を示唆。英軍は1982年型奪還を想定した6日間訓練を終え、ロンドンは2013年住民投票（99.8%が英国残留）支持を再確認；国内では労働党の北海掘削制限との矛盾も指摘される。",
+          "why": "高油価下で係争水域の巨大油田を認可することは、南大西洋の主権問題を世界のエネルギー供給と英ア外交に再び結びつける。",
+          "tags": [
+            "フォークランド",
+            "油田",
+            "英国",
+            "アルゼンチン"
+          ]
+        },
+        "ko": {
+          "title": "영국 정부, 포클랜드 북쪽 시라이온 유전 승인…가채 최대 약 17억 배럴, 아르헨티나는 해양재판소에 이의",
+          "location": "영국 · 포클랜드 제도",
+          "summary": "영국 정부는 포클랜드 북쪽 약 130마일 시라이온 유전 개발을 승인했다. 가채 매장량은 최대 약 17억 배럴이며 운영사는 Navitas Petroleum과 Rockhopper Exploration으로, 생산은 내년 시작될 수 있다. 에너지장관 에드 밀리밴드는 아르헨티나 압력에 대한 보호 조치를 더했다고 전해지며, 대통령 하비에르 밀레이는 국제해양법재판소에서 중단을 추진하고 제재를 위협했다. 영국군은 1982년식 탈환을 가정한 6일 훈련을 마쳤고 런던은 2013년 주민투표(99.8% 영국 잔류) 지지를 재확인했다. 국내에서는 노동당의 북해 시추 제한과 모순이라는 지적도 나온다.",
+          "why": "고유가 속에서 분쟁 수역의 대형 유전을 승인하면 남대서양 주권 분쟁이 다시 세계 에너지 공급과 영·아 외교에 묶인다.",
+          "tags": [
+            "포클랜드",
+            "유전",
+            "영국",
+            "아르헨티나"
+          ]
+        },
+        "id": {
+          "title": "UK setujui ladang minyak Sea Lion utara Falklands, hingga ~1,7 miliar barel; Argentina keberatan di ITLOS",
+          "location": "Britania Raya · Kepulauan Falkland",
+          "summary": "Pemerintah Inggris menyetujui pengembangan ladang Sea Lion sekitar 130 mil di utara Falklands, dengan cadangan terpulihkan hingga sekitar 1,7 miliar barel; operator termasuk Navitas Petroleum dan Rockhopper Exploration, produksi mungkin mulai tahun depan. Menteri Energi Ed Miliband dilaporkan menambah perlindungan terhadap tekanan Argentina; Presiden Javier Milei berupaya menghentikan proyek di Mahkamah Internasional Hukum Laut dan mengancam sanksi. Pasukan Inggris baru menyelesaikan latihan enam hari yang mensimulasikan perebutan kembali gaya 1982, dan London menegaskan dukungan bagi referendum 2013 (99,8% tetap Britania); di dalam negeri ada kritik atas kontras dengan batas pengeboran Laut Utara oleh Labour.",
+          "why": "Mengizinkan ladang raksasa di perairan sengketa saat minyak mahal kembali mengikat kedaulatan Atlantik Selatan ke pasokan energi global dan diplomasi Inggris–Argentina.",
+          "tags": [
+            "Falklands",
+            "Ladang minyak",
+            "Inggris",
+            "Argentina"
+          ]
+        }
+      }
+    },
+    {
+      "region": "全球",
+      "source": "X 热点",
+      "tags": [
+        "IEA",
+        "柴油",
+        "油价",
+        "能源短缺"
+      ],
+      "why": "官方展望把柴油紧缺拉长到2027，会重塑各国对制裁松绑、战略储备与中期选举前油价政治的权衡。",
+      "id": "2110287537243668698",
+      "title": "国际能源署警告全球柴油短缺或延至2027年，上月出口减约70万桶/日、美欧批发价创纪录",
+      "location": "法国·巴黎",
+      "url": "https://x.com/i/trending/2110287537243668698",
+      "summary": "国际能源署（IEA）最新报告指出，受乌克兰与中东战事拖累，俄罗斯及中东柴油供应下滑，全球柴油紧张可能延续到2027年。上月相关出口减少约70万桶/日；美国零售柴油一度逼近每加仑约6美元，欧美批发价亦见约每桶220美元等创纪录水平。战略石油储备投放与可能回流的俄货源可缓解部分压力，但货运、农业、航运与取暖成本仍将高企，并可能推升通胀、拖累增长。此评估与白宫围绕「能源停火」、俄柴油制裁松绑的辩论形成对照。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 48.857,
+      "lng": 2.352,
+      "i18n": {
+        "en": {
+          "title": "IEA warns global diesel shortages may last into 2027 as exports fell ~700k bpd last month",
+          "location": "France · Paris",
+          "summary": "The International Energy Agency’s latest report says diesel tightness tied to supply drops from Russia and the Middle East amid Ukraine and regional wars may linger into 2027. Related exports fell about 700,000 barrels per day last month; U.S. retail diesel has approached about $6 a gallon and wholesale prices in Europe and the U.S. have hit record levels near $220 a barrel. SPR releases and possible Russian supply offer some relief, but trucking, agriculture, shipping and heating costs stay elevated and may feed inflation and slower growth. The outlook contrasts with White House debates over an “energy ceasefire” and easing Russian diesel sanctions.",
+          "why": "An official outlook stretching diesel scarcity to 2027 reshapes trade-offs on sanctions relief, strategic stocks and pre-midterm fuel politics.",
+          "tags": [
+            "IEA",
+            "Diesel",
+            "Oil prices",
+            "Energy shortage"
+          ]
+        },
+        "hi": {
+          "title": "IEA चेतावनी: वैश्विक डीज़ल कमी 2027 तक रह सकती है, पिछले माह निर्यात ~7 लाख बैरल/दिन घटा",
+          "location": "फ़्रांस · पेरिस",
+          "summary": "अंतरराष्ट्रीय ऊर्जा एजेंसी की नवीनतम रिपोर्ट कहती है कि यूक्रेन व मध्य पूर्व युद्धों के बीच रूससिया और मध्य पूर्व से डीज़ल आपूर्ति गिरावट के कारण वैश्विक तंगी 2027 तक खिंच सकती है। पिछले माह संबंधित निर्यात करीब 7 लाख बैरल प्रतिदिन घटा; अमेरिकी खुदरा डीज़ल करीब $6 प्रति गैलन तक पहुँचा और यूरोप-अमेरिका थोक कीमतें करीब $220 प्रति बैरल के रिकॉर्ड स्तर पर रहीं। SPR रिलीज़ व संभावित रूसी आपूर्ति कुछ राहत दे सकती हैं, पर ट्रकिंग, कृषि, शिपिंग व हीटिंग लागत ऊँची रहकर मुद्रास्फीति व धीमी वृद्धि को बढ़ावा दे सकती हैं। यह नज़रिया व्हाइट हाउस की «ऊर्जा संघर्षविराम» और रूसी डीज़ल प्रतिबंध ढील की बहस से अलग है।",
+          "why": "2027 तक डीज़ल कमी का आधिकारिक अनुमान प्रतिबंध ढील, सामरिक भंडार और मध्यावधि पूर्व ईंधन राजनीति के समझौतों को बदल देता है।",
+          "tags": [
+            "IEA",
+            "डीज़ल",
+            "तेल कीमतें",
+            "ऊर्जा कमी"
+          ]
+        },
+        "es": {
+          "title": "La AIE advierte que la escasez mundial de diésel puede durar hasta 2027; las exportaciones cayeron ~700.000 bpd el mes pasado",
+          "location": "Francia · París",
+          "summary": "El último informe de la Agencia Internacional de la Energía dice que la tensión en el diésel por caídas de suministro de Rusia y Oriente Medio en guerras de Ucrania y la región puede prolongarse hasta 2027. Las exportaciones relacionadas cayeron unos 700.000 barriles diarios el mes pasado; el diésel minorista en EE. UU. se acercó a unos 6 dólares el galón y los mayoristas en Europa y EE. UU. marcaron récords cerca de 220 dólares el barril. Liberaciones de reservas estratégicas y posible crudo ruso alivian algo, pero camiones, agro, navieras y calefacción siguen caros y pueden alimentar inflación y menor crecimiento. El panorama contrasta con el debate de la Casa Blanca sobre un «cese energético» y aliviar sanciones al diésel ruso.",
+          "why": "Una previsión oficial que alarga la escasez de diésel a 2027 reordena el equilibrio entre alivio de sanciones, reservas estratégicas y política de combustibles antes de las midterms.",
+          "tags": [
+            "AIE",
+            "Diésel",
+            "Precio del petróleo",
+            "Escasez energética"
+          ]
+        },
+        "fr": {
+          "title": "L’AIE prévient que les pénuries mondiales de diesel pourraient durer jusqu’en 2027 ; exportations en baisse d’environ 700 000 b/j",
+          "location": "France · Paris",
+          "summary": "Le dernier rapport de l’Agence internationale de l’énergie indique que la tension sur le diesel liée aux baisses d’offre russe et moyen-orientale dans les guerres d’Ukraine et de la région peut se prolonger jusqu’en 2027. Les exportations concernées ont chuté d’environ 700 000 barils par jour le mois dernier ; le diesel à la pompe aux États-Unis a approché environ 6 dollars le gallon et les prix de gros en Europe et aux États-Unis ont atteint des records près de 220 dollars le baril. Des tirages sur les stocks stratégiques et un éventuel retour de volumes russes apportent un peu de soulagement, mais camionnage, agriculture, transport maritime et chauffage restent coûteux et peuvent nourrir l’inflation et freiner la croissance. Cette perspective contraste avec le débat de la Maison Blanche sur un « cessez-le-feu énergétique » et l’assouplissement des sanctions sur le diesel russe.",
+          "why": "Une perspective officielle prolongeant la pénurie de diesel jusqu’en 2027 reframe les arbitrages sur l’assouplissement des sanctions, les stocks stratégiques et la politique des carburants avant les midterms.",
+          "tags": [
+            "AIE",
+            "Diesel",
+            "Prix du pétrole",
+            "Pénurie énergétique"
+          ]
+        },
+        "ar": {
+          "title": "وكالة الطاقة تحذر من استمرار نقص الديزل العالمي حتى 2027 بعد هبوط الصادرات بنحو 700 ألف ب/ي الشهر الماضي",
+          "location": "فرنسا · باريس",
+          "summary": "يقول أحدث تقرير لوكالة الطاقة الدولية إن ضيق الديزل المرتبط بانخفاض الإمدادات من روسيا والشرق الأوسط وسط حروب أوكرانيا والمنطقة قد يمتد إلى 2027. وهبطت الصادرات ذات الصلة بنحو 700 ألف برميل يومياً الشهر الماضي؛ واقترب ديزل التجزئة الأميركي من نحو 6 دولارات للغالون وسجلت أسعار الجملة في أوروبا وأميركا مستويات قياسية قرب 220 دولاراً للبرميل. وإطلاق المخزون الاستراتيجي واحتمال عودة إمدادات روسية يخففان بعض الضغط، لكن تكاليف الشاحنات والزراعة والشحن والتدفئة تبقى مرتفعة وقد تغذي التضخم وتبطئ النمو. ويتناقض ذلك مع نقاش البيت الأبيض حول «وقف إطلاق نار للطاقة» وتخفيف عقوبات الديزل الروسي.",
+          "why": "توقع رسمي يمد نقص الديزل إلى 2027 يعيد تشكيل المقايضات حول تخفيف العقوبات والمخزون الاستراتيجي وسياسة الوقود قبل الانتخابات النصفية.",
+          "tags": [
+            "وكالة الطاقة",
+            "ديزل",
+            "أسعار النفط",
+            "نقص الطاقة"
+          ]
+        },
+        "ja": {
+          "title": "IEA、世界のディーゼル不足は2027年まで続く恐れと警告；先月輸出は約70万バレル/日減",
+          "location": "フランス · パリ",
+          "summary": "国際エネルギー機関の最新報告は、ウクライナと中東の戦いでロシア・中東からのディーゼル供給が落ち、世界的逼迫が2027年まで続く可能性があると指摘する。先月の関連輸出は約70万バレル/日減；米小売ディーゼルは1ガロン約6ドル付近、欧米卸価格は1バレル約220ドルなど記録水準も。戦略備蓄放出とロシア供給の一部回帰は緩和材料だが、トラック・農業・海運・暖房コストは高止まりし、インフレと成長鈍化につながり得る。ホワイトハウスの「エネルギー停戦」や対露ディーゼル制裁緩和議論とは対照的だ。",
+          "why": "ディーゼル逼迫を2027年まで延ばす公式見通しは、制裁緩和・戦略備蓄・中間選挙前の燃料政治のトレードオフを変える。",
+          "tags": [
+            "IEA",
+            "ディーゼル",
+            "原油価格",
+            "エネルギー不足"
+          ]
+        },
+        "ko": {
+          "title": "IEA, 세계 디젤 부족이 2027년까지 이어질 수 있다고 경고…지난달 수출 약 70만 b/d 감소",
+          "location": "프랑스 · 파리",
+          "summary": "국제에너지기구 최신 보고서는 우크라이나·중동 전쟁으로 러시아와 중동 디젤 공급이 줄며 세계적 긴장이 2027년까지 이어질 수 있다고 밝혔다. 지난달 관련 수출은 하루 약 70만 배럴 줄었고, 미국 소매 디젤은 갤런당 약 6달러에 근접했으며 유럽·미국 도매가는 배럴당 약 220달러 등 기록 수준을 보였다. 전략비축 방출과 러시아 물량 일부 복귀는 숨통을 틔울 수 있으나 트럭·농업·해운·난방 비용은 높게 유지돼 인플레와 성장 둔화를 부채질할 수 있다. 백악관의 «에너지 휴전»과 대러 디젤 제재 완화 논쟁과는 대비된다.",
+          "why": "디젤 부족을 2027년까지 늘린 공식 전망은 제재 완화·전략비축·중간선거 전 연료 정치의 저울질을 바꾼다.",
+          "tags": [
+            "IEA",
+            "디젤",
+            "유가",
+            "에너지 부족"
+          ]
+        },
+        "id": {
+          "title": "IEA peringatkan kekurangan diesel global bisa bertahan hingga 2027; ekspor turun ~700 ribu bpd bulan lalu",
+          "location": "Prancis · Paris",
+          "summary": "Laporan terbaru Badan Energi Internasional menyebut ketatnya diesel karena turunnya pasokan Rusia dan Timur Tengah di tengah perang Ukraina dan kawasan bisa berlanjut hingga 2027. Ekspor terkait turun sekitar 700.000 barel per hari bulan lalu; diesel ritel AS mendekati sekitar $6 per galon dan harga grosir Eropa–AS mencapai rekor dekat $220 per barel. Pelepasan cadangan strategis dan kemungkinan pasokan Rusia memberi sedikit lega, tetapi biaya truk, pertanian, pelayaran, dan pemanas tetap tinggi serta dapat memicu inflasi dan pertumbuhan lebih lambat. Pandangan ini kontras dengan debat Gedung Putih tentang “gencatan energi” dan pelonggaran sanksi diesel Rusia.",
+          "why": "Prospek resmi yang memperpanjang kelangkaan diesel hingga 2027 mengubah trade-off soal pelonggaran sanksi, stok strategis, dan politik bahan bakar pra-midterms.",
+          "tags": [
+            "IEA",
+            "Diesel",
+            "Harga minyak",
+            "Kekurangan energi"
+          ]
+        }
+      }
+    },
+    {
+      "region": "全球",
+      "source": "X 热点",
+      "tags": [
+        "联合国",
+        "人权理事会",
+        "乌克兰",
+        "问责"
+      ],
+      "why": "乌克兰进入人权理事会，给战时问责与战俘、儿童议题提供新的多边平台，也会加剧莫斯科与西方在人权机制上的对抗。",
+      "id": "2110041641985966537",
+      "title": "联大选举乌克兰等15国进入人权理事会，乌获162票并将推动追究俄方责任",
+      "location": "美国·纽约",
+      "url": "https://x.com/i/trending/2110041641985966537",
+      "summary": "联合国大会10月13日选出15个国家进入47席人权理事会，任期自2027年1月1日起三年。乌克兰获162票当选，外长安德烈·西比哈（Andrii Sybiha）称将推动追究俄方行动责任、保护战俘并促成被遣返儿童回国；爱尔兰连任，加纳获173票、赞比亚177票。人权组织批评部分记录不佳国家几乎无对手当选。日内瓦人权理事会负责审查全球人权状况并任命调查机制。",
+      "publishedAt": "2026-10-14T20:05:00+08:00",
+      "lat": 40.749,
+      "lng": -73.968,
+      "i18n": {
+        "en": {
+          "title": "UN elects Ukraine and 14 others to Human Rights Council; Kyiv won 162 votes, pledges accountability on Russia",
+          "location": "United States · New York",
+          "summary": "The UN General Assembly on October 13 elected 15 countries to three-year terms on the 47-member Human Rights Council starting January 1, 2027. Ukraine won 162 votes; Foreign Minister Andrii Sybiha pledged to push accountability for Russia’s actions, protect POWs and return deported children. Ireland won a second term; Ghana took 173 votes and Zambia 177. Rights groups criticized unopposed wins by some states with uneven records. The Geneva-based council reviews global rights situations and appoints investigators.",
+          "why": "Ukraine’s seat gives wartime accountability, POW and children’s issues a new multilateral platform and sharpens Moscow–West clashes inside rights bodies.",
+          "tags": [
+            "United Nations",
+            "Human Rights Council",
+            "Ukraine",
+            "Accountability"
+          ]
+        },
+        "hi": {
+          "title": "संयुक्त राष्ट्र ने यूक्रेन समेत 15 देशों को मानवाधिकार परिषद में चुना; यूक्रेन को 162 वोट, रूससिया जवाबदेही का वादा",
+          "location": "संयुक्त राज्य · न्यूयॉर्क",
+          "summary": "संयुक्त राष्ट्र महासभा ने 13 अक्टूबर को 47-सदस्यीय मानवाधिकार परिषद के लिए 15 देशों को 1 जनवरी 2027 से तीन वर्ष के कार्यकाल हेतु चुना। यूक्रेन को 162 वोट मिले; विदेश मंत्री आंद्री सिबिहा ने रूससिया की कार्रवाइयों की जवाबदेही, युद्धबंदियों की सुरक्षा और निर्वासित बच्चों की वापसी का वादा किया। आयरलैंड दूसरा कार्यकाल जीता; घाना को 173, जाम्बिया को 177 वोट। मानवाधिकार समूहों ने कमज़ोर रिकॉर्ड वाले कुछ देशों की बिना विरोध जीत की आलोचना की। जिनेवा स्थित परिषद वैश्विक मानवाधिकार की समीक्षा करती है और जाँचकर्ता नियुक्त करती है।",
+          "why": "यूक्रेन की सीट युद्धकालीन जवाबदेही, POW और बच्चों के मुद्दों को नया बहुपक्षीय मंच देती है और मॉस्को–पश्चिम टकराव को तेज़ करती है।",
+          "tags": [
+            "संयुक्त राष्ट्र",
+            "मानवाधिकार परिषद",
+            "यूक्रेन",
+            "जवाबदेही"
+          ]
+        },
+        "es": {
+          "title": "La ONU elige a Ucrania y otros 14 al Consejo de Derechos Humanos; Kiev obtuvo 162 votos y promete rendición de cuentas sobre Rusia",
+          "location": "Estados Unidos · Nueva York",
+          "summary": "La Asamblea General eligió el 13 de octubre a 15 países para mandatos de tres años en el Consejo de Derechos Humanos de 47 miembros desde el 1 de enero de 2027. Ucrania logró 162 votos; el canciller Andrii Sybiha prometió impulsar la rendición de cuentas por las acciones de Rusia, proteger a prisioneros de guerra y devolver a niños deportados. Irlanda renovó mandato; Ghana obtuvo 173 votos y Zambia 177. Grupos de derechos criticaron victorias sin rival de algunos Estados con historiales desiguales. El consejo con sede en Ginebra revisa situaciones globales y nombra investigadores.",
+          "why": "El escaño de Ucrania da una nueva plataforma multilateral a la rendición de cuentas en guerra, prisioneros y niños, y agudiza el choque Moscú–Occidente en foros de derechos.",
+          "tags": [
+            "ONU",
+            "Consejo de Derechos Humanos",
+            "Ucrania",
+            "Rendición de cuentas"
+          ]
+        },
+        "fr": {
+          "title": "L’ONU élit l’Ukraine et 14 autres au Conseil des droits de l’homme ; Kiev a obtenu 162 voix et promet de rendre des comptes sur la Russie",
+          "location": "États-Unis · New York",
+          "summary": "L’Assemblée générale a élu le 13 octobre 15 pays pour des mandats de trois ans au Conseil des droits de l’homme (47 sièges) à compter du 1er janvier 2027. L’Ukraine a obtenu 162 voix ; le ministre Andrii Sybiha s’est engagé à pousser la responsabilité pour les actes de la Russie, protéger les prisonniers de guerre et ramener les enfants déportés. L’Irlande a obtenu un second mandat ; le Ghana 173 voix et la Zambie 177. Des ONG ont critiqué des candidatures sans rival de certains États au bilan inégal. Le conseil basé à Genève examine les situations mondiales et nomme des enquêteurs.",
+          "why": "Le siège ukrainien offre une nouvelle tribune multilatérale à la responsabilité de guerre, aux prisonniers et aux enfants, et durcit l’affrontement Moscou–Occident dans les instances droits de l’homme.",
+          "tags": [
+            "ONU",
+            "Conseil des droits de l’homme",
+            "Ukraine",
+            "Responsabilité"
+          ]
+        },
+        "ar": {
+          "title": "الجمعية العامة تنتخب أوكرانيا و14 دولة أخرى لمجلس حقوق الإنسان؛ أوكرانيا حصدت 162 صوتاً وتتعهد بمحاسبة روسيا",
+          "location": "الولايات المتحدة · نيويورك",
+          "summary": "انتخبت الجمعية العامة للأمم المتحدة في 13 أكتوبر 15 دولة لعضوية مجلس حقوق الإنسان المؤلف من 47 مقعداً لثلاث سنوات اعتباراً من 1 يناير 2027. وحصلت أوكرانيا على 162 صوتاً؛ وتعهد الوزير أندري سيبيها بدفع المساءلة عن أفعال روسيا وحماية أسرى الحرب وإعادة الأطفال المرحّلين. وأعيد انتخاب أيرلندا؛ وغانا 173 صوتاً وزامبيا 177. وانتقدت منظمات حقوقية فوز دول ذات سجلات متباينة بلا منافسة. ويراجع المجلس في جنيف أوضاع حقوق الإنسان ويعين محققين.",
+          "why": "مقعد أوكرانيا يمنح المساءلة زمن الحرب وقضايا الأسرى والأطفال منصة متعددة الأطراف جديدة ويحدّ من حدة صدام موسكو والغرب داخل آليات حقوق الإنسان.",
+          "tags": [
+            "الأمم المتحدة",
+            "مجلس حقوق الإنسان",
+            "أوكرانيا",
+            "مساءلة"
+          ]
+        },
+        "ja": {
+          "title": "国連総会がウクライナなど15カ国を人権理事会に選出、ウクライナは162票でロシア責任追及を表明",
+          "location": "アメリカ · ニューヨーク",
+          "summary": "国連総会は10月13日、47議席の人権理事会に15カ国を選出し、任期は2027年1月1日から3年。ウクライナは162票で当選し、外相アンドリー・シビハはロシアの行為の責任追及、捕虜保護、強制移送された子どもの帰還を進めると表明。アイルランドは再選、ガーナ173票、ザンビア177票。人権団体は実績が不均一な一部国家の無競争当選を批判。ジュネーブの理事会は世界の人権状況を審査し調査官を任命する。",
+          "why": "ウクライナの議席は戦時問責・捕虜・子どもの課題に新たな多国間舞台を与え、人権機構内のモスクワ対西側対立を強める。",
+          "tags": [
+            "国連",
+            "人権理事会",
+            "ウクライナ",
+            "責任追及"
+          ]
+        },
+        "ko": {
+          "title": "유엔총회, 우크라이나 등 15개국을 인권이사회에 선출…우크라이나 162표, 러시아 책임 추궁 공약",
+          "location": "미국 · 뉴욕",
+          "summary": "유엔총회는 10월 13일 47석 인권이사회에 15개국을 선출했으며 임기는 2027년 1월 1일부터 3년이다. 우크라이나는 162표를 얻었고 외무장관 안드리 시비하는 러시아 행위 책임 추궁, 포로 보호, 강제 이송 아동 귀환을 추진하겠다고 밝혔다. 아일랜드는 연임, 가나는 173표, 잠비아는 177표다. 인권단체들은 기록이 고르지 않은 일부 국가의 무경쟁 당선을 비판했다. 제네바 이사회는 세계 인권 상황을 검토하고 조사관을 임명한다.",
+          "why": "우크라이나 의석은 전시 책임·포로·아동 이슈에 새로운 다자 플랫폼을 주고 인권 기구 내 모스크바–서방 대립을 키운다.",
+          "tags": [
+            "유엔",
+            "인권이사회",
+            "우크라이나",
+            "책임"
+          ]
+        },
+        "id": {
+          "title": "PBB memilih Ukraina dan 14 negara lain ke Dewan HAM; Ukraina dapat 162 suara dan berjanji akuntabilitas atas Rusia",
+          "location": "Amerika Serikat · New York",
+          "summary": "Majelis Umum PBB pada 13 Oktober memilih 15 negara untuk masa jabatan tiga tahun di Dewan HAM 47 anggota mulai 1 Januari 2027. Ukraina memperoleh 162 suara; Menteri Luar Negeri Andrii Sybiha berjanji mendorong akuntabilitas atas tindakan Rusia, melindungi tawanan perang, dan memulangkan anak yang dideportasi. Irlandia menang masa jabatan kedua; Ghana 173 suara dan Zambia 177. Kelompok HAM mengkritik kemenangan tanpa lawan beberapa negara dengan rekam jejak timpang. Dewan di Jenewa meninjau situasi HAM global dan menunjuk penyelidik.",
+          "why": "Kursi Ukraina memberi platform multilateral baru untuk akuntabilitas perang, tawanan, dan anak, serta mempertajam benturan Moskow–Barat di lembaga HAM.",
+          "tags": [
+            "PBB",
+            "Dewan HAM",
+            "Ukraina",
+            "Akuntabilitas"
+          ]
+        }
+      }
+    },
     {
       "region": "中东",
       "source": "X 热点",
