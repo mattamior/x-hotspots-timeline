@@ -635,6 +635,7 @@
     renderChips(uniqueRegions(allItems));
     renderTimeFilter();
     refresh();
+    syncFilterChrome();
     syncLayoutVars();
     closeLangMenu();
     langBtn.focus();
@@ -854,70 +855,66 @@
     }
   });
 
-  // ---- Mobile filter collapse → FAB ----
-  let filtersCollapsed = false;
-  let lastScrollY = window.scrollY || 0;
-  let scrollTicking = false;
+  // ---- Mobile filter sheet (opened by FAB) ----
+  const sheetBackdrop = $("#sheet-backdrop");
+  const sheetClose = $("#sheet-close");
+  const sheetUpdated = $("#sheet-updated");
+  const fabBadge = $("#filter-fab-badge");
+  let sheetOpen = false;
 
-  function syncFilterChrome() {
-    if (!filterSticky || !filterFab) return;
-    if (!mobileMq.matches) {
-      filtersCollapsed = false;
-      filterSticky.classList.remove("is-collapsed");
-      document.body.classList.remove("filters-collapsed");
-      filterFab.hidden = true;
-      filterFab.setAttribute("aria-expanded", "true");
-      syncLayoutVars();
-      return;
+  function activeFilterCount() {
+    let n = 0;
+    if (activeRegion !== "全部") n++;
+    if (activeRange !== "all") n++;
+    if (activeSlot !== "all") n++;
+    if ((searchEl.value || "").trim()) n++;
+    return n;
+  }
+  function syncFabBadge() {
+    if (!fabBadge) return;
+    const n = activeFilterCount();
+    fabBadge.hidden = n === 0;
+    fabBadge.textContent = String(n);
+    filterFab.setAttribute("aria-label", n ? `${t("filtersFabExpand")} · ${t("filtersActive", { n })}` : t("filtersFabExpand"));
+  }
+  function syncSheetUpdated() {
+    if (sheetUpdated) sheetUpdated.textContent = updatedEl.textContent;
+  }
+  function setSheetOpen(on) {
+    if (!mobileMq.matches) on = false;
+    sheetOpen = on;
+    filterSticky.classList.toggle("is-open", on);
+    document.body.classList.toggle("sheet-open", on);
+    sheetBackdrop.hidden = !on;
+    filterFab.setAttribute("aria-expanded", on ? "true" : "false");
+    if (mobileMq.matches) {
+      filterSticky.setAttribute("role", "dialog");
+      filterSticky.setAttribute("aria-modal", "true");
+      filterSticky.setAttribute("aria-labelledby", "sheet-title");
+      if (on) filterSticky.removeAttribute("inert"); else filterSticky.setAttribute("inert", "");
+    } else {
+      ["role", "aria-modal", "aria-labelledby", "inert"].forEach((k) => filterSticky.removeAttribute(k));
     }
-    filterSticky.classList.toggle("is-collapsed", filtersCollapsed);
-    document.body.classList.toggle("filters-collapsed", filtersCollapsed);
-    filterFab.hidden = !filtersCollapsed;
-    filterFab.setAttribute("aria-expanded", filtersCollapsed ? "false" : "true");
+    if (on) { syncSheetUpdated(); setTimeout(() => sheetClose.focus(), 50); }
     syncLayoutVars();
   }
-
-  function setFiltersCollapsed(on) {
-    if (!mobileMq.matches) on = false;
-    if (filtersCollapsed === on) { syncFilterChrome(); return; }
-    filtersCollapsed = on;
-    syncFilterChrome();
+  function syncFilterChrome() {
+    if (!filterSticky || !filterFab) return;
+    filterFab.hidden = !mobileMq.matches;
+    setSheetOpen(sheetOpen && mobileMq.matches);
+    syncFabBadge();
   }
-
-  function onScrollFilters() {
-    if (!mobileMq.matches) return;
-    const y = window.scrollY || 0;
-    if (performance.now() < expandLockUntil) { lastScrollY = y; scrollTicking = false; return; }
-    const dy = y - lastScrollY;
-    if (y < 56) {
-      setFiltersCollapsed(false);
-    } else if (dy > 10 && y > 120) {
-      setFiltersCollapsed(true);
-    } else if (dy < -12 && y < 160) {
-      setFiltersCollapsed(false);
-    }
-    lastScrollY = y;
-    scrollTicking = false;
-  }
-
-  window.addEventListener("scroll", () => {
-    if (scrollTicking) return;
-    scrollTicking = true;
-    requestAnimationFrame(onScrollFilters);
-  }, { passive: true });
-
-  let expandLockUntil = 0;
-  if (filterFab) {
-    filterFab.addEventListener("click", () => {
-      setFiltersCollapsed(false);
-      lastScrollY = window.scrollY || 0;
-      expandLockUntil = performance.now() + 700;
-    });
-  }
-  mobileMq.addEventListener("change", () => {
-    lastScrollY = window.scrollY || 0;
-    syncFilterChrome();
+  filterFab.addEventListener("click", () => setSheetOpen(true));
+  sheetClose.addEventListener("click", () => { setSheetOpen(false); filterFab.focus(); });
+  sheetBackdrop.addEventListener("click", () => setSheetOpen(false));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sheetOpen) { setSheetOpen(false); filterFab.focus(); }
   });
+  mobileMq.addEventListener("change", syncFilterChrome);
+  new MutationObserver(syncSheetUpdated).observe(updatedEl, { childList: true, characterData: true, subtree: true });
+  // Badge follows every filter change (refresh() runs after each one).
+  const _refresh = refresh;
+  refresh = function () { _refresh(); syncFabBadge(); };
 
   async function boot() {
     initTheme();
