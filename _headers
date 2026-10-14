@@ -1,0 +1,17 @@
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=3600
+
+/sw.js
+  Content-Type: application/javascript; charset=utf-8
+  Cache-Control: no-cache, no-store, must-revalidate
+  Service-Worker-Allowed: /
+
+/data/*
+  Cache-Control: no-cache
+
+/icons/*
+  Cache-Control: public, max-age=604800
+
+/favicon.svg
+  Content-Type: image/svg+xml

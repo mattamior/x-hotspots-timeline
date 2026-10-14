@@ -102,11 +102,17 @@
 
   const THEME_KEY = "hotspots-theme";
 
+  function syncThemeColor(theme) {
+    const c = theme === "light" ? "#f4f7fb" : "#0b1020";
+    document.querySelectorAll('meta[name="theme-color"]').forEach((m) => { m.setAttribute("content", c); m.removeAttribute("media"); });
+  }
+
   function initTheme() {
     const saved = localStorage.getItem(THEME_KEY);
     const prefersLight = window.matchMedia("(prefers-color-scheme: light)").matches;
     const theme = saved || (prefersLight ? "light" : "dark");
     document.documentElement.setAttribute("data-theme", theme);
+    syncThemeColor(theme);
   }
 
   function toggleTheme() {
@@ -114,6 +120,7 @@
     const next = cur === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem(THEME_KEY, next);
+    syncThemeColor(next);
     if (mapReady) setTimeout(() => map.invalidateSize(), 50);
   }
 
@@ -928,4 +935,8 @@
   }
 
   boot();
+
+  if ("serviceWorker" in navigator && location.protocol !== "file:") {
+    window.addEventListener("load", () => navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch((e) => console.warn("SW", e)));
+  }
 })();

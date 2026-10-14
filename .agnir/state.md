@@ -14,3 +14,4 @@ Static hotspot site. **Primary:** https://x-hotspots.lapplax.com (Cloudflare Pag
 - 2026-10-13: Card body readability — higher contrast `--text-body`, larger summary (~1.02rem), CJK line-height ~1.85 / letter-spacing, more card padding, summary max-width ~46em.
 - Header: refresh pill v2 (icon = refresh now, spins while loading; chevron popover = iOS switch for auto-refresh; icon tinted green when on) (~5 min, Page Visibility aware, `hotspots-auto-refresh`).
 - Filters: region chips + time range pills (?range=) + digest slot pills (?slot=) + search.
+- PWA: manifest + sw.js (cache `xh-*-VERSION`; data network-first). Icons in /icons, favicon.svg/.ico, apple-touch-icon.png.
