@@ -1,6 +1,6 @@
 # Decisions — x-hotspots-timeline
 
-Updated: 2026-10-13
+Updated: 2026-10-14
 
 - **2026-10-12** — Static GitHub Pages site, no backend/build; `.nojekyll` at root.
 - **2026-10-12** — Timeline + map side-by-side on one page (Leaflet + OSM, no API key); stacked on narrow screens.
@@ -25,3 +25,4 @@ Updated: 2026-10-13
 - **2026-10-13** — Removed green corner status dot (user found it odd); auto-refresh ON now tints the refresh icon with --loc green (theme-aware), off = normal.
 - **2026-10-13** — Time filter in sticky toolbar: segmented pill groups for range (all/today/3d/7d/custom date range; day boundaries in current language tz) and digest slot (morning/noon/evening from Asia/Shanghai hour: <10 / <16 / else). Combines with region+search; persisted via ?range= (all|today|3d|7d|YYYY-MM-DD..YYYY-MM-DD) and ?slot=; survives reload/auto-refresh; i18n ×9, RTL, mobile stacks.
 - **2026-10-14** — Mobile UX: remove sticky top map band; show per-card mini maps on phone (same Leaflet embeds as desktop). Sticky filter collapses into floating “筛选” FAB on scroll-down; tap FAB or return near top to expand. Desktop sticky filter unchanged. i18n filtersFab/filtersFabExpand ×9; RTL FAB uses inset-inline-end.
+- **2026-10-14** — Cloudflare Pages project `x-hotspots` Git-connected to `mattamior/x-hotspots-timeline` (main, empty build, root output). Custom domain `x-hotspots.lapplax.com` (CNAME → `x-hotspots.pages.dev`, proxied). Primary public URL is CF; GitHub Pages kept as fallback. Push to `main` auto-deploys CF.

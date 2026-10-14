@@ -1,9 +1,9 @@
 # Current State — x-hotspots-timeline
 
-Updated: 2026-10-13 (Asia/Shanghai)
+Updated: 2026-10-14 (Asia/Shanghai)
 
 ## Project
-Static GitHub Pages site of global news hotspots. Live: https://mattamior.github.io/x-hotspots-timeline/ · published from `main` root (`.nojekyll` present, no build step).
+Static hotspot site. **Primary:** https://x-hotspots.lapplax.com (Cloudflare Pages project `x-hotspots`, Git-connected to this repo, production branch `main`, empty build, output `.`). Also: https://x-hotspots.pages.dev · GitHub Pages https://mattamior.github.io/x-hotspots-timeline/ · `.nojekyll` + `wrangler.toml`.
 
 ## Shape
 - i18n: 9 languages zh (default/source) / en / hi / es / fr / ar / ja / ko / id. Custom header language picker (not native `<select>`): localStorage `hotspots-lang` + `?lang=`, keyboard accessible; sets `<html lang>` and `dir=rtl` for Arabic. UI strings in `i18n.js`; item translations in `data/hotspots.json` as `item.i18n.<lang>.{title,location,summary,why,tags}` with zh fallback. Fonts: Noto Sans SC/JP/KR/Devanagari/Arabic. All 26 items translated for all 8 non-zh languages (2026-10-13).

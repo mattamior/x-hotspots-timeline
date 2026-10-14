@@ -4,8 +4,12 @@
 
 ## 在线地址
 
+- **主站（Cloudflare Pages）**：https://x-hotspots.lapplax.com
+- 备用（pages.dev）：https://x-hotspots.pages.dev
+- GitHub Pages（仍可用）：https://mattamior.github.io/x-hotspots-timeline/
 - 仓库：https://github.com/mattamior/x-hotspots-timeline
-- 页面：https://mattamior.github.io/x-hotspots-timeline/
+
+推送到 `main` 会同时触发 Cloudflare Pages（项目 `x-hotspots`，无构建命令，输出目录为仓库根）与 GitHub Pages。
 
 点击时间线卡片会定位并高亮对应地图标记；点击标记会滚动并高亮对应卡片。地区筛选与搜索同时作用于两者。
 
@@ -55,7 +59,7 @@ git add data/hotspots.json && git commit -m "data: add hotspots YYYY-MM-DD" && g
 - `index.html` + `styles.css` + `app.js` + `data/hotspots.json`
 - 无后端、无构建
 - 宽屏并排、地图 sticky；≤900px 地图在上、时间线在下
-- GitHub Pages：`main` 根目录
+- Cloudflare Pages 项目 `x-hotspots` + GitHub Pages：`main` 根目录（见 `wrangler.toml`）
 
 ## Agnir Project Instructions
 

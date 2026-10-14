@@ -1,6 +1,10 @@
-# 更新热点到 GitHub Pages
+# 更新热点到站点
 
-站点数据源：`data/hotspots.json`。推送到 `main` 后 Pages 通常 1–2 分钟刷新。
+站点数据源：`data/hotspots.json`。推送到 `main` 后 **Cloudflare Pages**（主站）与 GitHub Pages 通常 1–2 分钟刷新。
+
+- 主站：https://x-hotspots.lapplax.com
+- pages.dev：https://x-hotspots.pages.dev
+- GitHub Pages：https://mattamior.github.io/x-hotspots-timeline/
 
 ## 推荐流程（合并脚本）
 
@@ -28,10 +32,11 @@ git push origin main
 
 ```bash
 gh api repos/mattamior/x-hotspots-timeline/pages/builds --jq '.[0] | {status, created_at}'
+# Cloudflare Pages：Dashboard → Workers & Pages → x-hotspots → Deployments
 # 或打开 Actions / Pages 部署记录
 ```
 
-页面：https://mattamior.github.io/x-hotspots-timeline/
+页面（优先 CF）：https://x-hotspots.lapplax.com  ·  GH Pages：https://mattamior.github.io/x-hotspots-timeline/
 
 ## 条目字段
 

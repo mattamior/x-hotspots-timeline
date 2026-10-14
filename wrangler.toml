@@ -1,0 +1,7 @@
+# Cloudflare Pages — project x-hotspots
+# Production: push to main → auto-deploy (Git integration).
+# Custom domain: https://x-hotspots.lapplax.com
+# Fallback: https://x-hotspots.pages.dev
+name = "x-hotspots"
+compatibility_date = "2026-10-14"
+pages_build_output_dir = "."
