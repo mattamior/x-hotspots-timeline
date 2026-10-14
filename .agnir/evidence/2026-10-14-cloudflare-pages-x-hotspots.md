@@ -13,3 +13,9 @@ Date: 2026-10-14 (Asia/Shanghai)
 - Primary: https://x-hotspots.lapplax.com
 - pages.dev: https://x-hotspots.pages.dev
 - GH Pages fallback: https://mattamior.github.io/x-hotspots-timeline/
+
+## Verification (post-setup)
+- First deploy `2100d6e9` (ad_hoc @ 389c424): success.
+- Push `7bf71da` triggered `github:push` deploy `486d8a1c`: success — Git auto-deploy confirmed.
+- Custom domain re-provisioned to id `410e7241-4a91-4905-9ae1-819dd9f9bf16`; status **active** (verification + validation active, CA google).
+- HTTPS checks: `https://x-hotspots.lapplax.com/` and `/data/hotspots.json` → 200, ssl_verify_result=0.
