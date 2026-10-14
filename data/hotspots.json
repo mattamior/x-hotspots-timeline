@@ -1,7 +1,808 @@
 {
-  "updatedAt": "2026-10-14T08:05:00+08:00",
+  "updatedAt": "2026-10-14T12:05:00+08:00",
   "title": "全球热点时间线",
   "items": [
+    {
+      "region": "中东",
+      "source": "X 热点",
+      "tags": [
+        "霍尔木兹",
+        "商船遇袭",
+        "油价",
+        "中期选举"
+      ],
+      "why": "袭击从「偶发」转向可复制的侦察—打击组合，会让霍尔木兹溢价与中期选举前的油价政治绑定更紧。",
+      "id": "2110177816587514057",
+      "title": "霍尔木兹再有商船遭袭，路透：伊朗改用小艇侦察等新战术抬油价压中期选举",
+      "location": "伊朗·霍尔木兹海峡",
+      "url": "https://x.com/i/trending/2110177816587514057",
+      "summary": "英国海上贸易行动办公室（UKMTO）证实，10月13日霍尔木兹一带再有油轮与集装箱船遭弹体击中；自9月底以来相关袭击已至少约24起，此前一个周日更曾单日六艘油轮遇袭。路透10月14日援引伊朗官员称，约十天前起已改用小艇侦察等新战术，并把活动扩至阿曼湾及卡塔尔、阿联酋近海，意图在11月美国中期选举前维持高油价。联合海事信息中心（JMIC）威胁等级仍为「严重」；美中央司令部虽称仍控制局势并曾协助运出约1900万桶原油，但商船遇袭频率与战术升级正持续推高航运与油市风险。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 26.56,
+      "lng": 56.25,
+      "i18n": {
+        "en": {
+          "title": "More merchant ships hit in Hormuz; Reuters: Iran shifts to small-boat scouting to lift oil before midterms",
+          "location": "Iran · Strait of Hormuz",
+          "summary": "The UK Maritime Trade Operations (UKMTO) confirmed fresh attacks on October 13, with a tanker and a container ship hit by projectiles near Hormuz; at least about 24 such attacks have been reported since late September, including six tankers on one recent Sunday. Iranian officials told Reuters on October 14 that roughly ten days ago they adopted new tactics including small-boat spotters and expanded activity into the Gulf of Oman and waters off Qatar and the UAE, aiming to keep oil prices high ahead of the November U.S. midterms. The Joint Maritime Information Center (JMIC) threat level remains “severe”; while U.S. Central Command still claims control and has helped move about 19 million barrels, the surge in commercial-ship hits and the tactics shift keep shipping and oil-market risk elevated.",
+          "why": "Attacks moving from sporadic hits to a replicable scout-and-strike pattern ties Hormuz premiums more tightly to pre-midterm oil politics.",
+          "tags": [
+            "Hormuz",
+            "Merchant ship attacks",
+            "Oil prices",
+            "Midterms"
+          ]
+        },
+        "hi": {
+          "title": "होरमुज़ में फिर व्यापारी जहाज़ों पर हमला; रॉयटर्स: ईरान मध्यावधि से पहले तेल बढ़ाने को छोटी नाव स्काउटिंग अपना रहा",
+          "location": "ईरान · होरमुज़ जलडमरूमध्य",
+          "summary": "ब्रिटिश मैरीटाइम ट्रेड ऑपरेशंस (UKMTO) ने पुष्टि की कि 13 अक्टूबर को होरमुज़ पास एक टैंकर और कंटेनर जहाज़ पर प्रोजेक्टाइल लगे; सितंबर के अंत से कम से कम लगभग 24 हमले रिपोर्ट हुए हैं, जिनमें हाल के एक रविवार को छह टैंकर शामिल। ईरानी अधिकारियों ने 14 अक्टूबर को रॉयटर्स से कहा कि करीब दस दिन पहले छोटी नाव स्काउट जैसी नई रणनीति अपनाई और गतिविधि ओमान की खाड़ी तथा कतर व यूएई के पास पानी तक बढ़ाई, ताकि नवंबर अमेरिकी मध्यावधि चुनाव से पहले तेल ऊँचा रहे। जेएमआईसी खतरा स्तर «गंभीर» है; सेंटकॉम अभी भी नियंत्रण का दावा करता है और करीब 1.9 करोड़ बैरल मदद से निकाले, पर व्यापारी जहाज़ों पर हमलों की बढ़त और रणनीति बदलाव शिपिंग व तेल जोखिम ऊँचा रखते हैं।",
+          "why": "छिटपुट हमलों से दोहराए जा सकने वाले स्काउट-एंड-स्ट्राइक पैटर्न की ओर रुख होरमुज़ प्रीमियम को मध्यावधि पूर्व तेल राजनीति से और बाँधता है।",
+          "tags": [
+            "होरमुज़",
+            "व्यापारी जहाज़ हमले",
+            "तेल कीमतें",
+            "मध्यावधि"
+          ]
+        },
+        "es": {
+          "title": "Más mercantes atacados en Ormuz; Reuters: Irán usa lanchas de reconocimiento para subir el petróleo antes de las midterms",
+          "location": "Irán · Estrecho de Ormuz",
+          "summary": "La UK Maritime Trade Operations (UKMTO) confirmó nuevos ataques el 13 de octubre: un petrolero y un portacontenedores fueron alcanzados por proyectiles cerca de Ormuz; desde finales de septiembre se reportan al menos unas 24 agresiones, con seis petroleros en un domingo reciente. Oficiales iraníes dijeron a Reuters el 14 de octubre que hace unos diez días adoptaron nuevas tácticas con lanchas exploradoras y ampliaron la actividad al golfo de Omán y aguas frente a Catar y Emiratos, para mantener el crudo alto antes de las midterms de EE. UU. en noviembre. El nivel de amenaza del JMIC sigue en «grave»; el CENTCOM afirma controlar la zona y haber ayudado a mover unos 19 millones de barriles, pero el repunte de ataques a mercantes y el cambio táctico mantienen alto el riesgo naviero y petrolero.",
+          "why": "Pasar de golpes esporádicos a un patrón replicable de exploración y ataque ata más la prima de Ormuz a la política del petróleo antes de las midterms.",
+          "tags": [
+            "Ormuz",
+            "Ataques a mercantes",
+            "Precio del petróleo",
+            "Midterms"
+          ]
+        },
+        "fr": {
+          "title": "Nouveaux navires marchands touchés à Ormuz ; Reuters : l’Iran passe à des vedettes d’éclairage pour soutenir le pétrole avant les midterms",
+          "location": "Iran · Détroit d’Ormuz",
+          "summary": "Le UK Maritime Trade Operations (UKMTO) a confirmé de nouvelles attaques le 13 octobre : un pétrolier et un porte-conteneurs ont été touchés par des projectiles près d’Ormuz ; au moins une vingtaine d’attaques ont été signalées depuis fin septembre, dont six pétroliers un dimanche récent. Des responsables iraniens ont dit à Reuters le 14 octobre qu’ils ont adopté il y a une dizaine de jours de nouvelles tactiques, dont des vedettes d’observation, et étendu l’activité au golfe d’Oman et aux eaux au large du Qatar et des Émirats, pour garder le pétrole élevé avant les midterms américaines de novembre. Le niveau de menace du JMIC reste « sévère » ; le CENTCOM affirme toujours contrôler la zone et avoir aidé à faire passer environ 19 millions de barils, mais la hausse des attaques sur des navires marchands et le changement de tactique maintiennent le risque maritime et pétrolier élevé.",
+          "why": "Passer d’attaques sporadiques à un schéma reproductible d’éclairage et de frappe lie plus étroitement la prime d’Ormuz à la politique du pétrole avant les midterms.",
+          "tags": [
+            "Ormuz",
+            "Attaques de navires marchands",
+            "Prix du pétrole",
+            "Midterms"
+          ]
+        },
+        "ar": {
+          "title": "هجمات جديدة على سفن تجارية في هرمز؛ رويترز: إيران تعتمد زوارق استطلاع لرفع النفط قبل الانتخابات النصفية",
+          "location": "إيران · مضيق هرمز",
+          "summary": "أكد مكتب العمليات التجارية البحرية البريطانية (UKMTO) هجمات جديدة في 13 أكتوبر أصابت ناقلة نفط وسفينة حاويات بقذائف قرب هرمز؛ ومنذ أواخر سبتمبر أُبلغ عن نحو 24 هجوماً على الأقل، منها ست ناقلات في أحد أيام الأحد الأخيرة. وقال مسؤولون إيرانيون لرويترز في 14 أكتوبر إنهم قبل نحو عشرة أيام اعتمدوا تكتيكات جديدة تشمل زوارق استطلاع ووسعوا النشاط إلى خليج عمان ومياه قرب قطر والإمارات لإبقاء النفط مرتفعاً قبل الانتخابات النصفية الأميركية في نوفمبر. ويبقى مستوى تهديد JMIC «شديداً»؛ ورغم ادعاء القيادة المركزية السيطرة ومساعدة نقل نحو 19 مليون برميل، فإن تصاعد استهداف السفن التجارية وتحول التكتيك يبقيان مخاطر الشحن والنفط مرتفعة.",
+          "why": "الانتقال من ضربات متفرقة إلى نمط قابل للتكرار من الاستطلاع والهجوم يربط علاوة هرمز بسياسة النفط قبل الانتخابات النصفية بقوة أكبر.",
+          "tags": [
+            "هرمز",
+            "هجمات سفن تجارية",
+            "أسعار النفط",
+            "انتخابات نصفية"
+          ]
+        },
+        "ja": {
+          "title": "ホルムズで商船再攻撃、ロイター：イランが小型艇偵察など新戦術で中間選挙前に原油押し上げ",
+          "location": "イラン · ホルムズ海峡",
+          "summary": "英海上貿易作戦室（UKMTO）は10月13日、ホルムズ付近でタンカーとコンテナ船が投射体で被弾したと確認；9月末以降の関連攻撃は少なくとも約24件、直近の日曜にはタンカー6隻が襲われた。ロイターが14日に伝えたイラン当局者によると、約10日前から小型艇による偵察などの新戦術を採用し、オマーン湾やカタール・UAE沖にも活動を広げ、11月の米中間選挙前に原油高を維持する狙いだという。JMICの脅威レベルは「深刻」のまま；米中央軍は依然として制圧を主張し約1900万バレルの通航支援もあったが、商船被弾の急増と戦術転換が海運・原油リスクを押し上げ続けている。",
+          "why": "散発攻撃から再現可能な偵察・打撃パターンへの移行は、ホルムズ・プレミアムを中間選挙前の原油政治とより強く結びつける。",
+          "tags": [
+            "ホルムズ",
+            "商船攻撃",
+            "原油価格",
+            "中間選挙"
+          ]
+        },
+        "ko": {
+          "title": "호르무즈 상선 재피격, 로이터: 이란이 소형정 정찰 등 신전술로 중간선거 전 유가 끌어올려",
+          "location": "이란 · 호르무즈 해협",
+          "summary": "영국 해상무역작전실(UKMTO)은 10월 13일 호르무즈 인근에서 유조선과 컨테이너선이 투사체에 피격됐다고 확인했다. 9월 말 이후 관련 공격은 최소 약 24건이며, 최근 일요일에는 유조선 6척이 피습됐다. 로이터가 14일 전한 이란 관리들에 따르면 약 10일 전부터 소형정 정찰 등 신전술을 쓰고 활동 범위를 오만만과 카타르·UAE 해역까지 넓혀 11월 미 중간선거 전 고유가를 유지하려 한다. JMIC 위협 수준은 «심각»이며, 미 중부사령부는 여전히 통제를 주장하고 약 1900만 배럴 통항을 도왔지만 상선 피격 급증과 전술 전환이 해운·유가 위험을 계속 끌어올린다.",
+          "why": "산발 공격에서 재현 가능한 정찰·타격 패턴으로의 전환은 호르무즈 프리미엄을 중간선거 전 유가 정치에 더 단단히 묶는다.",
+          "tags": [
+            "호르무즈",
+            "상선 피격",
+            "유가",
+            "중간선거"
+          ]
+        },
+        "id": {
+          "title": "Kapal niaga lagi diserang di Hormuz; Reuters: Iran pakai taktik perahu kecil untuk naikkan minyak sebelum midterms",
+          "location": "Iran · Selat Hormuz",
+          "summary": "UK Maritime Trade Operations (UKMTO) mengonfirmasi serangan baru pada 13 Oktober: tanker dan kapal kontainer kena proyektil dekat Hormuz; sejak akhir September setidaknya sekitar 24 serangan dilaporkan, termasuk enam tanker pada satu Minggu baru-baru ini. Pejabat Iran memberi tahu Reuters pada 14 Oktober bahwa sekitar sepuluh hari lalu mereka memakai taktik baru termasuk perahu pengintai dan memperluas aktivitas ke Teluk Oman serta perairan lepas Qatar dan UEA, untuk menjaga harga minyak tinggi menjelang midterms AS November. Tingkat ancaman JMIC tetap «parah»; CENTCOM masih mengklaim kendali dan membantu memindahkan sekitar 19 juta barel, tetapi lonjakan serangan kapal niaga dan pergeseran taktik terus menaikkan risiko pelayaran dan minyak.",
+          "why": "Pergeseran dari serangan sporadis ke pola pengintaian-dan-serangan yang bisa diulang mengikat premi Hormuz lebih erat ke politik minyak pra-midterms.",
+          "tags": [
+            "Hormuz",
+            "Serangan kapal niaga",
+            "Harga minyak",
+            "Midterms"
+          ]
+        }
+      }
+    },
+    {
+      "region": "欧洲",
+      "source": "X 热点",
+      "tags": [
+        "乌克兰",
+        "俄罗斯炼厂",
+        "凯洛格",
+        "特朗普"
+      ],
+      "why": "前特使公开鼓励扩大炼厂打击，会削弱白宫「停打炼厂」信号，并影响盟友对美政策一致性的判断。",
+      "id": "2110123032522207350",
+      "title": "特朗普前乌克兰特使凯洛格在华沙呼吁乌方打掉俄全部炼厂，与白宫叫停相左",
+      "location": "波兰·华沙",
+      "url": "https://x.com/i/trending/2110123032522207350",
+      "summary": "退役上将基思·凯洛格（Keith Kellogg，特朗普前乌克兰问题特使）10月12–13日在华沙安全论坛上称，俄炼油厂是合法目标、没有「避难所」，乌克兰应自行决定打击清单，让莫斯科付出代价。这与特朗普近期以美国柴油价格为由呼吁乌方停止袭击俄炼厂的表态形成鲜明对照。几天前乌方袭击罗斯托夫州新沙赫京斯克炼厂并引发大火。凯洛格的公开表态凸显特朗普阵营内部对「能源停火」与战场施压路线的张力。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 52.23,
+      "lng": 21.01,
+      "i18n": {
+        "en": {
+          "title": "Ex-Trump Ukraine envoy Kellogg in Warsaw urges hitting all Russian refineries, at odds with White House pause",
+          "location": "Poland · Warsaw",
+          "summary": "Retired Gen. Keith Kellogg, formerly Trump’s special envoy for Ukraine, told the Warsaw Security Forum on October 12–13 that Russian refineries are fair targets with no sanctuary and that Ukraine should decide its own target list to make Moscow pay. That clashes with Trump’s recent calls for Ukraine to stop refinery strikes over U.S. diesel prices. Days earlier Ukrainian strikes hit the Novoshakhtinsk refinery in Rostov, sparking a fire. Kellogg’s public stance highlights tension inside the Trump camp between an “energy ceasefire” and battlefield pressure.",
+          "why": "A former envoy openly cheering wider refinery strikes undercuts the White House “stop hitting refineries” signal and muddies allies’ read of U.S. policy unity.",
+          "tags": [
+            "Ukraine",
+            "Russian refineries",
+            "Kellogg",
+            "Trump"
+          ]
+        },
+        "hi": {
+          "title": "ट्रंप के पूर्व यूक्रेन दूत केलॉग ने वारसॉ में रूसी रिफाइनरियाँ निशाना बनाने की अपील की, व्हाइट हाउस रोक से अलग",
+          "location": "पोलैंड · वारसॉ",
+          "summary": "सेवानिवृत्त जनरल कीथ केलॉग (ट्रंप के पूर्व यूक्रेन विशेष दूत) ने 12–13 अक्टूबर वारसॉ सुरक्षा मंच पर कहा कि रूसी रिफाइनरियाँ वैध लक्ष्य हैं, कोई «अभयारण्य» नहीं, और यूक्रेन को खुद लक्ष्य सूची तय कर मास्को से कीमत वसूलनी चाहिए। यह ट्रंप के हालिया आह्वान—अमेरिकी डीज़ल कीमतों के कारण यूक्रेन रिफाइनरी हमले रोके—से स्पष्ट टकराव है। कुछ दिन पहले यूक्रेनी हमले ने रोस्तोव के नोवोशाख्तिंस्क रिफाइनरी में आग लगाई। केलॉग का बयान ट्रंप खेमे में «ऊर्जा संघर्षविराम» और मैदानी दबाव के बीच तनाव दिखाता है।",
+          "why": "पूर्व दूत का खुला समर्थन व्यापक रिफाइनरी हमलों के लिए व्हाइट हाउस के «रिफाइनरी न मारो» संकेत को कमजोर करता है और सहयोगियों के लिए अमेरिकी नीति एकता को धुंधला करता है।",
+          "tags": [
+            "यूक्रेन",
+            "रूसी रिफाइनरियाँ",
+            "केलॉग",
+            "ट्रंप"
+          ]
+        },
+        "es": {
+          "title": "Exenviado de Trump para Ucrania, Kellogg, pide en Varsovia atacar todas las refinerías rusas, en desacuerdo con la Casa Blanca",
+          "location": "Polonia · Varsovia",
+          "summary": "El general retirado Keith Kellogg, exenviado especial de Trump para Ucrania, dijo en el Foro de Seguridad de Varsovia el 12–13 de octubre que las refinerías rusas son objetivos legítimos sin santuario y que Ucrania debe decidir su propia lista de blancos para hacer pagar a Moscú. Eso choca con los recientes llamados de Trump a que Ucrania deje de atacar refinerías por el precio del diésel en EE. UU. Días antes, ataques ucranianos golpearon la refinería de Novoshakhtinsk (Rostov) e iniciaron un incendio. La postura pública de Kellogg revela tensión en el campo trumpista entre un «cese energético» y la presión en el campo de batalla.",
+          "why": "Que un exenviado anime abiertamente más ataques a refinerías debilita la señal de la Casa Blanca de «dejar las refinerías» y nubla la unidad de política estadounidense a ojos de aliados.",
+          "tags": [
+            "Ucrania",
+            "Refinerías rusas",
+            "Kellogg",
+            "Trump"
+          ]
+        },
+        "fr": {
+          "title": "L’ex-envoyé Trump pour l’Ukraine Kellogg appelle à Varsovie à frapper toutes les raffineries russes, à rebours de la Maison Blanche",
+          "location": "Pologne · Varsovie",
+          "summary": "Le général à la retraite Keith Kellogg, ex-envoyé spécial de Trump pour l’Ukraine, a déclaré au Forum de sécurité de Varsovie les 12–13 octobre que les raffineries russes sont des cibles légitimes sans sanctuaire et que l’Ukraine doit fixer sa propre liste pour faire payer Moscou. Cela contraste avec les appels récents de Trump à cesser les frappes sur les raffineries à cause du prix du diesel américain. Quelques jours plus tôt, des frappes ukrainiennes ont touché la raffinerie de Novochakhtinsk (Rostov) et déclenché un incendie. La prise de position de Kellogg souligne la tension au sein du camp Trump entre un « cessez-le-feu énergétique » et la pression sur le champ de bataille.",
+          "why": "Qu’un ex-envoyé encourage ouvertement des frappes élargies sur les raffineries affaiblit le signal de la Maison Blanche « arrêtez les raffineries » et brouille la lecture alliée de l’unité américaine.",
+          "tags": [
+            "Ukraine",
+            "Raffineries russes",
+            "Kellogg",
+            "Trump"
+          ]
+        },
+        "ar": {
+          "title": "مبعوث ترامب السابق لأوكرانيا كيلوغ يدعو في وارسو لضرب كل مصافي النفط الروسية، بخلاف البيت الأبيض",
+          "location": "بولندا · وارسو",
+          "summary": "قال الجنرال المتقاعد كيث كيلوغ، المبعوث الخاص السابق لترامب بشأن أوكرانيا، في منتدى وارسو الأمني يومي 12–13 أكتوبر إن مصافي النفط الروسية أهداف مشروعة بلا ملاذ، وإن أوكرانيا يجب أن تحدد قائمتها بنفسها لجعل موسكو تدفع الثمن. ويتناقض ذلك مع دعوات ترامب الأخيرة لأوكرانيا بوقف ضرب المصافي بسبب أسعار الديزل الأميركية. وقبل أيام أصابت ضربات أوكرانية مصفاة نوفوشاختينسك في روستوف وأشعلت حريقاً. ويبرز موقف كيلوغ العلني التوتر داخل معسكر ترامب بين «وقف إطلاق نار للطاقة» والضغط في ساحة المعركة.",
+          "why": "تشجيع مبعوث سابق علناً لتوسيع ضرب المصافي يضعف إشارة البيت الأبيض بـ«وقف ضرب المصافي» ويشوش قراءة الحلفاء لوحدة السياسة الأميركية.",
+          "tags": [
+            "أوكرانيا",
+            "مصافٍ روسية",
+            "كيلوغ",
+            "ترامب"
+          ]
+        },
+        "ja": {
+          "title": "トランプ前ウクライナ特使ケロッグがワルシャワで露全製油所攻撃を呼びかけ、ホワイトハウスの停止要請と対立",
+          "location": "ポーランド · ワルシャワ",
+          "summary": "退役大将キース・ケロッグ（トランプ前ウクライナ問題特使）は10月12–13日のワルシャワ安全保障フォーラムで、露製油所は合法目標で「聖域」はなく、ウクライナが自ら目標リストを決めモスクワに代償を払わせるべきだと述べた。これは米ディーゼル価格を理由にウクライナへ製油所攻撃停止を求めるトランプの最近の発言と対照的だ。数日前にはウクライナがロストフ州ノヴォシャフチンスク製油所を攻撃し火災が発生した。ケロッグの公言はトランプ陣営内の「エネルギー停戦」と戦場圧力路線の緊張を示す。",
+          "why": "元特使が製油所攻撃拡大を公に勧めることは、ホワイトハウスの「製油所攻撃停止」シグナルを弱め、同盟国の対米政策一体感の読みを曇らせる。",
+          "tags": [
+            "ウクライナ",
+            "ロシア製油所",
+            "ケロッグ",
+            "トランプ"
+          ]
+        },
+        "ko": {
+          "title": "트럼프 전 우크라이나 특사 켈로그, 바르샤바서 러 전 정유시설 타격 촉구…백악관 중단 요청과 배치",
+          "location": "폴란드 · 바르샤바",
+          "summary": "은퇴 장군 키스 켈로그(트럼프 전 우크라이나 특사)는 10월 12–13일 바르샤바 안보포럼에서 러시아 정유시설은 합법적 목표이며 «성역»이 없고, 우크라이나가 목표 목록을 스스로 정해 모스크바에 대가를 치르게 해야 한다고 말했다. 이는 미 경유 가격을 이유로 우크라이나에 정유시설 타격 중단을 요구한 트럼프의 최근 발언과 뚜렷이 어긋난다. 며칠 전 우크라이나는 로스토프주 노보샤흐틴스크 정유시설을 타격해 화재를 냈다. 켈로그의 공개 발언은 트럼프 진영 내 «에너지 휴전»과 전장 압박 노선 사이의 긴장을 보여준다.",
+          "why": "전 특사가 정유시설 타격 확대를 공개적으로 권하면 백악관의 «정유시설 중단» 신호가 약해지고 동맹의 미 정책 일관성 판단이 흐려진다.",
+          "tags": [
+            "우크라이나",
+            "러시아 정유시설",
+            "켈로그",
+            "트럼프"
+          ]
+        },
+        "id": {
+          "title": "Mantan utusan Ukraina Trump, Kellogg, di Warsawa minta serang semua kilang Rusia, bertolak belakang dengan Gedung Putih",
+          "location": "Polandia · Warsawa",
+          "summary": "Jenderal purnawirawan Keith Kellogg, mantan utusan khusus Trump untuk Ukraina, di Forum Keamanan Warsawa 12–13 Oktober mengatakan kilang Rusia adalah sasaran sah tanpa suaka, dan Ukraina harus memutuskan daftar sasarannya sendiri agar Moskow membayar. Itu bertolak belakang dengan seruan Trump baru-baru ini agar Ukraina menghentikan serangan kilang karena harga solar AS. Beberapa hari sebelumnya serangan Ukraina mengenai kilang Novoshakhtinsk di Rostov dan memicu kebakaran. Sikap publik Kellogg menyoroti ketegangan di kubu Trump antara «gencatan energi» dan tekanan medan perang.",
+          "why": "Mantan utusan yang terbuka mendukung serangan kilang lebih luas melemahkan sinyal Gedung Putih «hentikan serangan kilang» dan mengaburkan bacaan sekutu soal kesatuan kebijakan AS.",
+          "tags": [
+            "Ukraina",
+            "Kilang Rusia",
+            "Kellogg",
+            "Trump"
+          ]
+        }
+      }
+    },
+    {
+      "region": "亚太",
+      "source": "X 热点",
+      "tags": [
+        "IMF",
+        "印度经济",
+        "增长预测"
+      ],
+      "why": "连续六年领跑主要经济体的预测，会直接影响资本配置、供应链布局和印美欧经贸谈判筹码。",
+      "id": "2109834581943939576",
+      "title": "IMF上调印度增长至2026–27年约7%，连续第六年领跑主要经济体",
+      "location": "泰国·曼谷",
+      "url": "https://x.com/i/trending/2109834581943939576",
+      "summary": "国际货币基金组织在曼谷年会发布的《世界经济展望》中，将印度2026年与2027年增速预期均上调至约7%，中国约4.5%、美国约2.3%、欧洲不超过约1.3%。这是印度连续第六年在主要经济体中增速居首，支撑因素包括内需、服务业、人口结构与改革推进。印度商务部长皮尤什·戈亚尔（Piyush Goyal）称这是「势不可挡的印度」。在全球增速分化背景下，印度的领先预期正强化其作为增长引擎与资本流入目的地的叙事。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 13.76,
+      "lng": 100.5,
+      "i18n": {
+        "en": {
+          "title": "IMF lifts India growth to about 7% for 2026–27, sixth straight year leading major economies",
+          "location": "Thailand · Bangkok",
+          "summary": "In its World Economic Outlook released at the Bangkok annual meetings, the IMF raised India’s growth outlook to about 7% for both 2026 and 2027, versus about 4.5% for China, about 2.3% for the United States and no more than about 1.3% for Europe. It is India’s sixth straight year leading major economies, supported by domestic demand, services, demographics and reforms. Commerce Minister Piyush Goyal hailed an “unstoppable India.” Amid diverging global growth, India’s lead reinforces its narrative as a growth engine and capital-inflow destination.",
+          "why": "A sixth consecutive year atop major-economy forecasts directly shapes capital allocation, supply-chain siting and India’s leverage in trade talks with the U.S. and Europe.",
+          "tags": [
+            "IMF",
+            "Indian economy",
+            "Growth forecast"
+          ]
+        },
+        "hi": {
+          "title": "आईएमएफ ने भारत की वृद्धि 2026–27 के लिए लगभग 7% की; लगातार छठा वर्ष प्रमुख अर्थव्यवस्थाओं में अग्रणी",
+          "location": "थाईलैंड · बैंकॉक",
+          "summary": "बैंकॉक वार्षिक बैठकों में जारी विश्व आर्थिक परिदृश्य में आईएमएफ ने भारत की 2026 और 2027 वृद्धि अपेक्षा लगभग 7% कर दी; चीन लगभग 4.5%, अमेरिका लगभग 2.3%, यूरोप अधिकतम लगभग 1.3%। यह भारत का लगातार छठा वर्ष है जब वह प्रमुख अर्थव्यवस्थाओं में आगे है; घरेलू माँग, सेवाएँ, जनसांख्यिकी और सुधार सहारा देते हैं। वाणिज्य मंत्री पीयूष गोयल ने «अजेय भारत» कहा। वैश्विक वृद्धि के बिखराव में भारत की अग्रणी अपेक्षा इसे विकास इंजन और पूंजी प्रवाह गंतव्य की कथा मजबूत करती है।",
+          "why": "प्रमुख अर्थव्यवस्थाओं में लगातार छठा वर्ष शीर्ष पूर्वानुमान पूंजी आवंटन, आपूर्ति श्रृंखला और अमेरिका-यूरोप व्यापार वार्ता में भारत की सौदेबाजी शक्ति सीधे प्रभावित करता है।",
+          "tags": [
+            "आईएमएफ",
+            "भारतीय अर्थव्यवस्था",
+            "वृद्धि पूर्वानुमान"
+          ]
+        },
+        "es": {
+          "title": "El FMI eleva el crecimiento de India a cerca del 7% en 2026–27, sexto año consecutivo al frente de las grandes economías",
+          "location": "Tailandia · Bangkok",
+          "summary": "En su Perspectivas de la economía mundial presentadas en las reuniones anuales de Bangkok, el FMI elevó la previsión de India a cerca del 7% para 2026 y 2027, frente a cerca del 4,5% de China, cerca del 2,3% de EE. UU. y no más de cerca del 1,3% en Europa. Es el sexto año seguido que India lidera las grandes economías, impulsada por demanda interna, servicios, demografía y reformas. El ministro de Comercio Piyush Goyal celebró una «India imparable». Ante un crecimiento mundial divergente, el liderazgo indio refuerza su relato como motor de crecimiento y destino de capitales.",
+          "why": "Liderar seis años seguidos las previsiones de las grandes economías moldea directamente la asignación de capital, las cadenas de suministro y la palanca india en negociaciones con EE. UU. y Europa.",
+          "tags": [
+            "FMI",
+            "Economía india",
+            "Previsión de crecimiento"
+          ]
+        },
+        "fr": {
+          "title": "Le FMI relève la croissance de l’Inde à environ 7 % pour 2026–27, sixième année consécutive en tête des grandes économies",
+          "location": "Thaïlande · Bangkok",
+          "summary": "Dans ses Perspectives de l’économie mondiale publiées aux réunions annuelles de Bangkok, le FMI a porté les prévisions indiennes à environ 7 % pour 2026 et 2027, contre environ 4,5 % pour la Chine, environ 2,3 % pour les États-Unis et au plus environ 1,3 % pour l’Europe. C’est la sixième année d’affilée que l’Inde mène les grandes économies, soutenue par la demande intérieure, les services, la démographie et les réformes. Le ministre du Commerce Piyush Goyal a salué une « Inde inarrêtable ». Dans un monde à croissances divergentes, cette avance renforce le récit de l’Inde comme moteur de croissance et destination de capitaux.",
+          "why": "Six ans de suite en tête des prévisions des grandes économies façonne directement l’allocation de capitaux, les chaînes d’approvisionnement et le levier indien face aux États-Unis et à l’Europe.",
+          "tags": [
+            "FMI",
+            "Économie indienne",
+            "Prévision de croissance"
+          ]
+        },
+        "ar": {
+          "title": "صندوق النقد يرفع نمو الهند إلى نحو 7% لعامي 2026–27، سادس عام متتالٍ في صدارة الاقتصادات الكبرى",
+          "location": "تايلاند · بانكوك",
+          "summary": "في آفاق الاقتصاد العالمي الصادرة باجتماعات بانكوك السنوية، رفع صندوق النقد توقعات نمو الهند إلى نحو 7% لعامي 2026 و2027، مقابل نحو 4.5% للصين ونحو 2.3% للولايات المتحدة وما لا يزيد عن نحو 1.3% لأوروبا. وهو العام السادس على التوالي الذي تتصدر فيه الهند الاقتصادات الكبرى، مدعومة بالطلب المحلي والخدمات والديموغرافيا والإصلاحات. وأشاد وزير التجارة بيوش غويال بـ«هند لا تُوقف». وسط تباين النمو العالمي تعزز هذه الصدارة سردية الهند كمحرك نمو ووجهة لتدفقات رأس المال.",
+          "why": "تصدر توقعات الاقتصادات الكبرى ست سنوات متتالية يؤثر مباشرة في توزيع رأس المال وسلاسل الإمداد ونفوذ الهند في مفاوضات التجارة مع أميركا وأوروبا.",
+          "tags": [
+            "صندوق النقد",
+            "اقتصاد الهند",
+            "توقعات النمو"
+          ]
+        },
+        "ja": {
+          "title": "IMFがインド成長率を2026–27年で約7%に上方修正、主要経済で6年連続首位",
+          "location": "タイ · バンコク",
+          "summary": "バンコク年次総会で公表された世界経済見通しで、IMFはインドの2026年・2027年成長率見通しをいずれも約7%に引き上げた。中国は約4.5%、米国約2.3%、欧州は約1.3%以下。主要経済の中でインドが首位となるのは6年連続で、内需・サービス・人口構成・改革が支えとなる。商務相ピユシュ・ゴヤル氏は「止められないインド」と称賛した。世界成長が分化する中、この先行見通しは成長エンジン兼資本流入先としてのインド物語を強化している。",
+          "why": "主要経済で6年連続トップの予測は、資本配分・サプライチェーン立地・米欧との通商交渉におけるインドの手札に直結する。",
+          "tags": [
+            "IMF",
+            "インド経済",
+            "成長予測"
+          ]
+        },
+        "ko": {
+          "title": "IMF, 인도 성장률 2026–27년 약 7%로 상향…주요 경제 6년 연속 선두",
+          "location": "태국 · 방콕",
+          "summary": "방콕 연차총회에서 발표된 세계경제전망에서 IMF는 인도의 2026·2027년 성장 전망을 각각 약 7%로 올렸다. 중국 약 4.5%, 미국 약 2.3%, 유럽은 약 1.3% 이하. 주요 경제 중 인도 선두는 6년 연속이며 내수·서비스·인구구조·개혁이 뒷받침한다. 상무장관 피유시 고얄은 «멈출 수 없는 인도»를 강조했다. 세계 성장이 분화하는 가운데 이 선도 전망은 성장 엔진이자 자본 유입지로서의 인도 서사를 강화한다.",
+          "why": "주요 경제 6년 연속 1위 전망은 자본 배분, 공급망 입지, 미·유럽 통상 협상에서 인도의 카드에 직접 영향을 준다.",
+          "tags": [
+            "IMF",
+            "인도 경제",
+            "성장 전망"
+          ]
+        },
+        "id": {
+          "title": "IMF naikkan pertumbuhan India ke sekitar 7% untuk 2026–27, tahun keenam berturut-turut memimpin ekonomi utama",
+          "location": "Thailand · Bangkok",
+          "summary": "Dalam World Economic Outlook di pertemuan tahunan Bangkok, IMF menaikkan outlook pertumbuhan India ke sekitar 7% untuk 2026 dan 2027, dibanding China sekitar 4,5%, AS sekitar 2,3%, dan Eropa paling tinggi sekitar 1,3%. Ini tahun keenam beruntun India memimpin ekonomi utama, didukung permintaan domestik, jasa, demografi, dan reformasi. Menteri Perdagangan Piyush Goyal menyambut «India yang tak terhentikan». Di tengah divergensi pertumbuhan global, keunggulan India memperkuat narasi sebagai mesin pertumbuhan dan tujuan arus modal.",
+          "why": "Enam tahun berturut-turut di puncak prakiraan ekonomi utama langsung membentuk alokasi modal, rantai pasok, dan daya tawar India dalam perundingan dagang dengan AS dan Eropa.",
+          "tags": [
+            "IMF",
+            "Ekonomi India",
+            "Prakiraan pertumbuhan"
+          ]
+        }
+      }
+    },
+    {
+      "region": "全球",
+      "source": "X 热点",
+      "tags": [
+        "欧佩克",
+        "石油需求",
+        "中东"
+      ],
+      "why": "连续下调需求增量会改变欧佩克+增产节奏预期，并放大油价对地缘溢价的敏感度。",
+      "id": "2110009701102731704",
+      "title": "欧佩克把2026年全球石油需求增量砍至约18万桶/日，中东战事压制消费",
+      "location": "奥地利·维也纳",
+      "url": "https://x.com/i/trending/2110009701102731704",
+      "summary": "欧佩克月报将2026年全球石油需求增长预期下调至约18万桶/日，这是连续第六次下修；同时预计2027年需求反弹至约255万桶/日。报告称中东局势扰动与高油价抑制消费，其中中国明年需求增量或再被削约6万桶/日（部分需求被推迟）。欧佩克+9月产量回升至约3907万桶/日，沙特约837万桶/日。需求预期被砍叠加航运风险，使市场对「供应宽松何时真正到来」更加谨慎。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 48.21,
+      "lng": 16.37,
+      "i18n": {
+        "en": {
+          "title": "OPEC cuts 2026 global oil demand growth to about 180,000 b/d as Middle East war curbs consumption",
+          "location": "Austria · Vienna",
+          "summary": "OPEC’s monthly report cut its 2026 global oil demand-growth forecast to about 180,000 barrels a day after six straight downward revisions, while projecting a rebound to about 2.55 million b/d in 2027. Middle East disruptions and higher prices are said to shrink consumption, including about 60,000 b/d less Chinese demand growth next year (partly deferred). OPEC+ September output rebounded to about 39.07 million b/d, with Saudi Arabia near 8.37 million b/d. Weaker demand expectations plus shipping risk make markets more cautious about when any supply glut truly arrives.",
+          "why": "Repeated cuts to demand growth reset expectations for OPEC+ output pacing and heighten oil’s sensitivity to geopolitical premiums.",
+          "tags": [
+            "OPEC",
+            "Oil demand",
+            "Middle East"
+          ]
+        },
+        "hi": {
+          "title": "ओपेक ने 2026 वैश्विक तेल माँग वृद्धि काटकर लगभग 1.8 लाख बैरल/दिन की; मध्य पूर्व युद्ध खपत दबा रहा",
+          "location": "ऑस्ट्रिया · वियना",
+          "summary": "ओपेक मासिक रिपोर्ट ने 2026 वैश्विक तेल माँग वृद्धि पूर्वानुमान लगातार छठी कटौती के बाद लगभग 1.8 लाख बैरल/दिन कर दिया; 2027 में वापसी लगभग 25.5 लाख बैरल/दिन अनुमानित है। मध्य पूर्व व्यवधान और ऊँची कीमतें खपत घटा रही हैं; चीन की अगले वर्ष माँग वृद्धि में करीब 60 हजार बैरल/दिन और कट (कुछ माँग स्थगित)। ओपेक+ सितंबर उत्पादन लगभग 3.907 करोड़ बैरल/दिन पर लौटा, सऊदी लगभग 83.7 लाख। कमजोर माँग अपेक्षा और शिपिंग जोखिम बाज़ार को «आपूर्ति अतिरिक्त कब सच में आए» पर और सतर्क बनाते हैं।",
+          "why": "माँग वृद्धि में बार-बार कटौती ओपेक+ उत्पादन गति की अपेक्षाएँ बदलती है और तेल की भूराजनीतिक प्रीमियम संवेदनशीलता बढ़ाती है।",
+          "tags": [
+            "ओपेक",
+            "तेल माँग",
+            "मध्य पूर्व"
+          ]
+        },
+        "es": {
+          "title": "La OPEP recorta el crecimiento de la demanda mundial de petróleo en 2026 a unos 180.000 b/d; la guerra en Oriente Medio frena el consumo",
+          "location": "Austria · Viena",
+          "summary": "El informe mensual de la OPEP recortó por sexta vez seguida su previsión de crecimiento de la demanda mundial de petróleo en 2026 hasta unos 180.000 barriles diarios, y proyecta un rebote a unos 2,55 millones b/d en 2027. Las perturbaciones en Oriente Medio y precios más altos reducen el consumo; el crecimiento de la demanda china el próximo año caería unos 60.000 b/d (parte aplazada). La producción OPEP+ de septiembre rebotó a unos 39,07 millones b/d, con Arabia Saudí cerca de 8,37 millones. Expectativas de demanda más débiles más riesgo naviero hacen al mercado más cauto sobre cuándo llega de verdad un exceso de oferta.",
+          "why": "Recortes repetidos del crecimiento de la demanda reajustan el ritmo esperado de la OPEP+ y aumentan la sensibilidad del petróleo a la prima geopolítica.",
+          "tags": [
+            "OPEP",
+            "Demanda de petróleo",
+            "Oriente Medio"
+          ]
+        },
+        "fr": {
+          "title": "L’OPEP ramène la hausse de la demande mondiale de pétrole 2026 à environ 180 000 b/j ; la guerre au Moyen-Orient bride la consommation",
+          "location": "Autriche · Vienne",
+          "summary": "Le rapport mensuel de l’OPEP a réduit pour la sixième fois d’affilée sa prévision de croissance de la demande mondiale de pétrole en 2026 à environ 180 000 barils par jour, tout en projetant un rebond à environ 2,55 millions b/j en 2027. Les perturbations au Moyen-Orient et des prix plus élevés freinent la consommation ; la hausse de la demande chinoise l’an prochain serait amputée d’environ 60 000 b/j (en partie différée). La production OPEP+ de septembre a rebondi à environ 39,07 millions b/j, l’Arabie saoudite près de 8,37 millions. Des attentes de demande plus faibles plus le risque maritime rendent le marché plus prudent sur le moment où un excès d’offre arriverait vraiment.",
+          "why": "Des révisions à la baisse répétées de la croissance de la demande recalibrent le rythme attendu de l’OPEP+ et accroissent la sensibilité du pétrole à la prime géopolitique.",
+          "tags": [
+            "OPEP",
+            "Demande de pétrole",
+            "Moyen-Orient"
+          ]
+        },
+        "ar": {
+          "title": "أوبك تخفض نمو الطلب العالمي على النفط 2026 إلى نحو 180 ألف ب/ي؛ حرب الشرق الأوسط تكبح الاستهلاك",
+          "location": "النمسا · فيينا",
+          "summary": "خفض تقرير أوبك الشهري توقعات نمو الطلب العالمي على النفط لعام 2026 إلى نحو 180 ألف برميل يومياً بعد ست مراجعات نزولية متتالية، ويتوقع ارتداداً إلى نحو 2.55 مليون ب/ي في 2027. اضطرابات الشرق الأوسط وارتفاع الأسعار تقلص الاستهلاك؛ وقد ينخفض نمو طلب الصين العام المقبل بنحو 60 ألف ب/ي (جزء مؤجل). وعاد إنتاج أوبك+ في سبتمبر إلى نحو 39.07 مليون ب/ي، والسعودية قرب 8.37 مليون. توقعات الطلب الأضعف مع مخاطر الشحن تجعل السوق أكثر حذراً بشأن متى يصل فائض العرض فعلاً.",
+          "why": "التخفيضات المتكررة لنمو الطلب تعيد ضبط توقعات وتيرة إنتاج أوبك+ وتزيد حساسية النفط لعلاوة الجغرافيا السياسية.",
+          "tags": [
+            "أوبك",
+            "طلب النفط",
+            "الشرق الأوسط"
+          ]
+        },
+        "ja": {
+          "title": "OPECが2026年世界石油需要増を約18万バレル/日に下方修正、中東情勢が消費を抑制",
+          "location": "オーストリア · ウィーン",
+          "summary": "OPEC月報は2026年の世界石油需要増加見通しを6回連続で下方修正し約18万バレル/日とした一方、2027年は約255万バレル/日への反発を見込む。中東の混乱と高値が消費を抑え、中国の来年の需要増も約6万バレル/日削られる（一部先送り）という。OPEC+の9月産出は約3907万バレル/日へ戻り、サウジは約837万バレル/日。需要見通しの弱さと海運リスクが重なり、「供給過剰がいつ本当に来るか」への市場の慎重さが増している。",
+          "why": "需要増の連続下方修正はOPEC+増産ペースの期待を変え、原油の地政学プレミアム感応度を高める。",
+          "tags": [
+            "OPEC",
+            "石油需要",
+            "中東"
+          ]
+        },
+        "ko": {
+          "title": "OPEC, 2026년 세계 석유 수요 증가분 약 18만 배럴/일로 삭감…중동 전운이 소비 눌러",
+          "location": "오스트리아 · 빈",
+          "summary": "OPEC 월보는 2026년 세계 석유 수요 증가 전망을 6연속 하향 후 약 18만 배럴/일로 낮췄고, 2027년에는 약 255만 배럴/일로 반등할 것으로 본다. 중동 교란과 고유가가 소비를 줄이며 중국 내년 수요 증가분도 약 6만 배럴/일 축소(일부 이연)될 수 있다. OPEC+ 9월 생산은 약 3907만 배럴/일로 반등했고 사우디는 약 837만 배럴/일. 수요 전망 약화와 해운 위험이 겹쳐 «공급 과잉이 언제 진짜 오는지»에 시장이 더 신중해진다.",
+          "why": "수요 증가분 연속 하향은 OPEC+ 증산 리듬 기대를 재조정하고 유가의 지정학 프리미엄 민감도를 키운다.",
+          "tags": [
+            "OPEC",
+            "석유 수요",
+            "중동"
+          ]
+        },
+        "id": {
+          "title": "OPEC potong pertumbuhan permintaan minyak global 2026 ke sekitar 180 ribu b/h; perang Timur Tengah tekan konsumsi",
+          "location": "Austria · Wina",
+          "summary": "Laporan bulanan OPEC memotong prakiraan pertumbuhan permintaan minyak global 2026 ke sekitar 180.000 barel per hari setelah enam revisi turun beruntun, sambil memproyeksikan rebound ke sekitar 2,55 juta b/h pada 2027. Gangguan Timur Tengah dan harga lebih tinggi menekan konsumsi; pertumbuhan permintaan China tahun depan bisa turun sekitar 60.000 b/h (sebagian ditunda). Produksi OPEC+ September rebound ke sekitar 39,07 juta b/h, Arab Saudi dekat 8,37 juta. Ekspektasi permintaan lebih lemah plus risiko pelayaran membuat pasar lebih waspada kapan kelebihan pasokan benar-benar datang.",
+          "why": "Pemotongan berulang pertumbuhan permintaan menyetel ulang ekspektasi laju produksi OPEC+ dan menambah sensitivitas minyak terhadap premi geopolitik.",
+          "tags": [
+            "OPEC",
+            "Permintaan minyak",
+            "Timur Tengah"
+          ]
+        }
+      }
+    },
+    {
+      "region": "非洲",
+      "source": "X 热点",
+      "tags": [
+        "苏丹",
+        "金矿空袭",
+        "埃及",
+        "人权"
+      ],
+      "why": "边境金矿惨重伤亡会把内战外溢成埃叙关系与红海周边安全议题，并冲击非正式黄金供应链。",
+      "id": "2110038327961514059",
+      "title": "苏丹埃叙边境附近金矿遇空袭，人权组织称至少72名矿工死亡",
+      "location": "苏丹·贾巴勒乌盖达特",
+      "url": "https://x.com/i/trending/2110038327961514059",
+      "summary": "10月11日，苏丹与埃及边境附近贾巴勒乌盖达特一带的手工金矿遭空袭，人权组织称至少72名矿工死亡，部分幸存者称死亡可能超过200人。目击者将袭击归咎于埃及战机；埃及军方则称是在有争议的哈拉伊卜—沙拉丁三角地带内、对境内非法采矿与犯罪活动发出警告后实施打击。苏丹军方领导人已下令调查。事件发生在苏丹内战与非正式黄金贸易长期交织的背景下，跨境资源冲突风险再度升温。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 22,
+      "lng": 35.5,
+      "i18n": {
+        "en": {
+          "title": "Airstrikes hit gold sites near Sudan–Egypt border; rights groups say at least 72 miners killed",
+          "location": "Sudan · Jabal al-Uqaydat",
+          "summary": "On October 11, airstrikes struck artisanal gold sites at Jabal al-Uqaydat near the Egypt–Sudan border; rights groups say at least 72 miners died, and some survivors claim the toll exceeds 200. Witnesses blamed Egyptian warplanes; Egypt’s military said it struck illegal mining and crime inside its territory in the disputed Halaib–Shalateen Triangle after warnings. Sudan’s army chief ordered an investigation. The episode lands amid Sudan’s civil war and a long-running informal gold trade, raising the risk of cross-border resource conflict.",
+          "why": "Mass casualties at a border gold site can spill civil war into Egypt–Sudan relations and Red Sea security, while jolting informal gold supply chains.",
+          "tags": [
+            "Sudan",
+            "Gold mine airstrike",
+            "Egypt",
+            "Human rights"
+          ]
+        },
+        "hi": {
+          "title": "सूडान–मिस्र सीमा के पास सोने की खदानों पर हवाई हमला; अधिकार समूहों का कहना कम से कम 72 खनिक मारे गए",
+          "location": "सूडान · जबल अल-उक़ैदात",
+          "summary": "11 अक्टूबर को मिस्र–सूडान सीमा के पास जबल अल-उक़ैदात के हस्तशिल्प सोने स्थलों पर हवाई हमले हुए; अधिकार समूह कहते हैं कम से कम 72 खनिक मरे, कुछ जीवित बचे 200+ का दावा करते हैं। गवाह मिस्री लड़ाकू विमानों को दोष देते हैं; मिस्र सेना कहती है उसने विवादित हलाइब–शलातीन त्रिभुज में अपनी सीमा के भीतर अवैध खनन/अपराध पर चेतावनी के बाद हमला किया। सूडान सेना प्रमुख ने जाँच के आदेश दिए। घटना सूडान गृहयुद्ध और अनौपचारिक सोने व्यापार की पृष्ठभूमि में हुई है, जिससे सीमापार संसाधन संघर्ष का जोखिम बढ़ता है।",
+          "why": "सीमा सोने स्थल पर भारी हताहत गृहयुद्ध को मिस्र–सूडान संबंध और लाल सागर सुरक्षा में फैला सकते हैं, और अनौपचारिक सोने श्रृंखला को झटका दे सकते हैं।",
+          "tags": [
+            "सूडान",
+            "सोने खदान हवाई हमला",
+            "मिस्र",
+            "मानवाधिकार"
+          ]
+        },
+        "es": {
+          "title": "Ataques aéreos golpean yacimientos de oro cerca de la frontera Sudán–Egipto; grupos de derechos hablan de al menos 72 mineros muertos",
+          "location": "Sudán · Jabal al-Uqaydat",
+          "summary": "El 11 de octubre, ataques aéreos golpearon yacimientos artesanales de oro en Jabal al-Uqaydat cerca de la frontera Egipto–Sudán; grupos de derechos dicen que murieron al menos 72 mineros y algunos supervivientes hablan de más de 200. Testigos culpan a aviones egipcios; el ejército egipcio dice que golpeó minería ilegal y delito dentro de su territorio en el disputado triángulo de Halaib–Shalateen tras advertencias. El jefe del ejército sudanés ordenó una investigación. El episodio llega en plena guerra civil sudanesa y un comercio informal de oro de larga data, elevando el riesgo de conflicto de recursos transfronterizo.",
+          "why": "Bajas masivas en un yacimiento fronterizo pueden derramar la guerra civil a las relaciones Egipto–Sudán y la seguridad del Mar Rojo, y sacudir cadenas informales de oro.",
+          "tags": [
+            "Sudán",
+            "Ataque aéreo a mina de oro",
+            "Egipto",
+            "Derechos humanos"
+          ]
+        },
+        "fr": {
+          "title": "Des frappes aériennes touchent des sites aurifères près de la frontière Soudan–Égypte ; des ONG font état d’au moins 72 mineurs tués",
+          "location": "Soudan · Jabal al-Uqaydat",
+          "summary": "Le 11 octobre, des frappes aériennes ont touché des sites d’or artisanal à Jabal al-Uqaydat près de la frontière Égypte–Soudan ; des groupes de défense des droits disent qu’au moins 72 mineurs sont morts, certains survivants évoquant plus de 200. Des témoins accusent des avions égyptiens ; l’armée égyptienne affirme avoir frappé l’extraction illégale et le crime sur son territoire dans le triangle contesté de Halaib–Shalateen après des avertissements. Le chef de l’armée soudanaise a ordonné une enquête. L’épisode survient dans le contexte de la guerre civile soudanaise et d’un commerce informel de l’or de longue date, relevant le risque de conflit de ressources transfrontalier.",
+          "why": "Des pertes massives sur un site aurifère frontalier peuvent faire déborder la guerre civile vers les relations Égypte–Soudan et la sécurité de la mer Rouge, et secouer les filières informelles de l’or.",
+          "tags": [
+            "Soudan",
+            "Frappe aérienne mine d’or",
+            "Égypte",
+            "Droits humains"
+          ]
+        },
+        "ar": {
+          "title": "غارات جوية على مواقع ذهب قرب حدود السودان–مصر؛ منظمات حقوقية: مقتل 72 عامل منجم على الأقل",
+          "location": "السودان · جبل العقييدات",
+          "summary": "في 11 أكتوبر ضربت غارات جوية مواقع ذهب حرفية في جبل العقييدات قرب الحدود المصرية–السودانية؛ وتقول منظمات حقوقية إن 72 عامل منجم على الأقل قتلوا، وبعض الناجين يتحدثون عن أكثر من 200. شهود يحملون الطائرات المصرية المسؤولية؛ والجيش المصري يقول إنه ضرب تعديناً غير قانوني وجريمة داخل أراضيه في مثلث حلايب–شلاتين المتنازع بعد تحذيرات. وأمر قائد الجيش السوداني بتحقيق. وتأتي الحادثة وسط الحرب الأهلية السودانية وتجارة ذهب غير رسمية طويلة الأمد، مما يرفع خطر صراع موارد عابر للحدود.",
+          "why": "خسائر فادحة في موقع ذهب حدودي قد تُسرب الحرب الأهلية إلى علاقات مصر–السودان وأمن البحر الأحمر، وتهز سلاسل الذهب غير الرسمية.",
+          "tags": [
+            "السودان",
+            "غارة على منجم ذهب",
+            "مصر",
+            "حقوق الإنسان"
+          ]
+        },
+        "ja": {
+          "title": "スーダン・エジプト国境付近の金鉱が空爆、人権団体は鉱夫少なくとも72人死亡と",
+          "location": "スーダン · ジャバル・アル＝ウカイダート",
+          "summary": "10月11日、エジプト＝スーダン国境付近のジャバル・アル＝ウカイダートの零細金鉱が空爆され、人権団体は鉱夫少なくとも72人死亡、一部生存者は200人超と主張する。目撃者はエジプト軍機の仕業とし、エジプト軍は警告後に係争中のハラーイブ＝シャラーティーン三角地帯内の自国領で違法採掘・犯罪を打撃したと主張する。スーダン軍首脳は調査を命じた。スーダン内戦と非公式金取引が長く絡む中で起き、越境資源紛争リスクを高めている。",
+          "why": "国境金鉱の甚大な犠牲は内戦をエジプト・スーダン関係と紅海安全保障に波及させ、非公式金サプライチェーンを揺さぶる。",
+          "tags": [
+            "スーダン",
+            "金鉱空爆",
+            "エジプト",
+            "人権"
+          ]
+        },
+        "ko": {
+          "title": "수단–이집트 국경 인근 금광 공습, 인권단체 «광부 최소 72명 사망»",
+          "location": "수단 · 자발 알우카이다트",
+          "summary": "10월 11일 이집트–수단 국경 인근 자발 알우카이다트의 영세 금광이 공습을 받았고, 인권단체는 광부 최소 72명 사망, 일부 생존자는 200명 이상이라고 주장한다. 목격자들은 이집트 전투기를 지목했고, 이집트군은 경고 후 분쟁 중인 할라이브–샬라틴 삼각지대 자국 영토 내 불법 채굴·범죄를 타격했다고 밝혔다. 수단군 수뇌는 조사를 지시했다. 수단 내전과 비공식 금 거래가 얽힌 배경에서 국경 자원 분쟁 위험이 커진다.",
+          "why": "국경 금광의 대규모 인명 피해는 내전을 이집트–수단 관계와 홍해 안보로 확산시키고 비공식 금 공급망을 흔들 수 있다.",
+          "tags": [
+            "수단",
+            "금광 공습",
+            "이집트",
+            "인권"
+          ]
+        },
+        "id": {
+          "title": "Serangan udara hantam lokasi emas dekat perbatasan Sudan–Mesir; kelompok HAM sebut minimal 72 penambang tewas",
+          "location": "Sudan · Jabal al-Uqaydat",
+          "summary": "Pada 11 Oktober serangan udara menghantam lokasi emas artisanal di Jabal al-Uqaydat dekat perbatasan Mesir–Sudan; kelompok HAM menyebut minimal 72 penambang tewas, sebagian penyintas mengklaim lebih dari 200. Saksi menyalahkan pesawat tempur Mesir; militer Mesir mengatakan menargetkan penambangan ilegal dan kejahatan di dalam wilayahnya di segitiga sengketa Halaib–Shalateen setelah peringatan. Kepala tentara Sudan memerintahkan investigasi. Insiden ini muncul di tengah perang saudara Sudan dan perdagangan emas informal jangka panjang, menaikkan risiko konflik sumber daya lintas batas.",
+          "why": "Korban massal di lokasi emas perbatasan dapat menumpahkan perang saudara ke hubungan Mesir–Sudan dan keamanan Laut Merah, sekaligus mengguncang rantai pasok emas informal.",
+          "tags": [
+            "Sudan",
+            "Serangan udara tambang emas",
+            "Mesir",
+            "Hak asasi"
+          ]
+        }
+      }
+    },
+    {
+      "region": "中东",
+      "source": "X 热点",
+      "tags": [
+        "胡塞",
+        "导弹",
+        "中国零部件",
+        "华尔街日报"
+      ],
+      "why": "若属实，胡塞本土化远程精确导弹会改写红海与海湾防空压力，并牵动美中伊三角叙事。",
+      "id": "2110215872740569224",
+      "title": "华尔街日报：胡塞用中国零部件组装可打约1200英里的精确制导导弹",
+      "location": "也门·萨那",
+      "url": "https://x.com/i/trending/2110215872740569224",
+      "summary": "《华尔街日报》援引冲突军备研究组织（Conflict Armament Research）对缴获货船的分析称，胡塞武装进口发动机段、弹体、舵面与隔热材料等，在当地组装类似伊朗「海拜尔谢坎」型的精确制导导弹，射程约1200英里，弹头可高速机动以规避防御，使沙特与以色列处于射程内。报道指这是在联合国禁运背景下的本地化生产。同日特朗普否认中俄向伊朗提供有实质意义的援助——双方说法相互抵触，需对照WSJ/CAR证据与白宫否认分别理解。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 15.37,
+      "lng": 44.19,
+      "i18n": {
+        "en": {
+          "title": "WSJ: Houthis assemble precision missiles with ~1,200-mile range using Chinese parts",
+          "location": "Yemen · Sanaa",
+          "summary": "The Wall Street Journal, citing Conflict Armament Research analysis of seized shipments, says Houthis import motor sections, airframes, fins and heat shielding to assemble Iran’s Kheibar Shekan-type precision missiles locally, with about a 1,200-mile range and a warhead that maneuvers at roughly 6,000 mph to dodge defenses—putting Saudi Arabia and Israel in range. The report frames this as local production under a U.N. embargo. The same day Trump denied meaningful China/Russia aid to Iran—contested claims that should be read as WSJ/CAR evidence versus a White House denial.",
+          "why": "If accurate, Houthi localization of long-range precision missiles would rewrite Red Sea and Gulf air-defense pressure and pull in U.S.–China–Iran narratives.",
+          "tags": [
+            "Houthis",
+            "Missiles",
+            "Chinese parts",
+            "Wall Street Journal"
+          ]
+        },
+        "hi": {
+          "title": "डब्ल्यूएसजे: हूती चीन के पुर्ज़ों से लगभग 1200 मील रेंज की सटीक मिसाइलें असेंबल कर रहे",
+          "location": "यमन · सना",
+          "summary": "वॉल स्ट्रीट जर्नल ने Conflict Armament Research के जब्त माल विश्लेषण का हवाला देते हुए कहा कि हूती मोटर खंड, एयरफ्रेम, फिन और हीट शील्डिंग आयात कर ईरान के खैबर शेकन-प्रकार की सटीक मिसाइलें स्थानीय रूप से जोड़ते हैं; रेंज लगभग 1200 मील, वारहेड रक्षा चकमा देने को लगभग 6000 मील/घंटा गति से घूम सकता है—सऊदी और इज़राइल दायरे में। रिपोर्ट इसे संयुक्त राष्ट्र प्रतिबंध के बीच स्थानीय उत्पादन बताती है। उसी दिन ट्रंप ने ईरान को चीन/रूस की सार्थक मदद से इनकार किया—दावे विवादित हैं; WSJ/CAR साक्ष्य बनाम व्हाइट हाउस इनकार के रूप में पढ़ें।",
+          "why": "सही होने पर हूती की लंबी दूरी सटीक मिसाइल स्थानीयकरण लाल सागर व खाड़ी वायु रक्षा दबाव बदल देगी और अमेरिका–चीन–ईरान कथा खींचेगी।",
+          "tags": [
+            "हूती",
+            "मिसाइलें",
+            "चीनी पुर्ज़े",
+            "वॉल स्ट्रीट जर्नल"
+          ]
+        },
+        "es": {
+          "title": "WSJ: los hutíes ensamblan misiles de precisión de unos 1200 millas con piezas chinas",
+          "location": "Yemen · Saná",
+          "summary": "The Wall Street Journal, citando análisis de Conflict Armament Research sobre cargamentos incautados, dice que los hutíes importan tramos de motor, fuselajes, aletas y escudos térmicos para ensamblar localmente misiles de precisión tipo Kheibar Shekan iraníes, con unos 1200 millas de alcance y una ojiva que maniobra a unos 6000 mph para evadir defensas—poniendo a Arabia Saudí e Israel en rango. El reportaje lo enmarca como producción local bajo embargo de la ONU. El mismo día Trump negó ayuda significativa de China/Rusia a Irán—afirmaciones en disputa que conviene leer como evidencia WSJ/CAR frente a una negación de la Casa Blanca.",
+          "why": "Si es cierto, la localización hutí de misiles de precisión de largo alcance reescribiría la presión antiaérea en el Mar Rojo y el Golfo y arrastraría narrativas EE.UU.–China–Irán.",
+          "tags": [
+            "Hutíes",
+            "Misiles",
+            "Piezas chinas",
+            "Wall Street Journal"
+          ]
+        },
+        "fr": {
+          "title": "WSJ : les Houthis assemblent des missiles de précision d’environ 1200 miles avec des pièces chinoises",
+          "location": "Yémen · Sanaa",
+          "summary": "The Wall Street Journal, citant des analyses de Conflict Armament Research sur des cargaisons saisies, affirme que les Houthis importent sections moteur, cellules, ailerons et blindages thermiques pour assembler localement des missiles de précision de type Kheibar Shekan iraniens, d’environ 1200 miles de portée, avec une ogive manœuvrant à environ 6000 mph pour tromper les défenses—portant Arabie saoudite et Israël à portée. Le reportage y voit une production locale sous embargo onusien. Le même jour Trump a nié une aide chinoise/russe significative à l’Iran—des affirmations contestées à lire comme preuves WSJ/CAR face à un démenti de la Maison Blanche.",
+          "why": "Si c’est exact, la localisation houthie de missiles de précision longue portée réécrirait la pression antiaérienne en mer Rouge et dans le Golfe et tirerait les récits États-Unis–Chine–Iran.",
+          "tags": [
+            "Houthis",
+            "Missiles",
+            "Pièces chinoises",
+            "Wall Street Journal"
+          ]
+        },
+        "ar": {
+          "title": "وول ستريت جورنال: الحوثيون يجمعون صواريخ دقيقة بمدى نحو 1200 ميل بأجزاء صينية",
+          "location": "اليمن · صنعاء",
+          "summary": "تقول وول ستريت جورنال استناداً إلى تحليل Conflict Armament Research لشحنات مضبوطة إن الحوثيين يستوردون أقسام محركات وهياكل وزعانف ودروع حرارية لتجميع صواريخ دقيقة محلياً من طراز خيبر شكن الإيراني، بمدى نحو 1200 ميل ورأس حربي يناور بسرعة تقارب 6000 ميل/ساعة لتفادي الدفاعات—مما يضع السعودية وإسرائيل في المدى. ويصوّر التقرير ذلك إنتاجاً محلياً تحت حظر أممي. وفي اليوم نفسه نفى ترامب مساعدة صينية/روسية ذات معنى لإيران—ادعاءات متنازع عليها تُقرأ كأدلة WSJ/CAR مقابل نفي البيت الأبيض.",
+          "why": "إن صحّ الأمر فإن توطين الحوثيين لصواريخ دقيقة بعيدة المدى يعيد رسم ضغط الدفاع الجوي في البحر الأحمر والخليج ويجر سرديات أميركا–الصين–إيران.",
+          "tags": [
+            "الحوثيون",
+            "صواريخ",
+            "أجزاء صينية",
+            "وول ستريت جورنال"
+          ]
+        },
+        "ja": {
+          "title": "WSJ：フーシが中国製部品で射程約1200マイルの精密誘導ミサイルを組み立て",
+          "location": "イエメン · サナア",
+          "summary": "ウォール・ストリート・ジャーナルはConflict Armament Researchの押収貨物分析を引用し、フーシがエンジン部・機体・フィン・遮熱材などを輸入し、イランのヘイバル・シェカン型に似た精密誘導ミサイルを現地組み立てしており、射程約1200マイル、弾頭は防御回避のため時速約6000マイル級で機動すると報じた。サウジとイスラエルが射程内に入るという。国連禁輸下の「現地生産」と位置づけられる。同日トランプは中露の対イラン実質支援を否定—主張は対立しており、WSJ/CARの証拠とホワイトハウス否定として分けて読む必要がある。",
+          "why": "事実なら、フーシの長射程精密ミサイル国産化は紅海・湾岸の防空圧力を書き換え、米中イランの物語を巻き込む。",
+          "tags": [
+            "フーシ",
+            "ミサイル",
+            "中国部品",
+            "ウォール・ストリート・ジャーナル"
+          ]
+        },
+        "ko": {
+          "title": "WSJ: 후티, 중국 부품으로 사거리 약 1200마일 정밀유도미사일 조립",
+          "location": "예멘 · 사나",
+          "summary": "월스트리트저널은 Conflict Armament Research의 압수 화물 분석을 인용해 후티가 엔진부·기체·핀·열차폐재 등을 수입해 이란 케이바르 셰칸형 정밀유도미사일을 현지 조립하며, 사거리 약 1200마일, 탄두는 방어 회피를 위해 시속 약 6000마일급으로 기동한다고 보도했다. 사우디와 이스라엘이 사거리 안에 들어온다. UN 금수 아래의 현지 생산으로 서술된다. 같은 날 트럼프는 중·러의 대이란 실질 지원을 부인했다—주장은 대립하므로 WSJ/CAR 증거와 백악관 부인으로 나눠 읽어야 한다.",
+          "why": "사실이라면 후티의 장거리 정밀미사일 현지화는 홍해·걸프 방공 압력을 다시 쓰고 미·중·이란 서사를 끌어들인다.",
+          "tags": [
+            "후티",
+            "미사일",
+            "중국 부품",
+            "월스트리트저널"
+          ]
+        },
+        "id": {
+          "title": "WSJ: Houthi rakit rudal presisi jangkauan ~1200 mil dengan suku cadang China",
+          "location": "Yaman · Sanaa",
+          "summary": "The Wall Street Journal, mengutip analisis Conflict Armament Research atas kiriman yang disita, mengatakan Houthi mengimpor bagian motor, kerangka, sirip, dan pelindung panas untuk merakit secara lokal rudal presisi tipe Kheibar Shekan Iran, jangkauan sekitar 1200 mil, dengan hulu ledak yang bermanuver sekitar 6000 mph untuk mengelak pertahanan—menempatkan Arab Saudi dan Israel dalam jangkauan. Laporan membingkainya sebagai produksi lokal di bawah embargo PBB. Hari yang sama Trump menyangkal bantuan bermakna China/Rusia ke Iran—klaim yang dipersengketakan, dibaca sebagai bukti WSJ/CAR versus penyangkalan Gedung Putih.",
+          "why": "Jika akurat, lokalisasi rudal presisi jarak jauh Houthi akan menulis ulang tekanan pertahanan udara Laut Merah dan Teluk serta menarik narasi AS–China–Iran.",
+          "tags": [
+            "Houthi",
+            "Rudal",
+            "Suku cadang China",
+            "Wall Street Journal"
+          ]
+        }
+      }
+    },
+    {
+      "region": "北美",
+      "source": "X 热点",
+      "tags": [
+        "俄罗斯柴油",
+        "制裁",
+        "美国国会",
+        "特朗普"
+      ],
+      "why": "两党联手施压会把「俄柴油换油价」交易推回国会审查，并影响制裁可信度与乌克兰援助叙事。",
+      "id": "2109646804006658230",
+      "title": "美两党12名参议员联名促特朗普撤销对俄柴油制裁松绑",
+      "location": "美国·华盛顿",
+      "url": "https://x.com/i/trending/2109646804006658230",
+      "summary": "10月13日，以民主党参议员理查德·布卢门撒尔（Richard Blumenthal）为首的12名两党参议员（6名民主、6名共和）联名致信，敦促特朗普撤销财政部一般许可证135号对俄柴油的松绑。信中称该安排为普京战争金库输血、对美国加油站油价帮助有限。背景是特朗普约10月9日与普京通话后达成安排，允许眼下逾30万吨柴油及11月更多货量，临时许可延至明年4月。批评者包括蒂利斯、彭斯等；支持者则称有助消费者，并指出欧洲仍在购买俄能源。",
+      "publishedAt": "2026-10-14T12:05:00+08:00",
+      "lat": 38.9,
+      "lng": -77.04,
+      "i18n": {
+        "en": {
+          "title": "12 bipartisan U.S. senators urge Trump to revoke Russia diesel sanctions relief",
+          "location": "United States · Washington",
+          "summary": "On October 13, a dozen bipartisan senators (6 Democrats, 6 Republicans) led by Sen. Richard Blumenthal wrote urging Trump to revoke Treasury General License 135’s Russia diesel relief. They argue the arrangement boosts Putin’s war chest while doing little for U.S. pump prices. The backdrop is a Trump deal after a Putin call around October 9 allowing more than 300,000 tons of diesel now plus more in November, with a temporary license running to April. Critics include Tillis and Pence; supporters say it helps consumers and note Europe still buys Russian energy.",
+          "why": "Bipartisan pressure pushes the “Russian diesel for pump prices” trade back under congressional scrutiny and weighs on sanctions credibility and Ukraine-aid narratives.",
+          "tags": [
+            "Russian diesel",
+            "Sanctions",
+            "U.S. Congress",
+            "Trump"
+          ]
+        },
+        "hi": {
+          "title": "अमेरिका के 12 द्विपक्षीय सीनेटरों ने ट्रंप से रूसी डीज़ल प्रतिबंध राहत रद्द करने की अपील की",
+          "location": "संयुक्त राज्य · वाशिंगटन",
+          "summary": "13 अक्टूबर को सीनेटर रिचर्ड ब्लूमेंथल की अगुवाई में 12 द्विपक्षीय सीनेटरों (6 डेमोक्रेट, 6 रिपब्लिकन) ने पत्र लिख ट्रंप से ट्रेजरी जनरल लाइसेंस 135 की रूसी डीज़ल राहत रद्द करने को कहा। उनका तर्क है कि यह पुतिन के युद्ध खजाने को बढ़ावा देता है और अमेरिकी पंप कीमतों में बहुत कम मदद करता है। पृष्ठभूमि में ~9 अक्टूबर पुतिन कॉल के बाद ट्रंप समझौता है—अभी 3 लाख+ टन डीज़ल और नवंबर में और, अस्थायी लाइसेंस अप्रैल तक। आलोचकों में टिलिस, पेंस; समर्थक उपभोक्ताओं की मदद और यूरोप अभी भी रूसी ऊर्जा खरीद का हवाला देते हैं।",
+          "why": "द्विपक्षीय दबाव «रूसी डीज़ल बनाम पंप कीमत» सौदे को कांग्रेस जांच में वापस धकेलता है और प्रतिबंध विश्वसनीयता व यूक्रेन सहायता कथा को प्रभावित करता है।",
+          "tags": [
+            "रूसी डीज़ल",
+            "प्रतिबंध",
+            "अमेरिकी कांग्रेस",
+            "ट्रंप"
+          ]
+        },
+        "es": {
+          "title": "12 senadores bipartidistas de EE. UU. instan a Trump a revocar el alivio de sanciones al diésel ruso",
+          "location": "Estados Unidos · Washington",
+          "summary": "El 13 de octubre, una docena de senadores bipartidistas (6 demócratas, 6 republicanos) liderados por el senador Richard Blumenthal escribieron instando a Trump a revocar el alivio del diésel ruso de la Licencia General 135 del Tesoro. Argumentan que el arreglo engorda la caja de guerra de Putin y poco ayuda a los precios en surtidor. El trasfondo es un acuerdo de Trump tras una llamada con Putin hacia el 9 de octubre que permite más de 300.000 toneladas de diésel ahora y más en noviembre, con licencia temporal hasta abril. Críticos incluyen a Tillis y Pence; defensores dicen que ayuda a consumidores y señalan que Europa aún compra energía rusa.",
+          "why": "La presión bipartidista devuelve el canje «diésel ruso por precios en surtidor» al escrutinio del Congreso y pesa sobre la credibilidad de las sanciones y la narrativa de ayuda a Ucrania.",
+          "tags": [
+            "Diésel ruso",
+            "Sanciones",
+            "Congreso de EE. UU.",
+            "Trump"
+          ]
+        },
+        "fr": {
+          "title": "12 sénateurs américains bipartisans pressent Trump d’annuler l’assouplissement des sanctions sur le diesel russe",
+          "location": "États-Unis · Washington",
+          "summary": "Le 13 octobre, une douzaine de sénateurs bipartisans (6 démocrates, 6 républicains) menés par le sénateur Richard Blumenthal ont écrit pour presser Trump d’annuler l’assouplissement diesel russe de la licence générale 135 du Trésor. Ils affirment que l’accord alimente la caisse de guerre de Poutine et aide peu les prix à la pompe. Le contexte est un accord Trump après un appel à Poutine vers le 9 octobre autorisant plus de 300 000 tonnes de diesel maintenant et davantage en novembre, licence temporaire jusqu’en avril. Parmi les critiques : Tillis et Pence ; les partisans disent que cela aide les consommateurs et notent que l’Europe achète encore de l’énergie russe.",
+          "why": "La pression bipartisane ramène le troc « diesel russe contre prix à la pompe » sous le regard du Congrès et pèse sur la crédibilité des sanctions et le récit d’aide à l’Ukraine.",
+          "tags": [
+            "Diesel russe",
+            "Sanctions",
+            "Congrès américain",
+            "Trump"
+          ]
+        },
+        "ar": {
+          "title": "12 عضواً في مجلس الشيوخ الأميركي من الحزبين يحثون ترامب على إلغاء تخفيف عقوبات الديزل الروسي",
+          "location": "الولايات المتحدة · واشنطن",
+          "summary": "في 13 أكتوبر كتب اثنا عشر عضواً من الحزبين في مجلس الشيوخ (6 ديمقراطيين و6 جمهوريين) بقيادة السيناتور ريتشارد بلومنتال يحثون ترامب على إلغاء تخفيف الديزل الروسي بموجب الرخصة العامة 135 لوزارة الخزانة. ويرون أن الترتيب يغذي خزينة حرب بوتين ولا يساعد كثيراً أسعار المضخة الأميركية. الخلفية صفقة ترامب بعد مكالمة مع بوتين نحو 9 أكتوبر تسمح بأكثر من 300 ألف طن ديزل الآن والمزيد في نوفمبر، برخصة مؤقتة حتى أبريل. من المنتقدين تيليس وبنس؛ والمؤيدون يقولون إنها تساعد المستهلكين ويشيرون إلى أن أوروبا ما زالت تشتري طاقة روسية.",
+          "why": "الضغط من الحزبين يعيد صفقة «ديزل روسي مقابل أسعار المضخة» إلى تدقيق الكونغرس ويثقل مصداقية العقوبات وسردية دعم أوكرانيا.",
+          "tags": [
+            "ديزل روسي",
+            "عقوبات",
+            "الكونغرس الأميركي",
+            "ترامب"
+          ]
+        },
+        "ja": {
+          "title": "米超党派上院議員12人がトランプに対ロディーゼル制裁緩和の撤回を要請",
+          "location": "アメリカ · ワシントン",
+          "summary": "10月13日、リチャード・ブルーメンソール上院議員（民主）を筆頭に超党派12人（民主6・共和6）が連名で書簡を送り、財務省一般許可135号による対ロディーゼル緩和の撤回をトランプに求めた。彼らはこの措置がプーチンの戦争資金を潤し、米ガソリンスタンド価格への助けは限られると主張する。背景は約10月9日のプーチン通話後の合意で、当面30万トン超のディーゼルと11月の追加、臨時許可は4月まで。批判側にティリス、ペンスら；支持側は消費者支援と、欧州がなおロシアエネルギーを買っている点を挙げる。",
+          "why": "超党派の圧力は「ロシア・ディーゼルでポンプ価格」取引を議会審査に押し戻し、制裁の信頼性とウクライナ支援物語に影響する。",
+          "tags": [
+            "ロシア・ディーゼル",
+            "制裁",
+            "米議会",
+            "トランプ"
+          ]
+        },
+        "ko": {
+          "title": "미 초당파 상원의원 12명, 트럼프에 대러 경유 제재 완화 철회 촉구",
+          "location": "미국 · 워싱턴",
+          "summary": "10월 13일 리처드 블루멘솔 상원의원(민주)이 이끄는 초당파 12명(민주 6·공화 6)이 공동 서한으로 재무부 일반허가 135호의 대러 경유 완화 철회를 트럼프에 촉구했다. 이들은 조치가 푸틴 전쟁 금고를 불리고 미국 주유소 가격에는 도움이 적다고 주장한다. 배경은 약 10월 9일 푸틴 통화 후 합의로, 당장 30만 톤 이상 경유와 11월 추가 물량, 임시 허가는 4월까지다. 비판 측에는 틸리스·펜스 등; 지지 측은 소비자 도움과 유럽이 여전히 러시아 에너지를 산다는 점을 든다.",
+          "why": "초당파 압력은 «러 경유로 펌프 가격» 거래를 의회 심사로 되돌리고 제재 신뢰도와 우크라이나 지원 서사에 영향을 준다.",
+          "tags": [
+            "러시아 경유",
+            "제재",
+            "미 의회",
+            "트럼프"
+          ]
+        },
+        "id": {
+          "title": "12 senator bipartisan AS desak Trump cabut keringanan sanksi solar Rusia",
+          "location": "Amerika Serikat · Washington",
+          "summary": "Pada 13 Oktober, selusin senator bipartisan (6 Demokrat, 6 Republik) dipimpin Sen. Richard Blumenthal menulis mendesak Trump mencabut keringanan solar Rusia dalam General License 135 Treasury. Mereka berargumen pengaturan itu mengisi kas perang Putin dan sedikit membantu harga pompa AS. Latarnya kesepakatan Trump setelah panggilan Putin sekitar 9 Oktober yang mengizinkan lebih dari 300.000 ton solar sekarang plus lebih di November, lisensi sementara hingga April. Kritikus termasuk Tillis dan Pence; pendukung bilang membantu konsumen dan mencatat Eropa masih membeli energi Rusia.",
+          "why": "Tekanan bipartisan mendorong kembali transaksi «solar Rusia untuk harga pompa» ke pengawasan Kongres dan membebani kredibilitas sanksi serta narasi bantuan Ukraina.",
+          "tags": [
+            "Solar Rusia",
+            "Sanksi",
+            "Kongres AS",
+            "Trump"
+          ]
+        }
+      }
+    },
     {
       "region": "中东",
       "source": "X 热点",
