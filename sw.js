@@ -1,11 +1,10 @@
 // Minimal service worker: cache-first app shell, network-first data.
-const VERSION = "v5-2026-10-14-xslim";
+const VERSION = "v6-2026-10-14-iconbust";
 const SHELL = `xh-shell-${VERSION}`;
 const DATA = `xh-data-${VERSION}`;
 const SHELL_FILES = [
   "/", "/index.html", "/styles.css", "/app.js", "/i18n.js",
-  "/manifest.webmanifest", "/favicon.svg", "/icons/icon-192.png",
-];
+  ];
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(SHELL).then((c) => c.addAll(SHELL_FILES)).then(() => self.skipWaiting()));
@@ -44,6 +43,8 @@ self.addEventListener("fetch", (e) => {
   if (req.method !== "GET") return;
   const url = new URL(req.url);
   if (url.origin !== location.origin) return; // tiles, Leaflet CDN, fonts: browser default
+  // Icons + manifest: always network-first so a new icon is never masked by cache.
+  if (/^\/(favicon\.|apple-touch-icon|icons\/|manifest\.webmanifest)/.test(url.pathname)) { e.respondWith(networkFirst(req, SHELL)); return; }
   if (url.pathname.startsWith("/data/")) { e.respondWith(networkFirst(req, DATA)); return; }
   if (req.mode === "navigate") { e.respondWith(networkFirst(req, SHELL)); return; }
   e.respondWith(staleWhileRevalidate(req));
